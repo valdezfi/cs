@@ -4,8 +4,8 @@ import { ThemeProvider } from "next-themes";
 import "styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "bellete",
-  description: "Get Instant Funds Against Your Crypto",
+  title: "Bellete | Get Instant Funds Against Your Crypto",
+  description: "Get Instant Funds Against Your Crypto by using your crypto as collateral. Easy, fast, and secure.",
   keywords: [
     "crypto loans",
     "instant crypto loans",
@@ -17,8 +17,42 @@ export const metadata: Metadata = {
     "DeFi lending",
     "use crypto as collateral",
     "crypto loan app"
-  ]
-,
+  ],
+  openGraph: {
+    type: "website",
+    title: "Bellete | Instant Crypto Loans",
+    description: "Get Instant Funds Against Your Crypto by using your crypto as collateral. Easy, fast, and secure.",
+    url: "https://www.bellete.com", // Update with your actual website URL
+    siteName: "Bellete",
+    images: [
+      {
+        url: "/images/og-image.jpg", // Replace with your actual image URL
+        width: 1200,
+        height: 630,
+        alt: "Bellete - Instant Crypto Loans",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Bellete | Instant Crypto Loans",
+    description: "Get Instant Funds Against Your Crypto by using your crypto as collateral. Easy, fast, and secure.",
+    image: "/images/twitter-card.jpg", // Replace with your actual image URL
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  additionalMetaTags: [
+    {
+      name: "author",
+      content: "Bellete Team",
+    },
+    {
+      name: "robots",
+      content: "index, follow", // Ensures pages are indexed and links are followed
+    },
+  ],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
