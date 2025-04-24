@@ -1,15 +1,15 @@
 const bitcoinLoan = {
     slug: "bitcoin-loan",
-    title: "Fuck",
+    title: "Bitcoin Loan Guide",
     snippet: "Get the most value from your crypto and afford anything you dream of today.",
     imageUrl: "/images/blog/bitcoin-loan.jpg",
-    content: `
-      <h2>Introduction</h2>
-      <p>Bitcoin loans allow you to unlock liquidity without selling your BTC.</p>
-      <h3>Why use BTC as collateral?</h3>
-      <p>You keep price exposure and avoid taxes from selling.</p>
-    `,
+    imageAlt: "Bitcoin loan concept illustration",
+    content: "..csnjnsnjncjdsncjdnscndjsncjknjknjkndks.",
+    author: "Bellete Editorial Team",
+    date: "2025-04-20T00:00:00.000Z",
   };
+  
+  
   
   export default bitcoinLoan;
   
