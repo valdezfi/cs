@@ -9,6 +9,7 @@ import Accordion from "components/Accordion";
 import Reviews from "components/Reviews";
 import Download from "components/Download";
 import GetLoan from "components/CryptoLoan";
+import SupplyC from "components/CryptoSupply";
 
 export default function Page() {
   return (
@@ -21,6 +22,8 @@ export default function Page() {
         <Features />
      
         <GetLoan />
+
+        <SupplyC />
         <Section
           leftHalf={<Accordion />}
           rightHalf={

@@ -14,17 +14,17 @@ grow your portfolio, keep with expenses or invest in traditional assets.
       </p>
       <div className="flex justify-center space-x-6">
         <Link
-          href="/bitcoin"
+          href="/loan"
           className="bg-black text-white dark:bg-white dark:text-black px-5 py-2 rounded-md text-base font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition duration-300"
         >
-          Get Started
+          Borrow
         </Link>
-        {/* <Link
-          href="https://github.com"
+        <Link
+          href="/supply"
           className="bg-black text-white dark:bg-white dark:text-black px-5 py-2 rounded-md text-base font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition duration-300"
         >
-          Download
-        </Link> */}
+          Supply
+        </Link>
       </div>
     </section>
   );
