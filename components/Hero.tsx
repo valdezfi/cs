@@ -10,7 +10,7 @@ export default function Hero() {
       <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 font-light">
       Access extra funds without selling your crypto
 
-Grow your portfolio, keep with expenses or invest in traditional assets.
+grow your portfolio, keep with expenses or invest in traditional assets.
       </p>
       <div className="flex justify-center space-x-6">
         <Link
