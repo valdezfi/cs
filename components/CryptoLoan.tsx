@@ -11,41 +11,41 @@ const GetLoan = () => {
       icon: SiBitcoin,
       title: "Bitcoin (BTC)",
       // description: "Get the most value from your crypto and afford yourself anything you dream of right now",
-      loanlink: "/btcloan"
+      loanlink: "/loan"
 
     },
     {
       icon: SiEthereum,
       title: " Ethereum (ETH)",
       // description: "Maximize your tax efficiency. Getting a crypto loan and its spending – are non-taxable events, because they do not generate direct earnings. Then, use the funds for expenses.",
-      loanlink: "/ethloan"
+      loanlink: "/loan"
 
     },
     {
       icon: SiTether,
       title: "Tether (USDT)",
       // description: "Leverage your crypto and put the cash towards a major Investment: house, gold, treasuries, stocks, or silver.",
-      loanlink: "/usdtloan"
+      loanlink: "/loan"
 
     },
     {
       icon: SiMonero,
       title: "Monero (XMR)",
       // description: "Reinvest your crypto holdings and make your company grow. Cover operational expenses, pay employees on time, or even buy another company.",
-      loanlink: "/xmrloan"
+      loanlink: "/loan"
 
     },
     {
       icon: DollarSign,
       title: "USD Coin (USDC)",
       // description: "Talk about your authentication features built into your app.",
-      loanlink: "usdcloan"
+      loanlink: "/loan"
     },
     {
       icon: SiBitcoin,
       title: "Wrapped Bitcoin",
       // description: "Talk about your subscription features and how they work.",
-      loanlink: " Get Loan"
+      loanlink: "/loan"
 
     },
   ];
