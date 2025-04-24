@@ -46,8 +46,50 @@ export default async function BlogPostPage({
 
   if (!blog) return notFound();
 
+  // Generate breadcrumb structured data
+  const breadcrumbs = [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.bellete.com",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Blog",
+      item: "https://www.bellete.com/blog",
+    },
+    {
+      "@type": "ListItem",
+      position: 3,
+      name: blog.title,
+      item: `https://www.bellete.com/blog/${blog.slug}`,
+    },
+  ];
+
   return (
     <article className="max-w-3xl mx-auto px-6 py-20">
+      {/* Render breadcrumbs */}
+      <nav aria-label="Breadcrumb" className="mb-4">
+        <ol className="flex space-x-2 text-sm text-gray-600 dark:text-gray-300">
+          {breadcrumbs.map((crumb, index) => (
+            <li key={index} className="flex items-center">
+              {index < breadcrumbs.length - 1 ? (
+                <>
+                  <a href={crumb.item} className="hover:text-blue-500">
+                    {crumb.name}
+                  </a>
+                  <span className="mx-2">/</span>
+                </>
+              ) : (
+                <span>{crumb.name}</span>
+              )}
+            </li>
+          ))}
+        </ol>
+      </nav>
+
       {/* SEO JSON-LD */}
       <script
         type="application/ld+json"
@@ -59,7 +101,7 @@ export default async function BlogPostPage({
             description: blog.snippet,
             image: `https://www.bellete.com${blog.imageUrl}`,
             url: `https://www.bellete.com/blog/${blog.slug}`,
-            datePublished: blog.date ?? new Date().toISOString(),
+            datePublished: blog.date ? new Date(blog.date).toISOString() : new Date().toISOString(),
             author: {
               "@type": "Person",
               name: blog.author ?? "Bellete Editorial Team",
@@ -71,6 +113,15 @@ export default async function BlogPostPage({
                 "@type": "ImageObject",
                 url: "https://www.bellete.com/logo.png",
               },
+            },
+            breadcrumb: {
+              "@type": "BreadcrumbList",
+              itemListElement: breadcrumbs.map((crumb, index) => ({
+                "@type": "ListItem",
+                position: index + 1,
+                name: crumb.name,
+                item: crumb.item,
+              })),
             },
           }),
         }}
