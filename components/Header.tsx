@@ -30,6 +30,30 @@ export default function Header() {
                 Contact
               </Link>
             </li>
+            <li>
+              <Link
+                href="/allblogs"
+                className="text-sm text-gray-800 dark:text-white px-4 py-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+              >
+                Blog
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/login"
+                className="text-sm text-gray-800 dark:text-white px-4 py-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+              >
+                Login
+              </Link>
+            </li>
+            <li>
+            <Link
+          href="/signup"
+          className="bg-black text-white dark:bg-white dark:text-black px-5 py-2 rounded-md text-base font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition duration-300"
+        >
+          Signup
+        </Link>
+            </li>
           </ul>
           <ThemeSwitch />
         </nav>

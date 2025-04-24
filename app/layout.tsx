@@ -4,8 +4,21 @@ import { ThemeProvider } from "next-themes";
 import "styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "Next JS SaaS Starter Template",
-  description: "Next JS SaaS Starter Template",
+  title: "bellete",
+  description: "Get Instant Funds Against Your Crypto",
+  keywords: [
+    "crypto loans",
+    "instant crypto loans",
+    "borrow crypto",
+    "bitcoin loans",
+    "ethereum loans",
+    "stablecoin loans",
+    "crypto-backed loans",
+    "DeFi lending",
+    "use crypto as collateral",
+    "crypto loan app"
+  ]
+,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

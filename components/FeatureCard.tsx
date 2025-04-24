@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const FeatureCard = ({ icon: Icon, title, description }) => {
   return (
@@ -6,6 +7,7 @@ const FeatureCard = ({ icon: Icon, title, description }) => {
       <Icon size={34} />
       <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-white">{title}</h3>
       <p className="text-gray-600 dark:text-gray-300 font-light">{description}</p>
+      
     </div>
   );
 };

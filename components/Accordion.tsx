@@ -40,18 +40,23 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, content, isOpen, t
 
 const defaultAccordionItems = [
   {
-    title: "Sign up for free",
-    content: "Start your journey with a 34-day trial. It's easy no credit card or commitment.",
+    title: "Calculate your crypto loan",
+    content: "Calculate your crypto backed loan using different collateral and LTV options, then specify your payout address where you want to receive funds. Confirm it by phone or email.",
   },
   {
-    title: "Easy to use",
+    title: "Get crypto loan within minutes",
     content:
-      "Our app is designed to be user-friendly and easy to use. We want to provide a seamless experience for your users so that you can focus on what matters.",
+      "Send us the collateral and we will send you the loan amount on your payout address without any delays and additional checks.",
   },
   {
-    title: "Focus on what matters",
+    title: "Start spending",
     content:
-      "With better financial management, you can reduce money-related stress and focus on what matters most. More to come.",
+      "Use your loan as long as you want. We will just draw your attention on the rate of your collateral currency in time.",
+  },
+  {
+    title: "Get back your collateral",
+    content:
+      "At any moment you can pay your collateral back. To do this, you need to pay the full price of Repayment, and when we get it, we return your collateral.",
   },
 ];
 
