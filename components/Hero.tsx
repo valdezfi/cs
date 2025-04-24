@@ -4,27 +4,25 @@ export default function Hero() {
   return (
     <section className="text-center my-32 mx-4 sm:mx-8 md:mx-16 lg:mx-24">
       <h1 className="font-sans text-3xl tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl dark:text-white mb-6">
-      Get Instant Funds
-      Against Your Crypto
+      P2P Crypto Exchange
+
       </h1>
       <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 font-light">
-      Access extra funds without selling your crypto
-
-grow your portfolio, keep with expenses or invest in traditional assets.
+      Buy crypto with over 300+ payment methods via numerobook P2P Crypto exchange
       </p>
       <div className="flex justify-center space-x-6">
         <Link
           href="/loan"
           className="bg-black text-white dark:bg-white dark:text-black px-5 py-2 rounded-md text-base font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition duration-300"
         >
-          Borrow
+          Go To Market
         </Link>
-        <Link
+        {/* <Link
           href="/supply"
           className="bg-black text-white dark:bg-white dark:text-black px-5 py-2 rounded-md text-base font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition duration-300"
         >
           Supply
-        </Link>
+        </Link> */}
       </div>
     </section>
   );

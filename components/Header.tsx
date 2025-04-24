@@ -14,7 +14,7 @@ export default function Header() {
         {/* Logo */}
         <div className="flex items-center">
           <Link href="/" aria-label="Home">
-            <span className="text-xl font-semibold dark:text-gray-100">billete</span>
+            <span className="text-xl font-semibold dark:text-gray-100">numerobook</span>
           </Link>
         </div>
 

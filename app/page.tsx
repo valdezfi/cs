@@ -3,13 +3,13 @@ import Hero from "components/Hero";
 import Features from "components/Features";
 import Section from "components/Section";
 import Footer from "components/Footer";
-import Customers from "components/Customers";
-import Image from "next/image";
+
 import Accordion from "components/Accordion";
-import Reviews from "components/Reviews";
-import Download from "components/Download";
-import GetLoan from "components/CryptoLoan";
-import SupplyC from "components/CryptoSupply";
+
+import MexicoB from "components/Mexicobuy";
+import Indiab from "components/IndiaBuy";
+import Argentinabuynow from "components/Argentinabuy";
+
 
 export default function Page() {
   return (
@@ -19,11 +19,12 @@ export default function Page() {
       <Header />
       <main>
         <Hero />
-        <Features />
+        {/* <Features /> */}
      
-        <GetLoan />
+        <MexicoB />
+        <Indiab />
+        <Argentinabuynow/>
 
-        <SupplyC />
         <Section
           leftHalf={<Accordion />}
           rightHalf={
