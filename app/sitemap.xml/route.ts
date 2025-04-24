@@ -4,16 +4,16 @@ import { NextResponse } from "next/server";
 const BASE_URL = "https://www.bellete.com";
 
 const staticPaths = [
-  "",           // /
-  "contact",
-  "allblogs",
-  "login",
-  "signup"
+  "Home",        
+  "Contact",
+  "Blog",
+  "Login",
+  "Signup"
 ];
 
 async function getDynamicBlogPaths() {
   // Replace with actual blog slugs from your database or API
-  const blogSlugs = ["my-first-post", "instant-loans-guide", "how-to-use-crypto-as-collateral"];
+  const blogSlugs = ["bitcoin-loan",];
 
   return blogSlugs.map((slug) => `blog/${slug}`);
 }
