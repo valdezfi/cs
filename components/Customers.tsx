@@ -10,7 +10,7 @@ import {
 } from "react-icons/ai";
 
 const icons = [
-  { Icon: AiTwotoneBug },
+  { Icon: AiTwotoneBug},
   { Icon: AiOutlineDiscord },
   { Icon: AiTwotoneExperiment },
   { Icon: AiOutlineTaobao },

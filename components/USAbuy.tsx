@@ -1,10 +1,10 @@
 import React from "react";
-import ArgentinaCardbuy from "./ArgentinaBuyCard";
-import {DollarSign} from "lucide-react"; // Import a nice coin icon
+import USCardbuy from "./USABuyCard";
 import { SiBitcoin, SiEthereum, SiTether, SiMonero,  } from "react-icons/si";
+import { DollarSign } from "lucide-react"; // Import a nice coin icon
 import Flag from 'react-world-flags';
 
-const Argentinabuynow = () => {
+const USAb = () => {
   const features = [
     {
       icon: SiBitcoin,
@@ -54,17 +54,18 @@ const Argentinabuynow = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
         <h2 className="flex flex-col items-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-  Argentina
-  <Flag code="ar" style={{ width: 32, height: 20, marginTop: '8px' }} />
+  USA
+  <Flag code="us" style={{ width: 32, height: 20 }} />
 </h2>
 
           <p className="mt-8 text-xl text-gray-600 dark:text-gray-300 font-light">
-          Compra o vende Bitcoin (BTC) de persona a persona usando Numerobook           </p>
+          Buy Bitcoin (BTC) peer to peer using Numerobook
+          </p>
         </div>
         <div className="mt-10">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {features.map((feature, index) => (
-              <ArgentinaCardbuy key={index} {...feature} />
+              <USCardbuy key={index} {...feature} />
               
             ))}
             
@@ -75,4 +76,4 @@ const Argentinabuynow = () => {
   );
 };
 
-export default Argentinabuynow;
+export default USAb;

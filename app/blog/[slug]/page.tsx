@@ -1,6 +1,7 @@
 import { getBlogBySlug } from "lib/blogs";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import Head from 'next/head';
 
 export async function generateMetadata({
   params,
@@ -17,22 +18,23 @@ export async function generateMetadata({
   }
 
   return {
-    title: blog.title,
-    description: blog.snippet,
+    title: blog.meta?.title || blog.title,
+    description: blog.meta?.description || blog.snippet,
+    keywords: blog.meta?.keywords || [],
     alternates: {
-      canonical: `https://www.bellete.com/blog/${blog.slug}`,
+      canonical: `https://www.numerobook.com/blog/${blog.slug}`,
     },
     openGraph: {
-      title: blog.title,
-      description: blog.snippet,
-      url: `https://www.bellete.com/blog/${blog.slug}`,
-      images: [`https://www.bellete.com${blog.imageUrl}`],
+      title: blog.meta?.title || blog.title,
+      description: blog.meta?.description || blog.snippet,
+      url: `https://www.numerobook.com/blog/${blog.slug}`,
+      images: [`https://www.numerobook.com${blog.meta?.ogImage || blog.imageUrl}`],
     },
     twitter: {
       card: "summary_large_image",
-      title: blog.title,
-      description: blog.snippet,
-      images: [`https://www.bellete.com${blog.imageUrl}`],
+      title: blog.meta?.title || blog.title,
+      description: blog.meta?.description || blog.snippet,
+      images: [`https://www.numerobook.com${blog.meta?.ogImage || blog.imageUrl}`],
     },
   };
 }
@@ -52,19 +54,19 @@ export default async function BlogPostPage({
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.bellete.com",
+      item: "https://www.numerobook.com",
     },
     {
       "@type": "ListItem",
       position: 2,
-      name: "Blog",
-      item: "https://www.bellete.com/blog",
+      name: "allblogs",
+      item: "https://www.numerobook.com/allblogs",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: blog.title,
-      item: `https://www.bellete.com/blog/${blog.slug}`,
+      item: `https://www.numerobook.com/blog/${blog.slug}`,
     },
   ];
 
@@ -99,8 +101,8 @@ export default async function BlogPostPage({
             "@type": "BlogPosting",
             headline: blog.title,
             description: blog.snippet,
-            image: `https://www.bellete.com${blog.imageUrl}`,
-            url: `https://www.bellete.com/blog/${blog.slug}`,
+            image: `https://www.numerobook.com${blog.imageUrl}`,
+            url: `https://www.numerobook.com/blog/${blog.slug}`,
             datePublished: blog.date ? new Date(blog.date).toISOString() : new Date().toISOString(),
             author: {
               "@type": "Person",
@@ -111,7 +113,7 @@ export default async function BlogPostPage({
               name: "Bellete",
               logo: {
                 "@type": "ImageObject",
-                url: "https://www.bellete.com/logo.png",
+                url: "https://www.numerobook.com/logo.png",
               },
             },
             breadcrumb: {
@@ -159,7 +161,7 @@ export default async function BlogPostPage({
 
 // Generate static paths
 export async function generateStaticParams() {
-  const allSlugs = ["bitcoin-loan", "ethereum-loans", "stablecoin-loans"];
+  const allSlugs = ["bitcoin-loan", "ethereum-loans", "stablecoin-loans"]; // Add all the blog slugs here
 
   return allSlugs.map((slug) => ({ slug }));
 }

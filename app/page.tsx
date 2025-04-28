@@ -9,7 +9,12 @@ import Accordion from "components/Accordion";
 import MexicoB from "components/Mexicobuy";
 import Indiab from "components/IndiaBuy";
 import Argentinabuynow from "components/Argentinabuy";
+import UBuy from "components/Uruguaybuy";
+import USAb from "components/USAbuy";
+import GHbuy from "components/GhanaBuy";
 
+
+import Nigeriab from "components/Nigeriabuy";
 
 export default function Page() {
   return (
@@ -20,22 +25,26 @@ export default function Page() {
       <main>
         <Hero />
         {/* <Features /> */}
-     
-        <MexicoB />
+        <USAb />
         <Indiab />
         <Argentinabuynow/>
 
+        <MexicoB />
+<UBuy/>
+
+<Nigeriab />
+<GHbuy/>
         <Section
           leftHalf={<Accordion />}
           rightHalf={
             <div className="flex flex-col justify-end">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-                Highlight the key features
-              </h2>
-              <p className="text-xl font-light">
-                Talk about some of the key features of your app that you want to highlight. Use the beautiful accordion
-                to highlight the key features of your app.
-              </p>
+             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
+  Numerobook
+</h2>
+<p className="text-xl font-light">
+  Numerobook is designed to make crypto easy, fast, and accessible for everyone. 
+</p>
+
             </div>
           }
         />

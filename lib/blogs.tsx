@@ -1,6 +1,5 @@
 import bitcoinLoan from "./blogs/bitcoin-loan";
 
-
 const blogs = [bitcoinLoan];
 
 export function getBlogBySlug(slug: string) {
@@ -10,6 +9,7 @@ export function getBlogBySlug(slug: string) {
 export function getAllBlogSlugs() {
   return blogs.map((blog) => blog.slug);
 }
+
 export function getAllBlogs() {
   return blogs;
 }

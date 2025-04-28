@@ -40,25 +40,26 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, content, isOpen, t
 
 const defaultAccordionItems = [
   {
-    title: "Calculate your crypto loan",
-    content: "Calculate your crypto backed loan using different collateral and LTV options, then specify your payout address where you want to receive funds. Confirm it by phone or email.",
+    title: "Buy and Sell Crypto Easily",
+    content: "Use Numerobook's P2P platform to buy and sell cryptocurrencies with trusted peers. Choose from a variety of payment methods and complete transactions securely.",
   },
   {
-    title: "Get crypto loan within minutes",
+    title: "Choose Your Trade Settings",
     content:
-      "Send us the collateral and we will send you the loan amount on your payout address without any delays and additional checks.",
+      "Customize your trading preferences, including payment methods, trade amount, and preferred currencies. Find the best offers that suit your needs and start trading with confidence.",
   },
   {
-    title: "Start spending",
+    title: "Make a Secure Transaction",
     content:
-      "Use your loan as long as you want. We will just draw your attention on the rate of your collateral currency in time.",
+      "Once you find a match, initiate the trade. The crypto will be held in escrow to ensure both parties fulfill their obligations before the transaction is completed.",
   },
   {
-    title: "Get back your collateral",
+    title: "Withdraw Funds to Your Wallet",
     content:
-      "At any moment you can pay your collateral back. To do this, you need to pay the full price of Repayment, and when we get it, we return your collateral.",
+      "After completing the trade, you can withdraw your funds to your personal wallet. Enjoy fast and secure transfers with a wide range of supported cryptocurrencies.",
   },
 ];
+
 
 interface AccordionProps {
   items?: { title: string; content: string }[];

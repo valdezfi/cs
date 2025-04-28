@@ -1,0 +1,28 @@
+import React from "react";
+import Link from "next/link";
+
+const NGCardbuy = ({ icon: Icon, title, loanlink }) => {
+  return (
+    <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md transition-colors duration-200">
+      <Icon size={34} />
+      <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-white">{title}</h3>
+      {/* <p className="text-gray-600 dark:text-gray-300 font-light">{description}</p> */}
+      <Link
+        href={loanlink}
+        className="bg-black text-white dark:bg-white dark:text-black px-5 py-2 mt-4 rounded-md text-base font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition duration-300 block text-center"
+      >
+        Buy
+      </Link>
+
+      <Link
+        href={loanlink}
+        className="bg-black text-white dark:bg-white dark:text-black px-5 py-2 mt-4 rounded-md text-base font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition duration-300 block text-center"
+      >
+        Sell
+      </Link>
+
+    </div>
+  );
+};
+
+export default NGCardbuy;

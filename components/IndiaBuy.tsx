@@ -1,9 +1,8 @@
 import React from "react";
 import CryptoCardSupply from "./IndiaBuyCard";
-import { FaReact, FaDatabase, FaShieldAlt } from "react-icons/fa";
-import { SiNextdotjs, SiTailwindcss, SiStripe } from "react-icons/si";
 import { Coins, Calculator, House, DollarSign } from "lucide-react"; // Import a nice coin icon
 import { SiBitcoin, SiEthereum, SiTether, SiMonero,  } from "react-icons/si";
+import Flag from 'react-world-flags';
 
 const Indiab = () => {
   const features = [
@@ -11,41 +10,41 @@ const Indiab = () => {
       icon: SiBitcoin,
       title: "Bitcoin (BTC)",
       // description: "Get the most value from your crypto and afford yourself anything you dream of right now",
-      loanlink: "/loan"
+      loanlink: "/signup"
 
     },
     {
       icon: SiEthereum,
       title: " Ethereum (ETH)",
       // description: "Maximize your tax efficiency. Getting a crypto loan and its spending – are non-taxable events, because they do not generate direct earnings. Then, use the funds for expenses.",
-      loanlink: "/loan"
+      loanlink: "/signup"
 
     },
     {
       icon: SiTether,
       title: "Tether (USDT)",
       // description: "Leverage your crypto and put the cash towards a major Investment: house, gold, treasuries, stocks, or silver.",
-      loanlink: "/supply"
+      loanlink: "/signup"
 
     },
     {
       icon: SiMonero,
       title: "Monero (XMR)",
       // description: "Reinvest your crypto holdings and make your company grow. Cover operational expenses, pay employees on time, or even buy another company.",
-      loanlink: "/supply"
+      loanlink: "/signup"
 
     },
     {
       icon: DollarSign,
       title: "USD Coin (USDC)",
       // description: "Talk about your authentication features built into your app.",
-      loanlink: "/supply"
+      loanlink: "/signup"
     },
     {
       icon: SiBitcoin,
       title: "Wrapped Bitcoin",
       // description: "Talk about your subscription features and how they work.",
-      loanlink: "/loan"
+      loanlink: "/signup"
 
     },
   ];
@@ -54,8 +53,9 @@ const Indiab = () => {
     <section className="container mx-auto mt-12 px-4 py-12 bg-gray-50 dark:bg-gray-900 transition-colors duration-200 rounded-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">India
-
+        <h2 className="flex flex-col items-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
+  India
+  <Flag code="in" style={{ width: 32, height: 20, marginTop: '8px' }} />
 </h2>
           <p className="mt-8 text-xl text-gray-600 dark:text-gray-300 font-light">
           Buy Bitcoin (BTC) peer to peer using Numerobook

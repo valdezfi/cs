@@ -25,20 +25,24 @@ export default function Header() {
               <Link href="/" className="nav-link">Home</Link>
             </li>
             <li>
-              <Link href="/contact" className="nav-link">Contact</Link>
+              <Link href="/whalebot" className="nav-link">Whalebot</Link>
+            </li>
+            <li>
+              <Link href="/contact" className="nav-link">About</Link>
             </li>
             <li>
               <Link href="/allblogs" className="nav-link">Blog</Link>
             </li>
-            <li>
+            
+            {/* <li>
               <Link href="/login" className="nav-link">Login</Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 href="/signup"
                 className="bg-black text-white dark:bg-white dark:text-black px-5 py-2 rounded-md text-base font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition duration-300"
               >
-                Signup
+                Signup/Login
               </Link>
             </li>
           </ul>
