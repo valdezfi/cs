@@ -116,7 +116,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
 
         {/* Google Analytics script */}
-        <script async src={`https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX`}></script>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=G-335050025`}></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
