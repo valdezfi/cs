@@ -7,9 +7,10 @@ export default function Hero() {
       P2P Crypto Exchange
 
       </h1>
-      <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 font-light">
-      Buy crypto with over 300+ payment methods via numerobook P2P Crypto exchange
-      </p>
+      <p className="text-sm md:text-lg text-gray-600 dark:text-gray-300 mb-12 font-light">
+  Buy crypto with over 300+ payment methods via numerobook P2P Crypto exchange
+</p>
+
       <div className="flex justify-center space-x-6">
         <Link
           href="/signup"
