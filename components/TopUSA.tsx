@@ -4,10 +4,13 @@ import Image from "next/image";
 import Link from "next/link";
 import Script from "next/script";
 
+
 export default function LowestFeeExchangePage() {
   return (
     <main className="min-h-screen mt-20 bg-white dark:bg-black text-gray-900 dark:text-white">
-   <Head>
+     
+
+<Head>
   <title>Crypto Exchange with Lowest Fees | Numerobook USA</title>
   <meta
     name="description"
@@ -49,7 +52,6 @@ export default function LowestFeeExchangePage() {
     }}
   />
 </Head>
-
 
       <header className="bg-gray-100 dark:bg-zinc-900 py-10 px-6 text-center">
         <div className="max-w-4xl mx-auto">
