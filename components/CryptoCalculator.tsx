@@ -115,9 +115,9 @@ export default function BorrowWidget() {
           property="og:description"
           content="Convert your favorite cryptocurrencies to fiat instantly using our fast and accurate crypto calculator."
         />
-        <meta property="og:image" content="https://yourdomain.com/og-image.png" />
+        <meta property="og:image" content="https://numerobook.com/public/OIG-19.jpg" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://yourdomain.com/crypto-calculator" />
+        <meta property="og:url" content="https://numerobook.com/cryptocalculator" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Crypto Calculator" />
@@ -125,7 +125,7 @@ export default function BorrowWidget() {
           name="twitter:description"
           content="Real-time BTC, ETH, XMR, and USDT to fiat converter. Accurate and easy-to-use crypto calculator."
         />
-        <meta name="twitter:image" content="https://yourdomain.com/og-image.png" />
+        <meta name="twitter:image" content="https://numerobook.com/public/OIG-19.jpg" />
       </Head>
 
       <main className="min-h-screen flex items-center justify-center py-12" role="main">

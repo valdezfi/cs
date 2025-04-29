@@ -89,7 +89,7 @@ export default function BuyBitcoinWithMomoPage() {
             <li>Real Bitcoin sellers verified through our system</li>
             <li>Strong security with multi-sig wallet technology</li>
             <li>Dedicated local support for all transactions</li>
-            <li>Built-in tools like a <Link href="/calculator" className="text-blue-500 hover:underline">Bitcoin Calculator</Link> and portfolio tracker</li>
+            <li>Built-in tools like a <Link href="/cryptocalculator" className="text-blue-500 hover:underline">Bitcoin Calculator</Link> and portfolio tracker</li>
           </ul>
           <p className="mt-4">
             Whether you're new to Bitcoin or already investing, Numerobook makes P2P buying safe and easy.

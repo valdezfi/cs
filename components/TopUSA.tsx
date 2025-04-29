@@ -130,7 +130,7 @@ export default function LowestFeeExchangePage() {
             Say goodbye to high fees and clunky interfaces. With Numerobook, you can trade crypto <strong>faster, safer, and cheaper</strong> — all from your phone or laptop.
           </p>
           <p className="mt-4">
-            👉 <Link href="/signup" className="text-blue-500 hover:underline">Sign up on Numerobook</Link> to start trading with the lowest crypto fees in the U.S. or try our <Link href="/calculator" className="text-blue-500 hover:underline">BTC Calculator</Link> now.
+            👉 <Link href="/signup" className="text-blue-500 hover:underline">Sign up on Numerobook</Link> to start trading with the lowest crypto fees in the U.S. or try our <Link href="/cryptocalculator" className="text-blue-500 hover:underline">BTC Calculator</Link> now.
           </p>
         </section>
       </article>
