@@ -63,7 +63,7 @@ const Whaleboti = () => {
         {/* Centered "Invest Now" Button */}
         <div className="flex justify-center mt-12 mb-16">
           <Link
-            href="/invest"
+            href="/signup"
             className="bg-black text-white dark:bg-white dark:text-black px-8 py-4 rounded-md text-lg font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition duration-300"
           >
             Invest USDC Now
