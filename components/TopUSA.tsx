@@ -6,18 +6,49 @@ import Link from "next/link";
 export default function LowestFeeExchangePage() {
   return (
     <main className="min-h-screen mt-20 bg-white dark:bg-black text-gray-900 dark:text-white">
-      <Head>
-        <title>Crypto Exchange with Lowest Fees | Numerobook USA</title>
-        <meta
-          name="description"
-          content="Discover how Numerobook offers the lowest crypto trading fees in the USA. Use our BTC calculator, cointracking tools, and bitcoin converter for smarter, cheaper trades."
-        />
-        <meta
-          name="keywords"
-          content="lowest crypto fees USA, Numerobook exchange, bitcoin converter, crypto calculator, P2P exchange USA"
-        />
-        <meta name="author" content="Numerobook" />
-      </Head>
+   <Head>
+  <title>Crypto Exchange with Lowest Fees | Numerobook USA</title>
+  <meta
+    name="description"
+    content="Discover how Numerobook offers the lowest crypto trading fees in the USA. Use our BTC calculator, cointracking tools, and bitcoin converter for smarter, cheaper trades."
+  />
+  <meta
+    name="keywords"
+    content="bitcoin converter, crypto calculator, Lowest Fee Crypto Exchange"
+  />
+  <meta name="author" content="Numerobook" />
+  <link
+    rel="canonical"
+    href="https://numerobook.com/topusa"
+  />
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Lowest Fee Crypto Exchange USA",
+        "url": "https://numerobook.com/topusa",
+        "description":
+          "Trade crypto with the lowest fees in the USA using Numerobook. Buy Bitcoin with 0% fees, sell for just 1%, and use tools like our BTC calculator and cointracking dashboard.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Numerobook",
+          "url": "https://numerobook.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://numerobook.com/public/OIG-19.jpg"
+          }
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://numerobook.com/topusa"
+        }
+      }),
+    }}
+  />
+</Head>
+
 
       <header className="bg-gray-100 dark:bg-zinc-900 py-10 px-6 text-center">
         <div className="max-w-4xl mx-auto">
