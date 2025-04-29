@@ -108,7 +108,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/public/favicon.svg" type="image/svg+xml" />
         {/* Optionally optimize fonts later with @next/font or preload */}
 
         {/* Google Analytics (non-blocking) */}
