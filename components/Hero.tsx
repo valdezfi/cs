@@ -8,7 +8,7 @@ export default function Hero() {
 
       </h1>
       <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 font-light">
-      Buy crypto with over 300+ payment methods via numerobook P2P Crypto exchange
+      Buy crypto with many payment methods in our P2P exchange
       </p>
       <div className="flex justify-center space-x-6">
         <Link
