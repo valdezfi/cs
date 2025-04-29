@@ -96,7 +96,7 @@ const TermsOfUse = () => {
             <section>
               <h2 className="text-2xl font-semibold">10. Privacy</h2>
               <p>
-                We respect your privacy. Your personal information will be handled in accordance with our <Link href="/privacy-policy" className="text-blue-500 hover:underline">Privacy Policy</Link>.
+                We respect your privacy. Your personal information will be handled in accordance with our <Link href="/privacy" className="text-blue-500 hover:underline">Privacy Policy</Link>.
               </p>
             </section>
 
