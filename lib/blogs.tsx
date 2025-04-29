@@ -1,4 +1,4 @@
-import bitcoinLoan from "./blogs/bitcoin-loan";
+import bitcoinLoan from "./blogs/Best-Stablecoins";
 
 const blogs = [bitcoinLoan];
 

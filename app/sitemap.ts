@@ -7,17 +7,27 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticPaths = [
     "home",
     "contact",
-    "blog", // Base blog page
-    "allblogs", // Possibly a list of blogs
-    "loan",
+    "blog",         // Base blog page
+    "allblogs",     // Blog listing page          // P2P trading page
+    "wallet",       // Wallet management
     "forgotpassword",
-    "supply",
     "signup",
-    "login",
+    "login",     // Security settings
+    "profile",      // User profile page
+    "terms",        // Terms of Use
+    "privacy",      // Privacy Policy
+    "terms", 
+    "topghana",
+    "topusa",
+    "forgotpassword",
+    "cryptocalculator",
+    "blog",
+    "whalebot",
+
   ];
 
   // Simulated dynamic blog slugs (replace with DB/API fetch)
-  const blogSlugs = ["bitcoin-loan"]; // Replace with actual dynamic slugs from DB
+  const blogSlugs = ["Best-Stablecoins"]; // Replace with actual dynamic slugs from DB
   const dynamicPaths = blogSlugs.map((slug) => `blog/${slug}`);
 
   const allPaths = [...staticPaths, ...dynamicPaths];
