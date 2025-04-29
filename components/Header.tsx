@@ -67,21 +67,21 @@ export default function Header() {
               <Link href="/" className="nav-link" onClick={() => setMenuOpen(false)}>Home</Link>
             </li>
             <li>
-              <Link href="/contact" className="nav-link" onClick={() => setMenuOpen(false)}>Contact</Link>
+              <Link href="/whalebot" className="nav-link" onClick={() => setMenuOpen(false)}>Whalebot</Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/allblogs" className="nav-link" onClick={() => setMenuOpen(false)}>Blog</Link>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <Link href="/login" className="nav-link" onClick={() => setMenuOpen(false)}>Login</Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 href="/signup"
                 className="bg-black text-white dark:bg-white dark:text-black px-5 py-2 rounded-md text-base font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition duration-300"
                 onClick={() => setMenuOpen(false)}
               >
-                Signup
+                Signup/Login
               </Link>
             </li>
             <li className="pt-2">
