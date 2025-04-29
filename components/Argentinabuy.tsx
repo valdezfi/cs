@@ -55,8 +55,11 @@ const Argentinabuynow = () => {
         <div className="text-center">
         <h2 className="flex flex-col items-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
   Argentina
-  <Flag code="ar" style={{ width: 32, height: 20, marginTop: '8px' }} />
-</h2>
+  <Flag 
+  code="ar" 
+  alt="Argentina flag" 
+  style={{ width: 32, height: 20, marginTop: '8px' }} 
+/></h2>
 
           <p className="mt-8 text-xl text-gray-600 dark:text-gray-300 font-light">
           Compra o vende Bitcoin (BTC) de persona a persona usando Numerobook           </p>

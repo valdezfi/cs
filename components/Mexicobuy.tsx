@@ -55,8 +55,11 @@ const MexicoB = () => {
         <div className="text-center">
         <h2 className="flex flex-col items-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
   Mexico
-  <Flag code="mx" style={{ width: 32, height: 20 }} />
-</h2>
+  <Flag 
+  code="mx" 
+  alt="Mexico flag" 
+  style={{ width: 32, height: 20 }} 
+/></h2>
 
           <p className="mt-8 text-xl text-gray-600 dark:text-gray-300 font-light">
           Compra o vende Bitcoin (BTC) de persona a persona usando Numerobook      </p>
