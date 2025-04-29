@@ -27,7 +27,7 @@ const Whaleboti = () => {
     },
     {
       icon: <DollarSign className="text-xl" />,
-      title: "5% Annual management fee",
+      title: "10% Annual management fee",
     },
   ];
 
