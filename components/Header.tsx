@@ -30,9 +30,9 @@ export default function Header() {
             <li>
               <Link href="/contact" className="nav-link">About</Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/allblogs" className="nav-link">Blog</Link>
-            </li>
+            </li> */}
             
             {/* <li>
               <Link href="/login" className="nav-link">Login</Link>
