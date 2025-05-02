@@ -62,7 +62,7 @@ const BuyCrypto = () => {
             MTN Mobile Money Rwanda is Rwanda’s leading mobile wallet...
           </p>
           <ul style={{ maxWidth: '800px', margin: '20px auto', textAlign: 'left', fontSize: '1.1em' }}>
-            <li><strong>Accessibility:</strong> Anyone with a mobile phone and a valid ID can open a mobile money account.</li>
+            <li><strong>Accessibility:</strong> Anyone with a <Link href="https://www.mtn.com/">mobile phone</Link>. and a valid ID can open a mobile money account.</li>
             <li><strong>Speed:</strong> Transactions on Numerobook using mobile money are completed in minutes.</li>
             <li><strong>No Bank Required:</strong> Perfect for unbanked and underbanked users.</li>
           </ul>
@@ -77,7 +77,7 @@ const BuyCrypto = () => {
             Buying Bitcoin, USDT, or other digital assets on Numerobook...
           </p>
           <ol style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'left', fontSize: '1.1em' }}>
-            <li><strong>Create a Numerobook Account:</strong> Visit <Link href="https://numerobook.com">app.numerobook.com</Link>...</li>
+            <li><strong>Create a Numerobook Account:</strong> Visit <Link href="https://numerobook.com">numerobook.com</Link>...</li>
             <li><strong>Browse Available Crypto Offers:</strong> On the home screen, select “Buy Crypto.”...</li>
             <li><strong>Select a Seller and Initiate Trade:</strong> Choose a seller with a good rating...</li>
             <li><strong>Send Payment via MTN Mobile Money Rwanda:</strong> Use your phone to dial *182#...</li>
