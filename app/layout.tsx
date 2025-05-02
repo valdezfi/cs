@@ -119,6 +119,9 @@ export const metadata: Metadata = {
     description: "The fastest P2P crypto marketplace to connect with global traders.",
     images: ["https://www.numerobook.com/public/OIG-19.jpg"],
   },
+  alternates: {
+    canonical: "https://numerobook.com/whalebot",
+  },
   robots: {
     index: true,
     follow: true,

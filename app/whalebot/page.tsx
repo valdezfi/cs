@@ -47,6 +47,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://numerobook.com/whalebot",
   },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function Page() {

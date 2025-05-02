@@ -44,6 +44,10 @@ export const metadata: Metadata = {
       'Easily buy Bitcoin in Ghana using Momo and MTN Mobile Money. Trade securely with Numerobook.',
     images: ['https://numerobook.com/public/ghana-crypto.jpg'],
   },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function Page() {

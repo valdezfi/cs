@@ -38,6 +38,10 @@ export const metadata: Metadata = {
       'Trade crypto with the lowest fees in the USA using Numerobook. Tools like BTC calculator, cointracking, and more.',
     images: ['https://numerobook.com/public/OIG-19.jpg'],
   },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function Page() {

@@ -33,6 +33,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://numerobook.com/rwanda',
   },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RwandaBuyCryptoPage() {
