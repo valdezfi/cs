@@ -54,10 +54,10 @@ const Footer = () => {
           <span className="hidden sm:inline-block border-l h-4 mx-2 border-gray-400" />
           <div className="flex space-x-3 mt-2 sm:mt-0">
             <span className="text-xs">Top Countries:</span>
-            <a href="/topusa" className="hover:text-gray-300 text-xs">
+            <a href="/usa" className="hover:text-gray-300 text-xs">
               USA
             </a>
-            <a href="/topghana" className="hover:text-gray-300 text-xs">
+            <a href="/ghana" className="hover:text-gray-300 text-xs">
               Ghana
             </a>
             {/* <a href="/india" className="hover:text-gray-300 text-xs">
