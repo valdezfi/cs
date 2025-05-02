@@ -3,7 +3,6 @@
 import React, { useState, useEffect } from "react";
 import { ChevronDown, DollarSign, Calculator } from "lucide-react";
 import { SiBitcoin, SiEthereum, SiTether, SiMonero } from "react-icons/si";
-import Head from "next/head";
 
 interface Token {
   symbol: string;
@@ -104,29 +103,7 @@ export default function BorrowWidget() {
 
   return (
     <>
-      <Head>
-        <title>Crypto Calculator – Convert BTC, ETH, XMR to Fiat Instantly</title>
-        <meta
-          name="description"
-          content="Convert BTC, ETH, USDT, and XMR to USD, EUR, MXN, and more. Accurate crypto-to-fiat rates using the Crypto Calculator."
-        />
-        <meta property="og:title" content="Crypto Calculator" />
-        <meta
-          property="og:description"
-          content="Convert your favorite cryptocurrencies to fiat instantly using our fast and accurate crypto calculator."
-        />
-        <meta property="og:image" content="https://numerobook.com/public/OIG-19.jpg" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://numerobook.com/cryptocalculator" />
-
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Crypto Calculator" />
-        <meta
-          name="twitter:description"
-          content="Real-time BTC, ETH, XMR, and USDT to fiat converter. Accurate and easy-to-use crypto calculator."
-        />
-        <meta name="twitter:image" content="https://numerobook.com/public/OIG-19.jpg" />
-      </Head>
+    
 
       <main className="min-h-screen flex items-center justify-center py-12" role="main">
         <section className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 w-full max-w-md flex flex-col space-y-6" aria-labelledby="crypto-converter-title">
@@ -135,8 +112,7 @@ export default function BorrowWidget() {
               Crypto Calculator
             </h1>
             <p className="text-gray-600 dark:text-gray-400 text-sm">
-              Crypto Calculator is your go-to tool for real-time crypto-to-fiat conversions. Whether you're calculating profits or checking the latest exchange rates, this Crypto Calculator makes it easy to convert your favorite cryptocurrencies. Use the built-in bitcoin calculator or explore options like XMR to USD with our smart XMR calculator feature. Fast, accurate, and user-friendly, the Crypto Calculator simplifies your crypto journey—no matter your experience level.
-            </p>
+            Looking to understand your crypto conversions better? Our crypto calculator supports a range of tools including a monero calculator for quick monero to USD estimates and an XMR chart calculator to track trends over time. If you're dealing with Bitcoin, try our real-time bitcoin calculator and bitcoin converter to stay on top of market rates. For stablecoin users, we offer a tether calculator, support for USD to USDT conversions, and details on tether fees so you know exactly what to expect during each transaction.            </p>
           </header>
 
           <div className="flex items-center space-x-2" aria-hidden="true">

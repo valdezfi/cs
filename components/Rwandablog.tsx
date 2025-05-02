@@ -35,7 +35,7 @@ const BuyCrypto = () => {
     justifyContent: 'center',
   }}
 >
-  <Image src="/images/happy.jpg" alt="Happy" width={500} height={300} />
+  <Image src="/images/rwanda.jpg" alt="rwanda" width={500} height={300} />
 </div>
 
           <p style={{ maxWidth: '800px', margin: '20px auto', fontSize: '1.1em' }}>
