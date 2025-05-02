@@ -46,6 +46,11 @@ const Whaleboti = () => {
           <p className="mt-6 text-xl text-gray-600 dark:text-gray-300 font-light">
             Automatically manage your crypto portfolio on uniswap using well-tested hedge fund's quant strategies. It's 100% automated crypto trading, and the only fee you'll pay will be a 10% annual management fee.
           </p>
+
+          <p className="mt-6 text-xl text-gray-600 dark:text-gray-300 font-light">
+  Numerobook offers one of the best crypto trading bot experiences, tailored for both new and experienced investors. Whether you're exploring a <strong>bitcoin trading bot</strong> strategy or considering a <strong>crypto hedge fund</strong> style solution, our platform is optimized for performance. Discover how <strong>trading bots</strong> can automate your portfolio and find out if <strong>crypto trading bots work</strong> for your investment goals. Try our top-rated <strong>trading bot crypto</strong> solutions today.
+</p>
+
         </div>
 
         <div className="mt-12 text-center">
