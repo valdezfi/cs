@@ -17,8 +17,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "terms",        // Terms of Use
     "privacy",      // Privacy Policy
     "terms", 
-    "topghana",
-    "topusa",
+    "ghana",
+    "usa",
     "forgotpassword",
     "cryptocalculator",
     "blog",

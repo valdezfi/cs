@@ -5,11 +5,11 @@ import Footer from "components/Footer";
 import { Metadata } from 'next';
 import Script from 'next/script';
 
-// Dynamic metadata for SEO and social sharing
+// SEO and social sharing metadata
 export const metadata: Metadata = {
-  title: "Best Crypto Trading Bot With a Hedge Fund Advantage",
+  title: "Best Crypto Trading Bot with a Hedge Fund Advantage | Numerobook",
   description:
-    "Automatically manage your wrapped bitcoin trading bot strategy and other digital assets using well-tested crypto hedge fund quant strategies.",
+    "Use Numerobook's crypto trading bots powered by hedge fund strategies. Optimize your bitcoin trading strategy and automate profits with advanced quant tools.",
   keywords: [
     "crypto trading bot",
     "trading bot crypto",
@@ -21,16 +21,16 @@ export const metadata: Metadata = {
     "crypto hedge fund"
   ],
   openGraph: {
-    title: "Crypto Calculator – Convert BTC, ETH, XMR to Fiat Instantly",
+    title: "Best Crypto Trading Bot with a Hedge Fund Advantage | Numerobook",
     description:
-    "Automatically manage your bitcoin trading bot strategy and other digital asset strategies using well-tested crypto hedge fund quant strategies.",
+      "Use Numerobook's bitcoin trading bot and quant-driven strategies to manage crypto portfolios like a hedge fund.",
     url: "https://numerobook.com/whalebot",
     images: [
       {
         url: "https://numerobook.com/public/OIG-19.jpg",
         width: 1200,
         height: 630,
-        alt: "Buy Crypto Rwanda MTN Mobile Money",
+        alt: "Best Crypto Trading Bot | Numerobook",
       },
     ],
     siteName: "Numerobook",
@@ -39,25 +39,55 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Buy Crypto with MTN Mobile Money Rwanda on Numerobook",
+    title: "Best Crypto Trading Bot with a Hedge Fund Advantage | Numerobook",
     description:
-      "Numerobook lets you trade crypto directly using MTN Mobile Money Rwanda.",
+      "Automate crypto trading with hedge fund-level strategies. Numerobook bots help maximize your portfolio's performance.",
     images: ["https://numerobook.com/public/OIG-19.jpg"],
   },
   alternates: {
     canonical: "https://numerobook.com/whalebot",
   },
 };
+
 export default function Page() {
   return (
     <div className="flex flex-col min-h-screen bg-white dark:bg-black">
+      {/* Breadcrumb structured data */}
+      <Script
+        id="breadcrumb-jsonld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://numerobook.com',
+              },
+              {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'Whalebot',
+                item: 'https://numerobook.com/whalebot',
+              },
+            ],
+          }),
+        }}
+      />
+
       <Header />
-      <main className="flex-1 py-8"> {/* Ensures main section takes available space */}
+
+      <main className="flex-1 py-8">
+        <h1 className="text-3xl font-bold text-center text-black dark:text-white mb-6">
+          Best Crypto Trading Bot with a Hedge Fund Advantage
+        </h1>
         <Whaleboti />
-        {/* <Hero />
-        <Reviews />
-        <Download /> */}
       </main>
+
       <Footer />
     </div>
   );
