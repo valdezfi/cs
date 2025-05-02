@@ -63,7 +63,7 @@ const BuyCrypto = () => {
           </p>
           <ul style={{ maxWidth: '800px', margin: '20px auto', textAlign: 'left', fontSize: '1.1em' }}>
             <li><strong>Accessibility:</strong> Anyone with a <Link href="https://www.mtn.com/">mobile phone</Link>. and a valid ID can open a mobile money account.</li>
-            <li><strong>Speed:</strong> Transactions on Numerobook using mobile money are completed in minutes.</li>
+            <li><strong>Speed:</strong> Transactions on Numerobook using mobile money with momo are completed in minutes.</li>
             <li><strong>No Bank Required:</strong> Perfect for unbanked and underbanked users.</li>
           </ul>
         </section>

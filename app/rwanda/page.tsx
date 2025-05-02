@@ -7,7 +7,7 @@ import BuyCrypto from 'components/Rwandablog'
 export const metadata: Metadata = {
   title: 'Buy Crypto with MTN Mobile Money Rwanda on Numerobook',
   description: 'Learn how to buy crypto peer-to-peer using MTN Mobile Money Rwanda with Numerobook.',
-  keywords: ['mtn mobile money rwanda', 'mtn rwanda'],
+  keywords: ['mtn mobile money rwanda', 'mtn rwanda', 'momo'],
   openGraph: {
     title: 'Buy Crypto with MTN Mobile Money Rwanda on Numerobook',
     description: 'Use Numerobook to buy crypto directly from locals in Rwanda using MTN Mobile Money.',
