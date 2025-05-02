@@ -35,9 +35,9 @@ const Whaleboti = () => {
     <section className="container mx-auto mt-16 px-4 py-12 bg-gray-50 dark:bg-gray-900 transition-colors duration-200 rounded-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-6 flex justify-center items-center">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-6 flex justify-center items-center">
             Best Crypto Trading Bot With a Hedge Fund Advantage
-          </h2>
+          </h1>
 
           <p className="mt-6 text-xl text-gray-600 dark:text-gray-300 font-light">
             Mastering your emotions is the key to successful and profitable trading. With Numerobook, you can automate your crypto investments, eliminating the stress of FOMO and FUD. Benefit from continuous rebalancing, robust hedge-fund-grade strategies, and a secure, seamless execution platform that works for you—so you can trade smarter, not harder.
