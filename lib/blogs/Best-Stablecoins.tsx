@@ -197,13 +197,59 @@ const stablecoinsBlog = {
 `,
   author: "Numerobook Editorial Team",
   date: "2025-04-25T00:00:00.000Z",
+ 
+
 
   meta: {
     title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
-    description: "Discover the best stablecoin like USDT, USDC, PYUSD, and how they are reshaping global finance in 2025.",
-    keywords: ["best stablecoin", "stablecoin price", "Fiat-Backed Stablecoins", "list of stablecoins", "stablecoin exchange", "most stable currency", "fiat backed stablecoins", "fiat backed stablecoin"],
+    description:
+      "Discover the best stablecoins like USDT, USDC, PYUSD, and how they are reshaping global finance in 2025.",
+    keywords: [
+      "best stablecoin",
+      "stablecoin price",
+      "Fiat-Backed Stablecoins",
+      "list of stablecoins",
+      "stablecoin exchange",
+      "most stable currency",
+      "fiat backed stablecoins",
+      "fiat backed stablecoin",
+    ],
     ogImage: "/images/blog/Fiat-Backed-Stablecoins.png",
+  },
+
+  alternates: {
+    canonical: "https://www.numerobook.com/blog/best-fiat-backed-stablecoins-2025",
+  },
+
+  openGraph: {
+    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    description:
+      "Explore top fiat-backed stablecoins like USDC, USDT, and PYUSD, and their impact on crypto and global markets.",
+    url: "https://www.numerobook.com/blog/best-fiat-backed-stablecoins-2025",
+    images: [
+      {
+        url: "https://www.numerobook.com/images/blog/Fiat-Backed-Stablecoins.png",
+        width: 1200,
+        height: 630,
+        alt: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    description:
+      "Discover the most trusted fiat-backed stablecoins for crypto trading and investing in 2025.",
+    images: ["https://www.numerobook.com/images/blog/Fiat-Backed-Stablecoins.png"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
+
+  
 export default stablecoinsBlog;
