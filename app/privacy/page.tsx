@@ -11,10 +11,8 @@ export const metadata: Metadata = {
   description:
     'Review Numerobook’s Privacy Policy to understand how we protect your data while you trade crypto with the lowest fees in the USA.',
   keywords: [
-    'Numerobook privacy policy',
-    'crypto privacy',
-    'data protection crypto',
-    'user data security',
+  
+   
     'bitcoin converter',
     'crypto calculator',
     'lowest fee crypto exchange'
