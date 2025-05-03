@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Crypto Trading Bot with a Hedge Fund Advantage | Numerobook",
+    title: " All Blogs| Numerobook",
     description:
       "All Crypto Blogs",
     images: ["https://numerobook.com/public/OIG-19.jpg"],
