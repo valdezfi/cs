@@ -1,5 +1,5 @@
 const stablecoinsBlog = {
-  slug: "Best-Stablecoins",
+  slug: "best-stablecoins",
   title: "What Are The Best Stablecoins?",
   snippet: "Discover the top fiat-backed stablecoins of 2025 like USDT, USDC, and PYUSD, and learn how these coins are reshaping global finance by offering price stability, liquidity, and security in a rapidly evolving digital economy.",
   imageUrl: "/images/blog/Fiat-Backed-Stablecoins.png",
