@@ -160,7 +160,7 @@ export default async function BlogPostPage({
 
 // Generate static paths
 export async function generateStaticParams() {
-  const allSlugs = ["bitcoin-loan", "ethereum-loans", "stablecoin-loans"]; // Add all the blog slugs here
+  const allSlugs = ["Best-Stablecoins"]; // Add all the blog slugs here
 
   return allSlugs.map((slug) => ({ slug }));
 }
