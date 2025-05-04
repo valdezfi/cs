@@ -106,7 +106,7 @@ export const metadata: Metadata = {
     siteName: "Numerobook",
     images: [
       {
-        url: "public/images/OIG-19.jpg",
+        url: "/public/images/OIG-19.jpg",
         width: 1200,
         height: 630,
         alt: "Numerobook P2P Crypto Marketplace",
@@ -120,7 +120,7 @@ export const metadata: Metadata = {
     images: ["public/images/OIG-19.jpg"],
   },
   alternates: {
-    canonical: "https://numerobook.com/whalebot",
+    canonical: "https://numerobook.com",
   },
   robots: {
     index: true,
