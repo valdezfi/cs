@@ -106,7 +106,7 @@ export const metadata: Metadata = {
     siteName: "Numerobook",
     images: [
       {
-        url: "/images/OIG-19.jpg",
+        url: "public/images/OIG-19.jpg",
         width: 1200,
         height: 630,
         alt: "Numerobook P2P Crypto Marketplace",
@@ -117,7 +117,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Numerobook | Instantly Buy & Sell Crypto",
     description: "The fastest P2P crypto marketplace to connect with global traders.",
-    images: ["/images/OIG-19.jpg"],
+    images: ["public/images/OIG-19.jpg"],
   },
   alternates: {
     canonical: "https://numerobook.com/whalebot",

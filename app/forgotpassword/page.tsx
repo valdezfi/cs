@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: 'Forgot Password | Numerobook',
     description:
       'Reset your Numerobook account password easily and return to low-fee crypto trading.',
-    images: ['/images/OIG-19.jpg'],
+    images: ['public/images/OIG-19.jpg'],
   },
   robots: {
     index: false,

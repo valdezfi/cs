@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: 'Terms Of Use | Numerobook USA',
     description:
       'Understand your responsibilities and protections when using Numerobook’s low-fee crypto tools and exchange.',
-    images: ['/images/OIG-19.jpg'],
+    images: ['public/images/OIG-19.jpg'],
   },
   robots: {
     index: true,

@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     title: "Join Numerobook – Crypto Tools, Bots & More",
     description:
       "Create your free account and unlock powerful tools for trading, tracking, and investing in crypto securely.",
-    images: ["/images/OIG-19.jpg"],
+    images: ["public/images/OIG-19.jpg"],
   },
   alternates: {
     canonical: "https://numerobook.com/signup",

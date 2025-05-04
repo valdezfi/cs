@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title: 'Crypto Exchange with Lowest Fees | Numerobook USA',
     description:
       'Trade crypto with the lowest fees in the USA using Numerobook. Tools like BTC calculator, cointracking, and more.',
-    images: ['/images/OIG-19.jpg'],
+    images: ['public/images/OIG-19.jpg'],
   },
   robots: {
     index: true,
@@ -66,7 +66,7 @@ export default function Page() {
                 '@type': 'ListItem',
                 position: 2,
                 name: 'Top USA Crypto Exchange',
-                item: 'https://numerobook.com/topusa',
+                item: 'https://numerobook.com/usa',
               },
             ],
           }),

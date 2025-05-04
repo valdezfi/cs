@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: 'Privacy Policy | Numerobook USA',
     description:
       'Understand how your data is protected when using Numerobook’s crypto trading tools and low-fee exchange.',
-    images: ['/images/OIG-19.jpg'],
+    images: ['public/images/OIG-19.jpg'],
   },
   robots: {
     index: true,

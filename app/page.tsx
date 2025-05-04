@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     title: 'Buy Bitcoin with the Lowest Fees | Numerobook',
     description:
       'Numerobook makes crypto trading simple across the USA, LATAM, and Africa with local payment options and low fees.',
-    images: ['/images/OIG-19.jpg'], // Make sure the image path is correct and accessible
+    images: ['public/images/OIG-19.jpg'], // Make sure the image path is correct and accessible
   },
   robots: {
     index: true,
@@ -86,7 +86,7 @@ export default function Page() {
       url: 'https://numerobook.com',
       description:
         'Numerobook is the easiest way to buy and sell Bitcoin with low fees. Access crypto tools, real-time charts, and local payment options like Momo, PayPal, and bank transfer.',
-      image: 'https://numerobook.com/public/og-home.jpg', // Use the full URL to the image
+      image: '/public/images/OIG-19.jpg', // Use the full URL to the image
       potentialAction: {
         '@type': 'SearchAction',
         target: 'https://numerobook.com/search?q={search_term_string}',
@@ -107,7 +107,7 @@ export default function Page() {
       name: 'Buy Bitcoin with the Lowest Fees | Numerobook',
       description:
         'Numerobook makes crypto trading simple across the USA, LATAM, and Africa with local payment options and low fees.',
-      image: 'https://numerobook.com/public/og-home.jpg',
+      image: 'public/images/OIG-19.jpg',
       mainEntityOfPage: 'https://numerobook.com',
     }),
   }}
@@ -125,13 +125,13 @@ export default function Page() {
       description:
         'Trade Bitcoin safely and affordably with Numerobook. Serving users in the USA, LATAM, and Africa with trusted payment methods like MTN Momo and more.',
       url: 'https://numerobook.com',
-      image: 'https://numerobook.com/public/og-home.jpg', // Ensure the URL is correct and publicly accessible
+      image: 'public/images/OIG-19.jpg', // Ensure the URL is correct and publicly accessible
       openGraph: {
         title: 'Buy Bitcoin with the Lowest Fees | Numerobook',
         description:
           'Numerobook makes crypto trading simple across the USA, LATAM, and Africa with local payment options and low fees.',
         url: 'https://numerobook.com',
-        image: 'https://numerobook.com/public/og-home.jpg',
+        image: 'public/images/OIG-19.jpg',
       },
     }),
   }}
