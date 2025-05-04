@@ -22,7 +22,7 @@ export default function LowestFeeExchangePage() {
 
       <div className="w-full max-w-5xl mx-auto mt-8 mb-12 px-6">
         <Image
-          src="/images/blog/pexels-ramilugot-3217363.jpg"
+          src="https://numerobook.com/images/blog/pexels-ramilugot-3217363.jpg"
           alt="Lowest fee crypto exchange USA - Numerobook"
           width={1200}
           height={600}
