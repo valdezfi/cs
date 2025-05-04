@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     url: "https://numerobook.com/whalebot",
     images: [
       {
-        url: "/public/images/OIG-19.jpg",
+        url: "https://numerobook.com/images/OIG-19.jpg",
         width: 1200,
         height: 630,
         alt: "Best Crypto Trading Bot | Numerobook",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: "Best Crypto Trading Bot with a Hedge Fund Advantage | Numerobook",
     description:
       "Automate crypto trading with hedge fund-level strategies. Numerobook bots help maximize your portfolio's performance.",
-    images: ["/public/images/OIG-19.jpg"],
+    images: ["https://numerobook.com/images/OIG-19.jpg"],
   },
   alternates: {
     canonical: "https://numerobook.com/whalebot",

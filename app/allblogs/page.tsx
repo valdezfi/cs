@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     url: "https://numerobook.com/allblogs",
     images: [
       {
-        url: "public/images/OIG-19.jpg",
+        url: "https://numerobook.com/images/OIG-19.jpg",
         width: 1200,
         height: 630,
         alt: "All Crypto Blogs | Numerobook",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     title: " All Blogs| Numerobook",
     description:
       "All Crypto Blogs",
-    images: ["/images/OIG-19.jpg"],
+    images: ["https://numerobook.com/images/OIG-19.jpg"],
   },
   alternates: {
     canonical: "https://numerobook.com/allblogs",
@@ -90,9 +90,6 @@ export default function Page() {
           }),
         }}
       />
-      <meta property="og:image" content="https://numerobook.com/public/images/OIG-19.jpg" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
       <Header />
       <main>
         {/* <Hero /> */}

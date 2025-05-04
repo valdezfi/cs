@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     siteName: 'Numerobook',
     images: [
       {
-        url: '/public/images/OIG-19.jpg', // Ensure this image URL is publicly accessible
+        url: 'https://numerobook.com/images/OIG-19.jpg', // Ensure this image URL is publicly accessible
         width: 1200,
         height: 630,
         alt: 'Numerobook Crypto Trading Platform',
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     title: 'Buy Bitcoin with the Lowest Fees | Numerobook',
     description:
       'Numerobook makes crypto trading simple across the USA, LATAM, and Africa with local payment options and low fees.',
-    images: ['/public/images/OIG-19.jpg'], // Make sure the image path is correct and accessible
+    images: ['https://numerobook.com/images/OIG-19.jpg'], // Make sure the image path is correct and accessible
   },
   robots: {
     index: true,
