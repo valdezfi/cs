@@ -79,7 +79,9 @@ export default function Page() {
       />
 
       <Header />
-
+      <meta property="og:image" content="https://numerobook.com/public/images/OIG-19.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
       <main>
         <AmountInput />
       </main>

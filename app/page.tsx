@@ -74,27 +74,7 @@ export default function Page() {
     
     <div className="flex flex-col min-h-screen bg-white dark:bg-black">
 
-<Script
-  id="og-meta-tags"
-  type="application/ld+json"
-  strategy="afterInteractive"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      '@context': 'https://schema.org',
-      '@type': 'WebSite',
-      name: 'Numerobook',
-      url: 'https://numerobook.com',
-      description:
-        'Numerobook is the easiest way to buy and sell Bitcoin with low fees. Access crypto tools, real-time charts, and local payment options like Momo, PayPal, and bank transfer.',
-      image: '/public/images/OIG-19.jpg', // Use the full URL to the image
-      potentialAction: {
-        '@type': 'SearchAction',
-        target: 'https://numerobook.com/search?q={search_term_string}',
-        'query-input': 'required name=search_term_string',
-      },
-    }),
-  }}
-/>
+
 
 <Script
   id="twitter-meta-tags"
@@ -113,31 +93,12 @@ export default function Page() {
   }}
 />
 
-<Script
-  id="open-graph-meta-tags"
-  type="application/ld+json"
-  strategy="afterInteractive"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      '@context': 'https://schema.org',
-      '@type': 'WebPage',
-      name: 'Buy Bitcoin with the Lowest Fees | Numerobook',
-      description:
-        'Trade Bitcoin safely and affordably with Numerobook. Serving users in the USA, LATAM, and Africa with trusted payment methods like MTN Momo and more.',
-      url: 'https://numerobook.com',
-      image: 'public/images/OIG-19.jpg', // Ensure the URL is correct and publicly accessible
-      openGraph: {
-        title: 'Buy Bitcoin with the Lowest Fees | Numerobook',
-        description:
-          'Numerobook makes crypto trading simple across the USA, LATAM, and Africa with local payment options and low fees.',
-        url: 'https://numerobook.com',
-        image: 'public/images/OIG-19.jpg',
-      },
-    }),
-  }}
-/>
+
 
       <Header />
+      <meta property="og:image" content="https://numerobook.com/public/images/OIG-19.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
       <main>
         <Hero />
         {/* <Features /> */}
