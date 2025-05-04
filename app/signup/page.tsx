@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     url: "https://numerobook.com/signup",
     images: [
       {
-        url: "https://numerobook.com/public/OIG-19.jpg",
+        url: "/images/OIG-19.jpg",
         width: 1200,
         height: 630,
         alt: "Signup for Numerobook",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     title: "Join Numerobook – Crypto Tools, Bots & More",
     description:
       "Create your free account and unlock powerful tools for trading, tracking, and investing in crypto securely.",
-    images: ["https://numerobook.com/public/OIG-19.jpg"],
+    images: ["/images/OIG-19.jpg"],
   },
   alternates: {
     canonical: "https://numerobook.com/signup",

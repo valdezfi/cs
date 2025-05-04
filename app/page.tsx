@@ -11,6 +11,59 @@ import Argentinabuynow from "components/Argentinabuy";
 import UBuy from "components/Uruguaybuy";
 import USAb from "components/USAbuy";
 import GHbuy from "components/GhanaBuy";
+import { Metadata } from 'next';
+import Script from 'next/script';
+
+
+export const metadata: Metadata = {
+  title: 'Buy Bitcoin with the Lowest Fees | Numerobook USA, LATAM & Africa',
+  description:
+    'Numerobook is the easiest way to buy and sell Bitcoin with low fees. Access crypto tools, real-time charts, and local payment options like Momo, PayPal, and bank transfer.',
+  keywords: [
+    'buy bitcoin',
+    'sell bitcoin',
+    'crypto exchange',
+    'lowest fee crypto',
+    'peer to peer bitcoin',
+    'buy bitcoin with momo',
+    'buy crypto usa',
+    'crypto trading africa',
+    'numerobook exchange',
+  ],
+  authors: [{ name: 'Numerobook' }],
+  alternates: {
+    canonical: 'https://numerobook.com',
+  },
+  openGraph: {
+    title: 'Buy Bitcoin with the Lowest Fees | Numerobook',
+    description:
+      'Trade Bitcoin safely and affordably with Numerobook. Serving users in the USA, LATAM, and Africa with trusted payment methods like MTN Momo and more.',
+    url: 'https://numerobook.com',
+    siteName: 'Numerobook',
+    images: [
+      {
+        url: '/images/OIG-19.jpg', // Ensure this image URL is publicly accessible
+        width: 1200,
+        height: 630,
+        alt: 'Numerobook Crypto Trading Platform',
+      },
+    ],
+    type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Buy Bitcoin with the Lowest Fees | Numerobook',
+    description:
+      'Numerobook makes crypto trading simple across the USA, LATAM, and Africa with local payment options and low fees.',
+    images: ['/images/OIG-19.jpg'], // Make sure the image path is correct and accessible
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
 
 
 import Nigeriab from "components/Nigeriabuy";
@@ -20,6 +73,70 @@ export default function Page() {
 
     
     <div className="flex flex-col min-h-screen bg-white dark:bg-black">
+
+<Script
+  id="og-meta-tags"
+  type="application/ld+json"
+  strategy="afterInteractive"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      name: 'Numerobook',
+      url: 'https://numerobook.com',
+      description:
+        'Numerobook is the easiest way to buy and sell Bitcoin with low fees. Access crypto tools, real-time charts, and local payment options like Momo, PayPal, and bank transfer.',
+      image: 'https://numerobook.com/public/og-home.jpg', // Use the full URL to the image
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: 'https://numerobook.com/search?q={search_term_string}',
+        'query-input': 'required name=search_term_string',
+      },
+    }),
+  }}
+/>
+
+<Script
+  id="twitter-meta-tags"
+  type="application/ld+json"
+  strategy="afterInteractive"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      name: 'Buy Bitcoin with the Lowest Fees | Numerobook',
+      description:
+        'Numerobook makes crypto trading simple across the USA, LATAM, and Africa with local payment options and low fees.',
+      image: 'https://numerobook.com/public/og-home.jpg',
+      mainEntityOfPage: 'https://numerobook.com',
+    }),
+  }}
+/>
+
+<Script
+  id="open-graph-meta-tags"
+  type="application/ld+json"
+  strategy="afterInteractive"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      name: 'Buy Bitcoin with the Lowest Fees | Numerobook',
+      description:
+        'Trade Bitcoin safely and affordably with Numerobook. Serving users in the USA, LATAM, and Africa with trusted payment methods like MTN Momo and more.',
+      url: 'https://numerobook.com',
+      image: 'https://numerobook.com/public/og-home.jpg', // Ensure the URL is correct and publicly accessible
+      openGraph: {
+        title: 'Buy Bitcoin with the Lowest Fees | Numerobook',
+        description:
+          'Numerobook makes crypto trading simple across the USA, LATAM, and Africa with local payment options and low fees.',
+        url: 'https://numerobook.com',
+        image: 'https://numerobook.com/public/og-home.jpg',
+      },
+    }),
+  }}
+/>
+
       <Header />
       <main>
         <Hero />

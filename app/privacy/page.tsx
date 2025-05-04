@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: 'Numerobook',
     images: [
       {
-        url: 'https://numerobook.com/public/OIG-19.jpg',
+        url: '/images/OIG-19.jpg',
         width: 1200,
         height: 630,
         alt: 'Privacy Policy - Numerobook',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: 'Privacy Policy | Numerobook USA',
     description:
       'Understand how your data is protected when using Numerobook’s crypto trading tools and low-fee exchange.',
-    images: ['https://numerobook.com/public/OIG-19.jpg'],
+    images: ['/images/OIG-19.jpg'],
   },
   robots: {
     index: true,

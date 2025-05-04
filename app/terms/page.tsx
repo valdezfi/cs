@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: 'Numerobook',
     images: [
       {
-        url: 'https://numerobook.com/public/OIG-19.jpg',
+        url: '/images/OIG-19.jpg',
         width: 1200,
         height: 630,
         alt: 'Terms Of Use - Numerobook',
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: 'Terms Of Use | Numerobook USA',
     description:
       'Understand your responsibilities and protections when using Numerobook’s low-fee crypto tools and exchange.',
-    images: ['https://numerobook.com/public/OIG-19.jpg'],
+    images: ['/images/OIG-19.jpg'],
   },
   robots: {
     index: true,
