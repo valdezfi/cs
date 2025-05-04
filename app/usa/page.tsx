@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Numerobook',
     images: [
       {
-        url: '/images/OIG-19.jpg',
+        url: 'https://numerobook.com/images/OIG-19.jpg',
         width: 1200,
         height: 630,
         alt: 'Lowest Fee Crypto Exchange USA',
