@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     url: 'https://numerobook.com/rwanda',
     images: [
       {
-        url: 'https://numerobook.com/public/crypto-mtn-mobile-money.jpg',
+        url: 'https://numerobook.com/images/rwanda.jpg',
         width: 1200,
         height: 630,
         alt: 'Buy Crypto Rwanda MTN Mobile Money',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Buy Crypto with MTN Mobile Money Rwanda on Numerobook',
     description: 'Numerobook lets you trade crypto directly using MTN Mobile Money Rwanda.',
-    images: ['https://numerobook.com/public/crypto-mtn-mobile-money.jpg'],
+    images: ['https://numerobook.com/images/rwanda.jpg'],
   },
   alternates: {
     canonical: 'https://numerobook.com/rwanda',
