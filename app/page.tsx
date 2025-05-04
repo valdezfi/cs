@@ -87,7 +87,7 @@ export default function Page() {
       name: 'Buy Bitcoin with the Lowest Fees | Numerobook',
       description:
         'Numerobook makes crypto trading simple across the USA, LATAM, and Africa with local payment options and low fees.',
-      image: '/public/images/OIG-19.jpg',
+      image: 'https://numerobook.com/images/OIG-19.jpg',
       mainEntityOfPage: 'https://numerobook.com',
     }),
   }}
