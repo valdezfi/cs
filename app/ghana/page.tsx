@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: 'Numerobook',
     images: [
       {
-        url: 'https://numerobook.com/public/ghana-crypto.jpg', // Use an image specific to Ghana, or update with a local image
+        url: '/images/blog/176b6281-5525-47d7-9d55-92e24c86807a_News-Amalitech-Ausbildung-01.webp', // Use an image specific to Ghana, or update with a local image
         width: 1200,
         height: 630,
         alt: 'Buying Bitcoin in Ghana with Momo',
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: 'How to Buy Bitcoin in Ghana with Momo?',
     description:
       'Easily buy Bitcoin in Ghana using Momo and MTN Mobile Money. Trade securely with Numerobook.',
-    images: ['https://numerobook.com/public/ghana-crypto.jpg'],
+    images: ['/images/blog/176b6281-5525-47d7-9d55-92e24c86807a_News-Amalitech-Ausbildung-01.webp'],
   },
   robots: {
     index: true,
