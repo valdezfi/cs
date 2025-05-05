@@ -76,7 +76,6 @@ export default function Page() {
           position: 1,
           name: 'Home',
           item: 'https://numerobook.com',
-          image: 'https://numerobook.com/images/OIG-19.jpg',
 
         },
         {

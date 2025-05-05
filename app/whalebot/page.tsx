@@ -71,7 +71,6 @@ export default function Page() {
                 position: 1,
                 name: 'Home',
                 item: 'https://numerobook.com',
-                image: 'https://numerobook.com/images/OIG-19.jpg',
 
               },
               {
@@ -79,6 +78,7 @@ export default function Page() {
                 position: 2,
                 name: 'Whalebot',
                 item: 'https://numerobook.com/whalebot',
+                
               },
             ],
           }),
