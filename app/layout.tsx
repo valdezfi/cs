@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 import "styles/globals.css";
-// import Script from 'next/script';
 import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata: Metadata = {
@@ -135,27 +134,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="icon" href="/images/favicon.svg" type="image/svg+xml" />
-        {/* Optionally optimize fonts later with @next/font or preload */}
-
-        {/* Google Analytics (non-blocking) */}
-        {/* <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-335050025"
-          strategy="afterInteractive"
-        />
-        <Script
-          id="ga-init"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-335050025', {
-                page_path: window.location.pathname,
-              });
-            `,
-          }}
-        /> */}
+     
       </head>
       <body className="bg-white dark:bg-black min-h-screen">
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
