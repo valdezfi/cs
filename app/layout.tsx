@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 import "styles/globals.css";
-import Script from 'next/script';
+// import Script from 'next/script';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata: Metadata = {
   title: "Numerobook | Instantly Buy & Sell Crypto",
@@ -137,7 +138,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* Optionally optimize fonts later with @next/font or preload */}
 
         {/* Google Analytics (non-blocking) */}
-        <Script
+        {/* <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-335050025"
           strategy="afterInteractive"
         />
@@ -154,10 +155,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               });
             `,
           }}
-        />
+        /> */}
       </head>
       <body className="bg-white dark:bg-black min-h-screen">
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+        <GoogleAnalytics gaId="G-335050025" />
+
           {children}
         </ThemeProvider>
       </body>
