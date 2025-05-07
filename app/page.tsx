@@ -16,7 +16,7 @@ import Script from 'next/script';
 
 
 export const metadata: Metadata = {
-  title: 'Buy Bitcoin with the Lowest Fees | Numerobook USA, LATAM & Africa',
+  title: 'Buy Bitcoin with the Lowest Fees | Numerobook USA, LATAM, India, Africa, & beyond',
   description:
     'Numerobook is the easiest way to buy and sell Bitcoin with low fees. Access crypto tools, real-time charts, and local payment options like Momo, PayPal, and bank transfer.',
   keywords: [
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Buy Bitcoin with the Lowest Fees | Numerobook',
     description:
-      'Trade Bitcoin safely and affordably with Numerobook. Serving users in the USA, LATAM, and Africa with trusted payment methods like MTN Momo and more.',
+      'Trade Bitcoin safely and affordably with Numerobook. Serving users in the USA, LATAM, India, Africa and beyond with trusted payment methods like MTN Momo and more.',
     url: 'https://numerobook.com',
     siteName: 'Numerobook',
     images: [
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Buy Bitcoin with the Lowest Fees | Numerobook',
     description:
-      'Numerobook makes crypto trading simple across the USA, LATAM, and Africa with local payment options and low fees.',
+      'Numerobook makes crypto trading simple across the USA, LATAM, India, Africa, and beyond with local payment options and low fees.',
     images: ['https://numerobook.com/images/OIG-19.jpg'], // Make sure the image path is correct and accessible
   },
   robots: {
@@ -86,7 +86,7 @@ export default function Page() {
       '@type': 'WebPage',
       name: 'Buy Bitcoin with the Lowest Fees | Numerobook',
       description:
-        'Numerobook makes crypto trading simple across the USA, LATAM, and Africa with local payment options and low fees.',
+        'Numerobook makes crypto trading simple across the USA, LATAM, India, Africa, and beyond with local payment options and low fees.',
       image: 'https://numerobook.com/images/OIG-19.jpg',
       mainEntityOfPage: 'https://numerobook.com',
     }),
