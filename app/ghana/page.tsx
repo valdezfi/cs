@@ -1,48 +1,42 @@
 import Header from "components/Header";
-import BuyBitcoinWithMomoPage from "components/TopGhana";
+import LowestFeeExchangePage from "components/TopGhana";
 import Footer from "components/Footer";
 import { Metadata } from 'next';
 import Script from 'next/script';
 
+// Metadata configuration
 export const metadata: Metadata = {
-  title: 'How to Buy Bitcoin in Ghana with Momo?',
+  title: 'Crypto Exchange with Lowest Fees | Numerobook USA',
   description:
-    'Learn how to buy Bitcoin in Ghana easily using Momo. Numerobook offers a simple, secure peer-to-peer way to trade crypto with Momo payments and MTN Mobile Money.',
-  keywords: [
-    'momo',
-    'mtn mobile money',
-    'buy bitcoin in ghana',
-    'how to use momo for bitcoin',
-    'ghana crypto exchange',
-    'buy bitcoin ghana',
-  ],
+    'Discover how Numerobook offers the lowest crypto trading fees in the USA. Use our BTC calculator, cointracking tools, and bitcoin converter for smarter, cheaper trades.',
+  keywords: ['bitcoin converter', 'crypto calculator', 'Lowest Fee Crypto Exchange'],
   authors: [{ name: 'Numerobook' }],
   alternates: {
-    canonical: 'https://numerobook.com/ghana', // Ensure this matches the current page
+    canonical: 'https://numerobook.com/usa',
   },
   openGraph: {
-    title: 'How to Buy Bitcoin in Ghana with Momo?',
+    title: 'Crypto Exchange with Lowest Fees | Numerobook USA',
     description:
-    'Discover the easiest way to buy Bitcoin in Ghana using Momo and MTN Mobile Money with Numerobook. Enjoy low fees and seamless peer-to-peer trading.',
-    url: 'https://numerobook.com/ghana',
+      'Trade crypto with the lowest fees in the USA using Numerobook. Buy Bitcoin with 0% fees, sell for just 1%, and use tools like our BTC calculator and cointracking dashboard.',
+    url: 'https://numerobook.com/usa',
     siteName: 'Numerobook',
     images: [
       {
-        url: '/images/blog/176b6281-5525-47d7-9d55-92e24c86807a_News-Amalitech-Ausbildung-01.webp', // Use an image specific to Ghana, or update with a local image
+        url: 'https://numerobook.com/images/OIG-19.jpg',
         width: 1200,
         height: 630,
-        alt: 'Buying Bitcoin in Ghana with Momo',
+        alt: 'Lowest Fee Crypto Exchange USA',
       },
     ],
     type: 'website',
-    locale: 'en_GH', // Ghana locale
+    locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Buy Bitcoin in Ghana with Momo?',
+    title: 'Crypto Exchange with Lowest Fees | Numerobook USA',
     description:
-      'Easily buy Bitcoin in Ghana using Momo and MTN Mobile Money. Trade securely with Numerobook.',
-    images: ['/images/blog/176b6281-5525-47d7-9d55-92e24c86807a_News-Amalitech-Ausbildung-01.webp'],
+      'Trade crypto with the lowest fees in the USA using Numerobook. Tools like BTC calculator, cointracking, and more.',
+    images: ['/images/blog/pexels-ramilugot-3217363.jpg"'],
   },
   robots: {
     index: true,
@@ -67,21 +61,24 @@ export default function Page() {
                 position: 1,
                 name: 'Home',
                 item: 'https://numerobook.com',
+
               },
               {
                 '@type': 'ListItem',
                 position: 2,
-                name: 'How to Buy Bitcoin in Ghana with Momo?',
-                item: 'https://numerobook.com/ghana',
+                name: 'Top USA Crypto Exchange',
+                item: 'https://numerobook.com/usa',
               },
             ],
           }),
         }}
       />
-      
       <Header />
-      <main>
-        <BuyBitcoinWithMomoPage />
+      <main className="flex-1 py-8 px-4">
+        <h1 className="text-3xl font-bold text-center text-black dark:text-white mb-8">
+          Crypto Exchange with the Lowest Fees in the USA
+        </h1>
+        <LowestFeeExchangePage />
       </main>
       <Footer />
     </div>

@@ -1,74 +1,73 @@
 import React from "react";
 import USCardbuy from "./USABuyCard";
-import { SiBitcoin, SiEthereum, SiTether, SiMonero,  } from "react-icons/si";
-import { DollarSign } from "lucide-react"; // Import a nice coin icon
-import Flag from 'react-world-flags';
+import {
+  Users,
+  Briefcase,
+  Camera,
+  Mic,
+  DollarSign,
+  Share2,
+} from "lucide-react"; // Lucide icons
+// import Flag from "react-world-flags";
 
 const USAb = () => {
   const features = [
-    {
-      icon: SiBitcoin,
-      title: "Bitcoin (BTC)",
-      // description: "Get the most value from your crypto and afford yourself anything you dream of right now",
-      loanlink: "/signup"
+  {
+    icon: Briefcase,
+    title: "Brands",
+    description: "Generate campaign ideas and streamline creator outreach with AI.",
+    loanlink: "/signup",
+  },
+  {
+    icon: Users,
+    title: "Agencies",
+    description: "Automate reporting, client briefs, and influencer scouting.",
+    loanlink: "/signup",
+  },
+  // {
+  //   icon: Share2,
+  //   title: "Social Media Managers",
+  //   description: "Plan content, predict trends, and optimize posts with AI.",
+  //   loanlink: "/signup",
+  // },
+  {
+    icon: Camera,
+    title: "Creators",
+    description: "Boost engagement with AI-recommended hooks and captions.",
+    loanlink: "/signup",
+  },
+  // {
+  //   icon: DollarSign,
+  //   title: "UGC Creators",
+  //   description: "Quickly script and edit product videos using AI templates.",
+  //   loanlink: "/signup",
+  // },
+  // {
+  //   icon: Mic,
+  //   title: "Podcasters",
+  //   description: "Auto-generate episode summaries, clips, and outreach emails.",
+  //   loanlink: "/signup",
+  // },
+];
 
-    },
-    {
-      icon: SiEthereum,
-      title: " Ethereum (ETH)",
-      // description: "Maximize your tax efficiency. Getting a crypto loan and its spending – are non-taxable events, because they do not generate direct earnings. Then, use the funds for expenses.",
-      loanlink: "/signup"
-
-    },
-    {
-      icon: SiTether,
-      title: "Tether (USDT)",
-      // description: "Leverage your crypto and put the cash towards a major Investment: house, gold, treasuries, stocks, or silver.",
-      loanlink: "/signup"
-
-    },
-    {
-      icon: SiMonero,
-      title: "Monero (XMR)",
-      // description: "Reinvest your crypto holdings and make your company grow. Cover operational expenses, pay employees on time, or even buy another company.",
-      loanlink: "/signup"
-
-    },
-    {
-      icon: DollarSign,
-      title: "USD Coin (USDC)",
-      // description: "Talk about your authentication features built into your app.",
-      loanlink: "/signup"
-    },
-    {
-      icon: SiBitcoin,
-      title: "Wrapped Bitcoin",
-      // description: "Talk about your subscription features and how they work.",
-      loanlink: "/signup"
-
-    },
-  ];
 
   return (
     <section className="container mx-auto mt-12 px-4 py-12 bg-gray-50 dark:bg-gray-900 transition-colors duration-200 rounded-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-        <h2 className="flex flex-col items-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-  USA
-  <Flag code="us" alt="United States flag" style={{ width: 32, height: 20 }} />
-  </h2>
+          <h2 className="flex flex-col items-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
+            Experience AI-Powered Growth
+          </h2>
 
-          <p className="mt-8 text-xl text-gray-600 dark:text-gray-300 font-light">
-          Buy Bitcoin (BTC) peer to peer using Numerobook
+          <p className="mt-6 text-xl text-gray-600 dark:text-gray-300 font-light">
+            Unlock your full potential with our AI tools built for creators, marketers, and brands. Work smarter, reach further, and grow faster—with fewer errors.
           </p>
         </div>
-        <div className="mt-10">
+        <div className="mt-12">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {features.map((feature, index) => (
               <USCardbuy key={index} {...feature} />
-              
             ))}
-            
           </div>
         </div>
       </div>

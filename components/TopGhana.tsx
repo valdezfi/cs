@@ -1,39 +1,27 @@
-// /pages/how-to-buy-bitcoin-with-momo.tsx
-import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function BuyBitcoinWithMomoPage() {
+export default function GrandeGhanaMarketingPage() {
   return (
     <main className="min-h-screen mt-20 bg-white dark:bg-black text-gray-900 dark:text-white">
-      <Head>
-        <title>How to Buy Bitcoin in Ghana with Momo?</title>
-        <meta
-          name="description"
-          content="Learn how to buy Bitcoin in Ghana easily using Momo. Numerobook offers a simple, secure peer-to-peer way to trade crypto with Momo payments and MTN Mobile Money."
-        />
-        <meta
-          name="keywords"
-          content="momo, mtn mobile money, momos near me, how to buy bitcoin in ghana"
-        />
-        <meta name="author" content="Numerobook" />
-      </Head>
-
       <header className="bg-gray-100 dark:bg-zinc-900 py-10 px-6 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">
-            How to Buy Bitcoin in Ghana with Momo
+            Grande: The Leading UGC Creator & Influencer Marketing Platform in Ghana
           </h1>
+          <h2 className="text-3xl font-bold text-center text-black dark:text-white mb-8">
+            Connect with Ghana's Top Influencers & UGC Creators
+          </h2>
           <p className="text-gray-600 dark:text-gray-300 text-lg">
-            Discover how easy it is to buy Bitcoin directly from real people in Ghana using Momo payments. Numerobook makes P2P crypto trading simple, fast, and secure.
+            Whether you're a startup or an established brand in Ghana, Grande helps you collaborate with creators who drive authentic engagement and deliver high-quality content.
           </p>
         </div>
       </header>
 
       <div className="w-full max-w-5xl mx-auto mt-8 mb-12 px-6">
         <Image
-          src="/images/blog/176b6281-5525-47d7-9d55-92e24c86807a_News-Amalitech-Ausbildung-01.webp"
-          alt="How to Buy Bitcoin in Ghana with Momo - Numerobook"
+          src="/images/ghana-influencers.jpg"
+          alt="Influencer and UGC marketing in Ghana"
           width={1200}
           height={600}
           className="rounded-2xl shadow-lg"
@@ -42,129 +30,65 @@ export default function BuyBitcoinWithMomoPage() {
 
       <article className="max-w-4xl mx-auto px-6 space-y-12 pb-20">
         <section>
-          <h2 className="text-2xl font-semibold">What is Momo?</h2>
+          <h2 className="text-2xl font-semibold">Looking for a reliable UGC creator platform in Ghana?</h2>
           <p>
-            Momo, short for mobile money, has revolutionized how people in Ghana handle transactions. With services like MTN Mobile Money, users can send and receive cash, pay bills, and now even <strong>buy Bitcoin peer-to-peer</strong> — all from their phones.
-          </p>
-          <p className="mt-4">
-            As the demand for cryptocurrencies grows, Momo provides a trusted bridge between cash and digital assets like Bitcoin.
+            Grande is your ultimate solution for building impactful campaigns that resonate with your audience. As one of the best influencer marketing platforms, we help brands connect with creators who drive engagement and deliver authentic, high-quality content.
           </p>
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold">Why Buy Bitcoin with Momo?</h2>
-          <p>
-            Traditional bank transfers in <Link href="https://www.ghanaweb.com/GhanaHomePage/" className="text-blue-500 hover:underline">Ghana</Link> can be slow, expensive, and sometimes unreliable. Momo, however, offers instant transfers with lower fees and wider accessibility.
-          </p>
-          <p className="mt-4">
-            With Numerobook’s P2P marketplace, you buy Bitcoin directly from other users, with Momo making the transaction fast and easy.
-          </p>
-        </section>
-
-        <section>
-          <h2 className="text-2xl font-semibold">Step-by-Step: How to Buy Bitcoin in Ghana with Momo</h2>
-          <p>
-            Here’s exactly how you can get started with buying Bitcoin using your Momo wallet:
-          </p>
-          <ul className="list-disc list-inside mt-2 space-y-2">
-            <li>Create a free account on <Link href="/signup" className="text-blue-500 hover:underline">Numerobook</Link>.</li>
-            <li>Verify your identity quickly with your Ghana ID.</li>
-            <li>Browse available Bitcoin sellers who accept Momo.</li>
-            <li>Select the offer that fits your amount and rate.</li>
-            <li>Follow the Momo instructions to send payment securely.</li>
-            <li>Once payment is confirmed, Bitcoin is released into your wallet automatically.</li>
-          </ul>
-          <p className="mt-4">
-            Safe, direct, and fully transparent — that's P2P trading with Numerobook.
-          </p>
-        </section>
-
-        <section>
-          <h2 className="text-2xl font-semibold">Why Ghanaians Trust Numerobook for P2P Momo Payments</h2>
-          <p>
-            Numerobook was built for African users, making crypto trading safe and accessible. Some reasons Ghanaians are switching to Numerobook:
-          </p>
-          <ul className="list-disc list-inside mt-2 space-y-2">
-            <li>Instant Momo payments with full escrow protection</li>
-            <li>Real Bitcoin sellers verified through our system</li>
-            <li>Strong security with multi-sig wallet technology</li>
-            <li>Dedicated local support for all transactions</li>
-            <li>Built-in tools like a <Link href="/cryptocalculator" className="text-blue-500 hover:underline">Bitcoin Calculator</Link> and portfolio tracker</li>
-          </ul>
-          <p className="mt-4">
-            Whether you're new to Bitcoin or already investing, Numerobook makes P2P buying safe and easy.
-          </p>
-        </section>
-
-        <section>
-          <h2 className="text-2xl font-semibold">Is MTN Mobile Money Supported?</h2>
-          <p>
-            Yes! MTN Mobile Money is fully supported on Numerobook’s P2P platform. You can buy Bitcoin, USDT, and more — directly from real users, with full Momo integration.
-          </p>
-          <p className="mt-4">
-            We also continue to add more mobile money services as the crypto ecosystem grows.
-          </p>
-        </section>
-
-        <section>
-          <h2 className="text-2xl font-semibold">Tips for Safe P2P Bitcoin Transactions with Momo</h2>
-          <p>
-            While Momo itself is secure, you should still take extra precautions when trading crypto peer-to-peer:
-          </p>
-          <ul className="list-disc list-inside mt-2 space-y-2">
-            <li>Always double-check the Bitcoin wallet address.</li>
-            <li>Use trusted escrow platforms like Numerobook, not strangers online.</li>
-            <li>Enable 2FA (two-factor authentication) for your account.</li>
-            <li>Keep your Momo PIN and OTPs private at all times.</li>
+          <h2 className="text-2xl font-semibold">Why Choose Grande for UGC and Influencer Marketing in Ghana?</h2>
+          <ul className="list-disc list-inside space-y-2 mt-4">
+            <li><strong>Comprehensive UGC Solutions:</strong> Tap into the power of user-generated content to establish trust and authenticity with your audience.</li>
+            <li><strong>Diverse Influencer Network:</strong> From micro-influencers to well-known creators across Ghana, we have a wide range of talent to match your specific needs.</li>
+            <li><strong>Seamless Campaign Management:</strong> Our intuitive platform makes planning, executing, and monitoring campaigns easy.</li>
+            <li><strong>Data-Driven Insights:</strong> Get real-time analytics to measure campaign performance and make informed decisions.</li>
           </ul>
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold">The Future of Momo and Bitcoin in Ghana</h2>
-          <p>
-            Mobile money will remain a key part of Ghana’s digital economy — and when combined with Bitcoin, it opens powerful new opportunities for financial freedom.
-          </p>
-          <p className="mt-4">
-            If you're wondering <strong>how to buy Bitcoin in Ghana easily</strong> — the answer is simple: Momo + Numerobook's P2P marketplace.
-          </p>
+          <h2 className="text-2xl font-semibold">What Makes Grande the Best UGC Creator Platform in Ghana?</h2>
+          <ul className="list-disc list-inside space-y-2 mt-4">
+            <li><strong>Micro-Influencer Marketing Platform:</strong> Grande excels in connecting brands with micro-influencers who have niche audiences and high engagement rates.</li>
+            <li><strong>Custom Campaign Strategies:</strong> We provide tailored solutions to align with your brand’s objectives, whether it’s boosting sales or enhancing brand awareness.</li>
+            <li><strong>High-Quality UGC:</strong> Collaborate with creators to produce genuine, relatable content that resonates with your audience.</li>
+          </ul>
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold">Start Buying Bitcoin with Momo Today</h2>
-          <p>
-            Ready to own Bitcoin the easy way? Join thousands of Ghanaians using Momo on Numerobook to buy and sell crypto directly and securely.
-          </p>
-          <p className="mt-4">
-            👉 <Link href="/signup" className="text-blue-500 hover:underline">Sign up today</Link> and experience how fast and simple P2P crypto trading can be!
-          </p>
+          <h2 className="text-2xl font-semibold">Benefits of Using Grande in Ghana</h2>
+          <ul className="list-disc list-inside space-y-2 mt-4">
+            <li><strong>Affordable Marketing Solutions:</strong> Maximize your ROI with cost-effective influencer marketing and UGC campaigns.</li>
+            <li><strong>Brand-Creator Alignment:</strong> Our platform ensures you find the right creators who share your brand’s vision and values.</li>
+            <li><strong>Simplified Workflow:</strong> With our user-friendly interface, managing campaigns has never been easier.</li>
+          </ul>
         </section>
+
         <section>
-  <h2 className="text-2xl font-semibold">Bitcoin Adoption is Growing Worldwide</h2>
-  <p>
-    Bitcoin isn’t just growing in Ghana — it’s becoming a global phenomenon. Countries across Africa, Latin America, and Asia are seeing more people turn to Bitcoin as a way to store value, protect against inflation, and access the global economy.
-  </p>
-  <p className="mt-4">
-    In places like El Salvador, Bitcoin has even been adopted as official legal tender. Meanwhile, everyday people in Nigeria, Kenya, Argentina, and Vietnam are using Bitcoin daily for payments, savings, and cross-border transactions.
-  </p>
-  <p className="mt-4">
-    This global adoption wave shows that Bitcoin is no longer just a speculative investment — it’s becoming real money. It offers freedom from high fees, currency devaluation, and limited financial services. 
-  </p>
-</section>
+          <h2 className="text-2xl font-semibold">Grande: Transforming Marketing with UGC and Influencers in Ghana</h2>
+          <p>
+            At Grande, we believe in the power of storytelling through authentic content. By combining our expertise in UGC platform and influencer marketing, we help businesses in Ghana create impactful campaigns that deliver results.
+          </p>
+          <ul className="list-disc list-inside space-y-2 mt-4">
+            <li>Discover and collaborate with top-tier creators across Ghana.</li>
+            <li>Leverage the power of micro-influencer marketing for targeted outreach.</li>
+            <li>Drive meaningful engagement and build long-lasting relationships with your audience.</li>
+          </ul>
+        </section>
 
-<section>
-  <h2 className="text-2xl font-semibold">Why Bitcoin Matters for Ghanaians</h2>
-  <p>
-    In Ghana, mobile money platforms like Momo already help millions of people move money easily. Now, by combining Momo with Bitcoin through platforms like Numerobook, Ghanaians can tap into a much larger global financial system.
-  </p>
-  <p className="mt-4">
-    Whether it’s sending money abroad, saving against inflation, or simply diversifying your assets, Bitcoin gives you control over your wealth in ways that traditional banks often cannot.
-  </p>
-  <p className="mt-4">
-    Thanks to Momo, the barriers to entry are lower than ever. With just your mobile phone and a Numerobook account, you can own Bitcoin and become part of the worldwide crypto economy — safely and easily.
-  </p>
-</section>
-
+        <section className="text-center">
+          <h2 className="text-2xl font-semibold mb-4">Start Your Journey with Grande in Ghana Today!</h2>
+          <p className="mb-6">
+            Don’t miss out on the opportunity to elevate your marketing efforts. Partner with Grande, the leading UGC creator platform in Ghana, and unlock the potential of influencer marketing.
+          </p>
+          <Link href="/contact">
+            <div className="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition">
+              Contact Us
+            </div>
+          </Link>
+        </section>
       </article>
     </main>
   );
 }
+

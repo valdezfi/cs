@@ -1,71 +1,130 @@
-import {
-  AiOutlineX,
 
-} from "react-icons/ai";
+
+
+import { AiOutlineX } from "react-icons/ai";
+import { FaInstagram, FaTiktok } from "react-icons/fa"; // TikTok is in FontAwesome
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
+  const countries: { name: string; href: string }[] = [
+    { name: "USA", href: "/influencer-platform" },
+    { name: "India", href: "/influencer-india" },
+    { name: "South Africa", href: "/south-africa" },
+    { name: "Kenya", href: "/influencer-kenya" },
+    { name: "Zimbabwe", href: "/zimbabwe" },
+    { name: "Rwanda", href: "/rwanda" },
+    { name: "Mexico", href: "/mexico" },
+    { name: "Colombia", href: "/colombia" },
+    { name: "Chile", href: "/chile" },
+    { name: "Argentina", href: "/argentina" },
+    { name: "Paraguay", href: "/paraguay" },
+    { name: "Uruguay", href: "/uruguay" },
+    { name: "Republica Dominicana", href: "/dominican-republic" },
+    { name: "Philippines", href: "/philippines" },
+    { name: "France", href: "/france" },
+    { name: "Germany", href: "/influencer-germany" },
+    { name: "Ghana", href: "/ghana" },
+    { name: "Brazil", href: "/influencers-in-brazil" },
+    // { name: "Norway", href: "/norway" },
+    { name: "Singapore", href: "/singaporeinfluencer" },
+    // { name: "Poland", href: "/poland" },
+    // { name: "Russia", href: "/russia" },
+    { name: "Malaysia", href: "/malaysia" },
+    // { name: "Thailand", href: "/thailand" },
+    // { name: "Nigiria", href: "/nigiria" },
+    { name: "Suadi Arabia", href: "/suadi-arabia" },
+    { name: "Philippines", href: "/philippines" },
+    // { name: "Qatar", href: "/qatar" },
+    { name: "Kawait", href: "/kawait" },
+    // { name: "UAE", href: "/uae" },
+    { name: "Bahrain", href: "/bahrain" },
+    { name: "Spain", href: "/spain" },
+    { name: "Canada", href: "/canada" },
+    { name: "United Kingdom", href: "/united-kingdom" },
+        { name: "Lithuania", href: "/lithuania" },
+
+
+
+
+
+
+
+
+
+  ];
+
   return (
     <footer
-      className="bg-white border-t border-gray-100 dark:bg-black shadow-sm text-gray-400 py-6 dark:border-t dark:border-gray-800"
+      className="bg-white border-t border-gray-100 dark:bg-black shadow-sm text-gray-400 py-6 dark:border-gray-800"
       role="contentinfo"
     >
       <div className="container mx-auto px-4 flex flex-col sm:flex-row sm:justify-between items-center text-sm space-y-4 sm:space-y-0">
         <div className="flex flex-col sm:flex-row sm:space-x-6 items-center">
-          <p>&copy; {currentYear} numerobook. All rights reserved 2025.</p>
+          <p> All rights reserved grande &copy; {currentYear}.</p>
           <span className="hidden sm:inline-block border-l h-4 mx-2 border-gray-400" />
           <div className="flex space-x-4">
-          <a href="/allblogs" className="hover:text-gray-300">
-            Blog
-            </a>
-            <a href="/cryptocalculator" className="hover:text-gray-300">
-              Crypto Calculator
-            </a>
-            <a href="/terms" className="hover:text-gray-300">
-              Terms of Use
-            </a>
-            <a href="/privacy" className="hover:text-gray-300">
-              Privacy Policy
-            </a>
-          
-        
+            {/* <a href="/allblogs" className="hover:text-gray-300">Blog</a> */}
+            <a href="/aboutus" className="hover:text-gray-300">About</a>
+            <a href="/terms" className="hover:text-gray-300">Terms</a>
+            <a href="/privacy" className="hover:text-gray-300">Privacy</a>
           </div>
         </div>
 
         <div className="flex flex-col sm:flex-row sm:space-x-6 items-center">
-          <div className="flex space-x-4">
-            {/* <a href="#" aria-label="Facebook" className="hover:text-gray-300">
-              <AiOutlineFacebook className="w-5 h-5" />
-            </a>
-            <a href="#" aria-label="LinkedIn" className="hover:text-gray-300">
-              <AiOutlineLinkedin className="w-5 h-5" />
-            </a>
-            <a href="#" aria-label="Instagram" className="hover:text-gray-300">
-              <AiOutlineInstagram className="w-5 h-5" />
-            </a> */}
-            <a href="https://x.com/@numerobk" aria-label="X (formerly Twitter)" className="hover:text-gray-300">
-              <AiOutlineX className="w-5 h-5" />
-            </a>
-            {/* <a href="#" aria-label="GitHub" className="hover:text-gray-300">
-              <AiOutlineGithub className="w-5 h-5" />
-            </a> */}
-          </div>
+                    <span className="hidden sm:inline-block border-l h-4 mx-2 border-gray-400" />
+
+        <div className="flex space-x-6">
+  {/* X / Twitter */}
+  <a
+    href="https://x.com/@numerobk"
+    aria-label="X (formerly Twitter)"
+    className="hover:text-gray-300"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <AiOutlineX className="w-5 h-5" />
+  </a>
+
+  {/* Instagram */}
+  <a
+    href="https://instagram.com/yourprofile"
+    aria-label="Instagram"
+    className="hover:text-pink-500"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaInstagram className="w-5 h-5" />
+  </a>
+
+  {/* TikTok */}
+  <a
+    href="https://tiktok.com/@yourprofile"
+    aria-label="TikTok"
+    className="hover:text-black dark:hover:text-white"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaTiktok className="w-5 h-5" />
+  </a>
+</div>
+
           <span className="hidden sm:inline-block border-l h-4 mx-2 border-gray-400" />
-          <div className="flex space-x-3 mt-2 sm:mt-0">
-            <span className="text-xs">Top Countries:</span>
-            <a href="/usa" className="hover:text-gray-300 text-xs">
-              USA
-            </a>
-            <a href="/ghana" className="hover:text-gray-300 text-xs">
-              Ghana
-            </a>
-            {/* <a href="/india" className="hover:text-gray-300 text-xs">
-              India
-            </a>
-            <a href="/india" className="hover:text-gray-300 text-xs">
-              Argintina
-            </a> */}
+
+          {/* Popular Countries */}
+          <div className="flex flex-wrap items-center gap-2 mt-2 sm:mt-0 text-xs max-w-sm sm:max-w-3xl">
+            <span className="font-semibold text-gray-500 dark:text-gray-400 w-full sm:w-auto">
+              Popular Countries:
+            </span>
+            {countries.map((country) => (
+              <a
+                key={country.href}
+                href={country.href}
+                className="hover:text-gray-300 text-xs"
+              >
+                {country.name}
+              </a>
+            ))}
           </div>
         </div>
       </div>
@@ -74,3 +133,4 @@ const Footer = () => {
 };
 
 export default Footer;
+Footer;

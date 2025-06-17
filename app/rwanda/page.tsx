@@ -1,37 +1,42 @@
 import Header from "components/Header";
+import LowestFeeExchangePage from "components/TopRwanda";
 import Footer from "components/Footer";
 import { Metadata } from 'next';
 import Script from 'next/script';
-import BuyCrypto from 'components/Rwandablog'
 
+// Metadata configuration
 export const metadata: Metadata = {
-  title: 'Buy Crypto with MTN Mobile Money Rwanda on Numerobook',
-  description: 'Learn how to buy crypto peer-to-peer using MTN Mobile Money Rwanda with Numerobook.',
-  keywords: ['mtn mobile money rwanda', 'mtn rwanda', 'momo'],
+  title: 'Crypto Exchange with Lowest Fees | Numerobook USA',
+  description:
+    'Discover how Numerobook offers the lowest crypto trading fees in the USA. Use our BTC calculator, cointracking tools, and bitcoin converter for smarter, cheaper trades.',
+  keywords: ['bitcoin converter', 'crypto calculator', 'Lowest Fee Crypto Exchange'],
+  authors: [{ name: 'Numerobook' }],
+  alternates: {
+    canonical: 'https://numerobook.com/usa',
+  },
   openGraph: {
-    title: 'Buy Crypto with MTN Mobile Money Rwanda on Numerobook',
-    description: 'Use Numerobook to buy crypto directly from locals in Rwanda using MTN Mobile Money.',
-    url: 'https://numerobook.com/rwanda',
+    title: 'Crypto Exchange with Lowest Fees | Numerobook USA',
+    description:
+      'Trade crypto with the lowest fees in the USA using Numerobook. Buy Bitcoin with 0% fees, sell for just 1%, and use tools like our BTC calculator and cointracking dashboard.',
+    url: 'https://numerobook.com/usa',
+    siteName: 'Numerobook',
     images: [
       {
-        url: 'https://numerobook.com/images/rwanda.jpg',
+        url: 'https://numerobook.com/images/OIG-19.jpg',
         width: 1200,
         height: 630,
-        alt: 'Buy Crypto Rwanda MTN Mobile Money',
+        alt: 'Lowest Fee Crypto Exchange USA',
       },
     ],
-    siteName: 'Numerobook',
-    locale: 'en_RW',
     type: 'website',
+    locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Buy Crypto with MTN Mobile Money Rwanda on Numerobook',
-    description: 'Numerobook lets you trade crypto directly using MTN Mobile Money Rwanda.',
-    images: ['https://numerobook.com/images/rwanda.jpg'],
-  },
-  alternates: {
-    canonical: 'https://numerobook.com/rwanda',
+    title: 'Crypto Exchange with Lowest Fees | Numerobook USA',
+    description:
+      'Trade crypto with the lowest fees in the USA using Numerobook. Tools like BTC calculator, cointracking, and more.',
+    images: ['/images/blog/pexels-ramilugot-3217363.jpg"'],
   },
   robots: {
     index: true,
@@ -39,9 +44,9 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RwandaBuyCryptoPage() {
+export default function Page() {
   return (
-    <>
+    <div className="flex flex-col min-h-screen bg-white dark:bg-black">
       <Script
         id="breadcrumb-jsonld"
         type="application/ld+json"
@@ -55,35 +60,25 @@ export default function RwandaBuyCryptoPage() {
                 '@type': 'ListItem',
                 position: 1,
                 name: 'Home',
-                item: 'https://numerobook.com',
+                item: 'https://grandeapp.com',
 
               },
               {
                 '@type': 'ListItem',
                 position: 2,
-                name: 'Buy Crypto Rwanda',
-                item: 'https://numerobook.com/rwanda',
+                name: 'Top USA Crypto Exchange',
+                item: 'https://grandeapp.com/mexico',
               },
             ],
           }),
         }}
       />
-  
-    <div className="flex flex-col min-h-screen bg-white dark:bg-black">
       <Header />
-      <main>
-        {/* <Hero /> */}
-      
-        <BuyCrypto/>
-        {/* <Reviews />
-        <Download /> */}
+      <main className="flex-1 py-8 px-4">
+       
+        <LowestFeeExchangePage />
       </main>
       <Footer />
     </div>
   );
-
-    </>
-  );
 }
-
-

@@ -1,6 +1,8 @@
 import { getBlogBySlug } from "lib/blogs";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import Image from 'next/image';
+
 
 export async function generateMetadata({
   params,

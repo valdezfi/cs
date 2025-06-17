@@ -1,5 +1,5 @@
 import Header from "components/Header";
-import LowestFeeExchangePage from "components/TopUSA";
+import LowestFeeExchangePage from "components/TopKawait";
 import Footer from "components/Footer";
 import { Metadata } from 'next';
 import Script from 'next/script';
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   keywords: ['bitcoin converter', 'crypto calculator', 'Lowest Fee Crypto Exchange'],
   authors: [{ name: 'Numerobook' }],
   alternates: {
-    canonical: 'https://numerobook.com/usa',
+    canonical: 'https://numerobook.com/paraguay',
   },
   openGraph: {
     title: 'Crypto Exchange with Lowest Fees | Numerobook USA',
@@ -60,14 +60,14 @@ export default function Page() {
                 '@type': 'ListItem',
                 position: 1,
                 name: 'Home',
-                item: 'https://numerobook.com',
+                item: 'https://grandeapp.com',
 
               },
               {
                 '@type': 'ListItem',
                 position: 2,
                 name: 'Top USA Crypto Exchange',
-                item: 'https://numerobook.com/usa',
+                item: 'https://grandeapp.com/paraguay',
               },
             ],
           }),
@@ -75,9 +75,7 @@ export default function Page() {
       />
       <Header />
       <main className="flex-1 py-8 px-4">
-        <h1 className="text-3xl font-bold text-center text-black dark:text-white mb-8">
-          Crypto Exchange with the Lowest Fees in the USA
-        </h1>
+       
         <LowestFeeExchangePage />
       </main>
       <Footer />
