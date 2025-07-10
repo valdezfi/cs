@@ -8,12 +8,12 @@ import UGCplatformsBlog from "./blogs/UGCplatforms"
 import B2bBlog from "./blogs/B2b"
 import FamousBlog from "./blogs/Famous"
 import lamejorBlog from "./blogs/lamejor"
-import NanoBlog from "./blogs/nanoinfluencers"
+import NanoBlog from "./blogs/nanoInfluencers"
 import MicroMacroBlog from "./blogs/MicroMacro"
 import AffiliateMarketingBlog from "./blogs/AffiliateMarketing"
 import InfluencerCollablog from "./blogs/InfluencerCollab"
 import IgBlog from "./blogs/Ig"
-import MacroBlog from "./blogs/macro"
+import MacroBlog from "./blogs/Macro"
 
 
 
