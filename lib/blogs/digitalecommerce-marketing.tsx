@@ -124,7 +124,7 @@ const digitalecommerceBlog = {
 
 
 `,
-  author: "Numerobook Editorial Team",
+  author: "Grandeapp Editorial Team",
   date: "2025-04-25T00:00:00.000Z",
  
 

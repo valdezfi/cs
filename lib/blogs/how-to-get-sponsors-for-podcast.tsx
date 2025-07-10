@@ -1,6 +1,6 @@
 const PodcastPartnershipBlog = {
   slug: "podcast-partnership",
-  title: "How To Secure Brand Partnership For Podcast?",
+  title: "How To Get Sponsors For Podcast?",
   snippet: "Podcasting is booming, and whether you’re covering podcast news, conducting podcast interviews, or recording from your bedroom with a budget podcast microphone, there’s one question on every podcaster’s mind: How to get sponsors for podcast shows?",
   imageUrl: "/images/blog/podcast.jpg",
   imageAlt: "Podcast Brand Partnership",
@@ -231,53 +231,47 @@ const PodcastPartnershipBlog = {
 
 
 `,
-  author: "Numerobook Editorial Team",
+  author: "grandeapp Editorial Team",
   date: "2025-04-25T00:00:00.000Z",
  
 
 
   meta: {
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "How To Get Sponsors For Podcast?",
     description:
-      "Discover the best stablecoins like USDT, USDC, PYUSD, and how they are reshaping global finance in 2025.",
-    keywords: [
-      "best stablecoin",
-      "stablecoin price",
-      "Fiat-Backed Stablecoins",
-      "list of stablecoins",
-      "stablecoin exchange",
-      "most stable currency",
-      "fiat backed stablecoins",
-      "fiat backed stablecoin",
+"Podcasting is booming, and whether you’re covering podcast news, conducting podcast interviews, or recording from your bedroom with a budget podcast microphone, there’s one question on every podcaster’s mind: How to get sponsors for podcast shows?",    keywords: [
+     "podcast music", "podcast news", 
+     "kids podcast", "podcast books", "podcast network", "podcast money", "podcast interviews",
+      "podcast microphone", "how to start a podcast", "best financial podcasts", "investing podcasts", 
+      "finance podcast, economics podcasts", "podcast advertising", "podcast sponsors", "podcast sponsorship", 
+      "podcast advertising rates"
     ],
-    ogImage: "/images/blog/Fiat-Backed-Stablecoins.png",
+    ogImage: "grandeapp.com/images/blog/podcast.jpg",
   },
 
   alternates: {
-    canonical: "https://www.numerobook.com/blog/best-fiat-backed-stablecoins-2025",
+    canonical: "https://grandeapp.com//blog/podcast-partnership",
   },
 
   openGraph: {
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "How To Get Sponsors For Podcast?",
     description:
-      "Explore top fiat-backed stablecoins like USDC, USDT, and PYUSD, and their impact on crypto and global markets.",
-    url: "https://www.numerobook.com/blog/best-fiat-backed-stablecoins-2025",
+"Podcasting is booming, and whether you’re covering podcast news, conducting podcast interviews, or recording from your bedroom with a budget podcast microphone, there’s one question on every podcaster’s mind: How to get sponsors for podcast shows?",    url: "https://grandeapp.com/blog/podcast-partnership",
     images: [
       {
-        url: "https://www.numerobook.com/images/ugc.png",
+        url: "https://grandeapp.com/images/blog/podcast.jpg",
         width: 1200,
         height: 630,
-        alt: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+        alt: "How To Get Sponsors For Podcast?",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "How To Get Sponsors For Podcast?",
     description:
-      "Discover the most trusted fiat-backed stablecoins for crypto trading and investing in 2025.",
-    images: ["https://www.numerobook.com/images/blog/Fiat-Backed-Stablecoins.png"],
+"Podcasting is booming, and whether you’re covering podcast news, conducting podcast interviews, or recording from your bedroom with a budget podcast microphone, there’s one question on every podcaster’s mind: How to get sponsors for podcast shows?",    images: ["https://grandeapp.com/images/blog/podcast.jpg"],
   },
 
   robots: {
