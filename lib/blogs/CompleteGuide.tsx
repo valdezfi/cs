@@ -187,8 +187,8 @@ const digitalecommerceBlog = {
 "Social media content stands as an instrumental tool which drives brand expansion in the year 2025. Withdrawal from modern society requires companies to develop exciting diverse content to maintain their position in this environment. Brands which neglect to adapt will probably lose their audience because the market constantly fights for viewership.",
 
 keywords: [
-      "Content Marketing Strategy",
-      "content marketing "
+      "UGC Creator",
+      "ugc "
   
     ],
     ogImage: "https://grandeapp.com/images/blog/what-is-a-ugc-creator.jpg",
