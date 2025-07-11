@@ -149,10 +149,13 @@ const FamousBlog = {
 
 
   meta: {
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "Influencers Famosos vs. Influencers",
     description:
-      "Discover the best stablecoins like USDT, USDC, PYUSD, and how they are reshaping global finance in 2025.",
-    keywords: [
+"En el mundo del marketing digital, el término “influencer” ha adquirido un gran peso. Ya no es solo una palabra de moda, sino una herramienta clave en las estrategias de marketing de marcas de todos los tamaños. Pero, al profundizar en el marketing de influencers, nos encontramos con dos categorías prominentes que a menudo se confunden: influencers famosos y influencers de redes sociales.", 
+
+
+
+keywords: [
       "best stablecoin",
       "stablecoin price",
       "Fiat-Backed Stablecoins",
@@ -162,21 +165,23 @@ const FamousBlog = {
       "fiat backed stablecoins",
       "fiat backed stablecoin",
     ],
-    ogImage: "/images/blog/Fiat-Backed-Stablecoins.png",
+    ogImage: "https://grandeapp.com/images/blog/famous.jpg",
   },
 
   alternates: {
-    canonical: "https://www.numerobook.com/blog/best-fiat-backed-stablecoins-2025",
+    canonical: "https://grandeapp.com/blog/famouscreator",
   },
 
   openGraph: {
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "Influencers Famosos vs. Influencers",
     description:
-      "Explore top fiat-backed stablecoins like USDC, USDT, and PYUSD, and their impact on crypto and global markets.",
-    url: "https://www.numerobook.com/blog/best-fiat-backed-stablecoins-2025",
+"En el mundo del marketing digital, el término “influencer” ha adquirido un gran peso. Ya no es solo una palabra de moda, sino una herramienta clave en las estrategias de marketing de marcas de todos los tamaños. Pero, al profundizar en el marketing de influencers, nos encontramos con dos categorías prominentes que a menudo se confunden: influencers famosos y influencers de redes sociales.",
+
+
+url: "https://grandeapp.com/blog/famouscreator",
     images: [
       {
-        url: "https://www.numerobook.com/images/ugc.png",
+        url: "https://grandeapp.com/images/blog/famous.jpg",
         width: 1200,
         height: 630,
         alt: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
@@ -186,11 +191,16 @@ const FamousBlog = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "Influencers Famosos vs. Influencers",
     description:
-      "Discover the most trusted fiat-backed stablecoins for crypto trading and investing in 2025.",
-    images: ["https://www.numerobook.com/images/blog/Fiat-Backed-Stablecoins.png"],
-  },
+"En el mundo del marketing digital, el término “influencer” ha adquirido un gran peso. Ya no es solo una palabra de moda, sino una herramienta clave en las estrategias de marketing de marcas de todos los tamaños. Pero, al profundizar en el marketing de influencers, nos encontramos con dos categorías prominentes que a menudo se confunden: influencers famosos y influencers de redes sociales.",   
+
+
+
+images: ["https://grandeapp.com/images/blog/famous.jpg"],
+ 
+
+},
 
   robots: {
     index: true,
