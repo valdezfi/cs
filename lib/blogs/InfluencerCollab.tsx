@@ -189,11 +189,11 @@ keywords: [
 
    
     ],
-    ogImage: "https://grandeapp.com//images/blog/Fiat-Backed-Stablecoins.png",
+    ogImage: "https://grandeapp.com/images/blog/collabo.jpg",
   },
 
   alternates: {
-    canonical: "https://grandeapp.com/blog/best-fiat-backed-stablecoins-2025",
+    canonical: "https://grandeapp.com/blog/influencercollab",
   },
 
   openGraph: {
@@ -201,13 +201,13 @@ keywords: [
     description:
 "Brands need innovative strategies to excel in influencer marketing during the year 2025. The traditional model of brand sponsorship no longer satisfies current consumers since they want genuine manufacturer-influencer partnerships which generate active interest.",
 
-url: "https://grandeapp.com/blog/best-fiat-backed-stablecoins-2025",
+url: "https://grandeapp.com/blog/influencercollab",
     images: [
       {
-        url: "https://grandeapp.com/images/ugc.png",
+        url: "https://grandeapp.com/images/blog/collabo.jpg",
         width: 1200,
         height: 630,
-        alt: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+        alt: "influencercollab",
       },
     ],
   },
@@ -217,7 +217,7 @@ url: "https://grandeapp.com/blog/best-fiat-backed-stablecoins-2025",
     title: "Influencer Collaboration: 2025 (With Examples)",
     description:
 "Brands need innovative strategies to excel in influencer marketing during the year 2025. The traditional model of brand sponsorship no longer satisfies current consumers since they want genuine manufacturer-influencer partnerships which generate active interest.",
-    images: ["https://grandeapp.com/images/blog/Fiat-Backed-Stablecoins.png"],
+    images: ["https://grandeapp.com/images/blog/collabo.jpg"],
   },
 
   robots: {
