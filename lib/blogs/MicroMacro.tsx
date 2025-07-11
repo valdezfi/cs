@@ -82,8 +82,8 @@ const MicroMacroBlog = {
     <h2>Macroinfluencers: Alcance masivo y reconocimiento global</h2>
 
   <ul>
-    <li><a href="#microinfluencers">Microinfluencers: Nichos estratégicos y autoridad</a></li>
-    <li><a href="#cual-elegir">¿Cuál elegir?</a></li>
+    <li><a href="https://grandeapp.com/">Microinfluencers: Nichos estratégicos y autoridad</a></li>
+    <li><a href="https://app.grandeapp.com/">¿Cuál elegir?</a></li>
     <li><a href="#autenticidad">La importancia de la autenticidad</a></li>
     <li><a href="#conclusion">Conclusión: Encuentra lo que mejor se adapta a tu marca</a></li>
   </ul>
