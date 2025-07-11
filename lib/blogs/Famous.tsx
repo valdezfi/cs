@@ -157,14 +157,8 @@ const FamousBlog = {
 
 
 keywords: [
-      "best stablecoin",
-      "stablecoin price",
-      "Fiat-Backed Stablecoins",
-      "list of stablecoins",
-      "stablecoin exchange",
-      "most stable currency",
-      "fiat backed stablecoins",
-      "fiat backed stablecoin",
+      "Influencers Famosos",
+     
     ],
     ogImage: "https://grandeapp.com/images/blog/famous.jpg",
   },
