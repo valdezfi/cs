@@ -154,53 +154,50 @@ const MicroMacroBlog = {
 
 
 `,
-  author: "Numerobook Editorial Team",
+  author: "grandeapp Editorial Team",
   date: "2025-04-25T00:00:00.000Z",
  
 
 
   meta: {
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "Micro vs Macro Influencers: ¿Cuál es el adecuado para tu marca?",
     description:
-      "Discover the best stablecoins like USDT, USDC, PYUSD, and how they are reshaping global finance in 2025.",
-    keywords: [
-      "best stablecoin",
-      "stablecoin price",
-      "Fiat-Backed Stablecoins",
-      "list of stablecoins",
-      "stablecoin exchange",
-      "most stable currency",
-      "fiat backed stablecoins",
-      "fiat backed stablecoin",
+"El marketing de influencers ha evolucionado de manera significativa en los últimos años, y uno de los segmentos que ha ganado más fuerza es el de los nanoinfluencers. A medida que las marcas buscan formas más auténticas y económicas de conectar con su audiencia, los nanoinfluencers se han convertido en una opción atractiva para campañas de marketing. Pero, ¿quiénes son realmente los nanoinfluencers y por qué están ganando tanta popularidad? Vamos a profundizar en ello.",
+
+keywords: [
+    "Micro vs Macro Influencers",
+    "marketing de influencers"
     ],
-    ogImage: "/images/blog/Fiat-Backed-Stablecoins.png",
+    ogImage: "https://grandeapp.com/images/blog/microvsmacro.jpg",
   },
 
   alternates: {
-    canonical: "https://www.numerobook.com/blog/best-fiat-backed-stablecoins-2025",
+    canonical: "https://grandeapp.com/blog/microvsmacro",
   },
 
   openGraph: {
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "Micro vs Macro Influencers: ¿Cuál es el adecuado para tu marca?",
     description:
-      "Explore top fiat-backed stablecoins like USDC, USDT, and PYUSD, and their impact on crypto and global markets.",
-    url: "https://www.numerobook.com/blog/best-fiat-backed-stablecoins-2025",
+"El marketing de influencers ha evolucionado de manera significativa en los últimos años, y uno de los segmentos que ha ganado más fuerza es el de los nanoinfluencers. A medida que las marcas buscan formas más auténticas y económicas de conectar con su audiencia, los nanoinfluencers se han convertido en una opción atractiva para campañas de marketing. Pero, ¿quiénes son realmente los nanoinfluencers y por qué están ganando tanta popularidad? Vamos a profundizar en ello.",
+
+url: "https://grandeapp.com/blog/microvsmacro",
     images: [
       {
-        url: "https://www.numerobook.com/images/ugc.png",
+        url: "https://grandeapp.com/images/blog/microvsmacro.jpg",
         width: 1200,
         height: 630,
-        alt: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+        alt: "Micro vs Macro Influencers: ¿Cuál es el adecuado para tu marca?",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "Micro vs Macro Influencers: ¿Cuál es el adecuado para tu marca?",
     description:
-      "Discover the most trusted fiat-backed stablecoins for crypto trading and investing in 2025.",
-    images: ["https://www.numerobook.com/images/blog/Fiat-Backed-Stablecoins.png"],
+"El marketing de influencers ha evolucionado de manera significativa en los últimos años, y uno de los segmentos que ha ganado más fuerza es el de los nanoinfluencers. A medida que las marcas buscan formas más auténticas y económicas de conectar con su audiencia, los nanoinfluencers se han convertido en una opción atractiva para campañas de marketing. Pero, ¿quiénes son realmente los nanoinfluencers y por qué están ganando tanta popularidad? Vamos a profundizar en ello.",
+
+images: ["https://grandeapp.com/images/blog/microvsmacro.jpg"],
   },
 
   robots: {
