@@ -175,53 +175,47 @@ const InfluencerAgencyBlog = {
 
 
 `,
-  author: "Numerobook Editorial Team",
+  author: "GrandeApp Editorial Team",
   date: "2025-04-25T00:00:00.000Z",
  
 
 
   meta: {
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "How to Find Instagram Influencers & Influencer Agency",
     description:
-      "Discover the best stablecoins like USDT, USDC, PYUSD, and how they are reshaping global finance in 2025.",
+       "In the age of digital storytelling, influencer marketing continues to drive massive results for brands. But for many businesses, the question remains: how do you find Instagram influencers that align with your brand’s identity and convert followers into customers?",
     keywords: [
-      "best stablecoin",
-      "stablecoin price",
-      "Fiat-Backed Stablecoins",
-      "list of stablecoins",
-      "stablecoin exchange",
-      "most stable currency",
-      "fiat backed stablecoins",
-      "fiat backed stablecoin",
+      "influencer agency",
+      "How to Find Instagram Influencers"
     ],
-    ogImage: "/images/blog/Fiat-Backed-Stablecoins.png",
+    ogImage: "https://grandeapp.com/images/blog/influenceragency.jpg",
   },
 
   alternates: {
-    canonical: "https://www.numerobook.com/blog/best-fiat-backed-stablecoins-2025",
+    canonical: "https://grandeapp.com/blog/agencyinfleuncer",
   },
 
   openGraph: {
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "How to Find Instagram Influencers & Influencer Agency",
     description:
-      "Explore top fiat-backed stablecoins like USDC, USDT, and PYUSD, and their impact on crypto and global markets.",
-    url: "https://www.numerobook.com/blog/best-fiat-backed-stablecoins-2025",
+       "In the age of digital storytelling, influencer marketing continues to drive massive results for brands. But for many businesses, the question remains: how do you find Instagram influencers that align with your brand’s identity and convert followers into customers?",
+    url: "https://grandeapp.com/blog/agencyinfleuncer",
     images: [
       {
-        url: "https://www.numerobook.com/images/ugc.png",
+        url: "https://grandeapp.com/images/blog/influenceragency.jpg",
         width: 1200,
         height: 630,
-        alt: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+        alt: "How to Find Instagram Influencers",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "How to Find Instagram Influencers & Influencer Agency",
     description:
-      "Discover the most trusted fiat-backed stablecoins for crypto trading and investing in 2025.",
-    images: ["https://www.numerobook.com/images/blog/Fiat-Backed-Stablecoins.png"],
+       "In the age of digital storytelling, influencer marketing continues to drive massive results for brands. But for many businesses, the question remains: how do you find Instagram influencers that align with your brand’s identity and convert followers into customers?",
+    images: ["https://grandeapp.com/images/blog/influenceragency.jpg"],
   },
 
   robots: {
