@@ -105,7 +105,8 @@ const B2bBlog = {
   <p>Cada plataforma tiene su propio estilo y ventaja cuando hablamos de educación para empresas:</p>
 
   <ul>
-    <li>🔹 <strong>TikTok:</strong> Perfecto para contenido rápido y directo. Aquí puedes aprender cómo mejorar la rotación de inventario, atraer clientes o automatizar procesos en menos de un minuto.</li>
+    <li>🔹 <strong><a href="https://tiktok.com">TikTok</a>
+:</strong> Perfecto para contenido rápido y directo. Aquí puedes aprender cómo mejorar la rotación de inventario, atraer clientes o automatizar procesos en menos de un minuto.</li>
     <li>🔹 <strong>YouTube:</strong> La mejor opción para explicaciones detalladas. Los expertos pueden compartir tutoriales completos, análisis de mercado y estrategias paso a paso para optimizar negocios.</li>
     <li>🔹 <strong>Instagram:</strong> Gran herramienta para contenido visual y fácil de compartir. Aquí puedes encontrar infografías, videos cortos y estrategias de ventas explicadas en carruseles.</li>
   </ul>
@@ -186,60 +187,56 @@ const B2bBlog = {
 
   <p>El marketing de influencia B2B ha cambiado la forma en que los negocios aprenden, crecen y toman decisiones. Plataformas como TikTok, YouTube e Instagram han democratizado el acceso a conocimientos valiosos, permitiendo que expertos ayuden a miles de empresas a mejorar su desempeño.</p>
 
-  <p>Si quieres encontrar los mejores influencers B2B y hacer crecer tu negocio, en <a href="http://GrandeApp.com" target="_blank">GrandeApp.com</a> te ayudamos a conectar con los expertos adecuados. 🚀</p>
+  <p>Si quieres encontrar los mejores influencers B2B y hacer crecer tu negocio, en <a href="http://app.GrandeApp.com" target="_blank">GrandeApp.com</a> te ayudamos a conectar con los expertos adecuados. 🚀</p>
 
 </body>
 </html>
 
 
 `,
-  author: "Numerobook Editorial Team",
+  author: "grandeapp Editorial Team",
   date: "2025-04-25T00:00:00.000Z",
  
 
 
   meta: {
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "Cómo La redes sociales están Cambiando Marketing B2B?!",
     description:
-      "Discover the best stablecoins like USDT, USDC, PYUSD, and how they are reshaping global finance in 2025.",
-    keywords: [
-      "best stablecoin",
-      "stablecoin price",
-      "Fiat-Backed Stablecoins",
-      "list of stablecoins",
-      "stablecoin exchange",
-      "most stable currency",
-      "fiat backed stablecoins",
-      "fiat backed stablecoin",
+"Cuando pensamos en influencers, es fácil imaginar a personas promocionando ropa, gadgets o productos de belleza. Pero hay un mundo completamente diferente en el marketing de influencia que está ganando fuerza: el marketing de influencia B2B.",   
+
+
+
+keywords: [
+ 
     ],
-    ogImage: "/images/blog/Fiat-Backed-Stablecoins.png",
+    ogImage: "https://grandeapp.com/images/blog/b2b.jpg",
   },
 
   alternates: {
-    canonical: "https://www.numerobook.com/blog/best-fiat-backed-stablecoins-2025",
+    canonical: "https://grandeapp.com/blog/b2b",
   },
 
   openGraph: {
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "Cómo La redes sociales están Cambiando Marketing B2B?!",
     description:
-      "Explore top fiat-backed stablecoins like USDC, USDT, and PYUSD, and their impact on crypto and global markets.",
-    url: "https://www.numerobook.com/blog/best-fiat-backed-stablecoins-2025",
+"Cuando pensamos en influencers, es fácil imaginar a personas promocionando ropa, gadgets o productos de belleza. Pero hay un mundo completamente diferente en el marketing de influencia que está ganando fuerza: el marketing de influencia B2B.",   
+    url: "https://grandeapp.com//blog/b2b",
     images: [
       {
-        url: "https://www.numerobook.com/images/ugc.png",
+        url: "https://grandeapp.com//images/blog/b2b.jpg",
         width: 1200,
         height: 630,
-        alt: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+        alt: "Cómo La redes sociales están Cambiando Marketing B2B?!",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "Cómo La redes sociales están Cambiando Marketing B2B?!",
     description:
-      "Discover the most trusted fiat-backed stablecoins for crypto trading and investing in 2025.",
-    images: ["https://www.numerobook.com/images/blog/Fiat-Backed-Stablecoins.png"],
+"Cuando pensamos en influencers, es fácil imaginar a personas promocionando ropa, gadgets o productos de belleza. Pero hay un mundo completamente diferente en el marketing de influencia que está ganando fuerza: el marketing de influencia B2B.",   
+    images: ["https://grandeapp.com/images/blog/b2b.jpg"],
   },
 
   robots: {
