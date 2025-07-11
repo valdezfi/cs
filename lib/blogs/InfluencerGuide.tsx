@@ -1,4 +1,4 @@
-const BrandDealBlog = {
+const influencerbrandsBlog = {
   slug: "influencerbrands",
   title: "Brand Deals for Influencers Worldwide",
   snippet: "In the dynamic world of social media, influencers have become powerful voices capable of shaping opinions, driving trends, and fueling business growth. With audiences ranging from a few thousand to millions, influencers are now essential players in global marketing strategies. One of the most lucrative opportunities available to them is the ability to land brand deals for influencers, which can transform a hobby or passion into a full-time career.",
@@ -192,4 +192,4 @@ keywords: [
 
 
   
-export default BrandDealBlog;
+export default influencerbrandsBlog;

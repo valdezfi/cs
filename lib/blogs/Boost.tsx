@@ -1,4 +1,4 @@
-const digitalecommerceBlog = {
+const BoostBlog = {
   slug: "what-is-social-proof",
   title: "What is social proof? A Complete Guide to Boosting Trust and Sales",
   snippet: "Social proof also becomes one of the key marketing strategies in today’s world. It deals with the tendency of people to emulate the actions and behaviors of other people in volatile environments. In marketing, social proof serves the purpose of establishing trust, improving the overall credibility of selling, and finally increasing the sale. This blog post is focused on discussing what social proof is, the types of social proof, and how businesses can leverage the concept.",
@@ -248,4 +248,4 @@ images: [
 
 
   
-export default digitalecommerceBlog;
+export default BoostBlog;

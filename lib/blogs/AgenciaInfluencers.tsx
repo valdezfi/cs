@@ -1,5 +1,5 @@
 const agencylatamBlog = {
-  slug: " marca",
+  slug: "marca",
   title: "Agencia De Influencers Y Marca en LATAM",
   snippet: "En el ecosistema digital actual, la colaboración entre marcas e influencers ya no es solo una opción, sino una necesidad. Las redes sociales, especialmente Instagram y TikTok, se han convertido en canales clave para conectar con audiencias específicas y generar confianza. Pero ¿cómo puede una pequeña agencia de influencers en LATAM competir con grandes firmas globales? ¿Y cómo pueden las marcas locales aprovechar el poder de las redes para posicionarse globalmente?",
   imageUrl: "/images/blog/agencylatam.jpg",

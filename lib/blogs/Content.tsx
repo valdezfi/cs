@@ -1,4 +1,4 @@
-const digitalecommerceBlog = {
+const popularBlog = {
   slug: "12-popular",
   title: "12 Popular Types of Social Media Content to Grow Your Brand in 2025",
   snippet: "Social media content stands as an instrumental tool which drives brand expansion in the year 2025. Withdrawal from modern society requires companies to develop exciting diverse content to maintain their position in this environment. Brands which neglect to adapt will probably lose their audience because the market constantly fights for viewership.",
@@ -309,4 +309,4 @@ images: ["https://grandeapp.com/images/blog/content.jpg"],
 
 
   
-export default digitalecommerceBlog;
+export default popularBlog;

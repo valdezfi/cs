@@ -21,8 +21,42 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "usa",
     "forgotpassword",
     "cryptocalculator",
-    "blog",
     "whalebot",
+    "blog/affiliatemarketing",
+    "blog/marca",
+    "blog/b2b",
+    "blog/what-is-social-proof",
+    "blog/what-is-a-ugc-creator",
+    "blog/what-is-a-digital-creator",
+    "blog/digitalecommerce-marketing",
+    "blog/famouscreator",
+    "blog/famouscreator",
+    "blog/find-influencers-for-free",
+        "blog/ig",
+"blog/podcast-partnership",
+"blog/agencyinfleuncer",
+"blog/influencercollab",
+"blog/influencerbrands",
+"blog/brand-deals-for-influencers-worldwide",
+"blog/lamejor",
+"blog/macrogrowth",
+"blog/microvsmacro",
+"blog/nanoinfluencers",
+"blog/ugcplatforms",
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
 
   ];
 

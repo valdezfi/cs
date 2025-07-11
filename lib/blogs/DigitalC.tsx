@@ -1,4 +1,4 @@
-const digitalecommerceBlog = {
+const digitalcreatorBlog = {
   slug: "what-is-a-digital-creator",
   title: "What Is a Digital Creator? Learn Everything About Digital Creators from this Guide",
   snippet: "Through digital media, content creators are changing how people interact with knowledge and fun while helping to build our digital future. Through social media and their online work, digital creators deliver most of the content people view every day. This guide explains every part of the digital creator path if you want to learn what digital creators do and how to join their field.",
@@ -207,4 +207,4 @@ images: ["https://grandeapp.com/images/blog/what-is-a-digital-creator.jpg"],
 
 
   
-export default digitalecommerceBlog;
+export default digitalcreatorBlog;

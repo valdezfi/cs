@@ -1,4 +1,4 @@
-const digitalecommerceBlog = {
+const UGCCreatoreBlog = {
   slug: "what-is-a-ugc-creator",
   title: "The Complete Guide to Becoming a UGC Creator",
   snippet: "Social media content stands as an instrumental tool which drives brand expansion in the year 2025. Withdrawal from modern society requires companies to develop exciting diverse content to maintain their position in this environment. Brands which neglect to adapt will probably lose their audience because the market constantly fights for viewership.",
@@ -230,4 +230,4 @@ images: ["https://grandeapp.com/images/blog/what-is-a-ugc-creator.jpg"],
 
 
   
-export default digitalecommerceBlog;
+export default UGCCreatoreBlog;
