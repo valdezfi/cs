@@ -209,14 +209,14 @@ const MacroBlog = {
   },
 
   alternates: {
-    canonical: "https://grandeapp.com/images/blog/macro.jpg",
+    canonical: "https://grandeapp.com/blog/macrogrowth",
   },
 
   openGraph: {
     title: "Macro Influencers: Brand Growth in 2025",
     description:
 "The year 2025 advances influencer marketing strategies by allowing brands to use different influencer categories to extend their promotion reach. The space between micro and celebrity influencers gets connected by macro influencers who serve as important players in this realm. The substantial follower bases of these content creators span from 100,000 to 1 million followers that enable businesses to reach broad but select audiences.",
-    url: "https://grandeapp.com/images/blog/macro.jpg",
+    url: "https://grandeapp.com/blog/macrogrowth",
     images: [
       {
         url: "https://grandeapp.com/images/blog/macro.jpg",
