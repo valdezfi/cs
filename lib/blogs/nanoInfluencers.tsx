@@ -82,8 +82,8 @@ const NanoBlog = {
       <h2>¿Qué son los nanoinfluencers?</h2>
 
     <ul>
-      <li><a href="#popularidad">¿Por qué están ganando popularidad?</a></li>
-      <li><a href="#dificultades">Dificultades al gestionar una campaña con nanoinfluencers</a></li>
+      <li><a href="https://app.grandeapp.com">¿Por qué están ganando popularidad?</a></li>
+      <li><a href="https://grandeapp.com">Dificultades al gestionar una campaña con nanoinfluencers</a></li>
       <li><a href="#conclusion">Conclusión: ¿Vale la pena trabajar con nanoinfluencers?</a></li>
     </ul>
 
@@ -125,53 +125,47 @@ const NanoBlog = {
 
 
 `,
-  author: "Numerobook Editorial Team",
+  author: "grandeapp Editorial Team",
   date: "2025-04-25T00:00:00.000Z",
  
 
 
   meta: {
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "¿Qué son los nanoinfluencers? ¿Por qué están ganando popularidad?",
     description:
-      "Discover the best stablecoins like USDT, USDC, PYUSD, and how they are reshaping global finance in 2025.",
+      "El marketing de influencers ha evolucionado de manera significativa en los últimos años, y uno de los segmentos que ha ganado más fuerza es el de los nanoinfluencers. A medida que las marcas buscan formas más auténticas y económicas de conectar con su audiencia, los nanoinfluencers se han convertido en una opción atractiva para campañas de marketing. Pero, ¿quiénes son realmente los nanoinfluencers y por qué están ganando tanta popularidad? Vamos a profundizar en ello.",
     keywords: [
-      "best stablecoin",
-      "stablecoin price",
-      "Fiat-Backed Stablecoins",
-      "list of stablecoins",
-      "stablecoin exchange",
-      "most stable currency",
-      "fiat backed stablecoins",
-      "fiat backed stablecoin",
+      "nanoinfluencers",
+      
     ],
-    ogImage: "/images/blog/Fiat-Backed-Stablecoins.png",
+    ogImage: "https://grandeapp.com/images/blog/nano.jpg",
   },
 
   alternates: {
-    canonical: "https://www.numerobook.com/blog/best-fiat-backed-stablecoins-2025",
+    canonical: "https://grandeapp.com//blog/nanoinfluencers",
   },
 
   openGraph: {
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "¿Qué son los nanoinfluencers? ¿Por qué están ganando popularidad?",
     description:
-      "Explore top fiat-backed stablecoins like USDC, USDT, and PYUSD, and their impact on crypto and global markets.",
-    url: "https://www.numerobook.com/blog/best-fiat-backed-stablecoins-2025",
+      "El marketing de influencers ha evolucionado de manera significativa en los últimos años, y uno de los segmentos que ha ganado más fuerza es el de los nanoinfluencers. A medida que las marcas buscan formas más auténticas y económicas de conectar con su audiencia, los nanoinfluencers se han convertido en una opción atractiva para campañas de marketing. Pero, ¿quiénes son realmente los nanoinfluencers y por qué están ganando tanta popularidad? Vamos a profundizar en ello.",
+    url: "https://grandeapp.com//blog/nanoinfluencers",
     images: [
       {
-        url: "https://www.numerobook.com/images/ugc.png",
+        url: "https://grandeapp.com/images/blog/nano.jpg",
         width: 1200,
         height: 630,
-        alt: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+        alt: "nanoinfluencers",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "¿Qué son los nanoinfluencers? ¿Por qué están ganando popularidad?",
     description:
-      "Discover the most trusted fiat-backed stablecoins for crypto trading and investing in 2025.",
-    images: ["https://www.numerobook.com/images/blog/Fiat-Backed-Stablecoins.png"],
+      "El marketing de influencers ha evolucionado de manera significativa en los últimos años, y uno de los segmentos que ha ganado más fuerza es el de los nanoinfluencers. A medida que las marcas buscan formas más auténticas y económicas de conectar con su audiencia, los nanoinfluencers se han convertido en una opción atractiva para campañas de marketing. Pero, ¿quiénes son realmente los nanoinfluencers y por qué están ganando tanta popularidad? Vamos a profundizar en ello.",
+    images: ["https://grandeapp.com/images/blog/nano.jpg"],
   },
 
   robots: {
