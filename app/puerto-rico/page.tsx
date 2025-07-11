@@ -1,47 +1,59 @@
 import Header from "components/Header";
 import LowestFeeExchangePage from "components/TopPR";
 import Footer from "components/Footer";
-import { Metadata } from 'next';
 import Script from 'next/script';
 
 // Metadata configuration
+import { Metadata } from "next";
+
 export const metadata: Metadata = {
-  title: 'Crypto Exchange with Lowest Fees | Numerobook USA',
+  title: "Grande: Plataforma Líder de Marketing de Influencers en Puerto Rico",
   description:
-    'Discover how Numerobook offers the lowest crypto trading fees in the USA. Use our BTC calculator, cointracking tools, and bitcoin converter for smarter, cheaper trades.',
-  keywords: ['bitcoin converter', 'crypto calculator', 'Lowest Fee Crypto Exchange'],
-  authors: [{ name: 'Numerobook' }],
-  alternates: {
-    canonical: 'https://numerobook.com/paraguay',
-  },
+    "Influencers, Podcasts y Contenido UGC en Puerto Rico – Grande",
+  authors: [{ name: "Grandeapp Editorial Team" }],
+  keywords: [
+    "Digital Ecommerce Marketing",
+    "e-commerce marketing manager",
+    "ecommerce marketing tools",
+    "e-commerce marketing agency",
+    "e-commerce marketing and advertising",
+    "e-commerce marketing services",
+    "shopping influencers",
+    "content creation",
+    "brand marketing",
+"Influencers en Puerto Rico"
+  ],
   openGraph: {
-    title: 'Crypto Exchange with Lowest Fees | Numerobook USA',
+    title: "Influencers, Podcasts y Contenido UGC en Puerto Rico – Grande",
     description:
-      'Trade crypto with the lowest fees in the USA using Numerobook. Buy Bitcoin with 0% fees, sell for just 1%, and use tools like our BTC calculator and cointracking dashboard.',
-    url: 'https://numerobook.com/usa',
-    siteName: 'Numerobook',
+      "In the era of rapid online growth, standing out isn’t optional—it’s essential. That’s where Digital Ecommerce Marketing steps in. If you’re running an online store, reaching your ideal customer, converting traffic into buyers, and creating a loyal community are all dependent on smart, data-driven marketing. This is the foundation of what we do at Grande.",
+    url: "https://www.numerobook.com/blog/puerto-rico",
     images: [
       {
-        url: 'https://numerobook.com/images/OIG-19.jpg',
+        url: "https://grandeapp.com/images/blog/p.jpg",
         width: 1200,
         height: 630,
-        alt: 'Lowest Fee Crypto Exchange USA',
+        alt: "Influencers, Podcasts y Contenido UGC en Puerto Rico – Grande",
       },
     ],
-    type: 'website',
-    locale: 'en_US',
   },
   twitter: {
-    card: 'summary_large_image',
-    title: 'Crypto Exchange with Lowest Fees | Numerobook USA',
+    card: "summary_large_image",
+    title: "Influencers, Podcasts y Contenido UGC en Puerto Rico – Grande",
     description:
-      'Trade crypto with the lowest fees in the USA using Numerobook. Tools like BTC calculator, cointracking, and more.',
-    images: ['/images/blog/pexels-ramilugot-3217363.jpg"'],
+      "In the era of rapid online growth, standing out isn’t optional—it’s essential. That’s where Digital Ecommerce Marketing steps in. If you’re running an online store, reaching your ideal customer, converting traffic into buyers, and creating a loyal community are all dependent on smart, data-driven marketing. This is the foundation of what we do at Grande.",
+    images: [
+      "https://grandeapp.com/images/blog/p.jpg",
+    ],
+  },
+  alternates: {
+    canonical: "https://grandeapp.com/puerto-rico",
   },
   robots: {
     index: true,
     follow: true,
   },
+  metadataBase: new URL("https://grandeapp.com"),
 };
 
 export default function Page() {
@@ -66,8 +78,8 @@ export default function Page() {
               {
                 '@type': 'ListItem',
                 position: 2,
-                name: 'Top USA Crypto Exchange',
-                item: 'https://grandeapp.com/paraguay',
+                name: 'Top USA Plataforma Líder de Marketing de Influencers en Puerto Rico',
+                item: 'https://grandeapp.com/puerto-rico',
               },
             ],
           }),

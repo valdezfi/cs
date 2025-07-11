@@ -20,7 +20,7 @@ export default function GrandePuertoRicoMarketingPage() {
 
       <div className="w-full max-w-5xl mx-auto mt-8 mb-12 px-6">
         <Image
-          src="/images/puerto-rico-influencers.jpg"
+          src="/images/p.jpg"
           alt="Marketing de Influencers en Puerto Rico"
           width={1200}
           height={600}
