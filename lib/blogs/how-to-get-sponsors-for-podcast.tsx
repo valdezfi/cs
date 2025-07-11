@@ -256,8 +256,13 @@ const PodcastPartnershipBlog = {
   openGraph: {
     title: "How To Get Sponsors For Podcast?",
     description:
-"Podcasting is booming, and whether you’re covering podcast news, conducting podcast interviews, or recording from your bedroom with a budget podcast microphone, there’s one question on every podcaster’s mind: How to get sponsors for podcast shows?",    url: "https://grandeapp.com/blog/podcast-partnership",
-    images: [
+"Podcasting is booming, and whether you’re covering podcast news, conducting podcast interviews, or recording from your bedroom with a budget podcast microphone, there’s one question on every podcaster’s mind: How to get sponsors for podcast shows?",    
+
+url: "https://grandeapp.com/blog/podcast-partnership",
+    
+
+
+images: [
       {
         url: "https://grandeapp.com/images/blog/podcast.jpg",
         width: 1200,
