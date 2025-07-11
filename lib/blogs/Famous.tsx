@@ -113,7 +113,8 @@ const FamousBlog = {
   <h3>Beneficios de trabajar con Influencers de Redes Sociales:</h3>
   <ul>
     <li><strong>Mayor engagement y conexión emocional:</strong> Los influencers de redes sociales pueden generar un mayor nivel de engagement debido a la relación cercana que tienen con su audiencia. Esto a menudo resulta en un mayor compromiso con las publicaciones patrocinadas.</li>
-    <li><strong>Costo más accesible:</strong> Trabajar con influencers de redes sociales suele ser más asequible que contratar a una celebridad. Esto los hace ideales para marcas más pequeñas o para aquellas que tienen un presupuesto de marketing limitado.</li>
+    <li><strong>Costo más accesible:</strong> Trabajar con <a href="https://app.grandeapp.com/">Influencers</a>
+ de redes sociales suele ser más asequible que contratar a una celebridad. Esto los hace ideales para marcas más pequeñas o para aquellas que tienen un presupuesto de marketing limitado.</li>
     <li><strong>Campañas más personalizadas:</strong> Dado que los influencers de redes sociales son conocidos por su enfoque más específico y dirigido, las marcas pueden crear campañas de marketing más personalizadas que resuenen mejor con el público adecuado.</li>
     <li><strong>Mayor flexibilidad y creatividad:</strong> Los influencers de redes sociales suelen estar dispuestos a ser más creativos en sus colaboraciones, lo que permite que las marcas exploren nuevas formas de conectar con su audiencia, sin el enfoque rígido de las grandes celebridades.</li>
   </ul>
