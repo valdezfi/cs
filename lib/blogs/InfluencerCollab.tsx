@@ -128,9 +128,11 @@ const InfluencerCollablog = {
       <li>Define your campaign goals clearly.</li>
       <li>Understand your target audience demographics.</li>
       <li>Evaluate alignment between influencer and brand audiences.</li>
-      <li>Check engagement metrics like comments and likes.</li>
+      <li><a href="https://grandeapp.com/">check</a>
+ engagement metrics like comments and likes.</li>
       <li>Review content quality and brand consistency.</li>
-      <li>Choose between nano, micro, macro, and celebrity influencers.</li>
+      <li>Choose between nano, .</li>
+      <li><a href="https://grandeapp.com/">micro</a>, <a href="https://app.grandeapp.com/">macro</a>, and celebrity influencers.</li>
     </ul>
   </section>
 
