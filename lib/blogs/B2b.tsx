@@ -9,7 +9,7 @@ const B2bBlog = {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>What Are The Best Stablecoins?</title>
+    <title>Cómo La redes sociales están Cambiando Marketing B2B?!</title>
     <style>
         body {
             font-family: Arial, sans-serif;
