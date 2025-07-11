@@ -3,7 +3,7 @@ const agencylatamBlog = {
   title: "Agencia De Influencers Y Marca en LATAM",
   snippet: "En el ecosistema digital actual, la colaboración entre marcas e influencers ya no es solo una opción, sino una necesidad. Las redes sociales, especialmente Instagram y TikTok, se han convertido en canales clave para conectar con audiencias específicas y generar confianza. Pero ¿cómo puede una pequeña agencia de influencers en LATAM competir con grandes firmas globales? ¿Y cómo pueden las marcas locales aprovechar el poder de las redes para posicionarse globalmente?",
   imageUrl: "/images/blog/agencylatam.jpg",
-  imageAlt: "Modern Digital Ecommerce Marketing",
+  imageAlt: "Agencia De Influencers Y Marca en LATAM",
   content: `
 
 <head>
@@ -142,40 +142,35 @@ const agencylatamBlog = {
 
 
 `,
-  author: "Numerobook Editorial Team",
+  author: "grandeapp Editorial Team",
   date: "2025-04-25T00:00:00.000Z",
  
 
 
   meta: {
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "Agencia De Influencers Y Marca en LATAM",
     description:
-      "Discover the best stablecoins like USDT, USDC, PYUSD, and how they are reshaping global finance in 2025.",
+"En el ecosistema digital actual, la colaboración entre marcas e influencers ya no es solo una opción, sino una necesidad. Las redes sociales, especialmente Instagram y TikTok, se han convertido en canales clave para conectar con audiencias específicas y generar confianza. Pero ¿cómo puede una pequeña agencia de influencers en LATAM competir con grandes firmas globales? ¿Y cómo pueden las marcas locales aprovechar el poder de las redes para posicionarse globalmente?",
     keywords: [
-      "best stablecoin",
-      "stablecoin price",
-      "Fiat-Backed Stablecoins",
-      "list of stablecoins",
-      "stablecoin exchange",
-      "most stable currency",
-      "fiat backed stablecoins",
-      "fiat backed stablecoin",
+      "agencia",
+      "Poder",
+    
     ],
-    ogImage: "/images/blog/Fiat-Backed-Stablecoins.png",
+    ogImage: "grandeapp.com/images/blog/agencylatam.jpg",
   },
 
   alternates: {
-    canonical: "https://www.numerobook.com/blog/best-fiat-backed-stablecoins-2025",
+    canonical: "https://grandeapp.com/blog/marca",
   },
 
   openGraph: {
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "Agencia De Influencers Y Marca en LATAM",
     description:
-      "Explore top fiat-backed stablecoins like USDC, USDT, and PYUSD, and their impact on crypto and global markets.",
-    url: "https://www.numerobook.com/blog/best-fiat-backed-stablecoins-2025",
+"En el ecosistema digital actual, la colaboración entre marcas e influencers ya no es solo una opción, sino una necesidad. Las redes sociales, especialmente Instagram y TikTok, se han convertido en canales clave para conectar con audiencias específicas y generar confianza. Pero ¿cómo puede una pequeña agencia de influencers en LATAM competir con grandes firmas globales? ¿Y cómo pueden las marcas locales aprovechar el poder de las redes para posicionarse globalmente?",
+    url: "https://grandeapp.com/blog/marca",
     images: [
       {
-        url: "https://www.numerobook.com/images/ugc.png",
+        url: "https://grandeapp.com/images/blog/agencylatam.jpg",
         width: 1200,
         height: 630,
         alt: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
@@ -185,10 +180,10 @@ const agencylatamBlog = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "Agencia De Influencers Y Marca en LATAM",
     description:
-      "Discover the most trusted fiat-backed stablecoins for crypto trading and investing in 2025.",
-    images: ["https://www.numerobook.com/images/blog/Fiat-Backed-Stablecoins.png"],
+"En el ecosistema digital actual, la colaboración entre marcas e influencers ya no es solo una opción, sino una necesidad. Las redes sociales, especialmente Instagram y TikTok, se han convertido en canales clave para conectar con audiencias específicas y generar confianza. Pero ¿cómo puede una pequeña agencia de influencers en LATAM competir con grandes firmas globales? ¿Y cómo pueden las marcas locales aprovechar el poder de las redes para posicionarse globalmente?",
+    images: ["https://grandeapp.com/images/blog/agencylatam.jpg"],
   },
 
   robots: {
