@@ -191,53 +191,48 @@ const MacroBlog = {
 
 
 `,
-  author: "Numerobook Editorial Team",
+  author: "grandeapp Editorial Team",
   date: "2025-04-25T00:00:00.000Z",
  
 
 
   meta: {
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "Macro Influencers: Brand Growth in 2025",
     description:
-      "Discover the best stablecoins like USDT, USDC, PYUSD, and how they are reshaping global finance in 2025.",
+"The year 2025 advances influencer marketing strategies by allowing brands to use different influencer categories to extend their promotion reach. The space between micro and celebrity influencers gets connected by macro influencers who serve as important players in this realm. The substantial follower bases of these content creators span from 100,000 to 1 million followers that enable businesses to reach broad but select audiences.",
     keywords: [
-      "best stablecoin",
-      "stablecoin price",
-      "Fiat-Backed Stablecoins",
-      "list of stablecoins",
-      "stablecoin exchange",
-      "most stable currency",
-      "fiat backed stablecoins",
-      "fiat backed stablecoin",
+      "macro influencer",
+       "influencer",
+  
     ],
-    ogImage: "/images/blog/Fiat-Backed-Stablecoins.png",
+    ogImage: "https://grandeapp.com/images/blog/macro.jpg",
   },
 
   alternates: {
-    canonical: "https://www.numerobook.com/blog/best-fiat-backed-stablecoins-2025",
+    canonical: "https://grandeapp.com/images/blog/macro.jpg",
   },
 
   openGraph: {
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "Macro Influencers: Brand Growth in 2025",
     description:
-      "Explore top fiat-backed stablecoins like USDC, USDT, and PYUSD, and their impact on crypto and global markets.",
-    url: "https://www.numerobook.com/blog/best-fiat-backed-stablecoins-2025",
+"The year 2025 advances influencer marketing strategies by allowing brands to use different influencer categories to extend their promotion reach. The space between micro and celebrity influencers gets connected by macro influencers who serve as important players in this realm. The substantial follower bases of these content creators span from 100,000 to 1 million followers that enable businesses to reach broad but select audiences.",
+    url: "https://grandeapp.com/images/blog/macro.jpg",
     images: [
       {
-        url: "https://www.numerobook.com/images/ugc.png",
+        url: "https://grandeapp.com/images/blog/macro.jpg",
         width: 1200,
         height: 630,
-        alt: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+        alt: "Macro",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "Macro Influencers: Brand Growth in 2025",
     description:
-      "Discover the most trusted fiat-backed stablecoins for crypto trading and investing in 2025.",
-    images: ["https://www.numerobook.com/images/blog/Fiat-Backed-Stablecoins.png"],
+      "The year 2025 advances influencer marketing strategies by allowing brands to use different influencer categories to extend their promotion reach. The space between micro and celebrity influencers gets connected by macro influencers who serve as important players in this realm. The substantial follower bases of these content creators span from 100,000 to 1 million followers that enable businesses to reach broad but select audiences.",
+    images: ["https://grandeapp.com//images/blog/macro.jpg"],
   },
 
   robots: {
