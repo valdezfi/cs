@@ -207,6 +207,10 @@ const B2bBlog = {
 
 
 keywords: [
+
+  "Marketing B2B",
+
+  
  
     ],
     ogImage: "https://grandeapp.com/images/blog/b2b.jpg",
