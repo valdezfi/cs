@@ -172,40 +172,39 @@ const InfluencerCollablog = {
 
 
 `,
-  author: "Numerobook Editorial Team",
+  author: "grandeapp Editorial Team",
   date: "2025-04-25T00:00:00.000Z",
  
 
 
   meta: {
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "Influencer Collaboration: 2025 (With Examples)",
     description:
-      "Discover the best stablecoins like USDT, USDC, PYUSD, and how they are reshaping global finance in 2025.",
-    keywords: [
-      "best stablecoin",
-      "stablecoin price",
-      "Fiat-Backed Stablecoins",
-      "list of stablecoins",
-      "stablecoin exchange",
-      "most stable currency",
-      "fiat backed stablecoins",
-      "fiat backed stablecoin",
+"Brands need innovative strategies to excel in influencer marketing during the year 2025. The traditional model of brand sponsorship no longer satisfies current consumers since they want genuine manufacturer-influencer partnerships which generate active interest.",
+
+
+keywords: [
+      "influencer collaboration",
+            "influencer ",
+
+   
     ],
-    ogImage: "/images/blog/Fiat-Backed-Stablecoins.png",
+    ogImage: "https://grandeapp.com//images/blog/Fiat-Backed-Stablecoins.png",
   },
 
   alternates: {
-    canonical: "https://www.numerobook.com/blog/best-fiat-backed-stablecoins-2025",
+    canonical: "https://grandeapp.com/blog/best-fiat-backed-stablecoins-2025",
   },
 
   openGraph: {
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "Influencer Collaboration: 2025 (With Examples)",
     description:
-      "Explore top fiat-backed stablecoins like USDC, USDT, and PYUSD, and their impact on crypto and global markets.",
-    url: "https://www.numerobook.com/blog/best-fiat-backed-stablecoins-2025",
+"Brands need innovative strategies to excel in influencer marketing during the year 2025. The traditional model of brand sponsorship no longer satisfies current consumers since they want genuine manufacturer-influencer partnerships which generate active interest.",
+
+url: "https://grandeapp.com/blog/best-fiat-backed-stablecoins-2025",
     images: [
       {
-        url: "https://www.numerobook.com/images/ugc.png",
+        url: "https://grandeapp.com/images/ugc.png",
         width: 1200,
         height: 630,
         alt: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
@@ -215,10 +214,10 @@ const InfluencerCollablog = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "Influencer Collaboration: 2025 (With Examples)",
     description:
-      "Discover the most trusted fiat-backed stablecoins for crypto trading and investing in 2025.",
-    images: ["https://www.numerobook.com/images/blog/Fiat-Backed-Stablecoins.png"],
+"Brands need innovative strategies to excel in influencer marketing during the year 2025. The traditional model of brand sponsorship no longer satisfies current consumers since they want genuine manufacturer-influencer partnerships which generate active interest.",
+    images: ["https://grandeapp.com/images/blog/Fiat-Backed-Stablecoins.png"],
   },
 
   robots: {
