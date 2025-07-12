@@ -19,8 +19,8 @@ const plans = [
   },
   {
     title: "Creator Pro",
-    monthly: "$49/mo",
-    yearly: "$349/yr", // Save 40%
+    monthly: "$59.99/mo",
+    yearly: "$399/yr", // Save 40%
     description: "Level up with AI guidance, brand deals & digital product strategy.",
     features: [
       "Personalized AI career roadmap",
@@ -99,7 +99,7 @@ export default function PricingPlans() {
                 </p>
 
                 <p className="text-sm mb-6">{plan.description}</p>
-                <ul className="space-y-2 mb-6 text-sm">
+                <ul className="space-y-2 mb-6 text-sm text-left">
                   {plan.features.map((feature, i) => (
                     <li key={i} className="flex items-start">
                       <span className="text-blue-600 mr-2">✓</span>
@@ -107,11 +107,17 @@ export default function PricingPlans() {
                     </li>
                   ))}
                 </ul>
-                <button className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition">
+
+                <a
+                  href="https://c.grandeapp.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full bg-blue-600 hover:bg-blue-700 text-white text-center py-2 rounded transition font-medium"
+                >
                   {billing === "yearly" && !isFree
                     ? `Pay $${plan.yearly.replace(/[^0-9]/g, "")} Yearly`
                     : plan.cta}
-                </button>
+                </a>
               </div>
             );
           })}
