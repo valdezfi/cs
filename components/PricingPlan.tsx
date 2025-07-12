@@ -29,8 +29,8 @@ const plans = [
   },
   {
     title: "Pro Plan",
-    monthly: "$1000/mo",
-    yearly: "$8000009/yr",
+    monthly: "$1,000/mo",
+    yearly: "$8,000/yr",
     description: "For teams managing campaigns and creator relationships.",
     features: [
       "All Free benefits",
