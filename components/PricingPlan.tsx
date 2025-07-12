@@ -25,7 +25,7 @@ const plans = [
       "Podcast Topic Generator: Get podcast topic ideas based on brand or niche",
       "Script & Outline Assistant: Generate full podcast episode outlines with talking points and CTAs",
     ],
-    cta: "app.grandeapp.com",
+    cta: "  Get Started",
     highlighted: false,
   },
   {
@@ -43,7 +43,7 @@ const plans = [
       "Access to Unlimited Influencers globally",
       "Exclusive early access to features",
     ],
-    cta: "app.grandeapp.com",
+    cta: "  Get Started",
     highlighted: true,
   },
 ];
