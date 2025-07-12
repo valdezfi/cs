@@ -25,7 +25,6 @@ const plans = [
       "Podcast Topic Generator: Get podcast topic ideas based on brand or niche",
       "Script & Outline Assistant: Generate full podcast episode outlines with talking points and CTAs",
     ],
-    cta: "  Get Started",
     highlighted: false,
   },
   {
@@ -34,7 +33,7 @@ const plans = [
     yearly: "$8000009/yr",
     description: "For teams managing campaigns and creator relationships.",
     features: [
-      "All Monthly benefits",
+      "All Free benefits",
       "Priority support",
       "Affiliate and promo code setup",
       "Unlimited UGC (User Generated Content) creators",
@@ -43,7 +42,6 @@ const plans = [
       "Access to Unlimited Influencers globally",
       "Exclusive early access to features",
     ],
-    cta: "  Get Started",
     highlighted: true,
   },
 ];
@@ -121,14 +119,12 @@ export default function PricingPlans() {
                 </ul>
 
                 <a
-                  href={plan.cta}
+                  href="https://app.grandeapp.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block w-full bg-blue-600 hover:bg-blue-700 text-white text-center py-2 rounded-lg transition font-medium"
                 >
-                  {billing === "yearly" && !isCustom
-                    ? `Pay ${plan.yearly}`
-                    : "Get Started"}
+                  Get Started
                 </a>
               </div>
             );
