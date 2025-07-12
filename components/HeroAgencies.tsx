@@ -11,7 +11,7 @@ export default function HeroAgency() {
       </p>
       <div className="flex justify-center space-x-6">
         <Link
-          href="/pricingplan"
+         href="/pricing"
           className="bg-black text-white dark:bg-white dark:text-black px-6 py-3 rounded-md text-base font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition duration-300"
         >
           Freelancer
