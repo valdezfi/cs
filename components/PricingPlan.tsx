@@ -9,7 +9,7 @@ const plans = [
     yearly: "$0/yr",
     description: "Start exploring with basic access.",
     features: [
-   "AI-driven campaign management",
+      "AI-driven campaign management",
       "Access to 80 creators globally",
       "Smart influencer-matching powered by AI",
       "Real-time campaign ROI and conversion tracking",
@@ -28,71 +28,40 @@ const plans = [
     cta: "app.grandeapp.com",
     highlighted: false,
   },
-  // {
-  //   title: "Essentials",
-  //   monthly: "$349/mo",
-  //   yearly: "$2,499/yr", // You save $1,689 over monthly ($349 x 12 = $4,188)
-  //   description: "For solo brands or creators scaling outreach.",
-  //   features: [
-  //     "Access to 100+ creators",
-  //     "Standard campaign management",
-  //     "Email support",
-  //     "AI-powered creator recommendations",
-  //   ],
-  //   cta: "Get Started",
-  //   highlighted: false,
-  // },
   {
     title: "Pro Plan",
     monthly: "$100000/mo",
-    yearly: "$8000009/yr", // You save $2,889 over monthly ($599 x 12 = $7,188)
+    yearly: "$8000009/yr",
     description: "For teams managing campaigns and creator relationships.",
     features: [
-     "All Monthly benefits",
+      "All Monthly benefits",
       "Priority support",
-       "Affiliate and promo code setup",
+      "Affiliate and promo code setup",
       "Unlimited UGC (User Generated Content) creators",
       "Unlimited podcast creators",
       "1000+ verified influencers with high engagement",
       "Access to Unlimited Influencers globally",
-
       "Exclusive early access to features",
     ],
     cta: "app.grandeapp.com",
     highlighted: true,
   },
-  // {
-  //   title: "Enterprise",
-  //   monthly: "Custom",
-  //   yearly: "Custom",
-  //   description: "Custom solutions for agencies and global brands.",
-  //   features: [
-  //     "Dedicated account manager",
-  //     "Custom integrations & workflows",
-  //     "SLA & compliance support",
-  //     "Premium reporting & insights",
-  //     "AI trend prediction & market insights",
-  //     "Full AI suite & custom models",
-  //   ],
-  //   cta: "Contact Sales",
-  //   highlighted: false,
-  // },
 ];
 
 export default function PricingPlans() {
   const [billing, setBilling] = useState<"monthly" | "yearly">("monthly");
 
   return (
-    <div className="pt-24 px-4 py-10 mb-10 bg-white dark:bg-black text-gray-900 dark:text-white">
-      <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-4">Choose Your Plan</h2>
-        <p className="text-center text-gray-600 dark:text-gray-400 mb-10 text-sm">
+    <div className="bg-white dark:bg-black text-gray-900 dark:text-white py-16 px-4">
+      <div className="max-w-7xl mx-auto text-center">
+        <h2 className="text-4xl font-bold mb-4">Choose Your Plan</h2>
+        <p className="text-sm text-gray-600 dark:text-gray-400 mb-10">
           {billing === "monthly"
             ? "Pay monthly with flexibility, cancel anytime."
             : "Pay once and save up to 40% — get the full value for less."}
         </p>
 
-        {/* Toggle */}
+        {/* Billing Toggle */}
         <div className="flex justify-center items-center mb-12">
           <span className={`mr-2 ${billing === "monthly" ? "font-bold" : "opacity-60"}`}>Monthly</span>
           <label className="relative inline-flex items-center cursor-pointer">
@@ -110,8 +79,8 @@ export default function PricingPlans() {
           <span className={`ml-2 ${billing === "yearly" ? "font-bold" : "opacity-60"}`}>Yearly</span>
         </div>
 
-        {/* Pricing Cards */}
-        <div className="grid md:grid-cols-4 gap-6">
+        {/* Plan Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center">
           {plans.map((plan, index) => {
             const isCustom = plan.monthly === "Custom";
             const isFree = plan.monthly === "$0/mo";
@@ -120,32 +89,29 @@ export default function PricingPlans() {
             return (
               <div
                 key={index}
-                className={`border rounded-xl p-6 transition relative ${
+                className={`relative rounded-2xl p-6 shadow-md border transition-all ${
                   plan.highlighted
                     ? "bg-gray-100 dark:bg-gray-900 border-blue-600 shadow-xl"
                     : "bg-white dark:bg-gray-800"
                 }`}
               >
-                <h3 className="text-xl font-semibold mb-1">{plan.title}</h3>
-
+                {plan.highlighted && (
+                  <div className="absolute top-0 right-0 bg-blue-600 text-white text-xs font-semibold px-3 py-1 rounded-bl-xl">
+                    Best Value
+                  </div>
+                )}
+                <h3 className="text-2xl font-semibold mb-1">{plan.title}</h3>
                 {showSave && (
                   <p className="text-sm text-green-600 font-semibold mb-1">
                     Save 40% annually
                   </p>
                 )}
-
-                {plan.highlighted && (
-                  <div className="absolute top-0 right-0 bg-blue-600 text-white text-xs font-semibold px-2 py-1 rounded-bl-lg">
-                    Best Value
-                  </div>
-                )}
-
-                <p className="text-2xl font-bold mb-2">
+                <p className="text-3xl font-bold mb-2">
                   {billing === "monthly" ? plan.monthly : plan.yearly}
                 </p>
+                <p className="text-sm mb-6 text-gray-600 dark:text-gray-400">{plan.description}</p>
 
-                <p className="text-sm mb-6">{plan.description}</p>
-                <ul className="space-y-2 mb-6 text-sm">
+                <ul className="text-sm space-y-2 mb-6 text-left">
                   {plan.features.map((feature, i) => (
                     <li key={i} className="flex items-start">
                       <span className="text-blue-600 mr-2">✓</span>
@@ -153,11 +119,17 @@ export default function PricingPlans() {
                     </li>
                   ))}
                 </ul>
-                <button className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition">
+
+                <a
+                  href={plan.cta}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block w-full bg-blue-600 hover:bg-blue-700 text-white text-center py-2 rounded-lg transition font-medium"
+                >
                   {billing === "yearly" && !isCustom
-                    ? `Pay $${plan.yearly.replace(/[^0-9]/g, "")} Yearly`
-                    : plan.cta}
-                </button>
+                    ? `Pay ${plan.yearly}`
+                    : "Get Started"}
+                </a>
               </div>
             );
           })}
