@@ -76,7 +76,7 @@ const Footer = () => {
 
         <div className="flex space-x-6">
   {/* X / Twitter */}
-  <a
+  {/* <a
     href="https://x.com/@numerobk"
     aria-label="X (formerly Twitter)"
     className="hover:text-gray-300"
@@ -84,11 +84,11 @@ const Footer = () => {
     rel="noopener noreferrer"
   >
     <AiOutlineX className="w-5 h-5" />
-  </a>
+  </a> */}
 
   {/* Instagram */}
   <a
-    href="https://instagram.com/yourprofile"
+    href="https://instagram.com/grande_ad"
     aria-label="Instagram"
     className="hover:text-pink-500"
     target="_blank"
@@ -99,7 +99,7 @@ const Footer = () => {
 
   {/* TikTok */}
   <a
-    href="https://tiktok.com/@yourprofile"
+    href="https://tiktok.com/@grande_ad"
     aria-label="TikTok"
     className="hover:text-black dark:hover:text-white"
     target="_blank"
