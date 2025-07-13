@@ -50,7 +50,7 @@ export default function AgencyHowItWorks() {
        {/* Right Image */}
 <div className="w-full group">
   <Image
-    src="/public/images/agency.jpg" // Replace with your image path
+    src="../public/images/agency.jpg" // Replace with your image path
     alt="Dashboard preview"
     width={600}
     height={600}

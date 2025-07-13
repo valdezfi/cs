@@ -1,4 +1,5 @@
 import Image from "next/image";
+import affiliate from "../public/images/affiliate.jpg";
 
 const features = [
   {
@@ -48,7 +49,7 @@ export default function AffiliateHowItWorks() {
         {/* Right Image */}
         <div className="w-full group">
           <Image
-            src="/public/images/affiliate.jpg" // Replace with your dashboard image
+            src={affiliate}// Replace with your dashboard image
             alt="Affiliate management dashboard"
             width={600}
             height={600}

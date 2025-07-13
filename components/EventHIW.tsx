@@ -48,7 +48,7 @@ export default function EventHowItWorks() {
         {/* Right Image */}
         <div className="w-full group">
           <Image
-            src="/public/images/event.jpg" // ← Swap to an event-themed image if needed
+            src="../public/images/event.jpg" // ← Swap to an event-themed image if needed
             alt="In-person influencer event"
             width={300}
             height={300}
