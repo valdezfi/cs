@@ -51,12 +51,12 @@ export default function Header() {
               </button>
               {customersOpen && (
                 <ul className="absolute left-0 mt-2 w-56 bg-white shadow-md rounded-md z-50">
-                  <li><Link href="/brand" className="block px-4 py-2 hover:bg-gray-100">Brands</Link></li>
-                  <li><Link href="/agency" className="block px-4 py-2 hover:bg-gray-100">Agencies</Link></li>
-                  <li><Link href="/agency" className="block px-4 py-2 hover:bg-gray-100">Freelancers</Link></li>
-                  <li><Link href="/influencer" className="block px-4 py-2 hover:bg-gray-100">Influencers</Link></li>
-                  <li><Link href="/ugc" className="block px-4 py-2 hover:bg-gray-100">UGC Creators</Link></li>
-                  <li><Link href="/podcast" className="block px-4 py-2 hover:bg-gray-100">Podcasters</Link></li>
+                  <li><Link href="/brand" className="block px-4 py-2 text-black">Brands</Link></li>
+                  <li><Link href="/agency" className="block px-4 py-2 text-black">Agencies</Link></li>
+                  <li><Link href="/agency" className="block px-4 py-2 text-black">Freelancers</Link></li>
+                  <li><Link href="/influencer" className="block px-4 py-2 text-black">Influencers</Link></li>
+                  <li><Link href="/ugc" className="block px-4 py-2 text-black">UGC Creators</Link></li>
+                  <li><Link href="/podcast" className="block px-4 py-2 text-black">Podcasters</Link></li>
                 </ul>
               )}
             </li>
@@ -73,12 +73,12 @@ export default function Header() {
                 <div className="absolute left-0 mt-2 w-80 bg-white shadow-xl rounded-md z-50 p-4">
                   <div className="mb-2 font-bold">Influencer Marketing</div>
                   <ul className="space-y-1">
-                    <li><Link href="/discover" className="block px-2 py-1 hover:bg-gray-100 text-sm">Discover Influencers</Link></li>
-                    <li><Link href="/event" className="block px-2 py-1 hover:bg-gray-100 text-sm">Create Influencer Event</Link></li>
-                    <li><Link href="/campaign" className="block px-2 py-1 hover:bg-gray-100 text-sm">Manage Campaigns</Link></li>
-                    <li><Link href="/payments" className="block px-2 py-1 hover:bg-gray-100 text-sm">Payments & Gifting</Link></li>
-                    <li><Link href="/affiliate" className="block px-2 py-1 hover:bg-gray-100 text-sm">Affiliate Links</Link></li>
-                    <li><Link href="/reporting" className="block px-2 py-1 hover:bg-gray-100 text-sm">Reporting Data</Link></li>
+                    <li><Link href="/discover" className="block px-2 py-1 text-black text-sm">Discover Influencers</Link></li>
+                    <li><Link href="/event" className="block px-2 py-1 text-black text-sm">Create Influencer Event</Link></li>
+                    <li><Link href="/campaign" className="block px-2 py-1 text-black text-sm">Manage Campaigns</Link></li>
+                    <li><Link href="/payments" className="block px-2 py-1 text-black text-sm">Payments & Gifting</Link></li>
+                    <li><Link href="/affiliate" className="block px-2 py-1 text-black text-sm">Affiliate Links</Link></li>
+                    <li><Link href="/reporting" className="block px-2 py-1 text-black text-sm">Reporting Data</Link></li>
                   </ul>
                 </div>
               )}
@@ -94,7 +94,7 @@ export default function Header() {
               </button>
               {resourcesOpen && (
                 <ul className="absolute left-0 mt-2 w-60 bg-white shadow-xl rounded-md z-50 p-4">
-                  <li><Link href="/allblogs" className="block px-4 py-2 hover:bg-gray-100">Blog</Link></li>
+                  <li><Link href="/allblogs" className="block px-4 py-2 text-black">Blog</Link></li>
                 </ul>
               )}
             </li>
