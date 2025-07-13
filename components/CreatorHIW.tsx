@@ -47,7 +47,7 @@ export default function CreatorHowItWorks() {
 
         {/* Right Image */}
         <div className="w-full group">
-          <Image
+          <img
             src="../public/images/creator.jpg" // Replace with your updated image
             alt="Creator dashboard preview"
             width={600}

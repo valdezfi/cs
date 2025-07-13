@@ -47,7 +47,7 @@ export default function CampaignHowItWorks() {
 
         {/* Right Image */}
         <div className="w-full group">
-          <Image
+          <img
             src="../public/images/campaign.jpg"
             alt="Campaign dashboard preview"
             width={600}

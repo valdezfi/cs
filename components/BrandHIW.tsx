@@ -47,7 +47,7 @@ export default function BrandHowItWorks() {
 
         {/* Right Image */}
         <div className="w-full group">
-          <Image
+          <img
             src="../public/images/brand.jpg" // Replace with your updated image path for brand UI
             alt="Brand dashboard preview"
             width={600}

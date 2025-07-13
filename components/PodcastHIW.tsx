@@ -47,8 +47,8 @@ export default function PodcasterHowItWorks() {
 
         {/* Right Image */}
         <div className="w-full group">
-          <Image
-            src="../public/images/podcast.jpg" // Update this path to a podcast-relevant image
+          <img
+            src="/images/podcast.jpg" // Update this path to a podcast-relevant image
             alt="Podcaster dashboard preview"
             width={600}
             height={600}
