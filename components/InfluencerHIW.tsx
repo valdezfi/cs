@@ -48,7 +48,7 @@ export default function InfluencerHowItWorks() {
         {/* Right Image */}
         <div className="w-full group">
           <Image
-            src="grandeapp.com/images/influencer.jpg" // Update this image path as needed
+            src="/images/influencer.jpg" // Update this image path as needed
             alt="Influencer dashboard preview"
             width={600}
             height={600}

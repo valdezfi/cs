@@ -48,7 +48,7 @@ export default function PlatformReportingHowItWorks() {
         {/* Right Image */}
         <div className="w-full group">
           <img
-            src="grandeapp.com/images/reporting.jpg" // Replace with a reporting-focused image
+            src="/images/reporting.jpg" // Replace with a reporting-focused image
             alt="Reporting dashboard preview"
             width={600}
             height={600}

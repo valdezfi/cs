@@ -48,7 +48,7 @@ export default function PaymentsHowItWorks() {
         {/* Right Image */}
         <div className="w-full group">
           <img
-            src="grandeapp.com/images/gifting.jpg" // Ideally: update to an image that visualizes a dashboard with payments/gifting cards
+            src="/images/gifting.jpg" // Ideally: update to an image that visualizes a dashboard with payments/gifting cards
             alt="Creator payments and gifting dashboard"
             width={600}
             height={600}
