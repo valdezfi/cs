@@ -10,16 +10,10 @@ import BrandAccordion from "components/QABrand";
 import BrandHowItWorks from "components/BrandHIW";
 
 import USAb from "components/USAbuy";
-import { Metadata } from 'next';
 import  BrandValueShowcase from "components/BrandResults";
 import PredictableHero from "components/Predictable"; // adjust the path based on your folder structure
 
-export const metadata: Metadata = {
-  title: "Grande",
-  description: "Boost Your ADs With Influencers, UGC Creators, & Podcast Creators",
-};
 
-import Nigeriab from "components/Nigeriabuy";
 
 export default function Page() {
   return (
