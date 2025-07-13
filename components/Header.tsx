@@ -71,7 +71,7 @@ export default function Header() {
               </button>
               {productsOpen && (
                 <div className="absolute left-0 mt-2 w-80 bg-white shadow-xl rounded-md z-50 p-4">
-                  <div className="mb-2 font-bold">Influencer Marketing</div>
+                  <div className="mb-2  text-black font-bold">Influencer Marketing</div>
                   <ul className="space-y-1">
                     <li><Link href="/discover" className="block px-2 py-1 text-black text-sm">Discover Influencers</Link></li>
                     <li><Link href="/event" className="block px-2 py-1 text-black text-sm">Create Influencer Event</Link></li>
