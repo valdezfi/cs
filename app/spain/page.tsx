@@ -6,42 +6,8 @@ import Script from 'next/script';
 
 // Metadata configuration
 export const metadata: Metadata = {
-  title: 'Crypto Exchange with Lowest Fees | Numerobook USA',
-  description:
-    'Discover how Numerobook offers the lowest crypto trading fees in the USA. Use our BTC calculator, cointracking tools, and bitcoin converter for smarter, cheaper trades.',
-  keywords: ['bitcoin converter', 'crypto calculator', 'Lowest Fee Crypto Exchange'],
-  authors: [{ name: 'Numerobook' }],
-  alternates: {
-    canonical: 'https://numerobook.com/usa',
-  },
-  openGraph: {
-    title: 'Crypto Exchange with Lowest Fees | Numerobook USA',
-    description:
-      'Trade crypto with the lowest fees in the USA using Numerobook. Buy Bitcoin with 0% fees, sell for just 1%, and use tools like our BTC calculator and cointracking dashboard.',
-    url: 'https://numerobook.com/usa',
-    siteName: 'Numerobook',
-    images: [
-      {
-        url: 'https://numerobook.com/images/OIG-19.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Lowest Fee Crypto Exchange USA',
-      },
-    ],
-    type: 'website',
-    locale: 'en_US',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Crypto Exchange with Lowest Fees | Numerobook USA',
-    description:
-      'Trade crypto with the lowest fees in the USA using Numerobook. Tools like BTC calculator, cointracking, and more.',
-    images: ['/images/blog/pexels-ramilugot-3217363.jpg"'],
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
+  title: "Grande",
+  description: "Boost Your ADs With Influencers, UGC Creators, & Podcast Creators",
 };
 
 export default function Page() {

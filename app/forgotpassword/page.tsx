@@ -7,47 +7,8 @@ import { Metadata } from 'next';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'Forgot Password | Numerobook',
-  description:
-    'Reset your Numerobook account password securely. Get back to trading crypto with the lowest fees in the USA.',
-  keywords: [
-    'forgot password',
-    'reset crypto account password',
-    'Numerobook login help',
-    'crypto exchange login reset'
-  ],
-  authors: [{ name: 'Numerobook' }],
-  alternates: {
-    canonical: 'https://numerobook.com/forgotpassword',
-  },
-  openGraph: {
-    title: 'Forgot Password | Numerobook',
-    description:
-      'Trouble logging in? Use our secure password reset tool to access your Numerobook crypto trading account.',
-    url: 'https://numerobook.com/forgotpassword',
-    siteName: 'Numerobook',
-    images: [
-      {
-        url: 'https://numerobook.com/images/OIG-19.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Forgot Password - Numerobook',
-      },
-    ],
-    type: 'website',
-    locale: 'en_US',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Forgot Password | Numerobook',
-    description:
-      'Reset your Numerobook account password easily and return to low-fee crypto trading.',
-    images: ['https://numerobook.com/images/OIG-19.jpg'],
-  },
-  robots: {
-    index: false,
-    follow: false,
-  },
+  title: "Grande",
+  description: "Boost Your ADs With Influencers, UGC Creators, & Podcast Creators",
 };
 
 

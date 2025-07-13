@@ -6,46 +6,8 @@ import { Metadata } from 'next';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'Terms Of Use | Numerobook USA',
-  description:
-    'Review Numerobook’s Terms of Use to understand your rights and responsibilities when trading crypto with the lowest fees in the USA.',
-  keywords: [
-    'bitcoin converter',
-    'crypto calculator',
-    'lowest fee crypto exchange'
-  ],
-  authors: [{ name: 'Numerobook' }],
-  alternates: {
-    canonical: 'https://numerobook.com/terms',
-  },
-  openGraph: {
-    title: 'Terms Of Use | Numerobook USA',
-    description:
-      'Understand your rights, obligations, and how Numerobook provides secure crypto trading tools with the lowest fees.',
-    url: 'https://numerobook.com/terms',
-    siteName: 'Numerobook',
-    images: [
-      {
-        url: '/images/OIG-19.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Terms Of Use - Numerobook',
-      },
-    ],
-    type: 'website',
-    locale: 'en_US',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Terms Of Use | Numerobook USA',
-    description:
-      'Understand your responsibilities and protections when using Numerobook’s low-fee crypto tools and exchange.',
-    images: ['public/images/OIG-19.jpg'],
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
+  title: "Grande",
+  description: "Boost Your ADs With Influencers, UGC Creators, & Podcast Creators",
 };
 
 export default function Page() {
