@@ -48,7 +48,7 @@ export default function AffiliateHowItWorks() {
         {/* Right Image */}
         <div className="w-full group">
           <Image
-            src="/images/affiliate.jpg" // Replace with your dashboard image
+            src="/public/images/affiliate.jpg" // Replace with your dashboard image
             alt="Affiliate management dashboard"
             width={600}
             height={600}

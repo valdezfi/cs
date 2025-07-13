@@ -48,7 +48,7 @@ export default function UGCHowItWorks() {
         {/* Right Image */}
         <div className="w-full group">
           <Image
-            src="/images/ugc.jpg" // Replace with a UGC-relevant image
+            src="/public/images/ugc.jpg" // Replace with a UGC-relevant image
             alt="UGC creator dashboard preview"
             width={600}
             height={600}
