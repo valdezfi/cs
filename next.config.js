@@ -2,14 +2,16 @@
 const path = require('path');
 
 const nextConfig = {
+  reactStrictMode: true,
+  images: {
+    domains: [], // Only needed if using remote (CDN) images
+  },
   webpack(config) {
-    // Add support for importing .md files as raw text
     config.module.rules.push({
       test: /\.md$/,
-      type: 'asset/source', // Webpack 5 feature to import file content as string
-      include: path.resolve(__dirname, 'content'), // optional: limit to a folder
+      type: 'asset/source',
+      include: path.resolve(__dirname, 'content'), // optional
     });
-
     return config;
   },
 };
