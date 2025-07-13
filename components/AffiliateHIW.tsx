@@ -48,11 +48,11 @@ export default function AffiliateHowItWorks() {
         {/* Right Image */}
         <div className="w-full group">
           <Image
-            src="/images/affiliate.jpg"
+            src="grandeapp.com/images/affiliate.jpg"
             alt="Affiliate management dashboard"
             width={600}
             height={600}
-            // className="rounded-xl shadow-lg w-full h-auto border-4 border-white group-hover:border-indigo-400 transition duration-300"
+            className="rounded-xl shadow-lg w-full h-auto border-4 border-white group-hover:border-indigo-400 transition duration-300"
           />
         </div>
       </div>
