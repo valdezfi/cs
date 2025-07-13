@@ -47,8 +47,10 @@ export default function Page() {
   Our Ai will help you scale your brand
 </h2>
 <p className="text-xl font-light">
-  Numerobook is designed to make crypto easy, fast, and accessible for everyone. 
-</p>
+Modern tool!
+  
+  
+  </p>
             </div>
           }
         />
