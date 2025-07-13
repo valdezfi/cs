@@ -1,13 +1,13 @@
 /** @type {import('next').NextConfig} */
+const path = require('path');
+
 const nextConfig = {
-  images: {
-    domains: ['grandeapp.com'], // Add any external domains you want to allow images from
-  },
   webpack(config) {
-    // Add support for loading .md files as raw content
+    // Add support for importing .md files as raw text
     config.module.rules.push({
       test: /\.md$/,
-      type: 'asset/source',
+      type: 'asset/source', // Webpack 5 feature to import file content as string
+      include: path.resolve(__dirname, 'content'), // optional: limit to a folder
     });
 
     return config;
