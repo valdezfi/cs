@@ -32,7 +32,7 @@ export default function Hero() {
         Fueling the Creator Economy with AI-Driven Products
       </h1>
       <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 font-light max-w-4xl mx-auto">
-        We help brands grow by connecting them with top creators—backed by AI.
+        We help brands grow by connecting them with top creators: UGC, Influencers, and Podcast with the support of AI.
         Whether you're launching high-performing paid ads or scaling organically,
         Hire an AI Head of Marketing or Creator manager who delivers real results—without the six-figure salary. It's smarter, faster, and built for scale.
       </p>
