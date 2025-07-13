@@ -52,7 +52,7 @@ export default function AffiliateHowItWorks() {
             alt="Affiliate management dashboard"
             width={600}
             height={600}
-            className="rounded-xl shadow-lg w-full h-auto border-4 border-white group-hover:border-indigo-400 transition duration-300"
+            // className="rounded-xl shadow-lg w-full h-auto border-4 border-white group-hover:border-indigo-400 transition duration-300"
           />
         </div>
       </div>
