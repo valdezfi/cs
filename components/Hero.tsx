@@ -42,6 +42,12 @@ export default function Hero() {
         >
           For Brands
         </Link>
+           <Link
+          href="/pricing"
+          className="bg-black text-white dark:bg-white dark:text-black px-6 py-3 rounded-md text-base font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition duration-300"
+        >
+          For Agencies
+        </Link>
         <Link
           href="/creatorpricing"
           className="border border-black dark:border-white text-black dark:text-white px-6 py-3 rounded-md text-base font-semibold hover:bg-gray-100 dark:hover:bg-gray-900 transition duration-300"
