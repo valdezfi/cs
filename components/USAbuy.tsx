@@ -16,13 +16,13 @@ const USAb = () => {
     icon: Briefcase,
     title: "Brands",
     description: "Generate campaign ideas and streamline creator outreach with AI.",
-    loanlink: "/signup",
+    loanlink: "https://app.grandeapp.com/",
   },
   {
     icon: Users,
     title: "Agencies",
     description: "Automate reporting, client briefs, and influencer scouting.",
-    loanlink: "/signup",
+    loanlink: "https://app.grandeapp.com/",
   },
   // {
   //   icon: Share2,
@@ -34,7 +34,7 @@ const USAb = () => {
     icon: Camera,
     title: "Creators",
     description: "Boost engagement with AI-recommended hooks and captions.",
-    loanlink: "/signup",
+    loanlink: "https://app.grandeapp.com/",
   },
   // {
   //   icon: DollarSign,
