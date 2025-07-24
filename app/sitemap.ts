@@ -11,8 +11,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "allblogs",     // Blog listing page          // P2P trading page
     "wallet",       // Wallet management
     "forgotpassword",
-    "signup",
-    "login",     // Security settings
     "profile",      // User profile page
     "terms",        // Terms of Use
     "privacy",      // Privacy Policy
