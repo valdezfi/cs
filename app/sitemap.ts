@@ -9,7 +9,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "contact",
     "blog",         // Base blog page
     "allblogs",     // Blog listing page          // P2P trading page
-    "wallet",       // Wallet management
     "forgotpassword",
     "profile",      // User profile page
     "terms",        // Terms of Use
@@ -18,8 +17,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "ghana",
     "usa",
     "forgotpassword",
-    "cryptocalculator",
-    "whalebot",
+   
     "blog/affiliatemarketing",
     "blog/marca",
     "blog/b2b",
