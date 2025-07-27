@@ -33,7 +33,8 @@ export default function Hero() {
       <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 font-light max-w-4xl mx-auto">
         We help Brands and Agencies grow by connecting them with top creators: Influencers,UGC and Podcast Creators with the support of AI.
         Whether you're launching high-performing paid ads or scaling organically,
-        Hire an AI Head of Marketing or Creator manager who delivers real results—without the six-figure salary. It's smart, fast, and built for scale.
+Fuel your growth with an AI partner that scales your marketing and creator operations—without the overhead. It’s a marketing co-pilot.
+
       </p>
       <div className="flex justify-center space-x-6">
         <Link
