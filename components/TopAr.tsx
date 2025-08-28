@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function GrandeARMarketingPage() {
@@ -19,8 +18,8 @@ export default function GrandeARMarketingPage() {
       </header>
 
       <div className="w-full max-w-5xl mx-auto mt-8 mb-12 px-6">
-        <Image
-          src="/images/pexels-ramilugot-3217363.jpg"
+        <img
+          src="/images/argentina.jpg"
           alt="Marketing de Influencers y UGC en Argentina"
           width={1200}
           height={600}

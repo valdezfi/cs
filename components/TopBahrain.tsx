@@ -19,7 +19,7 @@ export default function GrandeBahrainMarketingPage() {
       </header>
 
       <div className="w-full max-w-5xl mx-auto mt-8 mb-12 px-6">
-        <Image
+        <img
           src="/images/bahrain-influencers.jpg"
           alt="Influencer and UGC marketing in Bahrain"
           width={1200}
