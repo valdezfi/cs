@@ -7,7 +7,7 @@ import Script from 'next/script';
 export const metadata: Metadata = {
   title: "Grande: Plataforma Líder de Marketing de Influencers en Mexico",
   description:
-    "Influencers, Podcasts y Contenido UGC en Mexico – Grande",
+    "Plataforma de Marketing de Influencers, Podcast y UGC en Argentina – Grande",
   authors: [{ name: "Grandeapp Editorial Team" }],
   keywords: [
     "Digital Ecommerce Marketing",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "brand marketing argentina",
 "Influencers en argentina",
 
-  "creator campaigns mexico",
+  "creator campaigns argentina",
     'marketing de influencers en argentina',
     'influencers en argentina',
     'ugc creadores en argentina',
@@ -29,30 +29,30 @@ export const metadata: Metadata = {
         'campañas con ugc creadores  en argentina',
   ],
   openGraph: {
-    title: "Influencers, Podcasts y Contenido UGC en Mexico – Grande",
+    title: "Influencers, Podcasts y Contenido UGC en Argentina – Grande",
     description:
       "In the era of rapid online growth, standing out isn’t optional—it’s essential. That’s where Digital Ecommerce Marketing steps in. If you’re running an online store, reaching your ideal customer, converting traffic into buyers, and creating a loyal community are all dependent on smart, data-driven marketing. This is the foundation of what we do at Grande.",
-    url: "https://www.grandeapp.com/mexico",
+    url: "https://www.grandeapp.com/argentina",
     images: [
       {
-        url: "https://grandeapp.com/images/mexico.jpg",
+        url: "https://grandeapp.com/images/argentina.jpg",
         width: 1200,
         height: 630,
-        alt: "Influencers, Podcasts y Contenido UGC en Mexico – Grande",
+        alt: "Influencers, Podcasts y Contenido UGC en Argentina – Grande",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Influencers, Podcasts y Contenido UGC en Mexico – Grande",
+    title: "Influencers, Podcasts y Contenido UGC en Argentina – Grande",
     description:
-      "In the era of rapid online growth, standing out isn’t optional—it’s essential. That’s where Digital Ecommerce Marketing steps in. If you’re running an online store, reaching your ideal customer, converting traffic into buyers, and creating a loyal community are all dependent on smart, data-driven marketing. This is the foundation of what we do at Grande.",
+      "Plataforma de Marketing de Influencers, Podcast y UGC en Argentina – Grande",
     images: [
       "https://grandeapp.com/images/p.jpg",
     ],
   },
   alternates: {
-    canonical: "https://grandeapp.com/mexico",
+    canonical: "https://grandeapp.com/argentina",
   },
   robots: {
     index: true,
