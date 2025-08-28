@@ -4,9 +4,7 @@ import {
   Users,
   Briefcase,
   Camera,
-  Mic,
-  DollarSign,
-  Share2,
+ 
 } from "lucide-react"; // Lucide icons
 // import Flag from "react-world-flags";
 

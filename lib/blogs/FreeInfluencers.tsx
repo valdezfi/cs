@@ -153,7 +153,7 @@ const FreeInfluencerBlog = {
 
 
   meta: {
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "Find Influencers for free",
     description:
       "In a digital world driven by content, creators are the new currency—and every brand needs the right voice to rise above the noise. GrandeApp helps you find influencers effortlessly by connecting your brand with verified creators, UGC producers, and podcast hosts.",
     keywords: [
@@ -168,7 +168,7 @@ const FreeInfluencerBlog = {
   },
 
   openGraph: {
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "Find Influencers for free",
     description:
       "Explore top fiat-backed stablecoins like USDC, USDT, and PYUSD, and their impact on crypto and global markets.",
     url: "https://grandeapp.com/blog/find-influencers-for-free",
@@ -177,17 +177,17 @@ const FreeInfluencerBlog = {
         url: "https://grandeapp.com/images/blog/FreeInfluencers.jpg",
         width: 1200,
         height: 630,
-        alt: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+        alt: "Find Influencers for free",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+    title: "Find Influencers for free",
     description:
       "Discover the most trusted fiat-backed stablecoins for crypto trading and investing in 2025.",
-    images: ["https://www.numerobook.com/images/blog/FreeInfluencers.jpg"],
+    images: ["https://www.grandeapp.com/images/blog/FreeInfluencers.jpg"],
   },
 
   robots: {

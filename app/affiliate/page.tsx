@@ -23,7 +23,6 @@ export const metadata: Metadata = {
 };
 
 
-import Nigeriab from "components/Nigeriabuy";
 
 export default function Page() {
   return (

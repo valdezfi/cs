@@ -144,7 +144,7 @@ const FamousBlog = {
 
 
 `,
-  author: "Numerobook Editorial Team",
+  author: "grandeapp Editorial Team",
   date: "2025-04-25T00:00:00.000Z",
  
 
@@ -179,7 +179,7 @@ url: "https://grandeapp.com/blog/famouscreator",
         url: "https://grandeapp.com/images/blog/famous.jpg",
         width: 1200,
         height: 630,
-        alt: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+        alt: "Influencers Famosos vs. Influencers",
       },
     ],
   },

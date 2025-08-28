@@ -152,7 +152,9 @@ const digitalecommerceBlog = {
   openGraph: {
     title: "Modern Digital Ecommerce Marketing",
     description:
-"In the era of rapid online growth, standing out isn’t optional—it’s essential. That’s where Digital Ecommerce Marketing steps in. If you’re running an online store, reaching your ideal customer, converting traffic into buyers, and creating a loyal community are all dependent on smart, data-driven marketing. This is the foundation of what we do at Grande.",    url: "https://www.numerobook.com/blog/best-fiat-backed-stablecoins-2025",
+"In the era of rapid online growth, standing out isn’t optional—it’s essential. That’s where Digital Ecommerce Marketing steps in. If you’re running an online store, reaching your ideal customer, converting traffic into buyers, and creating a loyal community are all dependent on smart, data-driven marketing. This is the foundation of what we do at Grande.", 
+
+url: "https://www.grandeapp.com/blog/digitalecommerce-marketing",
     images: [
       {
         url: "https://grandeapp.com/images/blog/ModernDigitalEcommerceMarketing.jpg",
@@ -167,7 +169,9 @@ const digitalecommerceBlog = {
     card: "summary_large_image",
     title: "Modern Digital Ecommerce Marketing",
     description:
-"In the era of rapid online growth, standing out isn’t optional—it’s essential. That’s where Digital Ecommerce Marketing steps in. If you’re running an online store, reaching your ideal customer, converting traffic into buyers, and creating a loyal community are all dependent on smart, data-driven marketing. This is the foundation of what we do at Grande.",    url: "https://www.numerobook.com/blog/best-fiat-backed-stablecoins-2025",
+"In the era of rapid online growth, standing out isn’t optional—it’s essential. That’s where Digital Ecommerce Marketing steps in. If you’re running an online store, reaching your ideal customer, converting traffic into buyers, and creating a loyal community are all dependent on smart, data-driven marketing. This is the foundation of what we do at Grande.",   
+
+url: "https://www.grandeapp.com/blog/digitalecommerce-marketing",
     images: ["https://grandeapp.com/images/blog/ModernDigitalEcommerceMarketing.jpg"],
   },
 

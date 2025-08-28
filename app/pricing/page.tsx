@@ -15,7 +15,6 @@ export const metadata: Metadata = {
 
 
 
-import Nigeriab from "components/Nigeriabuy";
 
 export default function Page() {
   return (
@@ -29,17 +28,17 @@ export default function Page() {
   id="twitter-meta-tags"
   type="application/ld+json"
   strategy="afterInteractive"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      '@context': 'https://schema.org',
-      '@type': 'WebPage',
-      name: 'Buy Bitcoin with the Lowest Fees | Numerobook',
-      description:
-        'Numerobook makes crypto trading simple across the USA, LATAM, India, Africa, and beyond with local payment options and low fees.',
-      image: 'https://numerobook.com/images/OIG-19.jpg',
-      mainEntityOfPage: 'https://numerobook.com',
-    }),
-  }}
+dangerouslySetInnerHTML={{
+  __html: JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Grow with Top Creators | GrandeApp",
+    description:
+      "GrandeApp helps brands and agencies scale by connecting them with top creators—Influencers, UGC, and Podcasts—powered by AI.",
+    image: "https://www.grandeapp.com/images/logo.png", // update with your real OG image
+    mainEntityOfPage: "https://www.grandeapp.com",
+  }),
+}}
 />
 
 

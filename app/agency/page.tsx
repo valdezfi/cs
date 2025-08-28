@@ -50,14 +50,8 @@ export default function Page() {
    
         
         <PredictableHero/>
-        {/* <Indiab /> */}
-        {/* <Argentinabuynow/>
+     
 
-        <MexicoB />  */}
-{/* <UBuy/>
-
-<Nigeriab />
-<GHbuy/> */}
 
    
   <Section

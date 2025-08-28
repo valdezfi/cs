@@ -176,7 +176,9 @@ const UGCplatformsBlog = {
   openGraph: {
     title: "How UGC Platforms Unlock Opportunities and Growth?",
     description:
-"UGC platforms help brands find great creators. They also provide important benefits to UGC content creators. These platforms offer many chances for creators to earn money, reach more people, and build their personal brands.",    url: "https://www.numerobook.com/blog/best-fiat-backed-stablecoins-2025",
+"UGC platforms help brands find great creators. They also provide important benefits to UGC content creators. These platforms offer many chances for creators to earn money, reach more people, and build their personal brands.",   
+
+url: "https://grandeapp.com/blog/ugcplatforms",
     images: [
       {
         url: "https://grandeapp.com/images/blog/ugcgrowth.jpg",
@@ -191,7 +193,9 @@ const UGCplatformsBlog = {
     card: "summary_large_image",
     title: "How UGC Platforms Unlock Opportunities and Growth?",
     description:
-"UGC platforms help brands find great creators. They also provide important benefits to UGC content creators. These platforms offer many chances for creators to earn money, reach more people, and build their personal brands.",    images: ["https://www.numerobook.com/images/blog/Fiat-Backed-Stablecoins.png"],
+"UGC platforms help brands find great creators. They also provide important benefits to UGC content creators. These platforms offer many chances for creators to earn money, reach more people, and build their personal brands.", 
+
+images: ["https://grandeapp.com/images/blog/ugcgrowth.jpg""],
   },
 
   robots: {

@@ -7,12 +7,8 @@ import CampaignAccordion from "components/QAcampaign";
 
 
 import USAb from "components/USAbuy";
-// import GHbuy from "components/GhanaBuy";
 import { Metadata } from 'next';
-import Script from 'next/script';
 import  CamapaignValueShowcase from "components/CampaignResult";
-// import Creator from "components/ContentCreator"; // adjust the path based on your folder structure
-import PredictableHero from "components/Predictable"; // adjust the path based on your folder structure
 import CampaignHowItWorks from "components/CampaignHIW"; // adjust the path based on your folder structure
 
 export const metadata: Metadata = {
@@ -20,7 +16,6 @@ export const metadata: Metadata = {
   description: "Boost Your ADs With Influencers, UGC Creators, & Podcast Creators",
 };
 
-import Nigeriab from "components/Nigeriabuy";
 
 export default function Page() {
   return (
@@ -43,28 +38,7 @@ export default function Page() {
 
         {/* <Features /> */}
          <USAb /> 
-           {/* <Section
-          leftHalf={<Creator />}
-          rightHalf={
-            <div className="flex flex-col justify-end">
-             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-  Our Ai will help you scale your brand
-</h2>
-<p className="text-xl font-light">
-  Numerobook is designed to make crypto easy, fast, and accessible for everyone. 
-</p>
-            </div>
-          }
-        /> */}
-        <PredictableHero/>
-        {/* <Indiab /> */}
-        {/* <Argentinabuynow/>
 
-        <MexicoB />  */}
-{/* <UBuy/>
-
-<Nigeriab />
-<GHbuy/> */}
 
    
 <Section
@@ -81,12 +55,6 @@ export default function Page() {
   }
 />
 
-
-
-
-  
-        {/* <Reviews />
-        <Download /> */}
       </main>
       <Footer />
     </div>

@@ -60,10 +60,7 @@ Modern tool!
         <MexicoB />  */}
 {/* <UBuy/>
 
-<Nigeriab />
-<GHbuy/> */}
 
-   
    <Section
   leftHalf={<Accordion />}
   rightHalf={

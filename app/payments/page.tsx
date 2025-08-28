@@ -19,36 +19,37 @@ import PaymentHowItWorks from "components/PaymentHIW"; // adjust the path based 
 
 
 export const metadata: Metadata = {
-  title: 'Buy Bitcoin with the Lowest Fees | Numerobook USA, LATAM, India, Africa, & beyond',
+  title: 'Grow with Top Creators | GrandeApp USA, LATAM, Europe & Beyond',
   description:
-    'Numerobook is the easiest way to buy and sell Bitcoin with low fees. Access crypto tools, real-time charts, and local payment options like Momo, PayPal, and bank transfer.',
+    'GrandeApp helps brands and agencies scale with AI by connecting them to top creators—Influencers, UGC, and Podcast talent. Launch paid ads or grow organically with an AI-powered marketing co-pilot.',
   keywords: [
-    'buy bitcoin',
-    'sell bitcoin',
-    'crypto exchange',
-    'lowest fee crypto',
-    'peer to peer bitcoin',
-    'buy bitcoin with momo',
-    'buy crypto usa',
-    'crypto trading africa',
-    'numerobook exchange',
+    'influencer marketing',
+    'ugc creators',
+    'podcast partnerships',
+    'creator economy',
+    'brand deals',
+    'ai marketing',
+    'scale with creators',
+    'creator campaigns USA',
+    'creator campaigns LATAM',
+    'GrandeApp platform',
   ],
-  authors: [{ name: 'Numerobook' }],
+  authors: [{ name: 'GrandeApp' }],
   alternates: {
-    canonical: 'https://numerobook.com',
+    canonical: 'https://www.grandeapp.com',
   },
   openGraph: {
-    title: 'Buy Bitcoin with the Lowest Fees | Numerobook',
+    title: 'Scale Your Marketing with Top Creators | GrandeApp',
     description:
-      'Trade Bitcoin safely and affordably with Numerobook. Serving users in the USA, LATAM, India, Africa and beyond with trusted payment methods like MTN Momo and more.',
-    url: 'https://numerobook.com',
-    siteName: 'Numerobook',
+      'GrandeApp connects brands with influencers, UGC, and podcast creators worldwide. Powered by AI, we help you launch high-performing campaigns without the overhead.',
+    url: 'https://www.grandeapp.com',
+    siteName: 'GrandeApp',
     images: [
       {
-        url: 'https://numerobook.com/images/OIG-19.jpg', // Ensure this image URL is publicly accessible
+        url: 'https://www.grandeapp.com/images/logo.png', // replace with your actual OG image
         width: 1200,
         height: 630,
-        alt: 'Numerobook Crypto Trading Platform',
+        alt: 'GrandeApp Creator Marketing Platform',
       },
     ],
     type: 'website',
@@ -56,10 +57,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Buy Bitcoin with the Lowest Fees | Numerobook',
+    title: 'Scale with Creators | GrandeApp',
     description:
-      'Numerobook makes crypto trading simple across the USA, LATAM, India, Africa, and beyond with local payment options and low fees.',
-    images: ['https://numerobook.com/images/OIG-19.jpg'], // Make sure the image path is correct and accessible
+      'GrandeApp helps brands and agencies grow with influencers, UGC, and podcast creators—powered by AI.',
+    images: ['https://www.grandeapp.com/images/logo.png'], // replace with your actual OG image
   },
   robots: {
     index: true,
@@ -69,7 +70,7 @@ export const metadata: Metadata = {
 
 
 
-import Nigeriab from "components/Nigeriabuy";
+
 
 export default function Page() {
   return (
@@ -83,17 +84,17 @@ export default function Page() {
   id="twitter-meta-tags"
   type="application/ld+json"
   strategy="afterInteractive"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      '@context': 'https://schema.org',
-      '@type': 'WebPage',
-      name: 'Buy Bitcoin with the Lowest Fees | Numerobook',
-      description:
-        'Numerobook makes crypto trading simple across the USA, LATAM, India, Africa, and beyond with local payment options and low fees.',
-      image: 'https://numerobook.com/images/OIG-19.jpg',
-      mainEntityOfPage: 'https://numerobook.com',
-    }),
-  }}
+dangerouslySetInnerHTML={{
+  __html: JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Grow with Top Creators | GrandeApp",
+    description:
+      "GrandeApp helps brands and agencies scale by connecting them with top creators—Influencers, UGC, and Podcasts—powered by AI.",
+    image: "https://www.grandeapp.com/images/logo.png", // update with your real OG image
+    mainEntityOfPage: "https://www.grandeapp.com",
+  }),
+}}
 />
 
 

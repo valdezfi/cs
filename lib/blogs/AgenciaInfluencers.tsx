@@ -173,7 +173,7 @@ const agencylatamBlog = {
         url: "https://grandeapp.com/images/blog/agencylatam.jpg",
         width: 1200,
         height: 630,
-        alt: "Best Fiat-Backed Stablecoins in 2025 | Numerobook Blog",
+        alt: "Agencia De Influencers Y Marca en LATAM",
       },
     ],
   },

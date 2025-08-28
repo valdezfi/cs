@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title: "Influencers, Podcasts y Contenido UGC en Puerto Rico – Grande",
     description:
       "In the era of rapid online growth, standing out isn’t optional—it’s essential. That’s where Digital Ecommerce Marketing steps in. If you’re running an online store, reaching your ideal customer, converting traffic into buyers, and creating a loyal community are all dependent on smart, data-driven marketing. This is the foundation of what we do at Grande.",
-    url: "https://www.numerobook.com/blog/puerto-rico",
+    url: "https://www.grandeapp.com/blog/puerto-rico",
     images: [
       {
         url: "https://grandeapp.com/images/blog/p.jpg",

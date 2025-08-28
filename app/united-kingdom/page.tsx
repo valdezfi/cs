@@ -6,26 +6,38 @@ import Script from 'next/script';
 
 // Metadata configuration
 export const metadata: Metadata = {
-  title: 'Crypto Exchange with Lowest Fees | Numerobook USA',
+  title: 'Grow with Top Creators | GrandeApp USA, LATAM, Europe & Beyond',
   description:
-    'Discover how Numerobook offers the lowest crypto trading fees in the USA. Use our BTC calculator, cointracking tools, and bitcoin converter for smarter, cheaper trades.',
-  keywords: ['bitcoin converter', 'crypto calculator', 'Lowest Fee Crypto Exchange'],
-  authors: [{ name: 'Numerobook' }],
+    'GrandeApp helps brands and agencies scale with AI by connecting them to top creators—Influencers, UGC, and Podcast talent. Launch paid ads or grow organically with an AI-powered marketing co-pilot.',
+  keywords: [
+    'influencer marketing',
+    'ugc creators',
+    'podcast partnerships',
+    'creator economy',
+    'brand deals',
+    'ai marketing',
+    'scale with creators',
+    'creator campaigns USA',
+    'creator campaigns LATAM',
+    'GrandeApp platform',
+    'dominican republic',
+  ],
+  authors: [{ name: 'GrandeApp' }],
   alternates: {
-    canonical: 'https://numerobook.com/usa',
+    canonical: 'https://www.grandeapp.com',
   },
   openGraph: {
-    title: 'Crypto Exchange with Lowest Fees | Numerobook USA',
+    title: 'Scale Your Marketing with Top Creators | GrandeApp',
     description:
-      'Trade crypto with the lowest fees in the USA using Numerobook. Buy Bitcoin with 0% fees, sell for just 1%, and use tools like our BTC calculator and cointracking dashboard.',
-    url: 'https://numerobook.com/usa',
-    siteName: 'Numerobook',
+      'GrandeApp connects brands with influencers, UGC, and podcast creators worldwide. Powered by AI, we help you launch high-performing campaigns without the overhead.',
+    url: 'https://www.grandeapp.com',
+    siteName: 'GrandeApp',
     images: [
       {
-        url: 'https://numerobook.com/images/OIG-19.jpg',
+        url: 'https://www.grandeapp.com/images/logo.png', // replace with your actual OG image
         width: 1200,
         height: 630,
-        alt: 'Lowest Fee Crypto Exchange USA',
+        alt: 'GrandeApp Creator Marketing Platform',
       },
     ],
     type: 'website',
@@ -33,10 +45,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Crypto Exchange with Lowest Fees | Numerobook USA',
+    title: 'Scale with Creators | GrandeApp',
     description:
-      'Trade crypto with the lowest fees in the USA using Numerobook. Tools like BTC calculator, cointracking, and more.',
-    images: ['/images/blog/pexels-ramilugot-3217363.jpg"'],
+      'GrandeApp helps brands and agencies grow with influencers, UGC, and podcast creators—powered by AI.',
+    images: ['https://www.grandeapp.com/images/logo.png'], // replace with your actual OG image
   },
   robots: {
     index: true,

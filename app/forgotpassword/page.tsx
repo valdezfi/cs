@@ -21,25 +21,16 @@ export default function Page() {
   type="application/ld+json"
   strategy="afterInteractive"
   dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      '@context': 'https://schema.org',
-      '@type': 'BreadcrumbList',
-      itemListElement: [
-        {
-          '@type': 'ListItem',
-          position: 1,
-          name: 'Home',
-          item: 'https://numerobook.com',
-        },
-        {
-          '@type': 'ListItem',
-          position: 2,
-          name: 'Forgot Password',
-          item: 'https://numerobook.com/forgotpassword',
-        },
-      ],
-    }),
-  }}
+  __html: JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Grow with Top Creators | GrandeApp",
+    description:
+      "GrandeApp helps brands and agencies scale by connecting them with top creators—Influencers, UGC, and Podcasts—powered by AI.",
+    image: "https://www.grandeapp.com/images/logo.png", // update with your real OG image
+    mainEntityOfPage: "https://www.grandeapp.com",
+  }),
+}}
 />
 
       <main>
