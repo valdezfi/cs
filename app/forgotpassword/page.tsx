@@ -1,6 +1,5 @@
 import Header from "components/Header";
 import Hero from "components/Hero";
-import AmountInput from "components/BitcoinInput";
 import Footer from "components/Footer";
 import ForgotPasswordForm from "components/ForgotPasswordForm";
 import { Metadata } from 'next';
