@@ -18,25 +18,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "usa",
     "forgotpassword",
    
-    "blog/affiliatemarketing",
-    "blog/marca",
-    "blog/b2b",
-    "blog/what-is-social-proof",
-    "blog/what-is-a-ugc-creator",
-    "blog/what-is-a-digital-creator",
-    "blog/digitalecommerce-marketing",
-    "blog/famouscreator",
-    "blog/famouscreator",
-    "blog/find-influencers-for-free",
-        "blog/ig",
-"blog/podcast-partnership",
-"blog/agencyinfleuncer",
-"blog/influencercollab",
-"blog/influencerbrands",
-"blog/brand-deals-for-influencers-worldwide",
-"blog/lamejor",
-"blog/macrogrowth",
-"blog/microvsmacro",
+    
+
+
+
 "blog/nanoinfluencers",
 "blog/ugcplatforms",
 
@@ -120,7 +105,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   ];
 
   // Simulated dynamic blog slugs (replace with DB/API fetch)
-  const blogSlugs = ["best-stablecoins"]; // Replace with actual dynamic slugs from DB
+  const blogSlugs = ["affiliatemarketing", "marca", "b2b", "what-is-social-proof", "what-is-a-ugc-creator","what-is-a-digital-creator","digitalecommerce-marketing","famouscreator","find-influencers-for-free","ig","podcast-partnership","agencyinfleuncer","influencercollab", "influencerbrands","brand-deals-for-influencers-worldwide","lamejor",
+
+"macrogrowth", "microvsmacro",
+
+"nanoinfluencers",
+"ugcplatforms",
+
+"blog/influence-holiday-campaign",
+
+
+  ]; // Replace with actual dynamic slugs from DB
   const dynamicPaths = blogSlugs.map((slug) => `blog/${slug}`);
 
   const allPaths = [...staticPaths, ...dynamicPaths];
