@@ -77,7 +77,7 @@ export default function Page() {
               {
                 '@type': 'ListItem',
                 position: 2,
-                name: 'Top USA Crypto Exchange',
+                name: 'Influencer Marketing Platform in Bahrain',
                 item: 'https://grandeapp.com/bahrain',
               },
             ],

@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Influencers, Podcasts y Contenido UGC en Argentina – Grande",
     description:
-      "In the era of rapid online growth, standing out isn’t optional—it’s essential. That’s where Digital Ecommerce Marketing steps in. If you’re running an online store, reaching your ideal customer, converting traffic into buyers, and creating a loyal community are all dependent on smart, data-driven marketing. This is the foundation of what we do at Grande.",
+    "Plataforma de Marketing de Influencers, Podcast y UGC en Argentina – Grande",
     url: "https://www.grandeapp.com/argentina",
     images: [
       {
@@ -86,7 +86,7 @@ export default function Page() {
               {
                 '@type': 'ListItem',
                 position: 2,
-                name: 'Top USA Crypto Exchange',
+                name: 'Influencers, Podcast y UGC en Argentina – Grande',
                 item: 'https://grandeapp.com/dominican-republic',
               },
             ],
