@@ -21,7 +21,14 @@ export const metadata: Metadata = {
     "shopping influencers",
     "content creation",
     "brand marketing",
-"Influencers en Puerto Rico"
+"Influencers en Puerto Rico",
+
+  "creator campaigns Puerto Rico",
+    'marketing de influencers en Puerto Rico',
+    'influencers en Puerto Rico',
+    'ugc creadores en Puerto Rico',
+    'campañas con influencers en Puerto Rico',
+        'campañas con ugc creadores  en Puerto Rico',
   ],
   openGraph: {
     title: "Influencers, Podcasts y Contenido UGC en Puerto Rico – Grande",

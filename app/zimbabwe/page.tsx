@@ -6,20 +6,19 @@ import Script from 'next/script';
 
 // Metadata configuration
 export const metadata: Metadata = {
-  title: 'Grow with Top Creators | GrandeApp USA, LATAM, Europe & Beyond',
+  title: 'Grow with Top Creators | GrandeApp Zimbabwe',
   description:
     'GrandeApp helps brands and agencies scale with AI by connecting them to top creators—Influencers, UGC, and Podcast talent. Launch paid ads or grow organically with an AI-powered marketing co-pilot.',
   keywords: [
-    'influencer marketing',
+    'influencer marketing in zimbabwe',
     'ugc creators',
     'podcast partnerships',
-    'creator economy',
-    'brand deals',
+    'creator economy in zimbabwe',
+    'brand deals in zimbabwe',
     'ai marketing',
     'scale with creators',
-    'creator campaigns USA',
-    'creator campaigns LATAM',
-    'GrandeApp platform',
+    'creator campaigns zimbabwe',
+    'GrandeApp platform zimbabwe',
   ],
   authors: [{ name: 'GrandeApp' }],
   alternates: {
