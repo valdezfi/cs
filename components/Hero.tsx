@@ -47,7 +47,7 @@ Fuel your growth with an AI partner that scales your marketing and creator opera
           href="/creatorpricing"
           className="border border-black dark:border-white text-black dark:text-white px-6 py-3 rounded-md text-base font-semibold hover:bg-gray-100 dark:hover:bg-gray-900 transition duration-300"
         >
-         Join as a Creator
+         Join as a Influencer and UGC Creator
         </Link>
       </div>
     </section>
