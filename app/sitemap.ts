@@ -44,13 +44,21 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
 
 
+"republica-dominicana",
+"bahrain",
+"argentina",
+"colombia",
+"chile",
 
+"affiliate",
 
+"about",
 
+"brand",
 
+"campaign",
 
-
-
+"creator",
         
 
 

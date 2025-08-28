@@ -1,45 +1,44 @@
 import Header from "components/Header";
-import LowestFeeExchangePage from "components/TopCo";
+import LowestFeeExchangePage from "components/TopRD";
 import Footer from "components/Footer";
 import { Metadata } from 'next';
 import Script from 'next/script';
 
-
 export const metadata: Metadata = {
-  title: "Grande: Plataforma Líder de Marketing de Influencers en Colombia",
+  title: "Grande: Plataforma Líder de Marketing de Influencers en republica dominicana",
   description:
-    "Plataforma de Marketing de Influencers, Podcast y UGC en Colombia – Grande",
+    "Plataforma de Marketing de Influencers, Podcast y UGC en republica dominicana – Grande",
   authors: [{ name: "Grandeapp Editorial Team" }],
   keywords: [
     "Digital Ecommerce Marketing",
     "e-commerce marketing manager",
     "ecommerce marketing tools",
-    "e-commerce marketing agency colombia",
+    "e-commerce marketing agency republica dominicana",
     "e-commerce marketing and advertising",
-    "e-commerce marketing colombia",
-    "shopping influencers colombia",
-    "content creation in colombia",
-    "brand marketing colombia",
-"Influencers en colombia",
+    "e-commerce marketing republica dominicana",
+    "shopping influencers republica dominicana",
+    "content creation in republica dominicana",
+    "brand marketing republica dominicana",
+"Influencers en republica dominicana",
 
-  "creator campaigns colombia",
-    'marketing de influencers en colombia',
-    'influencers en colombia',
-    'ugc creadores en colombia',
-    'campañas con influencers en colombia',
-        'campañas con ugc creadores  en colombia',
+  "creator campaigns republica dominicana",
+    'marketing de influencers en republica dominicana',
+    'influencers en republica dominicana',
+    'ugc creadores en republica dominicana',
+    'campañas con influencers en republica dominicana',
+        'campañas con ugc creadores  en republica dominicana',
   ],
   openGraph: {
-    title: "Influencers, Podcasts y Contenido UGC en Colombia – Grande",
+    title: "Influencers, Podcasts y Contenido UGC en republica dominicana – Grande",
     description:
-    "Plataforma de Marketing de Influencers, Podcast y UGC en colombia – Grande",
-    url: "https://www.grandeapp.com/colombia",
+    "Plataforma de Marketing de Influencers, Podcast y UGC en republica dominicana – Grande",
+    url: "https://www.grandeapp.com/republicadominicana",
     images: [
       {
-        url: "https://grandeapp.com/images/colombia.jpg",
+        url: "https://grandeapp.com/images/republicadominicana.jpg",
         width: 1200,
         height: 630,
-        alt: "Influencers, Podcasts y Contenido UGC en Colombia – Grande",
+        alt: "Influencers, Podcasts y Contenido UGC en republica dominicana – Grande",
       },
     ],
   },
@@ -49,11 +48,11 @@ export const metadata: Metadata = {
     description:
       "Plataforma de Marketing de Influencers, Podcast y UGC en Colombia – Grande",
     images: [
-      "https://grandeapp.com/images/colombia.jpg",
+      "https://grandeapp.com/images/republicadominicana.jpg",
     ],
   },
   alternates: {
-    canonical: "https://grandeapp.com/colombia",
+    canonical: "https://grandeapp.com/republicadominicana",
   },
   robots: {
     index: true,
@@ -84,8 +83,8 @@ export default function Page() {
               {
                 '@type': 'ListItem',
                 position: 2,
-                name: 'colombia',
-                item: 'https://grandeapp.com/colombia',
+                name: 'Top USA Crypto Exchange',
+                item: 'https://grandeapp.com/republicadominicana',
               },
             ],
           }),
