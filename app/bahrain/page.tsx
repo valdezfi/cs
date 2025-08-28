@@ -42,11 +42,11 @@ export const metadata: Metadata = {
     description:
       "Whether you're a startup in Manama or a regional brand expanding across the Gulf, Grande helps you collaborate with Bahraini creators who spark authentic engagement and deliver premium content.",
     images: [
-      "https://grandeapp.com/images/p.jpg",
+      "https://grandeapp.com/images/bahrain.jpg",
     ],
   },
   alternates: {
-    canonical: "https://grandeapp.com/argentina",
+    canonical: "https://grandeapp.com/bahrain",
   },
   robots: {
     index: true,
@@ -78,7 +78,7 @@ export default function Page() {
                 '@type': 'ListItem',
                 position: 2,
                 name: 'Top USA Crypto Exchange',
-                item: 'https://grandeapp.com/dominican-republic',
+                item: 'https://grandeapp.com/bahrain',
               },
             ],
           }),
