@@ -5,7 +5,7 @@ const BASE_URL = "https://www.bellete.com";
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Static paths
   const staticPaths = [
-    "home",
+    "",
     "contact",
     "blog",         // Base blog page
     "allblogs",     // Blog listing page          // P2P trading page
