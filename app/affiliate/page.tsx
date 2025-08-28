@@ -9,7 +9,6 @@ import AffiliateFAQ from "components/QAaffiliate";
 import USAb from "components/USAbuy";
 // import GHbuy from "components/GhanaBuy";
 import { Metadata } from 'next';
-import Script from 'next/script';
 import  AffiliateValueShowcase from "components/AffiliateResult";
 // import Creator from "components/ContentCreator"; // adjust the path based on your folder structure
 import PredictableHero from "components/Predictable"; // adjust the path based on your folder structure
