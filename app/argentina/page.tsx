@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: "Grande: Plataforma Líder de Marketing de Influencers en Mexico",
+  title: "Grande: Plataforma Líder de Marketing de Influencers en Argentina",
   description:
     "Plataforma de Marketing de Influencers, Podcast y UGC en Argentina – Grande",
   authors: [{ name: "Grandeapp Editorial Team" }],
