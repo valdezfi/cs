@@ -47,19 +47,8 @@ export default function Page() {
 
         {/* <Features /> */}
          <USAb /> 
-           {/* <Section
-          leftHalf={<Creator />}
-          rightHalf={
-            <div className="flex flex-col justify-end">
-             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-  Our Ai will help you scale your brand
-</h2>
-<p className="text-xl font-light">
-  Numerobook is designed to make crypto easy, fast, and accessible for everyone. 
-</p>
-            </div>
-          }
-        /> */}
+   
+        
         <PredictableHero/>
         {/* <Indiab /> */}
         {/* <Argentinabuynow/>

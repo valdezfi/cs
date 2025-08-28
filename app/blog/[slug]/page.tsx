@@ -1,44 +1,7 @@
 import { getBlogBySlug } from "lib/blogs";
 import { notFound } from "next/navigation";
-import type { Metadata } from "next";
-import Image from 'next/image';
 
 
-export async function generateMetadata({
-  params,
-}: {
-  params: { slug: string };
-}): Promise<Metadata> {
-  const blog = await getBlogBySlug(params.slug);
-
-  if (!blog) {
-    return {
-      title: "Blog not found",
-      description: "This blog post could not be found.",
-    };
-  }
-
-  return {
-    title: blog.meta?.title || blog.title,
-    description: blog.meta?.description || blog.snippet,
-    keywords: blog.meta?.keywords || [],
-    alternates: {
-      canonical: `https://www.numerobook.com/blog/${blog.slug}`,
-    },
-    openGraph: {
-      title: blog.meta?.title || blog.title,
-      description: blog.meta?.description || blog.snippet,
-      url: `https://www.numerobook.com/blog/${blog.slug}`,
-      images: [`https://www.numerobook.com${blog.meta?.ogImage || blog.imageUrl}`],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: blog.meta?.title || blog.title,
-      description: blog.meta?.description || blog.snippet,
-      images: [`https://www.numerobook.com${blog.meta?.ogImage || blog.imageUrl}`],
-    },
-  };
-}
 
 export default async function BlogPostPage({
   params,
@@ -55,19 +18,19 @@ export default async function BlogPostPage({
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.numerobook.com",
+      item: "https://www.grandeapp.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "allblogs",
-      item: "https://www.numerobook.com/allblogs",
+      item: "https://www.grandeapp.com/allblogs",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: blog.title,
-      item: `https://www.numerobook.com/blog/${blog.slug}`,
+      item: `https://www.c.com/blog/${blog.slug}`,
     },
   ];
 
@@ -102,8 +65,8 @@ export default async function BlogPostPage({
             "@type": "BlogPosting",
             headline: blog.title,
             description: blog.snippet,
-            image: `https://www.numerobook.com${blog.imageUrl}`,
-            url: `https://www.numerobook.com/blog/${blog.slug}`,
+            image: `https://www.grandeapp.com${blog.imageUrl}`,
+            url: `https://www.grandeapp.com/blog/${blog.slug}`,
             datePublished: blog.date ? new Date(blog.date).toISOString() : new Date().toISOString(),
             author: {
               "@type": "Person",
@@ -114,7 +77,7 @@ export default async function BlogPostPage({
               name: "Bellete",
               logo: {
                 "@type": "ImageObject",
-                url: "https://www.numerobook.com/logo.png",
+                url: "https://www.grandeapp.com/logo.png",
               },
             },
             breadcrumb: {
@@ -162,7 +125,7 @@ export default async function BlogPostPage({
 
 // Generate static paths
 export async function generateStaticParams() {
-  const allSlugs = ["Best-Stablecoins"]; // Add all the blog slugs here
+  const allSlugs = ["affiliatemarketing", "marca", "b2b", "what-is-social-proof", "what-is-a-ugc-creator", "12-popular", "what-is-a-digital-creator", "digitalecommerce-marketing", "famouscreator","find-influencers-for-free","podcast-partnership", "ig", "agencyinfleuncer", "influencercollab", "influencerbrands", "brand-deals-for-influencers-worldwide","lamejor", "macrogrowth", "microvsmacro", "nanoinfluencers", "ugcplatforms" ]; // Add all the blog slugs here
 
   return allSlugs.map((slug) => ({ slug }));
 }

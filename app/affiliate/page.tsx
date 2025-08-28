@@ -33,22 +33,7 @@ export default function Page() {
 
 
 
-<Script
-  id="twitter-meta-tags"
-  type="application/ld+json"
-  strategy="afterInteractive"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      '@context': 'https://schema.org',
-      '@type': 'WebPage',
-      name: 'Buy Bitcoin with the Lowest Fees | Numerobook',
-      description:
-        'Numerobook makes crypto trading simple across the USA, LATAM, India, Africa, and beyond with local payment options and low fees.',
-      image: 'https://numerobook.com/images/OIG-19.jpg',
-      mainEntityOfPage: 'https://numerobook.com',
-    }),
-  }}
-/>
+
 
 
 
@@ -61,28 +46,9 @@ export default function Page() {
 
         {/* <Features /> */}
          <USAb /> 
-           {/* <Section
-          leftHalf={<Creator />}
-          rightHalf={
-            <div className="flex flex-col justify-end">
-             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-  Our Ai will help you scale your brand
-</h2>
-<p className="text-xl font-light">
-  Numerobook is designed to make crypto easy, fast, and accessible for everyone. 
-</p>
-            </div>
-          }
-        /> */}
+     
         <PredictableHero/>
-        {/* <Indiab /> */}
-        {/* <Argentinabuynow/>
-
-        <MexicoB />  */}
-{/* <UBuy/>
-
-<Nigeriab />
-<GHbuy/> */}
+    
 
    
 <Section
