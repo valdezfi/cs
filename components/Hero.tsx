@@ -31,9 +31,8 @@ export default function Hero() {
       <h1 className="font-sans text-3xl tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl dark:text-white mb-6">
 Collab With UGC Creators And Influencers — made easier with AI.     </h1>
       <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 font-light max-w-4xl mx-auto">
-        We help Brands and Agencies grow by connecting them with top creators: Influencers,UGC and Podcast Creators with the support of AI.
-        Whether you're launching high-performing paid ads or scaling organically,
-Fuel your growth with an AI partner that scales your marketing and creator operations—without the overhead. It’s a marketing co-pilot.
+We help Brands and Agencies grow by running high-impact campaigns with top creators—Influencers, UGC, and Podcast Creators—powered by AI.
+Whether you're launching high-performing paid ads or scaling organically, fuel your growth with an AI partner that manages and scales your marketing and creator campaigns—without the overhead. It’s your marketing co-pilot.
 
       </p>
       <div className="flex justify-center space-x-6">
