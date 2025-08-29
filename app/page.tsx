@@ -3,7 +3,6 @@ import Hero from "components/Hero";
 import Section from "components/Section";
 import Footer from "components/Footer";
 
-import Accordion from "components/Accordion";
 
 
 import USAb from "components/USAbuy";
@@ -12,6 +11,7 @@ import BrandShowcase from "components/Brandshowcase";
 import Creator from "components/ContentCreator"; // adjust the path based on your folder structure
 import PredictableHero from "components/Predictable"; // adjust the path based on your folder structure
 
+import CreatorSpotlight from "components/Showcreator"; // adjust the path based on your folder structure
 
 
 export const metadata: Metadata = {
@@ -156,7 +156,7 @@ export default function Page() {
       <main>
         <Hero />
         <BrandShowcase />
-        
+        <CreatorSpotlight/>
         {/* <Features /> */}
          <USAb /> 
            <Section
