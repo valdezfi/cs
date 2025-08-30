@@ -10,17 +10,19 @@ export default function Hero() {
     "With podcasters",
     "Your marketing strategy",
   ];
+
   const [index, setIndex] = useState(0);
   const [fade, setFade] = useState(true);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setFade(false); // start fade-out
-      setTimeout(() => {
+      setFade(false); // fade out
+      const timeout = setTimeout(() => {
         setIndex((prev) => (prev + 1) % phrases.length);
-        setFade(true); // fade back in
-      }, 300); // fade-out duration
-    }, 2500); // rotates every 2.5s
+        setFade(true); // fade in
+      }, 500); // smoother fade duration
+      return () => clearTimeout(timeout);
+    }, 3000); // slightly longer rotation for readability
 
     return () => clearInterval(interval);
   }, []);
@@ -28,12 +30,12 @@ export default function Hero() {
   return (
     <section className="text-center my-32 mx-4 sm:mx-8 md:mx-16 lg:mx-24 bg-white dark:bg-black">
       <h1
-        className="font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-12 
+        className="font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-12
         bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 bg-clip-text text-transparent tracking-tight"
       >
         THE ONE PLACE TO BUILD: <br />
         <span
-          className={`inline-block transition-opacity duration-500 ${
+          className={`inline-block transition-opacity duration-700 ${
             fade ? "opacity-100" : "opacity-0"
           }`}
         >
@@ -42,7 +44,8 @@ export default function Hero() {
       </h1>
 
       <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 font-light max-w-4xl mx-auto">
-        Post campaigns for social media with your AI copilot.
+        Easily launch campaigns, collaborate with influencers, UGC creators, and podcasters, 
+        and grow your brand with AI-powered guidance.
       </p>
 
       <div className="flex justify-center space-x-6">
