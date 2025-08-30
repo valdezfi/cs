@@ -12,7 +12,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/images/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/images/favicon.jpg" type="image/svg+xml" />
      
       </head>
       <body className="bg-white dark:bg-black min-h-screen">
