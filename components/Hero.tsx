@@ -3,26 +3,42 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 
 export default function Hero() {
-  const words = ["Influencers", "UGC Creators", "Podcasters", "Brands"];
+  const phrases = [
+    "Your campaign",
+    "With influencers",
+    "With UGC",
+    "With podcasters",
+    "Your marketing strategy",
+  ];
   const [index, setIndex] = useState(0);
+  const [fade, setFade] = useState(true);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setIndex((prev) => (prev + 1) % words.length);
+      setFade(false); // start fade-out
+      setTimeout(() => {
+        setIndex((prev) => (prev + 1) % phrases.length);
+        setFade(true); // fade back in
+      }, 300); // fade-out duration
     }, 2500); // rotates every 2.5s
+
     return () => clearInterval(interval);
   }, []);
 
   return (
     <section className="text-center my-32 mx-4 sm:mx-8 md:mx-16 lg:mx-24 bg-white dark:bg-black">
-      <h1 className="font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-12 
-        bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 bg-clip-text text-transparent tracking-tight">
+      <h1
+        className="font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-12 
+        bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 bg-clip-text text-transparent tracking-tight"
+      >
         THE ONE PLACE TO BUILD: <br />
-        Your campaign with{" "}
-        <span className="transition-opacity duration-700 ease-in-out">
-          {words[index]}
+        <span
+          className={`inline-block transition-opacity duration-500 ${
+            fade ? "opacity-100" : "opacity-0"
+          }`}
+        >
+          {phrases[index]}
         </span>
-        . <br />Your marketing strategy.
       </h1>
 
       <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 font-light max-w-4xl mx-auto">
@@ -34,7 +50,7 @@ export default function Hero() {
           href="/pricing"
           className="bg-black text-white dark:bg-white dark:text-black px-6 py-3 rounded-md text-base font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition duration-300"
         >
-          Launch A Campaign
+          Launch a Campaign
         </Link>
         <Link
           href="/creatorpricing"
