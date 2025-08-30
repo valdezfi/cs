@@ -14,6 +14,8 @@ import Creator from "components/ContentCreator"; // adjust the path based on you
 import PredictableHero from "components/Predictable"; // adjust the path based on your folder structure
 
 import CreatorSpotlight from "components/ShowCreator"; // adjust the path based on your folder structure
+import AiHero from "components/Ai"; // adjust the path based on your folder structure
+
 
 
 export const metadata: Metadata = {
@@ -163,7 +165,8 @@ export default function Page() {
         <BrandShowcase />
         {/* <Features /> */}
          {/* <USAb />  */}
-           <Section
+<AiHero/>
+           {/* <Section
           leftHalf={<Creator />}
           rightHalf={
             <div className="flex flex-col justify-end">
@@ -173,7 +176,7 @@ export default function Page() {
 
             </div>
           }
-        />
+        /> */}
         <PredictableHero/>
 
 
