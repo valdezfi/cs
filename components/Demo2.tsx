@@ -2,32 +2,46 @@
 
 import React from "react";
 
-export default function DemoEmbed() {
+type SupademoEmbedProps2 = {
+  /** Full Supademo embed URL or just the ID */
+  src?: string;
+  /** Accessible title for the iframe */
+  title?: string;
+  /** Aspect ratio (width / height). Default matches your snippet. */
+  aspectRatio?: number;
+  /** Optional extra classNames for the wrapper */
+  className?: string;
+};
+
+export default function SupademoEmbed({
+  src = "https://app.supademo.com/embed/cmeytxutx9329v9kqsni4lwbq?embed_v=2&utm_source=embed",
+  title = "Grandeapp Demo",
+  aspectRatio = 2.2117882117882117,
+  className = "",
+}: SupademoEmbedProps2) {
   return (
     <div
+      className={`relative w-full max-h-[80vh] max-h-[80svh] ${className}`}
       style={{
-        position: "relative",
         boxSizing: "content-box",
-        maxHeight: "80vh",
-        maxWidth: "100%",
-        aspectRatio: "2.21 / 1",
-        padding: "40px 0",
+        paddingTop: 40,
+        paddingBottom: 40,
+        aspectRatio,
       }}
     >
       <iframe
-        src="https://app.supademo.com/embed/cmeytxutx9329v9kqsni4lwbq?embed_v=2&utm_source=embed"
+        src={src}
+        title={title}
         loading="lazy"
-        title="How to navigate the Grandeapp interface"
         allow="clipboard-write"
-        frameBorder="0"
         allowFullScreen
+        referrerPolicy="no-referrer-when-downgrade"
         style={{
           position: "absolute",
-          top: 0,
-          left: 0,
+          inset: 0,
           width: "100%",
           height: "100%",
-          border: "0",
+          border: 0,
         }}
       />
     </div>
