@@ -3,6 +3,7 @@ import Hero from "components/Hero";
 import Section from "components/Section";
 import Footer from "components/Footer";
 
+import SupademoEmbed from "components/Demo";
 
 
 import USAb from "components/USAbuy";
@@ -155,8 +156,10 @@ export default function Page() {
   
       <main>
         <Hero />
-        <BrandShowcase />
+        <SupademoEmbed/>
         <CreatorSpotlight/>
+
+        <BrandShowcase />
         {/* <Features /> */}
          <USAb /> 
            <Section
@@ -171,32 +174,9 @@ export default function Page() {
           }
         />
         <PredictableHero/>
-        {/* <Indiab /> */}
-        {/* <Argentinabuynow/>
-
-        <MexicoB />  */}
-{/* <UBuy/>
-
-
-   <Section
-  leftHalf={<Accordion />}
-  rightHalf={
-    <div className="flex flex-col justify-end">
-      <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-        Grande: The Intelligence Engine for Influencer Marketing
-      </h2>
-      <p className="text-xl font-light">
-        Discover a smarter way to connect with creators, manage campaigns, and drive measurable growth — all from one powerful terminal.
-      </p>
-    </div>
-  }
-/>
 
 
 
-  
-        {/* <Reviews />
-        <Download /> */}
       </main>
       <Footer />
     </div>
