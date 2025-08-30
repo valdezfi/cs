@@ -6,9 +6,11 @@ export default function Hero() {
   const phrases = [
     "your Campaign",
     "with Influencers",
-    "with UGC",
+    "with UGC Creators",
     "with Podcasters",
-    "uour Marketing Strategy",
+    "your Marketing Strategy",
+    "your ADs",
+
   ];
 
   const [index, setIndex] = useState(0);
