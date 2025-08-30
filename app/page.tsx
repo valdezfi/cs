@@ -4,6 +4,7 @@ import Section from "components/Section";
 import Footer from "components/Footer";
 
 import SupademoEmbed from "components/Demo";
+import DemoEmbed from "components/Demo2";
 
 
 import USAb from "components/USAbuy";
@@ -158,7 +159,7 @@ export default function Page() {
         <Hero />
         <SupademoEmbed/>
         <CreatorSpotlight/>
-
+<DemoEmbed/>
         <BrandShowcase />
         {/* <Features /> */}
          <USAb /> 
