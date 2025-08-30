@@ -7,7 +7,7 @@ import SupademoEmbed from "components/Demo";
 import SupademoEmbed2 from "components/Demo2";
 
 
-import USAb from "components/USAbuy";
+// import USAb from "components/USAbuy";
 import { Metadata } from 'next';
 import BrandShowcase from "components/Brandshowcase";
 import Creator from "components/ContentCreator"; // adjust the path based on your folder structure
@@ -162,7 +162,7 @@ export default function Page() {
 <SupademoEmbed2/>
         <BrandShowcase />
         {/* <Features /> */}
-         <USAb /> 
+         {/* <USAb />  */}
            <Section
           leftHalf={<Creator />}
           rightHalf={
