@@ -11,7 +11,7 @@ import BrandShowcase from "components/Brandshowcase";
 import Creator from "components/ContentCreator"; // adjust the path based on your folder structure
 import PredictableHero from "components/Predictable"; // adjust the path based on your folder structure
 
-import CreatorSpotlight from "components/Showcreator"; // adjust the path based on your folder structure
+import CreatorSpotlight from "components/ShowCreator"; // adjust the path based on your folder structure
 
 
 export const metadata: Metadata = {
