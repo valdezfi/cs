@@ -12,7 +12,7 @@ const BrandShowcase = () => {
   return (
     <section className="py-20 my-20 px-4 bg-white dark:bg-black text-center">
       <h2 className="font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-12 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 bg-clip-text text-transparent tracking-tight">
-        Creators Trusted By Brands You Know
+        Creators Trusted By Brands
       </h2>
       <div className="flex flex-wrap justify-center items-center gap-10">
         {featuredBrands.map((brand, idx) => (
