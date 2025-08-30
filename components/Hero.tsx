@@ -4,11 +4,11 @@ import Link from "next/link";
 
 export default function Hero() {
   const phrases = [
-    "Your campaign",
-    "With influencers",
-    "With UGC",
-    "With podcasters",
-    "Your marketing strategy",
+    "your Campaign",
+    "with Influencers",
+    "with UGC",
+    "with Podcasters",
+    "uour Marketing Strategy",
   ];
 
   const [index, setIndex] = useState(0);
