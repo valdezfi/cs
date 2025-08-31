@@ -33,11 +33,12 @@ export default function Hero() {
   return (
     <section className="text-center my-32 mx-4 sm:mx-8 md:mx-16 lg:mx-24 bg-white dark:bg-black">
       <h1
-        className="font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-12
-        bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 bg-clip-text text-transparent tracking-tight"
-      >
-        THE ONE PLACE TO BUILD: <br />
-        <span
+      className="font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-12
+  bg-gradient-to-r from-blue-500 via-blue-400 to-blue-300 bg-clip-text text-transparent tracking-tight"
+>
+  THE ONE PLACE TO BUILD: <br />
+  <span
+
           className={`inline-block transition-opacity duration-700 ${
             fade ? "opacity-100" : "opacity-0"
           }`}
