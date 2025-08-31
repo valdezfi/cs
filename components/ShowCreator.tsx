@@ -40,7 +40,7 @@ const CreatorSpotlight = () => {
               grayscale group-hover:grayscale-0 transition duration-300"
               loading="lazy"
             />
-            <p className="text-sm font-semibold text-gray-700 dark:text-gray-300 group-hover:text-purple-500 truncate w-full text-center">
+            <p className="text-sm font-semibold text-gray-700 dark:text-gray-300 group-hover:text-blue-500 truncate w-full text-center">
               {creator.name}
             </p>
           </a>
