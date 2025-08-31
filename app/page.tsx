@@ -6,6 +6,7 @@ import Footer from "components/Footer";
 import SupademoEmbed from "components/Demo";
 import SupademoEmbed2 from "components/Demo2";
 
+import SupademoEmbed3 from "components/Demo3";
 
 // import USAb from "components/USAbuy";
 import { Metadata } from 'next';
@@ -165,7 +166,9 @@ export default function Page() {
         <BrandShowcase />
         {/* <Features /> */}
          {/* <USAb />  */}
+        < SupademoEmbed3 />
 <AiHero/>
+
            {/* <Section
           leftHalf={<Creator />}
           rightHalf={

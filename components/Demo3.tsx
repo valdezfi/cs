@@ -13,7 +13,7 @@ type SupademoEmbedProps2 = {
   className?: string;
 };
 
-export default function SupademoEmbed({
+export default function SupademoEmbed3({
   src = "https://app.supademo.com/embed/cmeyxrnpy9415v9kqo279px9j?embed_v=2&utm_source=embed",
   title = "Grandeapp Demo",
   aspectRatio = 2.2117882117882117,
