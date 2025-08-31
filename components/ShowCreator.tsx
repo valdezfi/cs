@@ -12,9 +12,12 @@ const CreatorSpotlight = () => {
   return (
     <section className="pt-32 pb-20 px-4 bg-white dark:bg-black text-center">
       {/* Title with gradient */}
-      <h2 className="font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-12 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 bg-clip-text text-transparent tracking-tight">
-        Creator Spotlight
-      </h2>
+     <h2 className="font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-12
+  bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 bg-clip-text text-transparent tracking-tight"
+>
+  Creator Spotlight
+</h2>
+
 
       {/* Inline scrollable row */}
       <div className="flex justify-center items-center gap-6 overflow-x-auto max-w-7xl mx-auto scrollbar-hide py-4">
