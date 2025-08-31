@@ -10,6 +10,7 @@ export default function PredictableHero() {
   bg-gradient-to-r from-blue-900 via-blue-600 to-blue-300 bg-clip-text text-transparent tracking-tight
   drop-shadow-xl animate-pulse"
 >
+        The Grande Difference
       </h1>
       <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 font-light max-w-4xl mx-auto">
         Industry Leading Expertise Led By AI. Predictable Performance.
