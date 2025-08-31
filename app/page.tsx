@@ -107,8 +107,31 @@ export const metadata: Metadata = {
         'campañas con ugc creadores  en brazil',
  
  
- 
+ 'advertise on roblox',
 
+'roblox advertising agency',
+'roblox influencer marketing',
+
+'roblox brand activations',
+
+'roblox marketing services',
+
+'roblox event promotion',
+
+'roblox virtual brand partnerships',
+
+'roblox ugc brand marketing',
+'roblox influencer program',
+
+'roblox creator sponsorships',
+
+'roblox ugc creator affiliate',
+
+'roblox partnership opportunities',
+
+'make money on roblox as influencer',
+
+'roblox ugc sponsorship',
 
   ],
   authors: [{ name: 'GrandeApp' }],

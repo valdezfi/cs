@@ -110,7 +110,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 "ugcplatforms",
 
 "blog/influence-holiday-campaign",
-
+"roblox-advertising",
 
   ]; // Replace with actual dynamic slugs from DB
   const dynamicPaths = blogSlugs.map((slug) => `blog/${slug}`);
