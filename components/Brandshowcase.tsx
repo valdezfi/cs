@@ -11,7 +11,10 @@ const featuredBrands = [
 const BrandShowcase = () => {
   return (
     <section className="py-20 my-20 px-4 bg-white dark:bg-black text-center">
-      <h2 className="font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-12 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 bg-clip-text text-transparent tracking-tight">
+      <h2  className="font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-12
+  bg-gradient-to-r from-blue-900 via-blue-600 to-blue-300 bg-clip-text text-transparent tracking-tight
+  drop-shadow-xl animate-pulse"
+>
         Creators Trusted By Brands
       </h2>
       <div className="flex flex-wrap justify-center items-center gap-10">
