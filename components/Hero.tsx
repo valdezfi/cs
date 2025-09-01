@@ -10,7 +10,8 @@ export default function Hero() {
     "with Podcasters",
     "your Marketing Strategy",
     "your ADs",
-    "with AI"
+    "with AI",
+    "with Roblox Developers "
 
   ];
 
