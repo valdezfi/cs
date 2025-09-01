@@ -21,7 +21,7 @@ import UGCCreatoreBlog from "./blogs/CompleteGuide"
 import digitalecommerceBlog from "./blogs/digitalecommerce-marketing"
 import influencerbrandsBlog from "./blogs/InfluencerGuide"
 import InfluenceHolidayCampaignBlog from "./blogs/Holiday"
-
+import InfluencerEventsBlog from "./blogs/Events"
 import RobloxAdvertisingBlog from "./blogs/Roblox"
 
 
@@ -33,7 +33,7 @@ const blogs = [bitcoinLoan, PodcastPartnershipBlog, FreeInfluencerBlog,
 MicroMacroBlog, AffiliateMarketingBlog, InfluencerCollablog,
 IgBlog, MacroBlog, BoostBlog, digitalcreatorBlog, popularBlog, UGCCreatoreBlog, digitalecommerceBlog, influencerbrandsBlog, 
 
-InfluenceHolidayCampaignBlog, RobloxAdvertisingBlog];
+InfluenceHolidayCampaignBlog, RobloxAdvertisingBlog, InfluencerEventsBlog];
 
 export function getBlogBySlug(slug: string) {
   return blogs.find((blog) => blog.slug === slug);
