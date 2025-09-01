@@ -49,10 +49,9 @@ export default function Hero() {
         </span>
       </h1>
 
-      <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 font-light max-w-4xl mx-auto">
-        Easily launch campaigns, collaborate with influencers, UGC creators,  Roblox Developers, and podcasters, 
-        and grow your brand with AI-powered guidance.
-      </p>
+     <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 font-light max-w-4xl mx-auto">
+  Easily launch campaigns and collaborate with influencers, UGC creators, Roblox developers, and podcasters, while growing your brand with AI-powered guidance.
+</p>
 
       <div className="flex justify-center space-x-6">
         <Link
