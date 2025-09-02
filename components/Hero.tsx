@@ -45,8 +45,7 @@ export default function Hero() {
       </h1>
 
       <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 font-light max-w-4xl mx-auto">
-        Easily launch affiliate campaigns and collaborate with influencers, Roblox developers, and podcasters — while growing your brand
-        with AI-powered guidance.
+        Easily launch affiliate campaigns and collaborate with AI.
       </p>
 
       <div className="flex justify-center space-x-6">
