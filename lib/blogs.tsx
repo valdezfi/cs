@@ -33,8 +33,13 @@ const blogs = [bitcoinLoan, PodcastPartnershipBlog, FreeInfluencerBlog,
   UGCplatformsBlog, B2bBlog, FamousBlog, NanoBlog, lamejorBlog,
 MicroMacroBlog, AffiliateMarketingBlog, InfluencerCollablog,
 IgBlog, MacroBlog, BoostBlog, digitalcreatorBlog, popularBlog, UGCCreatoreBlog, digitalecommerceBlog, influencerbrandsBlog, 
+InfluenceHolidayCampaignBlog, RobloxAdvertisingBlog, InfluencerEventsBlog,
+
  AffiliateProgramBlog,
-InfluenceHolidayCampaignBlog, RobloxAdvertisingBlog, InfluencerEventsBlog];
+
+
+
+];
 
 export function getBlogBySlug(slug: string) {
   return blogs.find((blog) => blog.slug === slug);
