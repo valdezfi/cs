@@ -23,6 +23,7 @@ import influencerbrandsBlog from "./blogs/InfluencerGuide"
 import InfluenceHolidayCampaignBlog from "./blogs/Holiday"
 import InfluencerEventsBlog from "./blogs/Events"
 import RobloxAdvertisingBlog from "./blogs/Roblox"
+import AffiliateProgramBlog from "./blogs/SProgramBlog"
 
 
 
@@ -32,7 +33,7 @@ const blogs = [bitcoinLoan, PodcastPartnershipBlog, FreeInfluencerBlog,
   UGCplatformsBlog, B2bBlog, FamousBlog, NanoBlog, lamejorBlog,
 MicroMacroBlog, AffiliateMarketingBlog, InfluencerCollablog,
 IgBlog, MacroBlog, BoostBlog, digitalcreatorBlog, popularBlog, UGCCreatoreBlog, digitalecommerceBlog, influencerbrandsBlog, 
-
+ AffiliateProgramBlog,
 InfluenceHolidayCampaignBlog, RobloxAdvertisingBlog, InfluencerEventsBlog];
 
 export function getBlogBySlug(slug: string) {

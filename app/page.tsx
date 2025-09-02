@@ -41,16 +41,16 @@ export const metadata: Metadata = {
     'ugc creadores en venezuela',
     'campañas con influencers en LATAM',
         'campañas con ugc creadores  en LATAM',
-        
-
+        'affiliate marketing software for small teams',
+'easy affiliate tracking for influencers',
         'creator campaigns uruguay',
     'marketing de influencers en uruguay',
     'influencers en uruguay',
     'ugc creadores en uruguay',
     'campañas con influencers en republica dominicana',
         'campañas con ugc creadores  en republica dominicana',
-
-
+'track affiliate sales without cookies',
+'affiliate marketing platform for LATAM creators',
              'creator campaigns paraguay',
     'marketing de influencers en paraguay',
     'influencers en paraguay',
@@ -130,7 +130,7 @@ export const metadata: Metadata = {
 'roblox partnership opportunities',
 
 'make money on roblox as influencer',
-
+'how to create your own affiliate program for small business',
 'roblox ugc sponsorship',
 
   ],

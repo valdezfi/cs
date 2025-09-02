@@ -104,7 +104,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Simulated dynamic blog slugs (replace with DB/API fetch)
   const blogSlugs = ["affiliatemarketing", "marca", "b2b", "what-is-social-proof", "what-is-a-ugc-creator","what-is-a-digital-creator","digitalecommerce-marketing","famouscreator","find-influencers-for-free","ig","podcast-partnership","agencyinfleuncer","influencercollab", "influencerbrands","brand-deals-for-influencers-worldwide","lamejor",
 
-"macrogrowth", "microvsmacro",
+"macrogrowth", "microvsmacro", "create-affiliate-program-small-business",
 
 "nanoinfluencers",
 "ugcplatforms",
