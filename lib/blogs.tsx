@@ -24,6 +24,7 @@ import InfluenceHolidayCampaignBlog from "./blogs/Holiday"
 import InfluencerEventsBlog from "./blogs/Events"
 import RobloxAdvertisingBlog from "./blogs/Roblox"
 import AffiliateProgramBlog from "./blogs/SProgramBlog"
+import christmasAffiliateBlog from "./blogs/MCblog"
 
 
 
@@ -37,7 +38,7 @@ InfluenceHolidayCampaignBlog, RobloxAdvertisingBlog, InfluencerEventsBlog,
 
  AffiliateProgramBlog,
 
-
+christmasAffiliateBlog
 
 ];
 

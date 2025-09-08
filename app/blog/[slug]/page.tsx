@@ -125,7 +125,7 @@ export default async function BlogPostPage({
 
 // Generate static paths
 export async function generateStaticParams() {
-  const allSlugs = ["affiliatemarketing", "marca", "b2b", "what-is-social-proof", "what-is-a-ugc-creator", "12-popular", "what-is-a-digital-creator", "digitalecommerce-marketing", "famouscreator","find-influencers-for-free","podcast-partnership", "ig", "agencyinfleuncer", "influencercollab", "influencerbrands", "brand-deals-for-influencers-worldwide","lamejor", "macrogrowth", "microvsmacro", "nanoinfluencers", "ugcplatforms", "influence-holiday-campaign"]; // Add all the blog slugs here
+  const allSlugs = ["affiliatemarketing", "marca", "b2b", "what-is-social-proof", "what-is-a-ugc-creator", "12-popular", "what-is-a-digital-creator", "digitalecommerce-marketing", "famouscreator","find-influencers-for-free","podcast-partnership", "ig", "agencyinfleuncer", "influencercollab", "influencerbrands", "brand-deals-for-influencers-worldwide","lamejor", "macrogrowth", "microvsmacro", "nanoinfluencers", "ugcplatforms", "influence-holiday-campaign","christmas-affiliate-marketing"]; // Add all the blog slugs here
 
   return allSlugs.map((slug) => ({ slug }));
 }
