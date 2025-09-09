@@ -52,7 +52,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 "forgotpassword",
 
 "france",
-
+"company",
 "ghana",
 
 "influencer",

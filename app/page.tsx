@@ -28,6 +28,7 @@ export const metadata: Metadata = {
     'podcast partnerships',
     'creator economy',
     'brand deals',
+    'mexican marketing firms',
     'ai marketing',
     'scale with creators',
     'creator campaigns USA',
