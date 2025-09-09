@@ -17,7 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="bg-white dark:bg-black min-h-screen">
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
-        <GoogleAnalytics gaId="G-D0NTC472L0" />
+        <GoogleAnalytics gaId="G-F3Q6L5RHHX" />
 
           {children}
         </ThemeProvider>
