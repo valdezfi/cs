@@ -65,7 +65,7 @@ const Footer = () => {
           <span className="hidden sm:inline-block border-l h-4 mx-2 border-gray-400" />
           <div className="flex space-x-4">
             {/* <a href="/allblogs" className="hover:text-gray-300">Blog</a> */}
-            <a href="/aboutus" className="hover:text-gray-300">About</a>
+            <a href="/about" className="hover:text-gray-300">About</a>
             <a href="/terms" className="hover:text-gray-300">Terms</a>
             <a href="/privacy" className="hover:text-gray-300">Privacy</a>
           </div>
