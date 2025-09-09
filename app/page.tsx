@@ -1,6 +1,5 @@
 import Header from "components/Header";
 import Hero from "components/Hero";
-import Section from "components/Section";
 import Footer from "components/Footer";
 
 import SupademoEmbed from "components/Demo";
