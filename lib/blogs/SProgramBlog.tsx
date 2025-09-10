@@ -267,7 +267,11 @@ const AffiliateProgramBlog = {
   "create affiliate program on a budget",
   "small business digital marketing strategies",
   "passive income for small business owners",
-  "how to track affiliate sales effectively"
+  "how to track affiliate sales effectively",
+  "ads mexico",
+  "amazon ads mexico",
+  "tiktok ads mexico",
+
     ],
     ogImage: "https://grandeapp.com/images/blog/affiliate-program-smb.jpg",
   },
