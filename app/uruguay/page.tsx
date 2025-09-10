@@ -1,67 +1,49 @@
 import Header from "components/Header";
 import LowestFeeExchangePage from "components/TopUruguay";
 import Footer from "components/Footer";
-import { Metadata } from 'next';
-import Script from 'next/script';
+import { Metadata } from "next";
+import Script from "next/script";
 
-// Metadata configuration
-// Metadata configuration
 export const metadata: Metadata = {
-  title: 'Grow with Top Creators | GrandeApp Uruguay',
+  title: "Grande: The Best UGC Creator & Influencer Marketing Platform in Uruguay",
   description:
-    'GrandeApp helps brands and agencies scale with AI by connecting them to top creators—Influencers, UGC, and Podcast talent. Launch paid ads or grow organically with an AI-powered marketing co-pilot.',
+    "GrandeApp helps Uruguayan brands scale with AI by connecting them to top creators—Influencers, UGC, and Podcast talent. Launch paid ads or grow organically with an AI-powered marketing co-pilot.",
   keywords: [
-      'influencer marketing',
-    'ugc creators',
-    'podcast partnerships',
-    'creator economy',
-    'brand deals',
-    'ai marketing',
-    'scale with creators',
-    'creator campaigns USA',
-    'creator campaigns LATAM',
-    'GrandeApp platform',
-    'creator campaigns uruguay',
-    'marketing de influencers en uruguay',
-    'influencers en uruguay',
-    'ugc creadores en uruguay',
-    'campañas con influencers en LATAM',
-        'campañas con ugc creadores  en LATAM',
-      'campañas con ugc creadores  en uruguay',
-
+    "influencer marketing Uruguay",
+    "UGC creators Uruguay",
+    "podcast partnerships Uruguay",
+    "brand deals Uruguay",
+    "AI marketing Uruguay",
+    "scale with creators Uruguay",
+    "GrandeApp platform Uruguay",
   ],
-  authors: [{ name: 'GrandeApp' }],
-  alternates: {
-    canonical: 'https://www.grandeapp.com',
-  },
+  authors: [{ name: "GrandeApp" }],
+  alternates: { canonical: "https://www.grandeapp.com/uruguay" },
   openGraph: {
-    title: 'Scale Your Marketing with Top Creators | GrandeApp',
+    title: "Grande: The Best UGC Creator & Influencer Marketing Platform in Uruguay",
     description:
-      'GrandeApp connects brands with influencers, UGC, and podcast creators worldwide. Powered by AI, we help you launch high-performing campaigns without the overhead.',
-    url: 'https://www.grandeapp.com',
-    siteName: 'GrandeApp',
+      "GrandeApp connects Uruguayan brands with influencers, UGC, and podcast creators. Powered by AI, we help you launch high-performing campaigns efficiently.",
+    url: "https://www.grandeapp.com/uruguay",
+    siteName: "GrandeApp",
     images: [
       {
-        url: 'https://www.grandeapp.com/images/logo.png', // replace with your actual OG image
+        url: "https://www.grandeapp.com/images/logo.png",
         width: 1200,
         height: 630,
-        alt: 'GrandeApp Creator Marketing Platform',
+        alt: "Grande: UGC Creator & Influencer Marketing in Uruguay",
       },
     ],
-    type: 'website',
-    locale: 'en_US',
+    type: "website",
+    locale: "es_UY",
   },
   twitter: {
-    card: 'summary_large_image',
-    title: 'Scale with Creators | GrandeApp',
+    card: "summary_large_image",
+    title: "Grande: The Best UGC Creator & Influencer Marketing Platform in Uruguay",
     description:
-      'GrandeApp helps brands and agencies grow with influencers, UGC, and podcast creators—powered by AI.',
-    images: ['https://www.grandeapp.com/images/logo.png'], // replace with your actual OG image
+      "GrandeApp helps Uruguayan brands grow with influencers, UGC, and podcast creators—powered by AI.",
+    images: ["https://www.grandeapp.com/images/logo.png"],
   },
-  robots: {
-    index: true,
-    follow: true,
-  },
+  robots: { index: true, follow: true },
 };
 
 export default function Page() {
@@ -73,29 +55,17 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'BreadcrumbList',
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
             itemListElement: [
-              {
-                '@type': 'ListItem',
-                position: 1,
-                name: 'Home',
-                item: 'https://grandeapp.com',
-
-              },
-              {
-                '@type': 'ListItem',
-                position: 2,
-                name: 'Top USA Crypto Exchange',
-                item: 'https://grandeapp.com/dominican-republic',
-              },
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://www.grandeapp.com" },
+              { "@type": "ListItem", position: 2, name: "Uruguay", item: "https://www.grandeapp.com/uruguay" },
             ],
           }),
         }}
       />
       <Header />
       <main className="flex-1 py-8 px-4">
-       
         <LowestFeeExchangePage />
       </main>
       <Footer />
