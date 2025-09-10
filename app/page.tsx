@@ -128,6 +128,8 @@ export const metadata: Metadata = {
 'dominican republic beaches',
 'shein near me',
 'shein bathing suits',
+'mercado libre venezuela',
+'mercado libre de venezuela',
 'shein location',
 'shein stores near me',
 'shein store near me',

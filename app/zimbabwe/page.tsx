@@ -3,7 +3,6 @@ import LowestFeeExchangePage from "components/TopZimbabwe";
 import Footer from "components/Footer";
 import { Metadata } from "next";
 import Script from "next/script";
-
 export const metadata: Metadata = {
   title: "Grande: The Best UGC Creator & Influencer Marketing Platform in Zimbabwe",
   description:

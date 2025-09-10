@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     "AI marketing Venezuela",
     "scale with creators Venezuela",
     "GrandeApp platform Venezuela",
+    "shein venezuela",
+    "mercado libre venezuela",
+    "mercado libre de venezuela"
   ],
   authors: [{ name: "GrandeApp" }],
   alternates: { canonical: "https://www.grandeapp.com/venezuela" },
