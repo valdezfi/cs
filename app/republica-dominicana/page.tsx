@@ -1,64 +1,49 @@
 import Header from "components/Header";
 import LowestFeeExchangePage from "components/TopRD";
 import Footer from "components/Footer";
-import { Metadata } from 'next';
-import Script from 'next/script';
+import { Metadata } from "next";
+import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Grande: Plataforma Líder de Marketing de Influencers en republica dominicana",
+  title: "Grande: La Mejor Plataforma de Creadores UGC e Influencers en República Dominicana",
   description:
-    "Plataforma de Marketing de Influencers, Podcast y UGC en republica dominicana – Grande",
-  authors: [{ name: "Grandeapp Editorial Team" }],
+    "GrandeApp ayuda a las marcas en República Dominicana a crecer con IA conectándolas con los mejores creadores—Influencers, UGC y podcasts. Lanza campañas de pago o crece orgánicamente con un asistente de marketing potenciado por IA.",
   keywords: [
-    "Digital Ecommerce Marketing",
-    "e-commerce marketing manager",
-    "ecommerce marketing tools",
-    "e-commerce marketing agency republica dominicana",
-    "e-commerce marketing and advertising",
-    "e-commerce marketing republica dominicana",
-    "shopping influencers republica dominicana",
-    "content creation in republica dominicana",
-    "brand marketing republica dominicana",
-"Influencers en republica dominicana",
-
-  "creator campaigns republica dominicana",
-    'marketing de influencers en republica dominicana',
-    'influencers en republica dominicana',
-    'ugc creadores en republica dominicana',
-    'campañas con influencers en republica dominicana',
-        'campañas con ugc creadores  en republica dominicana',
+    "influencer marketing República Dominicana",
+    "creadores UGC República Dominicana",
+    "colaboraciones podcast República Dominicana",
+    "acuerdos de marca República Dominicana",
+    "marketing IA República Dominicana",
+    "escalar con creadores República Dominicana",
+    "plataforma GrandeApp República Dominicana",
   ],
+  authors: [{ name: "GrandeApp" }],
+  alternates: { canonical: "https://www.grandeapp.com/republica-dominicana" },
   openGraph: {
-    title: "Influencers, Podcasts y Contenido UGC en republica dominicana – Grande",
+    title: "Grande: La Mejor Plataforma de Creadores UGC e Influencers en República Dominicana",
     description:
-    "Plataforma de Marketing de Influencers, Podcast y UGC en republica dominicana – Grande",
-    url: "https://www.grandeapp.com/republicadominicana",
+      "GrandeApp conecta a las marcas dominicanas con influencers, creadores de UGC y podcasts. Potenciado por IA, te ayudamos a lanzar campañas de alto rendimiento de manera eficiente.",
+    url: "https://www.grandeapp.com/republica-dominicana",
+    siteName: "GrandeApp",
     images: [
       {
-        url: "https://grandeapp.com/images/republicadominicana.jpg",
+        url: "https://www.grandeapp.com/images/logo.png",
         width: 1200,
         height: 630,
-        alt: "Influencers, Podcasts y Contenido UGC en republica dominicana – Grande",
+        alt: "Grande: Creadores UGC e Influencer Marketing en República Dominicana",
       },
     ],
+    type: "website",
+    locale: "es_DO",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Influencers, Podcasts y Contenido UGC en Colombia – Grande",
+    title: "Grande: La Mejor Plataforma de Creadores UGC e Influencers en República Dominicana",
     description:
-      "Plataforma de Marketing de Influencers, Podcast y UGC en Colombia – Grande",
-    images: [
-      "https://grandeapp.com/images/republicadominicana.jpg",
-    ],
+      "GrandeApp ayuda a las marcas dominicanas a crecer con influencers, UGC y podcasts—potenciado por IA.",
+    images: ["https://www.grandeapp.com/images/logo.png"],
   },
-  alternates: {
-    canonical: "https://grandeapp.com/republicadominicana",
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
-  metadataBase: new URL("https://grandeapp.com"),
+  robots: { index: true, follow: true },
 };
 
 export default function Page() {
@@ -70,29 +55,17 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'BreadcrumbList',
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
             itemListElement: [
-              {
-                '@type': 'ListItem',
-                position: 1,
-                name: 'Home',
-                item: 'https://grandeapp.com',
-
-              },
-              {
-                '@type': 'ListItem',
-                position: 2,
-                name: 'Top USA Crypto Exchange',
-                item: 'https://grandeapp.com/republicadominicana',
-              },
+              { "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.grandeapp.com" },
+              { "@type": "ListItem", position: 2, name: "República Dominicana", item: "https://www.grandeapp.com/republica-dominicana" },
             ],
           }),
         }}
       />
       <Header />
       <main className="flex-1 py-8 px-4">
-       
         <LowestFeeExchangePage />
       </main>
       <Footer />
