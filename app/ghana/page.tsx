@@ -3,9 +3,49 @@ import LowestFeeExchangePage from "components/TopGhana";
 import Footer from "components/Footer";
 import { Metadata } from 'next';
 import Script from 'next/script';
+
 export const metadata: Metadata = {
-  title: "Grande",
-  description: "Boost Your ADs With Influencers, UGC Creators, & Podcast Creators",
+  title: "Grande | Influencer & UGC Marketing in Ghana",
+  description: "Boost your brand in Ghana with influencers, UGC creators, and podcast collaborations powered by Grande.",
+  authors: [{ name: "GrandeApp Editorial Team" }],
+  keywords: [
+    "Influencer marketing Ghana",
+    "UGC creators Ghana",
+    "Digital marketing Ghana",
+    "Brand marketing Ghana",
+    "Micro-influencers Ghana",
+    "Content creators Ghana",
+    "GrandeApp Ghana",
+  ],
+  openGraph: {
+    title: "Grande | Influencer & UGC Marketing in Ghana",
+    description: "Boost your brand in Ghana with influencers, UGC creators, and podcast collaborations powered by Grande.",
+    url: "https://grandeapp.com/ghana",
+    images: [
+      {
+        url: "https://www.grandeapp.com/images/ghana.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Influencer and UGC marketing in Ghana",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Grande | Influencer & UGC Marketing in Ghana",
+    description: "Boost your brand in Ghana with influencers, UGC creators, and podcast collaborations powered by Grande.",
+    images: [
+      "https://www.grandeapp.com/images/ghana.jpg",
+    ],
+  },
+  alternates: {
+    canonical: "https://www.grandeapp.com/ghana",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  metadataBase: new URL("https://www.grandeapp.com"),
 };
 
 export default function Page() {
@@ -16,22 +56,29 @@ export default function Page() {
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
-  __html: JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    name: "Grow with Top Creators | GrandeApp",
-    description:
-      "GrandeApp helps brands and agencies scale by connecting them with top creators—Influencers, UGC, and Podcasts—powered by AI.",
-    image: "https://www.grandeapp.com/images/logo.png", // update with your real OG image
-    mainEntityOfPage: "https://www.grandeapp.com",
-  }),
-}}
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.grandeapp.com",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Ghana",
+                item: "https://www.grandeapp.com/ghana",
+              },
+            ],
+          }),
+        }}
       />
       <Header />
       <main className="flex-1 py-8 px-4">
-        <h1 className="text-3xl font-bold text-center text-black dark:text-white mb-8">
-          Crypto Exchange with the Lowest Fees in the USA
-        </h1>
+        
         <LowestFeeExchangePage />
       </main>
       <Footer />

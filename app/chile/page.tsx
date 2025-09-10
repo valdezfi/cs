@@ -1,9 +1,8 @@
 import Header from "components/Header";
 import LowestFeeExchangePage from "components/TopChile";
 import Footer from "components/Footer";
-import { Metadata } from 'next';
-import Script from 'next/script';
-
+import { Metadata } from "next";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Grande: Plataforma Líder de Marketing de Influencers en Chile",
@@ -20,19 +19,18 @@ export const metadata: Metadata = {
     "shopping influencers chile",
     "content creation in chile",
     "brand marketing chile",
-"Influencers en chile",
-
-  "creator campaigns chile",
-    'marketing de influencers en chile',
-    'influencers en chile',
-    'ugc creadores en chile',
-    'campañas con influencers en chile',
-        'campañas con ugc creadores  en chile',
+    "Influencers en chile",
+    "creator campaigns chile",
+    "marketing de influencers en chile",
+    "influencers en chile",
+    "ugc creadores en chile",
+    "campañas con influencers en chile",
+    "campañas con ugc creadores en chile",
   ],
   openGraph: {
     title: "Influencers, Podcasts y Contenido UGC en Chile – Grande",
     description:
-    "Plataforma de Marketing de Influencers, Podcast y UGC en Chile – Grande",
+      "Plataforma de Marketing de Influencers, Podcast y UGC en Chile – Grande",
     url: "https://www.grandeapp.com/chile",
     images: [
       {
@@ -48,9 +46,7 @@ export const metadata: Metadata = {
     title: "Influencers, Podcasts y Contenido UGC en Chile – Grande",
     description:
       "Plataforma de Marketing de Influencers, Podcast y UGC en Chile – Grande",
-    images: [
-      "https://grandeapp.com/images/chile.jpg",
-    ],
+    images: ["https://grandeapp.com/images/chile.jpg"],
   },
   alternates: {
     canonical: "https://grandeapp.com/chile",
@@ -62,41 +58,45 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://grandeapp.com"),
 };
 
-
 export default function Page() {
   return (
     <div className="flex flex-col min-h-screen bg-white dark:bg-black">
+      {/* JSON-LD Structured Data */}
       <Script
         id="breadcrumb-jsonld"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'BreadcrumbList',
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
             itemListElement: [
               {
-                '@type': 'ListItem',
+                "@type": "ListItem",
                 position: 1,
-                name: 'Home',
-                item: 'https://grandeapp.com',
-
+                name: "Home",
+                item: "https://grandeapp.com",
               },
               {
-                '@type': 'ListItem',
+                "@type": "ListItem",
                 position: 2,
-                name: 'chile',
-                item: 'https://grandeapp.com/chile',
+                name: "Chile",
+                item: "https://grandeapp.com/chile",
               },
             ],
           }),
         }}
       />
+
       <Header />
-      <main className="flex-1 py-8 px-4">
-       
+
+      <main className="flex-1 py-8 px-4 text-gray-900 dark:text-white">
+        <h1 className="sr-only">
+          Grande: Marketing de Influencers, Podcast y UGC en Chile
+        </h1>
         <LowestFeeExchangePage />
       </main>
+
       <Footer />
     </div>
   );

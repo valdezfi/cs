@@ -3,9 +3,47 @@ import LowestFeeExchangePage from "components/TopGermany";
 import Footer from "components/Footer";
 import { Metadata } from 'next';
 import Script from 'next/script';
+
 export const metadata: Metadata = {
-  title: "Grande",
-  description: "Boost Your ADs With Influencers, UGC Creators, & Podcast Creators",
+  title: "Grande | UGC & Influencer Marketing Platform in Germany",
+  description: "Boost your brand in Germany with top influencers, UGC creators, and podcasts using Grande's platform.",
+  authors: [{ name: "GrandeApp Editorial Team" }],
+  keywords: [
+    "Influencer marketing Germany",
+    "UGC creators Germany",
+    "Digital marketing Germany",
+    "Brand marketing Germany",
+    "Micro-influencers Germany",
+    "Content creators Germany",
+    "GrandeApp Germany",
+  ],
+  openGraph: {
+    title: "Grande | UGC & Influencer Marketing Platform in Germany",
+    description: "Boost your brand in Germany with top influencers, UGC creators, and podcasts using Grande's platform.",
+    url: "https://www.grandeapp.com/germany",
+    images: [
+      {
+        url: "https://www.grandeapp.com/images/germany-influencers.jpg",
+        width: 1200,
+        height: 630,
+        alt: "UGC and influencer marketing in Germany",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Grande | UGC & Influencer Marketing Platform in Germany",
+    description: "Boost your brand in Germany with top influencers, UGC creators, and podcasts using Grande's platform.",
+    images: ["https://www.grandeapp.com/images/germany-influencers.jpg"],
+  },
+  alternates: {
+    canonical: "https://www.grandeapp.com/germany",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  metadataBase: new URL("https://www.grandeapp.com"),
 };
 
 export default function Page() {
@@ -17,21 +55,20 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'BreadcrumbList',
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
             itemListElement: [
               {
-                '@type': 'ListItem',
+                "@type": "ListItem",
                 position: 1,
-                name: 'Home',
-                item: 'https://grandeapp.com',
-
+                name: "Home",
+                item: "https://www.grandeapp.com",
               },
               {
-                '@type': 'ListItem',
+                "@type": "ListItem",
                 position: 2,
-                name: 'Top USA Crypto Exchange',
-                item: 'https://grandeapp.com/dominican-republic',
+                name: "Germany",
+                item: "https://www.grandeapp.com/germany",
               },
             ],
           }),

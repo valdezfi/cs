@@ -1,9 +1,8 @@
 import Header from "components/Header";
 import LowestFeeExchangePage from "components/TopCo";
 import Footer from "components/Footer";
-import { Metadata } from 'next';
-import Script from 'next/script';
-
+import { Metadata } from "next";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Grande: Plataforma Líder de Marketing de Influencers en Colombia",
@@ -20,19 +19,18 @@ export const metadata: Metadata = {
     "shopping influencers colombia",
     "content creation in colombia",
     "brand marketing colombia",
-"Influencers en colombia",
-
-  "creator campaigns colombia",
-    'marketing de influencers en colombia',
-    'influencers en colombia',
-    'ugc creadores en colombia',
-    'campañas con influencers en colombia',
-        'campañas con ugc creadores  en colombia',
+    "Influencers en colombia",
+    "creator campaigns colombia",
+    "marketing de influencers en colombia",
+    "influencers en colombia",
+    "ugc creadores en colombia",
+    "campañas con influencers en colombia",
+    "campañas con ugc creadores en colombia",
   ],
   openGraph: {
     title: "Influencers, Podcasts y Contenido UGC en Colombia – Grande",
     description:
-    "Plataforma de Marketing de Influencers, Podcast y UGC en colombia – Grande",
+      "Plataforma de Marketing de Influencers, Podcast y UGC en Colombia – Grande",
     url: "https://www.grandeapp.com/colombia",
     images: [
       {
@@ -48,9 +46,7 @@ export const metadata: Metadata = {
     title: "Influencers, Podcasts y Contenido UGC en Colombia – Grande",
     description:
       "Plataforma de Marketing de Influencers, Podcast y UGC en Colombia – Grande",
-    images: [
-      "https://grandeapp.com/images/colombia.jpg",
-    ],
+    images: ["https://grandeapp.com/images/colombia.jpg"],
   },
   alternates: {
     canonical: "https://grandeapp.com/colombia",
@@ -65,37 +61,42 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <div className="flex flex-col min-h-screen bg-white dark:bg-black">
+      {/* JSON-LD for breadcrumbs */}
       <Script
         id="breadcrumb-jsonld"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'BreadcrumbList',
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
             itemListElement: [
               {
-                '@type': 'ListItem',
+                "@type": "ListItem",
                 position: 1,
-                name: 'Home',
-                item: 'https://grandeapp.com',
-
+                name: "Home",
+                item: "https://grandeapp.com",
               },
               {
-                '@type': 'ListItem',
+                "@type": "ListItem",
                 position: 2,
-                name: 'colombia',
-                item: 'https://grandeapp.com/colombia',
+                name: "Colombia",
+                item: "https://grandeapp.com/colombia",
               },
             ],
           }),
         }}
       />
+
       <Header />
-      <main className="flex-1 py-8 px-4">
-       
+
+      <main className="flex-1 py-8 px-4 text-gray-900 dark:text-white">
+        <h1 className="sr-only">
+          Marketing de Influencers, Podcasts y UGC en Colombia – Grande
+        </h1>
         <LowestFeeExchangePage />
       </main>
+
       <Footer />
     </div>
   );
