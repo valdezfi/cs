@@ -25,6 +25,24 @@ export const metadata: Metadata = {
   keywords: [
     'influencer marketing',
     'ugc creators',
+    'hotel en ciudad de mexico',
+    'renta de autos en mexico',
+    'ranking de universidades en mexico',
+    'hotel en cd de mexico',
+    'agencias de marketing digital en mexico',
+    'cómo funciona marketing digital',
+    'mercado libre santo domingo',
+    'corotos empleo santo domingo',
+    'marketplace santo domingo',
+    'santo domingo blue mall',
+    'codigo postal santo domingo este',
+    'santo domingo oeste',
+    'agencias de marketing digital santo domingo',
+        'agencias de marketing digital en republica dominicana',
+        'marketing digital en español',
+    'las mejores agencias de marketing digital en méxico',
+    'cómo crear una agencia de marketing en redes sociales',
+    'empresas de marketing digital en méxico',
     'seven mx',
     'mx gear',
     'latin american market',
@@ -66,7 +84,7 @@ export const metadata: Metadata = {
     'campañas con influencers en paraguay',
         'campañas con ugc creadores  en paraguay',
 
-
+'jet set santo domingo',
 
           'creator campaigns colombia',
     'marketing de influencers en colombia',
@@ -74,7 +92,7 @@ export const metadata: Metadata = {
     'ugc creadores en colombia',
     'campañas con influencers en colombia',
         'campañas con ugc creadores  en colombia',
-
+'beauty supply en santo domingo',
 'momo challenge video',
 'momo challenge video original',
        'micro influencer agency',
