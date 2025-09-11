@@ -5,29 +5,21 @@ import { Metadata } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Grande: The Best UGC Creator & Influencer Marketing Platform in India",
+  title: "Grande: Influencer Marketing India",
   description:
-    "GrandeApp helps brands and agencies scale with AI by connecting them to top creators—Influencers, UGC, and Podcast talent. Launch paid ads or grow organically with an AI-powered marketing co-pilot.",
+    "Whether you’re a local startup or a growing brand in India, Grande helps you connect with creators that drive results through authentic content.",
   keywords: [
-    "influencer marketing",
-    "ugc creators",
-    "podcast partnerships",
-    "creator economy India",
-    "brand deals",
-    "ai marketing",
-    "scale with creators",
-    "creator campaigns India",
-    "GrandeApp platform India",
-    "Influencer Marketing Platform in India"
+    "influencer marketing India",
+  
   ],
   authors: [{ name: "GrandeApp" }],
   alternates: {
     canonical: "https://www.grandeapp.com/influencer-india",
   },
   openGraph: {
-    title: "Grande: The Best UGC Creator & Influencer Marketing Platform in India",
+  title: "Grande: Influencer Marketing India",
     description:
-      "GrandeApp connects brands with influencers, UGC, and podcast creators worldwide. Powered by AI, we help you launch high-performing campaigns without the overhead.",
+    "Whether you’re a local startup or a growing brand in India, Grande helps you connect with creators that drive results through authentic content.",
     url: "https://www.grandeapp.com/influencer-india",
     siteName: "GrandeApp",
     images: [
@@ -43,9 +35,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Grande: The Best UGC Creator & Influencer Marketing Platform in India",
+  title: "Grande: Influencer Marketing India",
     description:
-      "GrandeApp helps brands and agencies grow with influencers, UGC, and podcast creators—powered by AI.",
+    "Whether you’re a local startup or a growing brand in India, Grande helps you connect with creators that drive results through authentic content.",
     images: ["https://www.grandeapp.com/images/logo.png"],
   },
   robots: {
