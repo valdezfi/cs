@@ -10,7 +10,7 @@ export default function GrandeFranceMarketingPage() {
             Grande Influencer Marketing Platform France
           </h1>
           <h2 className="text-3xl font-bold text-center text-black dark:text-white mb-8">
-            Connect with France's Top Influencers & UGC Creators
+            Connect with France's Top Influencers & UGC Creators 2025
           </h2>
           <p className="text-gray-600 dark:text-gray-300 text-lg">
             Whether you're a Paris-based startup or a national brand in France, Grande helps you collaborate with creators who spark authentic engagement and deliver high-quality content.
