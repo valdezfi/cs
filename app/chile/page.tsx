@@ -10,25 +10,10 @@ export const metadata: Metadata = {
     "Plataforma de Marketing de Influencers, Podcast y UGC en Chile – Grande",
   authors: [{ name: "Grandeapp Editorial Team" }],
   keywords: [
-    "Digital Ecommerce Marketing",
-    "e-commerce marketing manager",
-    "ecommerce marketing tools",
-    "e-commerce marketing agency chile",
-    "e-commerce marketing and advertising",
-    "e-commerce marketing chile",
-    "shopping influencers chile",
-    "content creation in chile",
-    "brand marketing chile",
-    "Influencers en chile",
-    "creator campaigns chile",
-    "marketing de influencers en chile",
-    "influencers en chile",
-    "ugc creadores en chile",
-    "campañas con influencers en chile",
-    "campañas con ugc creadores en chile",
+    'Influencers en Chile'
   ],
   openGraph: {
-    title: "Influencers, Podcasts y Contenido UGC en Chile – Grande",
+    title: "Grande: Plataforma Líder de Marketing de Influencers en Chile",
     description:
       "Plataforma de Marketing de Influencers, Podcast y UGC en Chile – Grande",
     url: "https://www.grandeapp.com/chile",
@@ -43,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Influencers, Podcasts y Contenido UGC en Chile – Grande",
+    title: "Grande: Plataforma Líder de Marketing de Influencers en Chile",
     description:
       "Plataforma de Marketing de Influencers, Podcast y UGC en Chile – Grande",
     images: ["https://grandeapp.com/images/chile.jpg"],
