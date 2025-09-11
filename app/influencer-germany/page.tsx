@@ -10,17 +10,12 @@ export const metadata: Metadata = {
   authors: [{ name: "GrandeApp Editorial Team" }],
   keywords: [
     "Influencer marketing Germany",
-    "UGC creators Germany",
-    "Digital marketing Germany",
-    "Brand marketing Germany",
-    "Micro-influencers Germany",
-    "Content creators Germany",
-    "GrandeApp Germany",
+   
   ],
   openGraph: {
     title: "Grande | UGC & Influencer Marketing Platform in Germany",
     description: "Boost your brand in Germany with top influencers, UGC creators, and podcasts using Grande's platform.",
-    url: "https://www.grandeapp.com/germany",
+    url: "https://www.grandeapp.com/influencer-germany",
     images: [
       {
         url: "https://www.grandeapp.com/images/germany-influencers.jpg",
@@ -37,7 +32,7 @@ export const metadata: Metadata = {
     images: ["https://www.grandeapp.com/images/germany-influencers.jpg"],
   },
   alternates: {
-    canonical: "https://www.grandeapp.com/germany",
+    canonical: "https://www.grandeapp.com/influencer-germany",
   },
   robots: {
     index: true,
@@ -68,7 +63,7 @@ export default function Page() {
                 "@type": "ListItem",
                 position: 2,
                 name: "Germany",
-                item: "https://www.grandeapp.com/germany",
+                item: "https://www.grandeapp.com/influencer-germany",
               },
             ],
           }),
