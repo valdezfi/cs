@@ -5,17 +5,17 @@ import { Metadata } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Grande: La Mejor Plataforma de Creadores UGC e Influencers en República Dominicana",
+  title: "Grande: Plataforma de Marketing de Influencers Dominicanos",
   description:
     "GrandeApp ayuda a las marcas en República Dominicana a crecer con IA conectándolas con los mejores creadores—Influencers, UGC y podcasts. Lanza campañas de pago o crece orgánicamente con un asistente de marketing potenciado por IA.",
   keywords: [
-    "influencer marketing República Dominicana",
-    "creadores UGC República Dominicana",
-    "colaboraciones podcast República Dominicana",
-    "acuerdos de marca República Dominicana",
-    "marketing IA República Dominicana",
-    "escalar con creadores República Dominicana",
-    "plataforma GrandeApp República Dominicana",
+ 
+    "influencer marketing",
+    "que hora republica dominicana",
+    "airbnb republica dominicana",
+    "temu republica dominicana",
+    "punta cana republica dominicana weather",
+    "Influencer dominicanos"
   ],
   authors: [{ name: "GrandeApp" }],
   alternates: { canonical: "https://www.grandeapp.com/republica-dominicana" },

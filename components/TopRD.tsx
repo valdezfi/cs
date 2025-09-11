@@ -8,13 +8,13 @@ export default function GrandeRDMarketingPage() {
         <div className="max-w-4xl mx-auto">
           
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">
-            Grande: Tu Aliado para el Marketing Digital en República Dominicana
+            Grande: Plataforma de Marketing de Influencers Dominicanos
           </h1>
-           <h2 className="text-3xl font-bold text-center text-black dark:text-white mb-8">
-          Plataforma de Marketing de Influencers, Podcast y UGC en República Dominicana – Grande 
-        </h2>
+          <h2 className="text-3xl font-bold text-center text-black dark:text-white mb-8">
+            Plataforma de Marketing de Influencers, Podcast y UGC en República Dominicana – Grande 
+          </h2>
           <p className="text-gray-600 dark:text-gray-300 text-lg">
-            Potencia tu marca con estrategias de influencers, Podcast, y contenido generado por usuarios (UGC) adaptadas al mercado dominicano.
+            Potencia tu marca con estrategias de influencers dominicanos, Podcast, y contenido generado por usuarios (UGC) adaptadas al mercado dominicano.
           </p>
         </div>
       </header>
@@ -33,14 +33,14 @@ export default function GrandeRDMarketingPage() {
         <section>
           <h2 className="text-2xl font-semibold">¿Qué es una Plataforma de Marketing de Influencers?</h2>
           <p>
-            Nuestra plataforma de marketing de influencers conecta a las marcas con influencers locales y relevantes, optimizando el impacto de cada campaña.
+            Nuestra plataforma de marketing de influencers conecta a las marcas con <strong>influencers dominicanos</strong> locales y relevantes, optimizando el impacto de cada campaña.
           </p>
         </section>
 
         <section>
           <h2 className="text-2xl font-semibold">Beneficios de Usar una Plataforma de Influencers en República Dominicana</h2>
           <ul className="list-disc list-inside space-y-2">
-            <li><strong>Alcance Local y Global:</strong> Influencers dominicanos que entienden tu mercado.</li>
+            <li><strong>Alcance Local y Global:</strong> Trabajamos con influencers dominicanos que entienden tu mercado.</li>
             <li><strong>Autenticidad:</strong> Las colaboraciones generan confianza y compromiso.</li>
             <li><strong>Resultados Tangibles:</strong> Incrementa visibilidad, engagement y conversiones.</li>
           </ul>
@@ -49,7 +49,7 @@ export default function GrandeRDMarketingPage() {
         <section>
           <h2 className="text-2xl font-semibold">Plataforma UGC: Contenido Auténtico para Conectar</h2>
           <p>
-            El contenido generado por usuarios (UGC) aporta credibilidad y originalidad. Nuestra plataforma te permite recopilar, gestionar y utilizar este contenido de manera efectiva.
+            El contenido generado por usuarios (UGC) aporta credibilidad y originalidad. Nuestra plataforma te permite recopilar, gestionar y utilizar este contenido de manera efectiva junto con campañas de influencers dominicanos.
           </p>
           <ul className="list-disc list-inside space-y-2 mt-4">
             <li><strong>Credibilidad Mejorada:</strong> Confianza en contenido real.</li>
@@ -61,7 +61,7 @@ export default function GrandeRDMarketingPage() {
         <section>
           <h2 className="text-2xl font-semibold">Creadores de Contenido UGC en República Dominicana</h2>
           <p>
-            Conectamos a las marcas con los mejores creadores dominicanos para campañas auténticas y efectivas.
+            Conectamos a las marcas con los mejores creadores dominicanos y <strong>influencers dominicanos</strong> para campañas auténticas y efectivas.
           </p>
           <ul className="list-disc list-inside space-y-2 mt-4">
             <li><strong>Perspectiva Local:</strong> Conocimiento de la cultura y tendencias.</li>
@@ -73,7 +73,7 @@ export default function GrandeRDMarketingPage() {
         <section>
           <h2 className="text-2xl font-semibold">¿Qué Ofrecemos en Grande?</h2>
           <ul className="list-disc list-inside space-y-2">
-            <li><strong>Red de Influencers Locales:</strong> Encuentra el talento ideal.</li>
+            <li><strong>Red de Influencers Locales:</strong> Encuentra el talento ideal entre los mejores influencers dominicanos.</li>
             <li><strong>Gestión de Contenido UGC:</strong> Centraliza y organiza todo en un solo lugar.</li>
             <li><strong>Herramientas de Análisis:</strong> Mide y mejora tus campañas.</li>
             <li><strong>Estrategias Personalizadas:</strong> Adaptadas al mercado dominicano.</li>
@@ -84,7 +84,7 @@ export default function GrandeRDMarketingPage() {
           <h2 className="text-2xl font-semibold">Cómo Funciona Nuestra Plataforma</h2>
           <ol className="list-decimal list-inside space-y-2">
             <li><strong>Regístrate:</strong> Accede a nuestras herramientas.</li>
-            <li><strong>Encuentra Talento:</strong> Filtra por necesidades específicas.</li>
+            <li><strong>Encuentra Talento:</strong> Filtra por necesidades específicas entre influencers dominicanos y creadores UGC.</li>
             <li><strong>Diseña tu Campaña:</strong> Colabora con expertos.</li>
             <li><strong>Analiza y Mejora:</strong> Optimiza con reportes en tiempo real.</li>
           </ol>
@@ -93,7 +93,7 @@ export default function GrandeRDMarketingPage() {
         <section>
           <h2 className="text-2xl font-semibold">¿Por Qué Elegir Grande en República Dominicana?</h2>
           <ul className="list-disc list-inside space-y-2">
-            <li><strong>Plataforma Todo en Uno:</strong> Influencers y UGC en un solo lugar.</li>
+            <li><strong>Plataforma Todo en Uno:</strong> Influencers dominicanos y UGC en un solo lugar.</li>
             <li><strong>Enfoque Local:</strong> Estrategias personalizadas para RD.</li>
             <li><strong>Resultados Reales:</strong> Alcanzamos tus objetivos contigo.</li>
           </ul>
@@ -102,7 +102,7 @@ export default function GrandeRDMarketingPage() {
         <section>
           <h2 className="text-2xl font-semibold">Únete a Grande Hoy</h2>
           <p>
-            Lleva tus campañas al siguiente nivel. Ya sea con influencers o contenido UGC, tenemos la tecnología y experiencia que necesitas.
+            Lleva tus campañas al siguiente nivel. Ya sea con <strong>influencers dominicanos</strong> o contenido UGC, tenemos la tecnología y experiencia que necesitas.
           </p>
           <div className="mt-4">
             <Link
