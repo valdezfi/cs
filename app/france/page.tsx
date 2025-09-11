@@ -5,20 +5,15 @@ import { Metadata } from 'next';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: "Grande | UGC & Influencer Marketing Platform in France",
+  title: "Influencer Marketing France",
   description: "Connect with top influencers and UGC creators in France. Boost your campaigns with authentic content and measurable results using GrandeApp.com.",
   authors: [{ name: "GrandeApp Editorial Team" }],
   keywords: [
     "Influencer marketing France",
-    "UGC creators France",
-    "Micro-influencers France",
-    "Digital marketing France",
-    "Brand marketing France",
-    "Content creators France",
-    "GrandeApp France",
+  
   ],
   openGraph: {
-    title: "Grande | UGC & Influencer Marketing Platform in France",
+    title: "Influencer Marketing France",
     description: "Connect with top influencers and UGC creators in France. Boost your campaigns with authentic content and measurable results using GrandeApp.com.",
     url: "https://grandeapp.com/france",
     images: [
@@ -32,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Grande | UGC & Influencer Marketing Platform in France",
+    title: "Influencer Marketing France",
     description: "Connect with top influencers and UGC creators in France. Boost your campaigns with authentic content and measurable results using GrandeApp.com.",
     images: [
       "https://grandeapp.com/images/france-influencers.jpg",

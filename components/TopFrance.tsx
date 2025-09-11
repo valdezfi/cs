@@ -7,7 +7,7 @@ export default function GrandeFranceMarketingPage() {
       <header className="bg-gray-100 dark:bg-zinc-900 py-10 px-6 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">
-            Grande: The Leading UGC Creator & Influencer Marketing Platform in France
+            Grande Influencer Marketing Platform France
           </h1>
           <h2 className="text-3xl font-bold text-center text-black dark:text-white mb-8">
             Connect with France's Top Influencers & UGC Creators
@@ -37,7 +37,7 @@ export default function GrandeFranceMarketingPage() {
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold">Why Choose Grande for UGC and Influencer Marketing in France?</h2>
+          <h2 className="text-2xl font-semibold">Why Choose Grande for UGC and Influencer Marketing France?</h2>
           <ul className="list-disc list-inside space-y-2 mt-4">
             <li><strong>Comprehensive UGC Solutions:</strong> Use user-generated content to build trust and authenticity with your French audience.</li>
             <li><strong>Diverse Influencer Network:</strong> From Paris to Marseille, connect with creators of all sizes and styles across France.</li>
@@ -65,7 +65,7 @@ export default function GrandeFranceMarketingPage() {
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold">Grande: Powering UGC and Influencer Marketing in France</h2>
+          <h2 className="text-2xl font-semibold">Grande: Powering UGC and Influencer Marketing France</h2>
           <p>
             At Grande, we blend strategy and storytelling to help brands across France create authentic, results-driven campaigns. We make UGC and influencer marketing simple, scalable, and successful.
           </p>
