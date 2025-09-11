@@ -10,23 +10,10 @@ export const metadata: Metadata = {
     "Plataforma de Marketing de Influencers, Podcast y UGC en Argentina – Grande",
   authors: [{ name: "Grandeapp Editorial Team" }],
   keywords: [
-    "Digital Ecommerce Marketing",
-    "e-commerce marketing manager",
-    "ecommerce marketing tools",
-    "e-commerce marketing agency argentina",
-    "e-commerce marketing and advertising",
-    "e-commerce marketing argentina",
-    "shopping influencers argentina",
-    "content creation in argentina",
-    "brand marketing argentina",
+ 
 "Influencers en argentina",
 
-  "creator campaigns argentina",
-    'marketing de influencers en argentina',
-    'influencers en argentina',
-    'ugc creadores en argentina',
-    'campañas con influencers en argentina',
-        'campañas con ugc creadores  en argentina',
+  
   ],
   openGraph: {
     title: "Influencers, Podcasts y Contenido UGC en Argentina – Grande",
