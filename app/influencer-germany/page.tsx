@@ -6,7 +6,7 @@ import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: "Grande: Influencer Marketing Germany",
-  description: "Boost your brand in Germany with top influencers, UGC creators, and podcasts using Grande's platform.",
+  description: "Whether you're a startup or an established brand in Germany, Grande helps you collaborate with creators who drive authentic engagement and deliver high-quality content.",
   authors: [{ name: "GrandeApp Editorial Team" }],
   keywords: [
     "Influencer marketing Germany",
@@ -14,7 +14,8 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Grande: Influencer Marketing Germany",
-    description: "Boost your brand in Germany with top influencers, UGC creators, and podcasts using Grande's platform.",
+    description: "Whether you're a startup or an established brand in Germany, Grande helps you collaborate with creators who drive authentic engagement and deliver high-quality content.",
+
     url: "https://www.grandeapp.com/influencer-germany",
     images: [
       {
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Grande: Influencer Marketing Germany",
-    description: "Boost your brand in Germany with top influencers, UGC creators, and podcasts using Grande's platform.",
+    description: "Whether you're a startup or an established brand in Germany, Grande helps you collaborate with creators who drive authentic engagement and deliver high-quality content.",
     images: ["https://www.grandeapp.com/images/germany-influencers.jpg"],
   },
   alternates: {
