@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: "Grande | UGC & Influencer Marketing Platform Germany",
+  title: "Grande: Influencer Marketing Germany",
   description: "Boost your brand in Germany with top influencers, UGC creators, and podcasts using Grande's platform.",
   authors: [{ name: "GrandeApp Editorial Team" }],
   keywords: [
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
    
   ],
   openGraph: {
-    title: "Grande | UGC & Influencer Marketing Platform Germany",
+    title: "Grande: Influencer Marketing Germany",
     description: "Boost your brand in Germany with top influencers, UGC creators, and podcasts using Grande's platform.",
     url: "https://www.grandeapp.com/influencer-germany",
     images: [
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Grande | UGC & Influencer Marketing Platform Germany",
+    title: "Grande: Influencer Marketing Germany",
     description: "Boost your brand in Germany with top influencers, UGC creators, and podcasts using Grande's platform.",
     images: ["https://www.grandeapp.com/images/germany-influencers.jpg"],
   },
