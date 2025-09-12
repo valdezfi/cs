@@ -4,33 +4,18 @@ import Footer from "components/Footer";
 import { Metadata } from 'next';
 import Script from 'next/script';
 export const metadata: Metadata = {
-  title: "Grande: Plataforma Líder de Marketing de Influencers en Mexico",
+  title: "Grande: Marketing de Influencers en México",
   description:
     "Influencers, Podcasts y Contenido UGC en Mexico – Grande",
   authors: [{ name: "Grandeapp Editorial Team" }],
   keywords: [
-    "Digital Ecommerce Marketing",
-    "e-commerce marketing manager",
-    "ecommerce marketing tools",
-    "e-commerce marketing agency mexico",
-    "e-commerce marketing and advertising",
-    "e-commerce marketing mexico",
-    "shopping influencers mexico",
-    "content creation in mexico",
-    "brand marketing Mexico",
-"Influencers en Mexico",
-
-  "creator campaigns mexico",
-    'marketing de influencers en mexico',
-    'influencers en mexico',
-    'ugc creadores en mexico',
-    'campañas con influencers en mexico',
-        'campañas con ugc creadores  en mexico',
+    "Marketing de Influencers en México",
+  
   ],
   openGraph: {
-    title: "Influencers, Podcasts y Contenido UGC en Mexico – Grande",
+  title: "Grande: Marketing de Influencers en México",
     description:
-      "In the era of rapid online growth, standing out isn’t optional—it’s essential. That’s where Digital Ecommerce Marketing steps in. If you’re running an online store, reaching your ideal customer, converting traffic into buyers, and creating a loyal community are all dependent on smart, data-driven marketing. This is the foundation of what we do at Grande.",
+            "Impulsa tu marca en México con campañas auténticas de influencers, podcast , y contenido generado por usuarios (UGC).",
     url: "https://www.grandeapp.com/mexico",
     images: [
       {
@@ -43,9 +28,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Influencers, Podcasts y Contenido UGC en Mexico – Grande",
+  title: "Grande: Marketing de Influencers en México",
     description:
-      "In the era of rapid online growth, standing out isn’t optional—it’s essential. That’s where Digital Ecommerce Marketing steps in. If you’re running an online store, reaching your ideal customer, converting traffic into buyers, and creating a loyal community are all dependent on smart, data-driven marketing. This is the foundation of what we do at Grande.",
+            "Impulsa tu marca en México con campañas auténticas de influencers, podcast , y contenido generado por usuarios (UGC).",
     images: [
       "https://grandeapp.com/images/p.jpg",
     ],

@@ -78,12 +78,10 @@ export default function GrandeMalaysiaMarketingPage() {
 
         <section className="text-center">
           <h2 className="text-2xl font-semibold mb-4">Start Your Campaign with Grande in Malaysia Today!</h2>
-          <p className="mb-6">
-            Ready to grow in Malaysia? Work with Grande to build campaigns that speak directly to your audience through the power of creators and community.
-          </p>
-          <Link href="/contact">
+        
+          <Link href="/">
             <div className="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition">
-              Contact Us
+             Join Us
             </div>
           </Link>
         </section>
