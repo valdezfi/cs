@@ -1,4 +1,4 @@
-import Image from "next/image";
+import DestacadosCreadores from "./ShowCreatorSpanish";
 import Link from "next/link";
 
 export default function GrandePuertoRicoMarketingPage() {
@@ -19,13 +19,7 @@ export default function GrandePuertoRicoMarketingPage() {
       </header>
 
       <div className="w-full max-w-5xl mx-auto mt-8 mb-12 px-6">
-        <Image
-          src="/images/p.jpg"
-          alt="Marketing de Influencers en Puerto Rico"
-          width={1200}
-          height={600}
-          className="rounded-2xl shadow-lg"
-        />
+      <DestacadosCreadores/>
       </div>
 
       <article className="max-w-4xl mx-auto px-6 space-y-12 pb-20">

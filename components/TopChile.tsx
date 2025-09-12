@@ -1,5 +1,5 @@
 import Link from "next/link";
-import CreatorSpotlight from "components/ShowCreator"; // adjust the path based on your folder structure
+import DestacadosCreadores from "components/ShowCreatorSpanish"; // adjust the path based on your folder structure
 
 export default function GrandeChileMarketingPage() {
   return (
@@ -7,7 +7,7 @@ export default function GrandeChileMarketingPage() {
       <header className="bg-gray-100 dark:bg-zinc-900 py-10 px-6 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">
-           Marketing de Influencers en Chile
+           Marketing de Influencers Chile
           </h1>
           <h2 className="text-3xl font-bold text-center text-black dark:text-white mb-8">
             Plataforma de Marketing de Influencers, Podcast, y UGC en Chile – Grande
@@ -19,7 +19,7 @@ export default function GrandeChileMarketingPage() {
       </header>
 
       <div className="w-full max-w-5xl mx-auto mt-8 mb-12 px-6">
-    <CreatorSpotlight/>
+    <DestacadosCreadores/>
       </div>
 
       <article className="max-w-4xl mx-auto px-6 space-y-12 pb-20">

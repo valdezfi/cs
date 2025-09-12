@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import CreatorSpotlight from "components/ShowCreator"; // adjust the path based on your folder structure
+import DestacadosCreadores from "components/ShowCreatorSpanish"; // adjust the path based on your folder structure
 
 
 export default function GrandeARMarketingPage() {
@@ -25,7 +25,7 @@ export default function GrandeARMarketingPage() {
       </header>
 
       <div className="w-full max-w-5xl mx-auto mt-8 mb-12 px-6">
-           <CreatorSpotlight/>
+           <DestacadosCreadores/>
 
       </div>
 

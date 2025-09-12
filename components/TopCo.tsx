@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import DestacadosCreadores from "components/ShowCreatorSpanish"; // adjust the path based on your folder structure
 
 export default function GrandeCOLMarketingPage() {
   return (
@@ -18,14 +19,8 @@ export default function GrandeCOLMarketingPage() {
         </div>
       </header>
 
-      <div className="w-full max-w-5xl mx-auto mt-8 mb-12 px-6">
-        <Image
-          src="/images/pexels-ramilugot-3217363.jpg"
-          alt="Marketing de Influencers y UGC en Colombia"
-          width={1200}
-          height={600}
-          className="rounded-2xl shadow-lg"
-        />
+     <div className="w-full max-w-5xl mx-auto mt-8 mb-12 px-6">
+    <DestacadosCreadores/>
       </div>
 
       <article className="max-w-4xl mx-auto px-6 space-y-12 pb-20">
