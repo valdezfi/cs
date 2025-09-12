@@ -5,29 +5,21 @@ import { Metadata } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Grande: The Best UGC Creator & Influencer Marketing Platform",
+  title: "Grande: Influencer Marketing Platform USA",
   description:
-    "GrandeApp helps brands and agencies scale with AI by connecting them to top creators—Influencers, UGC, and Podcast talent. Launch paid ads or grow organically with an AI-powered marketing co-pilot.",
+            "Connect with creators in USA and across the USA to build impactful, authentic campaigns powered by UGC and influencer collaborations.",
   keywords: [
-    "influencer marketing",
-    "ugc creators",
-    "podcast partnerships",
-    "creator economy",
-    "brand deals",
-    "ai marketing",
-    "scale with creators",
-    "creator campaigns",
-    "GrandeApp platform",
-    "Influencer Marketing Platform",
+    "Influencer Marketing Platform USA",
+  
   ],
   authors: [{ name: "GrandeApp" }],
   alternates: {
     canonical: "https://www.grandeapp.com/influencer-platform",
   },
   openGraph: {
-    title: "Grande: The Best UGC Creator & Influencer Marketing Platform",
+  title: "Grande: Influencer Marketing Platform USA",
     description:
-      "GrandeApp connects brands with influencers, UGC, and podcast creators worldwide. Powered by AI, we help you launch high-performing campaigns without the overhead.",
+            "Connect with creators in USA and across the USA to build impactful, authentic campaigns powered by UGC and influencer collaborations.",
     url: "https://www.grandeapp.com/influencer-platform",
     siteName: "GrandeApp",
     images: [
@@ -43,9 +35,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Grande: The Best UGC Creator & Influencer Marketing Platform",
+  title: "Grande: Influencer Marketing Platform USA",
     description:
-      "GrandeApp helps brands and agencies grow with influencers, UGC, and podcast creators—powered by AI.",
+            "Connect with creators in USA and across the USA to build impactful, authentic campaigns powered by UGC and influencer collaborations.",
     images: ["https://www.grandeapp.com/images/logo.png"],
   },
   robots: {

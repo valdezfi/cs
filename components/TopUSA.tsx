@@ -7,13 +7,13 @@ export default function GrandeUSAMarketingPage() {
       <header className="bg-gray-100 dark:bg-zinc-900 py-10 px-6 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">
-            Grande: The Best UGC Creator & Influencer Marketing Platform in the USA
+            Grande: Influencer Marketing Platform USA
           </h1>
           <h2 className="text-3xl font-bold text-center text-black dark:text-white mb-8">
-            Discover Puerto Rico's Top Creators with Grande
+            Discover  Top Creators with Grande
           </h2>
           <p className="text-gray-600 dark:text-gray-300 text-lg">
-            Connect with creators in Puerto Rico and across the USA to build impactful, authentic campaigns powered by UGC and influencer collaborations.
+            Connect with creators in USA and across the USA to build impactful, authentic campaigns powered by UGC and influencer collaborations.
           </p>
         </div>
       </header>
