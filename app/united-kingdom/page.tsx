@@ -12,12 +12,7 @@ export const metadata: Metadata = {
 
   keywords: [
     "influencer marketing UK",
-    "UGC creators UK",
-    "podcast partnerships UK",
-    "brand deals UK",
-    "AI marketing UK",
-    "scale with creators UK",
-    "GrandeApp platform UK",
+  
   ],
   authors: [{ name: "GrandeApp" }],
   alternates: { canonical: "https://www.grandeapp.com/united-kingdom" },
