@@ -74,7 +74,7 @@ export default function Header() {
                   <div className="mb-2  text-black font-bold">Influencer Marketing</div>
                   <ul className="space-y-1">
                     <li><Link href="/discover" className="block px-2 py-1 text-black text-sm">Discover Influencers</Link></li>
-                    <li><Link href="/event" className="block px-2 py-1 text-black text-sm">Create Influencer Event</Link></li>
+                    {/* <li><Link href="/event" className="block px-2 py-1 text-black text-sm">Create Influencer Event</Link></li> */}
                     <li><Link href="/campaign" className="block px-2 py-1 text-black text-sm">Manage Campaigns</Link></li>
                     <li><Link href="/payments" className="block px-2 py-1 text-black text-sm">Payments & Gifting</Link></li>
                     <li><Link href="/affiliate" className="block px-2 py-1 text-black text-sm">Affiliate Links</Link></li>
@@ -144,7 +144,7 @@ export default function Header() {
             <li className="mt-4 font-semibold">Products</li>
             <ul className="pl-4 space-y-1">
               <li><Link href="/discover" onClick={() => setMenuOpen(false)}>Discover Influencers</Link></li>
-              <li><Link href="/event" onClick={() => setMenuOpen(false)}>Create Influencer Event</Link></li>
+              {/* <li><Link href="/event" onClick={() => setMenuOpen(false)}>Create Influencer Event</Link></li> */}
               <li><Link href="/campaign" onClick={() => setMenuOpen(false)}>Manage Campaigns</Link></li>
               <li><Link href="/payments" onClick={() => setMenuOpen(false)}>Payments & Gifting</Link></li>
               <li><Link href="/affiliate" onClick={() => setMenuOpen(false)}>Affiliate Links</Link></li>
