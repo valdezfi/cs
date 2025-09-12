@@ -5,24 +5,20 @@ import { Metadata } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Grande: The Best UGC Creator & Influencer Marketing Platform in Singapore",
+  title: "Influencer Marketing Platform in Singapore",
   description:
-    "GrandeApp helps brands in Singapore scale with AI by connecting them to top creators—Influencers, UGC, and Podcast talent. Launch paid ads or grow organically with an AI-powered marketing co-pilot.",
+    "From Orchard Road startups to established brands across Singapore, Grande helps you scale with content that feels real, local, and impactful.",
   keywords: [
-    "influencer marketing Singapore",
-    "UGC creators Singapore",
-    "podcast partnerships Singapore",
-    "brand deals Singapore",
-    "AI marketing Singapore",
-    "scale with creators Singapore",
-    "GrandeApp platform Singapore",
+    "influencer marketing",
+    "Influencer Marketing Platform in Singapore"
+ 
   ],
   authors: [{ name: "GrandeApp" }],
   alternates: { canonical: "https://www.grandeapp.com/singapore" },
   openGraph: {
-    title: "Grande: The Best UGC Creator & Influencer Marketing Platform in Singapore",
+  title: "Influencer Marketing Platform in Singapore",
     description:
-      "GrandeApp connects Singaporean brands with influencers, UGC, and podcast creators. Powered by AI, we help you launch high-performing campaigns efficiently.",
+    "From Orchard Road startups to established brands across Singapore, Grande helps you scale with content that feels real, local, and impactful.",
     url: "https://www.grandeapp.com/singapore",
     siteName: "GrandeApp",
     images: [
@@ -30,7 +26,7 @@ export const metadata: Metadata = {
         url: "https://www.grandeapp.com/images/logo.png",
         width: 1200,
         height: 630,
-        alt: "Grande: UGC Creator & Influencer Marketing in Singapore",
+        alt: "Influencer Marketing in Singapore",
       },
     ],
     type: "website",
@@ -38,9 +34,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Grande: The Best UGC Creator & Influencer Marketing Platform in Singapore",
+  title: "Influencer Marketing Platform in Singapore",
     description:
-      "GrandeApp helps Singaporean brands grow with influencers, UGC, and podcast creators—powered by AI.",
+    "From Orchard Road startups to established brands across Singapore, Grande helps you scale with content that feels real, local, and impactful.",
     images: ["https://www.grandeapp.com/images/logo.png"],
   },
   robots: { index: true, follow: true },
