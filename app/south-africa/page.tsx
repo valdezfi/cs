@@ -5,24 +5,20 @@ import { Metadata } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Grande: The Best UGC Creator & Influencer Marketing Platform in South Africa",
+  title: "Influencer Marketing in South Africa",
   description:
-    "GrandeApp helps brands in South Africa scale with AI by connecting them to top creators—Influencers, UGC, and Podcast talent. Launch paid ads or grow organically with an AI-powered marketing co-pilot.",
+    "Whether you're a startup or an established brand in South Africa, Grande helps you collaborate with creators who drive authentic engagement and deliver high-quality content.",
   keywords: [
-    "influencer marketing South Africa",
-    "UGC creators South Africa",
-    "podcast partnerships South Africa",
-    "brand deals South Africa",
-    "AI marketing South Africa",
-    "scale with creators South Africa",
-    "GrandeApp platform South Africa",
+    "influencer marketing in South Africa",
+    "influencer marketing"
+    
   ],
   authors: [{ name: "GrandeApp" }],
   alternates: { canonical: "https://www.grandeapp.com/south-africa" },
   openGraph: {
-    title: "Grande: The Best UGC Creator & Influencer Marketing Platform in South Africa",
+  title: "Influencer Marketing in South Africa",
     description:
-      "GrandeApp connects South African brands with influencers, UGC, and podcast creators. Powered by AI, we help you launch high-performing campaigns efficiently.",
+    "Whether you're a startup or an established brand in South Africa, Grande helps you collaborate with creators who drive authentic engagement and deliver high-quality content.",
     url: "https://www.grandeapp.com/south-africa",
     siteName: "GrandeApp",
     images: [
@@ -38,9 +34,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Grande: The Best UGC Creator & Influencer Marketing Platform in South Africa",
+  title: "Influencer Marketing in South Africa",
     description:
-      "GrandeApp helps South African brands grow with influencers, UGC, and podcast creators—powered by AI.",
+    "Whether you're a startup or an established brand in South Africa, Grande helps you collaborate with creators who drive authentic engagement and deliver high-quality content.",
     images: ["https://www.grandeapp.com/images/logo.png"],
   },
   robots: { index: true, follow: true },
