@@ -4,24 +4,19 @@ import Footer from "components/Footer";
 import { Metadata } from "next";
 import Script from "next/script";
 export const metadata: Metadata = {
-  title: "Grande: The Best UGC Creator & Influencer Marketing Platform in Zimbabwe",
+  title: "Influencer Marketing Zimbabwe",
   description:
-    "GrandeApp helps Zimbabwean brands scale with AI by connecting them to top creators—Influencers, UGC, and Podcast talent. Launch paid ads or grow organically with an AI-powered marketing co-pilot.",
+    "Connect with Zimbabwe's Top Influencers & UGC Creators",
   keywords: [
     "influencer marketing Zimbabwe",
-    "UGC creators Zimbabwe",
-    "podcast partnerships Zimbabwe",
-    "brand deals Zimbabwe",
-    "AI marketing Zimbabwe",
-    "scale with creators Zimbabwe",
-    "GrandeApp platform Zimbabwe",
+  
   ],
   authors: [{ name: "GrandeApp" }],
   alternates: { canonical: "https://www.grandeapp.com/zimbabwe" },
   openGraph: {
-    title: "Grande: The Best UGC Creator & Influencer Marketing Platform in Zimbabwe",
+    title: "Influencer Marketing Platform Zimbabwe",
     description:
-      "GrandeApp connects Zimbabwean brands with influencers, UGC, and podcast creators. Powered by AI, we help you launch high-performing campaigns efficiently.",
+      "Connect with Zimbabwe's Top Influencers & UGC Creators",
     url: "https://www.grandeapp.com/zimbabwe",
     siteName: "GrandeApp",
     images: [
@@ -37,9 +32,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Grande: The Best UGC Creator & Influencer Marketing Platform in Zimbabwe",
+    title: "Influencer Marketing Platform Zimbabwe",
     description:
-      "GrandeApp helps Zimbabwean brands grow with influencers, UGC, and podcast creators—powered by AI.",
+      "Connect with Zimbabwe's Top Influencers & UGC Creators",
     images: ["https://www.grandeapp.com/images/logo.png"],
   },
   robots: { index: true, follow: true },
