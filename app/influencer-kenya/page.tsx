@@ -5,9 +5,9 @@ import { Metadata } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Grande: The Best UGC Creator & Influencer Marketing Platform in Kenya",
+  title: "Grande: Influencer Marketing Kenya",
   description:
-    "GrandeApp helps brands and agencies scale with AI by connecting them to top creators—Influencers, UGC, and Podcast talent. Launch paid ads or grow organically with an AI-powered marketing co-pilot.",
+            "Whether you're a startup or an established brand in Kenya, Grande helps you collaborate with creators who drive authentic engagement and deliver high-quality content.",
   keywords: [
     "influencer marketing Kenya",
     "ugc creators Kenya",
@@ -25,9 +25,9 @@ export const metadata: Metadata = {
     canonical: "https://www.grandeapp.com/influencer-kenya",
   },
   openGraph: {
-    title: "Grande: The Best UGC Creator & Influencer Marketing Platform in Kenya",
+    title: "Grande: Influencer Marketing Kenya",
     description:
-      "GrandeApp connects brands with influencers, UGC, and podcast creators worldwide. Powered by AI, we help you launch high-performing campaigns without the overhead.",
+            "Whether you're a startup or an established brand in Kenya, Grande helps you collaborate with creators who drive authentic engagement and deliver high-quality content.",
     url: "https://www.grandeapp.com/influencer-kenya",
     siteName: "GrandeApp",
     images: [
@@ -43,9 +43,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Grande: The Best UGC Creator & Influencer Marketing Platform in Kenya",
+    title: "Grande: Influencer Marketing Kenya",
     description:
-      "GrandeApp helps brands and agencies grow with influencers, UGC, and podcast creators—powered by AI.",
+            "Whether you're a startup or an established brand in Kenya, Grande helps you collaborate with creators who drive authentic engagement and deliver high-quality content.",
     images: ["https://www.grandeapp.com/images/logo.png"],
   },
   robots: {

@@ -7,10 +7,10 @@ export default function GrandeKenyaMarketingPage() {
       <header className="bg-gray-100 dark:bg-zinc-900 py-10 px-6 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">
-            Grande: The Leading UGC Creator & Influencer Marketing Platform in Kenya
+            Grande: Influencer Marketing in Kenya
           </h1>
           <h2 className="text-3xl font-bold text-center text-black dark:text-white mb-8">
-            Connect with Kenya's Top Influencers & UGC Creators
+            Connect with Kenya's Top Influencers
           </h2>
           <p className="text-gray-600 dark:text-gray-300 text-lg">
             Whether you're a startup or an established brand in Kenya, Grande helps you collaborate with creators who drive authentic engagement and deliver high-quality content.
