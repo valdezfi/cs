@@ -5,15 +5,15 @@ import { Metadata } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Grande: Plataforma Líder de Marketing de Influencers en Chile",
+  title: "Marketing de Influencers Chile",
   description:
     "Plataforma de Marketing de Influencers, Podcast y UGC en Chile – Grande",
   authors: [{ name: "Grandeapp Editorial Team" }],
   keywords: [
-    'Influencers en Chile'
+    'Influencers Chile'
   ],
   openGraph: {
-    title: "Grande: Plataforma Líder de Marketing de Influencers en Chile",
+  title: "Marketing de Influencers Chile",
     description:
       "Plataforma de Marketing de Influencers, Podcast y UGC en Chile – Grande",
     url: "https://www.grandeapp.com/chile",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Grande: Plataforma Líder de Marketing de Influencers en Chile",
+  title: "Marketing de Influencers Chile",
     description:
       "Plataforma de Marketing de Influencers, Podcast y UGC en Chile – Grande",
     images: ["https://grandeapp.com/images/chile.jpg"],
