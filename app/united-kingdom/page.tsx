@@ -5,9 +5,11 @@ import { Metadata } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Grande: The Best UGC Creator & Influencer Marketing Platform in the UK",
+  title: "Influencer Marketing UK",
   description:
-    "GrandeApp helps UK brands scale with AI by connecting them to top creators—Influencers, UGC, and Podcast talent. Launch paid ads or grow organically with an AI-powered marketing co-pilot.",
+
+"Collaborate with the United Kingdom’s Top Creators",
+
   keywords: [
     "influencer marketing UK",
     "UGC creators UK",
@@ -20,9 +22,9 @@ export const metadata: Metadata = {
   authors: [{ name: "GrandeApp" }],
   alternates: { canonical: "https://www.grandeapp.com/united-kingdom" },
   openGraph: {
-    title: "Grande: The Best UGC Creator & Influencer Marketing Platform in the UK",
+  title: "Influencer Marketing UK",
     description:
-      "GrandeApp connects UK brands with influencers, UGC, and podcast creators. Powered by AI, we help you launch high-performing campaigns efficiently.",
+"Collaborate with the United Kingdom’s Top Creators",
     url: "https://www.grandeapp.com/united-kingdom",
     siteName: "GrandeApp",
     images: [
@@ -38,9 +40,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Grande: The Best UGC Creator & Influencer Marketing Platform in the UK",
+  title: "Influencer Marketing UK",
     description:
-      "GrandeApp helps UK brands grow with influencers, UGC, and podcast creators—powered by AI.",
+"Collaborate with the United Kingdom’s Top Creators",
     images: ["https://www.grandeapp.com/images/logo.png"],
   },
   robots: { index: true, follow: true },
