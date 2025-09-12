@@ -5,24 +5,19 @@ import { Metadata } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Grande: La Mejor Plataforma de Creadores UGC e Influencers en España",
+  title: "Marketing de Influencers en España",
   description:
-    "GrandeApp ayuda a las marcas en España a escalar con IA conectándolas con los mejores creadores: Influencers, UGC y Podcast. Lanza anuncios pagos o crece de manera orgánica con un asistente de marketing impulsado por IA.",
-  keywords: [
-    "marketing de influencers España",
-    "creadores UGC España",
-    "colaboraciones con podcasts España",
-    "acuerdos de marca España",
-    "marketing con IA España",
-    "escalar con creadores España",
-    "plataforma GrandeApp España",
+"Plataforma de Influencers, Podcast y Contenido UGC en España – Grande",
+
+keywords: [
+    "Marketing de Influencers en España"
   ],
   authors: [{ name: "GrandeApp" }],
   alternates: { canonical: "https://www.grandeapp.com/spain" },
   openGraph: {
-    title: "Grande: La Mejor Plataforma de Creadores UGC e Influencers en España",
+  title: "Marketing de Influencers en España",
     description:
-      "GrandeApp conecta a las marcas españolas con influencers, creadores de UGC y podcasts. Con el poder de la IA, ayudamos a lanzar campañas de alto rendimiento de manera eficiente.",
+"Plataforma de Influencers, Podcast y Contenido UGC en España – Grande",
     url: "https://www.grandeapp.com/spain",
     siteName: "GrandeApp",
     images: [
@@ -38,9 +33,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Grande: La Mejor Plataforma de Creadores UGC e Influencers en España",
+  title: "Marketing de Influencers en España",
     description:
-      "GrandeApp ayuda a las marcas españolas a crecer con influencers, creadores de UGC y podcasts—impulsado por IA.",
+"Plataforma de Influencers, Podcast y Contenido UGC en España – Grande",
     images: ["https://www.grandeapp.com/images/logo.png"],
   },
   robots: { index: true, follow: true },
