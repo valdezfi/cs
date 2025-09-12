@@ -5,9 +5,9 @@ import { Metadata } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Grande: Plataforma de Marketing de Influencers Dominicanos",
+  title: "Influencer Marketing de Influencers Dominicanos",
   description:
-    "GrandeApp ayuda a las marcas en República Dominicana a crecer con IA conectándolas con los mejores creadores—Influencers, UGC y podcasts. Lanza campañas de pago o crece orgánicamente con un asistente de marketing potenciado por IA.",
+            "Potencia tu marca con estrategias de influencers dominicanos, Podcast, y contenido generado por usuarios (UGC) adaptadas al mercado dominicano.",
   keywords: [
  
     "influencer marketing",
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
   authors: [{ name: "GrandeApp" }],
   alternates: { canonical: "https://www.grandeapp.com/republica-dominicana" },
   openGraph: {
-    title: "Grande: La Mejor Plataforma de Creadores UGC e Influencers en República Dominicana",
+    title: "Influencer Marketing de Influencers Dominicanos",
     description:
-      "GrandeApp conecta a las marcas dominicanas con influencers, creadores de UGC y podcasts. Potenciado por IA, te ayudamos a lanzar campañas de alto rendimiento de manera eficiente.",
+            "Potencia tu marca con estrategias de influencers dominicanos, Podcast, y contenido generado por usuarios (UGC) adaptadas al mercado dominicano.",
     url: "https://www.grandeapp.com/republica-dominicana",
     siteName: "GrandeApp",
     images: [
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
         url: "https://www.grandeapp.com/images/logo.png",
         width: 1200,
         height: 630,
-        alt: "Grande: Creadores UGC e Influencer Marketing en República Dominicana",
+        alt: "Influencer Marketing en República Dominicana",
       },
     ],
     type: "website",
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Grande: La Mejor Plataforma de Creadores UGC e Influencers en República Dominicana",
+    title: "Influencer Marketing de Influencers Dominicanos",
     description:
-      "GrandeApp ayuda a las marcas dominicanas a crecer con influencers, UGC y podcasts—potenciado por IA.",
+            "Potencia tu marca con estrategias de influencers dominicanos, Podcast, y contenido generado por usuarios (UGC) adaptadas al mercado dominicano.",
     images: ["https://www.grandeapp.com/images/logo.png"],
   },
   robots: { index: true, follow: true },

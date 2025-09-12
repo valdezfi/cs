@@ -8,7 +8,7 @@ export default function GrandeRDMarketingPage() {
         <div className="max-w-4xl mx-auto">
           
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">
-            Grande: Plataforma de Marketing de Influencers Dominicanos
+           Marketing de Influencers Dominicanos
           </h1>
           <h2 className="text-3xl font-bold text-center text-black dark:text-white mb-8">
             Plataforma de Marketing de Influencers, Podcast y UGC en República Dominicana – Grande 
