@@ -5,18 +5,18 @@ import { Metadata } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Grande: Plataforma Líder de Marketing de Influencers en Colombia",
+  title: " Marketing de Influencers Colombia",
   description:
-    "Plataforma de Marketing de Influencers, Podcast y UGC en Colombia – Grande",
+      "Impulsa tu marca en Colombia con campañas auténticas de influencers, podcast y contenido generado por usuarios (UGC).",
   authors: [{ name: "Grandeapp Editorial Team" }],
   keywords: [
     "Influencers en Colombia",
     
   ],
   openGraph: {
-    title: "Influencers, Podcasts y Contenido UGC en Colombia – Grande",
+  title: " Marketing de Influencers Colombia",
     description:
-      "Plataforma de Marketing de Influencers, Podcast y UGC en Colombia – Grande",
+      "Impulsa tu marca en Colombia con campañas auténticas de influencers, podcast y contenido generado por usuarios (UGC).",
     url: "https://www.grandeapp.com/colombia",
     images: [
       {
@@ -29,9 +29,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Influencers, Podcasts y Contenido UGC en Colombia – Grande",
+  title: " Marketing de Influencers Colombia",
     description:
-      "Plataforma de Marketing de Influencers, Podcast y UGC en Colombia – Grande",
+      "Impulsa tu marca en Colombia con campañas auténticas de influencers, podcast y contenido generado por usuarios (UGC).",
     images: ["https://grandeapp.com/images/colombia.jpg"],
   },
   alternates: {
