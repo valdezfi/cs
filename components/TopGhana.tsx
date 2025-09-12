@@ -1,4 +1,4 @@
-import Image from "next/image";
+import CreatorSpotlight from "components/ShowCreator"; // adjust the path based on your folder structure
 import Link from "next/link";
 
 export default function GrandeGhanaMarketingPage() {
@@ -19,12 +19,7 @@ export default function GrandeGhanaMarketingPage() {
       </header>
 
       <div className="w-full max-w-5xl mx-auto mt-8 mb-12 px-6">
-        <Image
-          src="/images/ghana-influencers.jpg"
-          alt="Influencer and UGC marketing in Ghana"
-          width={1200}
-          height={600}
-          className="rounded-2xl shadow-lg"
+        <CreatorSpotlight
         />
       </div>
 

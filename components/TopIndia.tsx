@@ -1,4 +1,4 @@
-import Image from "next/image";
+import CreatorSpotlight from "components/ShowCreator"; // adjust the path based on your folder structure
 import Link from "next/link";
 
 export default function GrandeIndiaMarketingPage() {
@@ -19,13 +19,7 @@ export default function GrandeIndiaMarketingPage() {
       </header>
 
       <div className="w-full max-w-5xl mx-auto mt-8 mb-12 px-6">
-        <Image
-          src="/images/india-influencers.jpg"
-          alt="Influencer and UGC marketing in India"
-          width={1200}
-          height={600}
-          className="rounded-2xl shadow-lg"
-        />
+      <CreatorSpotlight/>
       </div>
 
       <article className="max-w-4xl mx-auto px-6 space-y-12 pb-20">
