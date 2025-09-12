@@ -10,15 +10,8 @@ export const metadata: Metadata = {
             "Whether you're a startup or an established brand in Kenya, Grande helps you collaborate with creators who drive authentic engagement and deliver high-quality content.",
   keywords: [
     "influencer marketing Kenya",
-    "ugc creators Kenya",
-    "podcast partnerships Kenya",
-    "creator economy Kenya",
-    "brand deals Kenya",
-    "ai marketing",
-    "scale with creators",
-    "creator campaigns Kenya",
-    "GrandeApp platform Kenya",
-    "Influencer Marketing Platform in Kenya"
+    "Kenya influencer agency"
+    
   ],
   authors: [{ name: "GrandeApp" }],
   alternates: {
