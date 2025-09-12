@@ -89,7 +89,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 "singapore",
 "south-africa",
 "spain",
-"suadi-arabia",
 "ugc",
 
 "united-kingdom",
