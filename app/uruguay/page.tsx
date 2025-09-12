@@ -5,24 +5,19 @@ import { Metadata } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Grande: The Best UGC Creator & Influencer Marketing Platform in Uruguay",
+  title: "Influencer Marketing Uruguay",
   description:
-    "GrandeApp helps Uruguayan brands scale with AI by connecting them to top creators—Influencers, UGC, and Podcast talent. Launch paid ads or grow organically with an AI-powered marketing co-pilot.",
+           " Plataforma de marketing de influencers y UGC en Uruguay – Grande",
   keywords: [
     "influencer marketing Uruguay",
-    "UGC creators Uruguay",
-    "podcast partnerships Uruguay",
-    "brand deals Uruguay",
-    "AI marketing Uruguay",
-    "scale with creators Uruguay",
-    "GrandeApp platform Uruguay",
+  
   ],
   authors: [{ name: "GrandeApp" }],
   alternates: { canonical: "https://www.grandeapp.com/uruguay" },
   openGraph: {
-    title: "Grande: The Best UGC Creator & Influencer Marketing Platform in Uruguay",
+  title: "Influencer Marketing Uruguay",
     description:
-      "GrandeApp connects Uruguayan brands with influencers, UGC, and podcast creators. Powered by AI, we help you launch high-performing campaigns efficiently.",
+           " Plataforma de marketing de influencers y UGC en Uruguay – Grande",
     url: "https://www.grandeapp.com/uruguay",
     siteName: "GrandeApp",
     images: [
@@ -38,9 +33,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Grande: The Best UGC Creator & Influencer Marketing Platform in Uruguay",
+  title: "Influencer Marketing Uruguay",
     description:
-      "GrandeApp helps Uruguayan brands grow with influencers, UGC, and podcast creators—powered by AI.",
+           " Plataforma de marketing de influencers y UGC en Uruguay – Grande",
     images: ["https://www.grandeapp.com/images/logo.png"],
   },
   robots: { index: true, follow: true },

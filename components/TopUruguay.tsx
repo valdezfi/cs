@@ -7,8 +7,7 @@ export default function GrandeUYMarketingPage() {
       <header className="bg-gray-100 dark:bg-zinc-900 py-10 px-6 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">
-            Grande: Transformando el marketing digital en Uruguay
-          </h1>
+Influencer Marketing Uruguay          </h1>
           <h2 className="text-3xl font-bold text-center text-black dark:text-white mb-8">
             Plataforma de marketing de influencers y UGC en Uruguay – Grande
           </h2>

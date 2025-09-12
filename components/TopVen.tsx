@@ -7,7 +7,7 @@ export default function GrandeVENMarketingPage() {
       <header className="bg-gray-100 dark:bg-zinc-900 py-10 px-6 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">
-            Grande: La Plataforma Líder de Marketing de Influencers en Venezuela
+            Marketing de Influencers Venezuela
           </h1>
           <h2 className="text-3xl font-bold text-center text-black dark:text-white mb-8">
             Plataforma de Influencers, Podcast y UGC en Venezuela – Grande
@@ -32,7 +32,11 @@ export default function GrandeVENMarketingPage() {
         <section>
           <h2 className="text-2xl font-semibold">¿Qué es el Marketing de Influencers?</h2>
           <p>
-            Es una estrategia donde marcas se asocian con creadores para promocionar productos o servicios. En Venezuela, donde las redes sociales son una herramienta clave de comunicación, este tipo de marketing permite una conexión genuina con la audiencia.
+            Es una estrategia donde marcas se asocian con creadores para promocionar productos o servicios. 
+            En Venezuela, donde las redes sociales y plataformas como{" "}
+            <strong>Mercado Libre Venezuela</strong> o{" "}
+            <strong>Mercado Libre de Venezuela</strong> son parte del día a día digital, 
+            este tipo de marketing permite una conexión genuina con la audiencia.
           </p>
         </section>
 
@@ -41,7 +45,7 @@ export default function GrandeVENMarketingPage() {
           <ul className="list-disc list-inside space-y-2 mt-4">
             <li><strong>Alcance Local y Global:</strong> Llega a audiencias en Caracas, Maracaibo, Valencia y más.</li>
             <li><strong>Contenido Auténtico:</strong> Los influencers venezolanos generan confianza con sus seguidores.</li>
-            <li><strong>Alta Participación:</strong> Engagement superior comparado con medios tradicionales.</li>
+            <li><strong>Alta Participación:</strong> Engagement superior comparado con medios tradicionales o listados en Mercado Libre Venezuela.</li>
           </ul>
         </section>
 
@@ -53,12 +57,20 @@ export default function GrandeVENMarketingPage() {
             <li><strong>Datos en Tiempo Real:</strong> Métricas actualizadas para medir el impacto de tu campaña.</li>
             <li><strong>Planes a Medida:</strong> Opciones para emprendimientos y marcas establecidas en Venezuela.</li>
           </ul>
+          <p className="mt-4">
+            A diferencia de vender en plataformas como{" "}
+            <em>Mercado Libre de Venezuela</em>, Grande se centra en generar 
+            relaciones auténticas y branding duradero.
+          </p>
         </section>
 
         <section>
           <h2 className="text-2xl font-semibold">Impulsa tu Estrategia con UGC</h2>
           <p>
-            El contenido generado por usuarios (UGC) es clave para construir confianza. Con Grande puedes incluir este tipo de contenido de manera efectiva en tu estrategia digital venezolana.
+            El contenido generado por usuarios (UGC) es clave para construir confianza. 
+            Con Grande puedes incluir este tipo de contenido de manera efectiva en tu estrategia digital venezolana, 
+            superando la simple publicación en clasificados como{" "}
+            <strong>Mercado Libre Venezuela</strong>.
           </p>
           <ul className="list-disc list-inside space-y-2 mt-4">
             <li><strong>Contenido Real:</strong> Personas reales mostrando y recomendando tus productos.</li>
@@ -70,7 +82,9 @@ export default function GrandeVENMarketingPage() {
         <section>
           <h2 className="text-2xl font-semibold">Trabaja con Microinfluencers y Creadores UGC en Venezuela</h2>
           <p>
-            Grande te conecta con creadores locales que ofrecen excelente rendimiento y relevancia regional.
+            Grande te conecta con creadores locales que ofrecen excelente rendimiento y relevancia regional, 
+            algo que no siempre logras al vender únicamente en{" "}
+            <strong>Mercado Libre de Venezuela</strong>.
           </p>
           <ul className="list-disc list-inside space-y-2 mt-4">
             <li><strong>Engagement Real:</strong> Seguidores comprometidos que confían en su comunidad.</li>
@@ -101,7 +115,9 @@ export default function GrandeVENMarketingPage() {
         <section className="text-center">
           <h2 className="text-2xl font-semibold mb-4">¿Listo para Impulsar tu Marca en Venezuela?</h2>
           <p className="mb-6">
-            Empieza ahora con Grande y alcanza tu público ideal con campañas efectivas en Venezuela.
+            Empieza ahora con Grande y alcanza tu público ideal con campañas efectivas en Venezuela, 
+            mucho más allá de los simples listados de{" "}
+            <strong>Mercado Libre Venezuela</strong>.
           </p>
           <Link href="/signup">
             <div className="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition">
