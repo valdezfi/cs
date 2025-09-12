@@ -5,8 +5,8 @@ const BASE_URL = "https://www.grandeapp.com";
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Static paths
   const staticPaths = [
-    "",
-    "contact",
+     "",              // Home page
+
     "blog",         // Base blog page
     "allblogs",     // Blog listing page          // P2P trading page
     "forgotpassword",
