@@ -7,7 +7,7 @@ export default function GrandePuertoRicoMarketingPage() {
       <header className="bg-gray-100 dark:bg-zinc-900 py-10 px-6 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">
-            Grande: Plataforma Líder de Marketing de Influencers en Puerto Rico
+            Marketing de Influencers en Puerto Rico
           </h1>
           <h2 className="text-3xl font-bold text-center text-black dark:text-white mb-8">
             Influencers, Podcasts y Contenido UGC en Puerto Rico – Grande

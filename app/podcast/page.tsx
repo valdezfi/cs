@@ -16,14 +16,9 @@ export const metadata: Metadata = {
   description:
     "GrandeApp helps podcasters scale by connecting them with sponsors, influencers, and creators, powered by AI. Track performance, grow your audience, and monetize your content efficiently.",
   keywords: [
-    "podcast monetization",
     "podcast marketing",
-    "podcast growth",
-    "sponsor connections",
-    "podcast promotion",
-    "podcaster tools",
-    "AI podcast assistant",
-    "GrandeApp podcasts"
+   
+  
   ],
   authors: [{ name: "GrandeApp" }],
   alternates: { canonical: "https://www.grandeapp.com/podcast" },

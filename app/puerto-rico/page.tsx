@@ -7,33 +7,20 @@ import Script from 'next/script';
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Grande: Plataforma Líder de Marketing de Influencers en Puerto Rico",
+  title:             "Marketing de Influencers en Puerto Rico",
   description:
-    "Influencers, Podcasts y Contenido UGC en Puerto Rico – Grande",
+            "Lanza campañas auténticas en Puerto Rico con creadores locales, contenido generado por usuarios (UGC) y colaboraciones con podcasts.",
   authors: [{ name: "Grandeapp Editorial Team" }],
   keywords: [
-    "Digital Ecommerce Marketing",
-    "e-commerce marketing manager",
-    "ecommerce marketing tools",
-    "e-commerce marketing agency",
-    "e-commerce marketing and advertising",
-    "e-commerce marketing services",
-    "shopping influencers",
-    "content creation",
-    "brand marketing",
+   
 "Influencers en Puerto Rico",
-
-  "creator campaigns Puerto Rico",
-    'marketing de influencers en Puerto Rico',
-    'influencers en Puerto Rico',
-    'ugc creadores en Puerto Rico',
-    'campañas con influencers en Puerto Rico',
-        'campañas con ugc creadores  en Puerto Rico',
+"Puerto Rico"
   ],
   openGraph: {
-    title: "Influencers, Podcasts y Contenido UGC en Puerto Rico – Grande",
+    title:            "Marketing de Influencers en Puerto Rico",
+
     description:
-      "In the era of rapid online growth, standing out isn’t optional—it’s essential. That’s where Digital Ecommerce Marketing steps in. If you’re running an online store, reaching your ideal customer, converting traffic into buyers, and creating a loyal community are all dependent on smart, data-driven marketing. This is the foundation of what we do at Grande.",
+    "Lanza campañas auténticas en Puerto Rico con creadores locales, contenido generado por usuarios (UGC) y colaboraciones con podcasts.",
     url: "https://www.grandeapp.com/blog/puerto-rico",
     images: [
       {
@@ -48,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Influencers, Podcasts y Contenido UGC en Puerto Rico – Grande",
     description:
-      "In the era of rapid online growth, standing out isn’t optional—it’s essential. That’s where Digital Ecommerce Marketing steps in. If you’re running an online store, reaching your ideal customer, converting traffic into buyers, and creating a loyal community are all dependent on smart, data-driven marketing. This is the foundation of what we do at Grande.",
+            "Lanza campañas auténticas en Puerto Rico con creadores locales, contenido generado por usuarios (UGC) y colaboraciones con podcasts.",
     images: [
       "https://grandeapp.com/images/blog/p.jpg",
     ],
