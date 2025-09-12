@@ -5,26 +5,22 @@ import { Metadata } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Grande: The Best UGC Creator & Influencer Marketing Platform in Philippines",
+  title: "Influencer Marketing in the Philippines",
   description:
-    "GrandeApp helps Philippine brands scale with AI by connecting them to top creators—Influencers, UGC, and Podcast talent. Launch paid ads or grow organically with an AI-powered marketing co-pilot.",
-  keywords: [
+"Whether you're a startup or an established brand in the Philippines, Grande helps you collaborate with creators who drive authentic engagement and deliver high-quality content.",
+
+keywords: [
     "influencer marketing Philippines",
-    "UGC creators Philippines",
-    "podcast partnerships Philippines",
-    "brand deals Philippines",
-    "AI marketing Philippines",
-    "scale with creators Philippines",
-    "GrandeApp platform Philippines",
+    
   ],
   authors: [{ name: "GrandeApp" }],
   alternates: {
     canonical: "https://www.grandeapp.com/philippines",
   },
   openGraph: {
-    title: "Grande: The Best UGC Creator & Influencer Marketing Platform in Philippines",
+    title: "Influencer Marketing in the Philippines",
     description:
-      "GrandeApp connects Philippine brands with influencers, UGC, and podcast creators. Powered by AI, we help you launch high-performing campaigns efficiently.",
+"Whether you're a startup or an established brand in the Philippines, Grande helps you collaborate with creators who drive authentic engagement and deliver high-quality content.",
     url: "https://www.grandeapp.com/philippines",
     siteName: "GrandeApp",
     images: [
@@ -40,9 +36,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Grande: The Best UGC Creator & Influencer Marketing Platform in Philippines",
+    title: "Influencer Marketing in the Philippines",
     description:
-      "GrandeApp helps Philippine brands grow with influencers, UGC, and podcast creators—powered by AI.",
+"Whether you're a startup or an established brand in the Philippines, Grande helps you collaborate with creators who drive authentic engagement and deliver high-quality content.",
     images: ["https://www.grandeapp.com/images/logo.png"],
   },
   robots: {

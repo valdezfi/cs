@@ -13,18 +13,10 @@ import Script from 'next/script';
 export const metadata: Metadata = {
   title: 'Grow with Top Creators | GrandeApp USA, LATAM, Europe & Beyond',
   description:
-    'GrandeApp helps brands and agencies scale with AI by connecting them to top creators—Influencers, UGC, and Podcast talent. Launch paid ads or grow organically with an AI-powered marketing co-pilot.',
+    'GrandeApp helps brands and agencies scale with AI by connecting them to top Influencers, UGC, and Podcast talent. Launch paid ads or grow organically with an AI-powered marketing co-pilot.',
   keywords: [
-    'influencer marketing',
-    'ugc creators',
-    'podcast partnerships',
-    'creator economy',
-    'brand deals',
-    'ai marketing',
-    'scale with creators',
-    'creator campaigns USA',
-    'creator campaigns LATAM',
-    'GrandeApp platform',
+    'influencers',
+    
   ],
   authors: [{ name: 'GrandeApp' }],
   alternates: {
