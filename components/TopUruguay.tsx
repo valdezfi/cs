@@ -96,7 +96,7 @@ Influencer Marketing Uruguay          </h1>
           <p className="mb-6">
             No esperes más para transformar tu estrategia de marketing en Uruguay. Con Grande, puedes conectar con tu audiencia y obtener resultados medibles.
           </p>
-          <Link href="/signup">
+          <Link href="/">
             <div className="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition">
               Crear mi campaña
             </div>

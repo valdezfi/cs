@@ -81,7 +81,7 @@ export default function GrandeLithuaniaMarketingPage() {
           <p className="mb-6">
             Ready to take your marketing to the next level? Partner with Grande and tap into the full potential of UGC and influencer marketing in Lithuania.
           </p>
-          <Link href="/contact">
+          <Link href="/">
             <div className="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition">
               Launch App
             </div>

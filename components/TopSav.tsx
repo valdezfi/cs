@@ -103,7 +103,7 @@ export default function GrandeESMarketingPage() {
           <p className="mb-6">
             Comienza ahora con Grande y haz crecer tu marca con los creadores más influyentes del país.
           </p>
-          <Link href="/signup">
+          <Link href="/">
             <div className="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition">
               Crear mi campaña
             </div>

@@ -81,9 +81,9 @@ export default function GrandeIndiaMarketingPage() {
           <p className="mb-6">
             Ready to grow your brand across India with powerful influencer and UGC strategies? Partner with Grande and dominate digital marketing, the smart way.
           </p>
-          <Link href="/contact">
+          <Link href="/">
             <div className="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition">
-              Contact Us
+              Launch Campaign
             </div>
           </Link>
         </section>

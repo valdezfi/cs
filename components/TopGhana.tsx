@@ -81,9 +81,9 @@ export default function GrandeGhanaMarketingPage() {
           <p className="mb-6">
             Don’t miss out on the opportunity to elevate your marketing efforts. Partner with Grande, the leading UGC creator platform in Ghana, and unlock the potential of influencer marketing.
           </p>
-          <Link href="/contact">
+          <Link href="/">
             <div className="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition">
-              Contact Us
+             Launch Campaign
             </div>
           </Link>
         </section>

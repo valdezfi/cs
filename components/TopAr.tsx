@@ -113,7 +113,7 @@ export default function GrandeARMarketingPage() {
             influencers, UGC y hasta tendencias como{" "}
             <em>shein shipping argentina</em> al siguiente nivel.
           </p>
-          <Link href="/signup">
+          <Link href="/">
             <div className="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition">
               Crear mi campaña
             </div>

@@ -97,7 +97,7 @@ export default function GrandePuertoRicoMarketingPage() {
           <p className="mb-6">
             Únete a Grande y conecta con los mejores creadores de Puerto Rico para alcanzar tus metas comerciales.
           </p>
-          <Link href="/signup">
+          <Link href="/">
             <div className="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition">
               Crear mi campaña
             </div>

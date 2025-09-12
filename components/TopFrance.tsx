@@ -81,9 +81,9 @@ export default function GrandeFranceMarketingPage() {
           <p className="mb-6">
             Ready to grow your brand in France? Work with Grande, the trusted UGC creator platform, and unlock the full power of influencer marketing.
           </p>
-          <Link href="/contact">
+          <Link href="/">
             <div className="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition">
-              Contact Us
+             Launch Campaign
             </div>
           </Link>
         </section>

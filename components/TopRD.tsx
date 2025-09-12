@@ -100,7 +100,7 @@ export default function GrandeRDMarketingPage() {
           </p>
           <div className="mt-4">
             <Link
-              href="/registro"
+              href="/"
               className="inline-block bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition"
             >
               Regístrate Ahora

@@ -82,9 +82,9 @@ Influencer Marketing UK
           <p className="mb-6">
             Elevate your brand in the UK with Grande — your trusted partner in UGC and influencer marketing. Let's bring your next campaign to life.
           </p>
-          <Link href="/contact">
+          <Link href="/">
             <div className="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition">
-              Launch App
+              Launch Campaign
             </div>
           </Link>
         </section>
