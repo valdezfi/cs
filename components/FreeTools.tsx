@@ -5,7 +5,7 @@ const freeTools = [
   {
     name: "AI Bio Maker",
     description: "Generate fun & personalized Instagram bios in seconds.",
-    href: "/tools/ig-bio-maker",
+    href: "/ig-bio-maker",
   },
 //   {
 //     name: "Hashtag Finder",
