@@ -34,7 +34,7 @@ export default function FreeToolsPage() {
         {freeTools.map((tool) => (
           <Link key={tool.name} href={tool.href} className="group">
             <div className="p-6 rounded-2xl border border-gray-200 dark:border-zinc-800 shadow hover:shadow-lg transition bg-gray-50 dark:bg-zinc-900 cursor-pointer">
-              <h2 className="text-xl font-bold mb-2 group-hover:text-blue-500 transition">
+              <h2 className="text-xl text-center font-bold mb-2 group-hover:text-blue-500 transition">
                 {tool.name}
               </h2>
               <p className="text-gray-600 dark:text-gray-400">{tool.description}</p>
