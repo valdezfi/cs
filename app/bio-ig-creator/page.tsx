@@ -7,7 +7,7 @@ import { Metadata } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "IG Bio Maker",
+  title: "Free IG BIO Maker",
   description:
 " If you’re a creator, your IG bio is the very first impression people get when they land on your profile. In only 150 characters, you have the opportunity to introduce yourself, share your vibe, and convince someone to hit the follow button. ",
 keywords: [
@@ -25,7 +25,7 @@ keywords: [
     canonical: "https://www.grandeapp.com/bio-ig-creator",
   },
   openGraph: {
-  title: "IG Bio Maker",
+  title: "Free IG BIO Maker",
     description:
 " If you’re a creator, your IG bio is the very first impression people get when they land on your profile. In only 150 characters, you have the opportunity to introduce yourself, share your vibe, and convince someone to hit the follow button. ",
     url: "https://www.grandeapp.com/bio-ig-creator",
@@ -43,7 +43,7 @@ keywords: [
   },
   twitter: {
     card: "summary_large_image",
-  title: "IG Bio Maker",
+  title: "Free IG BIO Maker",
     description:
 " If you’re a creator, your IG bio is the very first impression people get when they land on your profile. In only 150 characters, you have the opportunity to introduce yourself, share your vibe, and convince someone to hit the follow button. ",
     images: ["https://www.grandeapp.com/images/logo.png"],

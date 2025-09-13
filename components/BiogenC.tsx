@@ -53,9 +53,9 @@ export default function CreatorFunnelTool() {
   return (
     <div className="w-full max-w-xl mx-auto p-8 rounded-3xl bg-white dark:bg-black shadow-xl border border-gray-200 dark:border-zinc-800">
       {/* Header */}
-      <h1 className="text-4xl font-extrabold text-center mb-2">🚀 AI BIO Maker</h1>
+      <h1 className="text-4xl font-extrabold text-center mb-2">Free IG BIO Maker</h1>
       <p className="text-center text-gray-600 dark:text-gray-400 mb-6 text-lg">
-        Describe yourself & your content to generate a <span className="font-semibold">personalized Instagram bio</span>.
+        Describe yourself & your content to generate a <span className="font-semibold">personalized Instagram bio powered by AI</span>.
       </p>
 
       {/* Inputs */}
