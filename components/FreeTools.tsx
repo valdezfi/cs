@@ -58,28 +58,7 @@ const freeTools = [
     href: "/ig-bio-maker",
     icon: Sparkles,
     color: "bg-blue-100 text-blue-600",
-  },
-  {
-    name: "Lowest Fee Exchange",
-    description: "Find the cheapest crypto exchanges for creators worldwide.",
-    href: "/lowest-fee",
-    icon: DollarSign,
-    color: "bg-green-100 text-green-600",
-  },
-  {
-    name: "Collab Rate Calculator",
-    description: "Estimate how much brands should pay you for collabs.",
-    href: "/collab-rate",
-    icon: BarChart3,
-    color: "bg-purple-100 text-purple-600",
-  },
-  {
-    name: "Hashtag Finder",
-    description: "Discover trending hashtags for TikTok & Instagram.",
-    href: "/hashtag-finder",
-    icon: Hash,
-    color: "bg-pink-100 text-pink-600",
-  },
+  }
 ];
 
 export default function FreeToolsPage() {
