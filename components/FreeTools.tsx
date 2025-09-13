@@ -53,7 +53,7 @@ import { Sparkles, DollarSign, BarChart3, Hash } from "lucide-react";
 
 const freeTools = [
   {
-    name: "AI Bio Maker",
+    name: "AI IG Bio Maker",
     description: "Generate fun & personalized Instagram bios in seconds.",
     href: "/ig-bio-maker",
     icon: Sparkles,
