@@ -14,8 +14,11 @@ export default function Header() {
 
   const customersTimeout = useRef(null);
   const productsTimeout = useRef(null);
-  const resourcesTimeout = useRef(null);
+const [toolsOpen, setToolsOpen] = useState(false);
 
+// If you’re using timeouts:
+let resourcesTimeout: NodeJS.Timeout;
+let toolsTimeout: NodeJS.Timeout;
   const handleDropdown = (type, openSetter, timeoutRef) => ({
     onMouseEnter: () => {
       clearTimeout(timeoutRef.current);
@@ -85,33 +88,60 @@ export default function Header() {
             </li>
 
             {/* Resources */}
-            <li className="relative" {...handleDropdown("resources", setResourcesOpen, resourcesTimeout)}>
-              <button className="nav-link flex items-center gap-1">
-                Resources
-                <svg className={`w-4 h-4 transition-transform ${resourcesOpen ? "rotate-180" : ""}`} fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                  <path d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
-              {resourcesOpen && (
-                <ul className="absolute left-0 mt-2 w-60 bg-white shadow-xl rounded-md z-50 p-4">
-                  <li><Link href="/allblogs" className="block px-4 py-2 text-black">Blog</Link></li>
-                </ul>
-              )}
-            </li>
+          <li
+  className="relative"
+  {...handleDropdown("resources", setResourcesOpen, resourcesTimeout)}
+>
+  <button className="nav-link flex items-center gap-1">
+    Resources
+    <svg
+      className={`w-4 h-4 transition-transform ${resourcesOpen ? "rotate-180" : ""}`}
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      viewBox="0 0 24 24"
+    >
+      <path d="M19 9l-7 7-7-7" />
+    </svg>
+  </button>
+  {resourcesOpen && (
+    <ul className="absolute left-0 mt-2 w-60 bg-white shadow-xl rounded-md z-50 p-4">
+      <li>
+        <Link href="/allblogs" className="block px-4 py-2 text-black">
+          Blog
+        </Link>
+      </li>
+    </ul>
+  )}
+</li>
 
-                    <li className="relative" {...handleDropdown("resources", setResourcesOpen, resourcesTimeout)}>
-              <button className="nav-link flex items-center gap-1">
-                Free Tools
-                <svg className={`w-4 h-4 transition-transform ${resourcesOpen ? "rotate-180" : ""}`} fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                  <path d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
-              {resourcesOpen && (
-                <ul className="absolute left-0 mt-2 w-60 bg-white shadow-xl rounded-md z-50 p-4">
-                  <li><Link href="/free-tools" className="block px-4 py-2 text-black">AI</Link></li>
-                </ul>
-              )}
-            </li>
+<li
+  className="relative"
+  {...handleDropdown("tools", setToolsOpen, toolsTimeout)}
+>
+  <button className="nav-link flex items-center gap-1">
+    Free Tools
+    <svg
+      className={`w-4 h-4 transition-transform ${toolsOpen ? "rotate-180" : ""}`}
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      viewBox="0 0 24 24"
+    >
+      <path d="M19 9l-7 7-7-7" />
+    </svg>
+  </button>
+  {toolsOpen && (
+    <ul className="absolute left-0 mt-2 w-60 bg-white shadow-xl rounded-md z-50 p-4">
+      <li>
+        <Link href="/free-tools" className="block px-4 py-2 text-black">
+          AI
+        </Link>
+      </li>
+    </ul>
+  )}
+</li>
+
 
             <li><Link href="/pricing" className="nav-link">Pricing</Link></li>
             <li>
