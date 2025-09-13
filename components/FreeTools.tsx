@@ -28,7 +28,7 @@ export default function FreeToolsPage() {
   return (
     <div className="min-h-screen p-8 bg-white dark:bg-black text-gray-900 dark:text-white">
       <h1 className="text-4xl font-extrabold text-center mb-10">Free Automated Social Media Tools</h1>
-      <h2 className="text-4xl font-extrabold text-center mb-10">The best social media tools for marketing that are free to use!</h2>
+      <h3 className="text-2xl font-extrabold text-center mb-10">The best social media tools for marketing that are free to use!</h3>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {freeTools.map((tool) => (
