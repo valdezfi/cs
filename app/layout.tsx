@@ -1,12 +1,8 @@
-import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 import "styles/globals.css";
 import { GoogleAnalytics } from '@next/third-parties/google'
 
-export const metadata: Metadata = {
-  title: "Grande",
-  description: "Boost Your ADs With Influencers, UGC Creators, & Podcast Creators",
-};
+
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
