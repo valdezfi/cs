@@ -9,9 +9,10 @@ const plans = [
     yearly: "$0/yr",
     description: "Start exploring with basic access.",
     features: [
-      "AI-driven campaign management",
          "Access to 80 creators per month",
     "1 Basic campaign creation",
+        "Basic support",
+
     ],
     highlighted: false,
   },
@@ -22,7 +23,7 @@ const plans = [
     description: "For teams managing campaigns and creator relationships.",
     features: [
       "All Free benefits",
-      "Unlimited campaign creation",
+    "Unlimited campaign creation",
       "AI-driven campaign management",
       "Unlimited  Influencers",
       "Affiliate and promo code setup",
@@ -31,6 +32,7 @@ const plans = [
       "Priority access to top-tier creators during launches",
       "Performance Predictor: AI estimates engagement and conversions per influencer before campaign launch",
       "Exclusive early access to features",
+            "Affiliate and promo code setup",
     ],
     highlighted: true,
   },
