@@ -119,7 +119,7 @@ export default function PricingPlans() {
                 </ul>
 
                 <a
-                  href="https://app.grandeapp.com"
+                  href="https://app.grandeapp.com/billing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block w-full bg-blue-600 hover:bg-blue-700 text-white text-center py-2 rounded-lg transition font-medium"
