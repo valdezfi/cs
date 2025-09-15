@@ -127,7 +127,7 @@ export default function CreatorFunnelTool() {
               Join <span className="font-semibold">Grande</span> to unlock full tools, collab offers, and exclusive growth hacks.
             </p>
             <a
-              href="/signup"
+              href="/pricing"
               className="inline-block bg-white text-black px-6 py-3 rounded-xl font-semibold hover:bg-gray-200 transition"
             >
               Sign Up Free →
