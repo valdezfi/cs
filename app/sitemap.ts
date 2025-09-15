@@ -18,7 +18,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "usa",
     "forgotpassword",
    
-    
+    "free-tools",
 
 
 
