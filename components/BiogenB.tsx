@@ -128,7 +128,7 @@ export default function BrandFunnelTool() {
               Join <span className="font-semibold">Grande</span> to unlock AI growth tools, collab offers, and exclusive marketing strategies.
             </p>
             <a
-              href="/signup"
+              href="/pricing"
               className="inline-block bg-white text-black px-6 py-3 rounded-xl font-semibold hover:bg-gray-200 transition"
             >
               Sign Up Free →
