@@ -62,8 +62,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 "influencer-kenya",
 "influencer-platform",
 "influencers-in-brazil",
+"ig-bio-maker",
 
-"kawait",
 
 "lithuania",
 

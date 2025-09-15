@@ -122,7 +122,7 @@ export default function Header() {
             <li><Link href="/pricing" className="nav-link">Pricing</Link></li>
             <li>
               <Link
-                href="https://app.grandeapp.com/signin"
+                href="/pricing"
                 className="bg-black text-white dark:bg-white dark:text-black px-5 py-2 rounded-md text-base font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition duration-300"
               >
                 Signup/Login
@@ -148,7 +148,7 @@ export default function Header() {
           <ul className="flex flex-col space-y-2 text-gray-900 dark:text-white">
             <li><Link href="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
             <li><Link href="/pricing" onClick={() => setMenuOpen(false)}>Pricing</Link></li>
-            <li><Link href="https://app.grandeapp.com/signin" onClick={() => setMenuOpen(false)}>Signup/Login</Link></li>
+            <li><Link href="/pricing" onClick={() => setMenuOpen(false)}>Signup/Login</Link></li>
 
             {/* Mobile Dropdowns (basic) */}
             <li className="mt-4 font-semibold">Customers</li>

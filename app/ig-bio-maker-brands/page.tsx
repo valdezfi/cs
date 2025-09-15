@@ -1,6 +1,5 @@
 import Header from "components/Header";
-import CreatorFunnelTool from "components/BiogenC";
-import IGBioLongArticle from "components/BiogenCInfo";
+import BrandFunnelTool from "components/BiogenB";
 
 import Footer from "components/Footer";
 import { Metadata } from "next";
@@ -84,9 +83,9 @@ export default function Page() {
       />
       <Header />
       <main className="flex-1 py-8 px-4">
-        <CreatorFunnelTool />
+        <BrandFunnelTool />
         
-        <IGBioLongArticle />
+        {/* <IGBioLongArticle /> */}
       </main>
       <Footer />
     </div>
