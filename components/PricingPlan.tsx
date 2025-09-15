@@ -32,7 +32,6 @@ const plans = [
       "Priority access to top-tier creators during launches",
       "Performance Predictor: AI estimates engagement and conversions per influencer before campaign launch",
       "Exclusive early access to features",
-            "Affiliate and promo code setup",
     ],
     highlighted: true,
   },
