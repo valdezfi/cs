@@ -10,15 +10,14 @@ const hints = [
 ];
 
 export default function CreatorFunnelTool() {
-  const [email, setEmail] = useState("");
   const [description, setDescription] = useState("");
   const [mode, setMode] = useState<Mode>("bio");
   const [reply, setReply] = useState<string[]>([]);
   const [loading, setLoading] = useState(false);
 
   const handleGenerate = async () => {
-    if (!email || !description) {
-      alert("Please enter your email and tell us about yourself ✉️");
+    if (!description) {
+      alert("Please tell us about yourself ✨");
       return;
     }
 
@@ -30,7 +29,6 @@ export default function CreatorFunnelTool() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          email,
           message: description,
           creatorType: "ugc",
           mode,
@@ -60,14 +58,6 @@ export default function CreatorFunnelTool() {
 
       {/* Inputs */}
       <div className="space-y-4">
-        <input
-          type="email"
-          placeholder="Your email ✉️"
-          className="w-full p-4 rounded-xl border border-gray-300 dark:border-zinc-700 focus:ring-2 focus:ring-blue-500 focus:outline-none text-lg"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-
         <textarea
           placeholder="Tell us about your content, style, niche, and goals (5-10 words minimum)"
           className="w-full p-4 rounded-xl border border-gray-300 dark:border-zinc-700 focus:ring-2 focus:ring-blue-500 focus:outline-none text-lg h-32 resize-none"
