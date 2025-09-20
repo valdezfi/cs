@@ -21,7 +21,7 @@ import AiHero from "components/Ai"; // adjust the path based on your folder stru
 export const metadata: Metadata = {
   title: 'Grow with Top Creators | GrandeApp USA, LATAM, Europe & Beyond',
   description:
-    'GrandeApp helps brands and agencies scale with AI by connecting them to top creators—Influencers, UGC, and Podcast talent. Launch paid ads or grow organically with an AI-powered marketing co-pilot.',
+    'GrandeApp helps brands and agencies scale with AI by connecting them to top creators—Influencers, UGC, and Podcast talent.',
   keywords: [
   'influencer marketing',
   'ugc creators',
