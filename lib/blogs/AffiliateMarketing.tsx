@@ -1,5 +1,5 @@
 const AffiliateMarketingBlog = {
-  slug: " affiliatemarketing",
+  slug: "affiliatemarketing",
   title: "What Is Affiliate Marketing? 2025",
   snippet: "Affiliate marketing functions as an income-incentivized promotion approach where companies compensate affiliates for promoting their products or services using specific tracking links.",
   imageUrl: "/images/blog/affiliatem.jpg",
