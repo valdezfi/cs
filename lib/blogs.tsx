@@ -28,6 +28,7 @@ import christmasAffiliateBlog from "./blogs/MCblog"
 import WHatInfluencerAgencyBlog from "./blogs/WhatInfluencerAgency"
 
 import haffiliateBlog from "./blogs/100"
+import BenefitsDrawbacksInfluencerMarketingBlog from "./blogs/BenefitsDrawbacks"
 
 
 
@@ -42,7 +43,9 @@ InfluenceHolidayCampaignBlog, RobloxAdvertisingBlog, InfluencerEventsBlog,
 
 christmasAffiliateBlog,
 WHatInfluencerAgencyBlog,
-haffiliateBlog
+haffiliateBlog,
+
+BenefitsDrawbacksInfluencerMarketingBlog
 
 ];
 
