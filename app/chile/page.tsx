@@ -76,9 +76,6 @@ export default function Page() {
       <Header />
 
       <main className="flex-1 py-8 px-4 text-gray-900 dark:text-white">
-        <h1 className="sr-only">
-          Grande: Marketing de Influencers, Podcast y UGC en Chile
-        </h1>
         <LowestFeeExchangePage />
       </main>
 
