@@ -22,13 +22,13 @@ keywords: [
   ],
   authors: [{ name: "GrandeApp" }],
   alternates: {
-    canonical: "https://www.grandeapp.com/bio-ig-creator",
+    canonical: "https://www.grandeapp.com/ig-bio-creator",
   },
   openGraph: {
   title: "Free IG BIO Maker",
     description:
 " If you’re a creator, your IG bio is the very first impression people get when they land on your profile. In only 150 characters, you have the opportunity to introduce yourself, share your vibe, and convince someone to hit the follow button. ",
-    url: "https://www.grandeapp.com/bio-ig-creator",
+    url: "https://www.grandeapp.com/ig-bio-creator",
     siteName: "GrandeApp",
     images: [
       {
@@ -76,7 +76,7 @@ export default function Page() {
                 "@type": "ListItem",
                 position: 2,
                 name: "IG Bio Maker",
-                item: "https://www.grandeapp.com/bio-ig-creator",
+                item: "https://www.grandeapp.com/ig-bio-creator",
               },
             ],
           }),
