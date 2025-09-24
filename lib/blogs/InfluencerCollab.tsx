@@ -1,5 +1,5 @@
 const InfluencerCollablog = {
-  slug: "influencercollab",
+  slug: "influencer-collaboration",
   title: "Influencer Collaboration: 2025 (With Examples)",
   snippet: "Brands need innovative strategies to excel in influencer marketing during the year 2025. The traditional model of brand sponsorship no longer satisfies current consumers since they want genuine manufacturer-influencer partnerships which generate active interest.",
   imageUrl: "/images/blog/collabo.jpg",

@@ -7,7 +7,7 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "Influencer Marketing Uruguay",
   description:
-           " Plataforma de marketing de influencers y UGC en Uruguay – Grande",
+           "Plataforma de marketing de influencers y UGC en Uruguay – Grande",
   keywords: [
     "influencer marketing Uruguay",
   
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
   title: "Influencer Marketing Uruguay",
     description:
-           " Plataforma de marketing de influencers y UGC en Uruguay – Grande",
+           "Plataforma de marketing de influencers y UGC en Uruguay – Grande",
     url: "https://www.grandeapp.com/uruguay",
     siteName: "GrandeApp",
     images: [
