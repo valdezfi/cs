@@ -32,7 +32,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
 "affiliate",
 
-"about",
 
 "brand",
 
@@ -46,7 +45,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 "el-salvador",
 
 
-"forgotpassword",
 
 "france",
 "company",
