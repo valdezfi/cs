@@ -9,14 +9,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
     "blog",         // Base blog page
     "allblogs",     // Blog listing page          // P2P trading page
-    "forgotpassword",
     "profile",      // User profile page
     "terms",        // Terms of Use
     "privacy",      // Privacy Policy
     "terms", 
     "ghana",
     "usa",
-    "forgotpassword",
    
     "free-tools",
 
@@ -47,7 +45,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
 "el-salvador",
 
-"event",
 
 "forgotpassword",
 
