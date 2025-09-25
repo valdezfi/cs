@@ -13,9 +13,9 @@ export async function POST(req: Request) {
     }
 
     // Replace these values with your domain + IndexNow key
-    const INDEXNOW_KEY = process.env.INDEXNOW_KEY;
+    const INDEXNOW_KEY = process.env.NEXT_INDEXNOW_KEY;
     const HOST = "grandeapp.com"; // or "www.grandeapp.com" depending on your canonical
-    const KEY_LOCATION = `https://${HOST}/${NEXT_INDEXNOW_KEY}.txt`;
+    const KEY_LOCATION = `https://${HOST}/${INDEXNOW_KEY}.txt`;
 
     const payload = {
       host: HOST,
