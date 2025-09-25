@@ -12,7 +12,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "profile",      // User profile page
     "terms",        // Terms of Use
     "privacy",      // Privacy Policy
-    "terms", 
     "ghana",
     "usa",
    
