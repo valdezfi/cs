@@ -20,17 +20,17 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'GrandeApp' }],
   alternates: {
-    canonical: 'https://www.grandeapp.com/payments',
+    canonical: 'https://grandeapp.com/payments',
   },
   openGraph: {
     title: 'Scale Your Marketing with Top Creators | GrandeApp',
     description:
       'GrandeApp connects brands with influencers, UGC, and podcast creators worldwide. Powered by AI, we help you launch high-performing campaigns without the overhead.',
-    url: 'https://www.grandeapp.com/payments',
+    url: 'https://grandeapp.com/payments',
     siteName: 'GrandeApp',
     images: [
       {
-        url: 'https://www.grandeapp.com/images/logo.png',
+        url: 'https://grandeapp.com/images/logo.png',
         width: 1200,
         height: 630,
         alt: 'GrandeApp Creator Marketing Platform',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     title: 'Scale with Creators | GrandeApp',
     description:
       'GrandeApp helps brands and agencies grow with influencers, UGC, and podcast creators—powered by AI.',
-    images: ['https://www.grandeapp.com/images/logo.png'],
+    images: ['https://grandeapp.com/images/logo.png'],
   },
   robots: {
     index: true,
@@ -67,8 +67,8 @@ export default function Page() {
             name: "Grow with Top Creators | GrandeApp",
             description:
               "GrandeApp helps brands and agencies scale by connecting them with top creators—Influencers, UGC, and Podcasts—powered by AI.",
-            image: "https://www.grandeapp.com/images/logo.png",
-            mainEntityOfPage: "https://www.grandeapp.com/payments",
+            image: "https://grandeapp.com/images/logo.png",
+            mainEntityOfPage: "https://grandeapp.com/payments",
           }),
         }}
       />

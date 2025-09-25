@@ -14,17 +14,17 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "GrandeApp" }],
   alternates: {
-    canonical: "https://www.grandeapp.com/influencer-india",
+    canonical: "https://grandeapp.com/influencer-india",
   },
   openGraph: {
   title: "Grande: Influencer Marketing India",
     description:
     "Whether you’re a local startup or a growing brand in India, Grande helps you connect with creators that drive results through authentic content.",
-    url: "https://www.grandeapp.com/influencer-india",
+    url: "https://grandeapp.com/influencer-india",
     siteName: "GrandeApp",
     images: [
       {
-        url: "https://www.grandeapp.com/images/logo.png",
+        url: "https://grandeapp.com/images/logo.png",
         width: 1200,
         height: 630,
         alt: "Grande: The Best UGC Creator & Influencer Marketing Platform in India",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   title: "Grande: Influencer Marketing India",
     description:
     "Whether you’re a local startup or a growing brand in India, Grande helps you connect with creators that drive results through authentic content.",
-    images: ["https://www.grandeapp.com/images/logo.png"],
+    images: ["https://grandeapp.com/images/logo.png"],
   },
   robots: {
     index: true,
@@ -62,13 +62,13 @@ export default function Page() {
                 "@type": "ListItem",
                 position: 1,
                 name: "Home",
-                item: "https://www.grandeapp.com",
+                item: "https://grandeapp.com",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "India",
-                item: "https://www.grandeapp.com/influencer-india",
+                item: "https://grandeapp.com/influencer-india",
               },
             ],
           }),

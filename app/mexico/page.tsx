@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Grande: Marketing de Influencers en México",
     description:
             "Impulsa tu marca en México con campañas auténticas de influencers, podcast , y contenido generado por usuarios (UGC).",
-    url: "https://www.grandeapp.com/mexico",
+    url: "https://grandeapp.com/mexico",
     images: [
       {
         url: "https://grandeapp.com/images/mexico.jpg",

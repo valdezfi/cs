@@ -135,7 +135,7 @@ const InfluencerEventsBlog = {
   openGraph: {
     title: "Benefits of In-Person Influencer Events",
     description: "Learn how brands benefit from in-person influencer events, from authentic content creation to measurable ROI and stronger influencer relationships.",
-    url: "https://www.grandeapp.com/blog/in-person-influencer-events",
+    url: "https://grandeapp.com/blog/in-person-influencer-events",
     images: [
       {
         url: "https://grandeapp.com/images/blog/event.jpg",

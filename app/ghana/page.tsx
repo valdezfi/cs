@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     url: "https://grandeapp.com/ghana",
     images: [
       {
-        url: "https://www.grandeapp.com/images/ghana.jpg",
+        url: "https://grandeapp.com/images/ghana.jpg",
         width: 1200,
         height: 630,
         alt: "Influencer and UGC marketing in Ghana",
@@ -35,17 +35,17 @@ export const metadata: Metadata = {
     title: "Grande | Influencer & UGC Marketing in Ghana",
     description: "Boost your brand in Ghana with influencers, UGC creators, and podcast collaborations powered by Grande.",
     images: [
-      "https://www.grandeapp.com/images/ghana.jpg",
+      "https://grandeapp.com/images/ghana.jpg",
     ],
   },
   alternates: {
-    canonical: "https://www.grandeapp.com/ghana",
+    canonical: "https://grandeapp.com/ghana",
   },
   robots: {
     index: true,
     follow: true,
   },
-  metadataBase: new URL("https://www.grandeapp.com"),
+  metadataBase: new URL("https://grandeapp.com"),
 };
 
 export default function Page() {
@@ -64,13 +64,13 @@ export default function Page() {
                 "@type": "ListItem",
                 position: 1,
                 name: "Home",
-                item: "https://www.grandeapp.com",
+                item: "https://grandeapp.com",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Ghana",
-                item: "https://www.grandeapp.com/ghana",
+                item: "https://grandeapp.com/ghana",
               },
             ],
           }),

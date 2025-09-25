@@ -15,17 +15,17 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "GrandeApp" }],
   alternates: {
-    canonical: "https://www.grandeapp.com/influencer-kenya",
+    canonical: "https://grandeapp.com/influencer-kenya",
   },
   openGraph: {
     title: "Grande: Influencer Marketing Kenya",
     description:
             "Whether you're a startup or an established brand in Kenya, Grande helps you collaborate with creators who drive authentic engagement and deliver high-quality content.",
-    url: "https://www.grandeapp.com/influencer-kenya",
+    url: "https://grandeapp.com/influencer-kenya",
     siteName: "GrandeApp",
     images: [
       {
-        url: "https://www.grandeapp.com/images/logo.png",
+        url: "https://grandeapp.com/images/logo.png",
         width: 1200,
         height: 630,
         alt: "Grande: The Best UGC Creator & Influencer Marketing Platform in Kenya",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Grande: Influencer Marketing Kenya",
     description:
             "Whether you're a startup or an established brand in Kenya, Grande helps you collaborate with creators who drive authentic engagement and deliver high-quality content.",
-    images: ["https://www.grandeapp.com/images/logo.png"],
+    images: ["https://grandeapp.com/images/logo.png"],
   },
   robots: {
     index: true,
@@ -63,13 +63,13 @@ export default function Page() {
                 "@type": "ListItem",
                 position: 1,
                 name: "Home",
-                item: "https://www.grandeapp.com",
+                item: "https://grandeapp.com",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Kenya",
-                item: "https://www.grandeapp.com/influencer-kenya",
+                item: "https://grandeapp.com/influencer-kenya",
               },
             ],
           }),

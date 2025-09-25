@@ -176,7 +176,7 @@ const RobloxAdvertisingBlog = {
   openGraph: {
     title: "How to Advertise in Roblox Games: 2025 Guide",
     description: "Discover how to advertise in Roblox games using marketing services, UGC brand marketing, influencer programs, creator sponsorships, and event promotion strategies.",
-    url: "https://www.grandeapp.com/blog/roblox-advertising",
+    url: "https://grandeapp.com/blog/roblox-advertising",
     images: [
       {
         url: "https://grandeapp.com/images/blog/Roblox.png",

@@ -18,16 +18,16 @@ export const metadata: Metadata = {
     "Influencer dominicanos"
   ],
   authors: [{ name: "GrandeApp" }],
-  alternates: { canonical: "https://www.grandeapp.com/republica-dominicana" },
+  alternates: { canonical: "https://grandeapp.com/republica-dominicana" },
   openGraph: {
     title: "Influencer Marketing de Influencers Dominicanos",
     description:
             "Potencia tu marca con estrategias de influencers dominicanos, Podcast, y contenido generado por usuarios (UGC) adaptadas al mercado dominicano.",
-    url: "https://www.grandeapp.com/republica-dominicana",
+    url: "https://grandeapp.com/republica-dominicana",
     siteName: "GrandeApp",
     images: [
       {
-        url: "https://www.grandeapp.com/images/logo.png",
+        url: "https://grandeapp.com/images/logo.png",
         width: 1200,
         height: 630,
         alt: "Influencer Marketing en República Dominicana",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     title: "Influencer Marketing de Influencers Dominicanos",
     description:
             "Potencia tu marca con estrategias de influencers dominicanos, Podcast, y contenido generado por usuarios (UGC) adaptadas al mercado dominicano.",
-    images: ["https://www.grandeapp.com/images/logo.png"],
+    images: ["https://grandeapp.com/images/logo.png"],
   },
   robots: { index: true, follow: true },
 };
@@ -58,8 +58,8 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.grandeapp.com" },
-              { "@type": "ListItem", position: 2, name: "República Dominicana", item: "https://www.grandeapp.com/republica-dominicana" },
+              { "@type": "ListItem", position: 1, name: "Inicio", item: "https://grandeapp.com" },
+              { "@type": "ListItem", position: 2, name: "República Dominicana", item: "https://grandeapp.com/republica-dominicana" },
             ],
           }),
         }}

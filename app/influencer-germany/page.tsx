@@ -16,10 +16,10 @@ export const metadata: Metadata = {
     title: "Influencer Marketing Germany",
     description: "Whether you're a startup or an established brand in Germany, Grande helps you collaborate with creators who drive authentic engagement and deliver high-quality content.",
 
-    url: "https://www.grandeapp.com/influencer-germany",
+    url: "https://grandeapp.com/influencer-germany",
     images: [
       {
-        url: "https://www.grandeapp.com/images/germany-influencers.jpg",
+        url: "https://grandeapp.com/images/germany-influencers.jpg",
         width: 1200,
         height: 630,
         alt: "UGC and influencer marketing in Germany",
@@ -30,16 +30,16 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Influencer Marketing Germany",
     description: "Whether you're a startup or an established brand in Germany, Grande helps you collaborate with creators who drive authentic engagement and deliver high-quality content.",
-    images: ["https://www.grandeapp.com/images/germany-influencers.jpg"],
+    images: ["https://grandeapp.com/images/germany-influencers.jpg"],
   },
   alternates: {
-    canonical: "https://www.grandeapp.com/influencer-germany",
+    canonical: "https://grandeapp.com/influencer-germany",
   },
   robots: {
     index: true,
     follow: true,
   },
-  metadataBase: new URL("https://www.grandeapp.com"),
+  metadataBase: new URL("https://grandeapp.com"),
 };
 
 export default function Page() {
@@ -58,13 +58,13 @@ export default function Page() {
                 "@type": "ListItem",
                 position: 1,
                 name: "Home",
-                item: "https://www.grandeapp.com",
+                item: "https://grandeapp.com",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Germany",
-                item: "https://www.grandeapp.com/influencer-germany",
+                item: "https://grandeapp.com/influencer-germany",
               },
             ],
           }),

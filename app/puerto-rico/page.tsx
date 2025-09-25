@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
     description:
     "Lanza campañas auténticas en Puerto Rico con creadores locales, contenido generado por usuarios (UGC) y colaboraciones con podcasts.",
-    url: "https://www.grandeapp.com/blog/puerto-rico",
+    url: "https://grandeapp.com/blog/puerto-rico",
     images: [
       {
         url: "https://grandeapp.com/images/blog/p.jpg",

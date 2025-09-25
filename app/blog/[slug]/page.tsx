@@ -18,19 +18,19 @@ export default async function BlogPostPage({
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.grandeapp.com",
+      item: "https://grandeapp.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "allblogs",
-      item: "https://www.grandeapp.com/allblogs",
+      item: "https://grandeapp.com/allblogs",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: blog.title,
-      item: `https://www.c.com/blog/${blog.slug}`,
+      item: `https://grandeapp.com/blog/${blog.slug}`,
     },
   ];
 
@@ -65,8 +65,8 @@ export default async function BlogPostPage({
             "@type": "BlogPosting",
             headline: blog.title,
             description: blog.snippet,
-            image: `https://www.grandeapp.com${blog.imageUrl}`,
-            url: `https://www.grandeapp.com/blog/${blog.slug}`,
+            image: `https://grandeapp.com${blog.imageUrl}`,
+            url: `https://grandeapp.com/blog/${blog.slug}`,
             datePublished: blog.date ? new Date(blog.date).toISOString() : new Date().toISOString(),
             author: {
               "@type": "Person",
@@ -77,7 +77,7 @@ export default async function BlogPostPage({
               name: "Bellete",
               logo: {
                 "@type": "ImageObject",
-                url: "https://www.grandeapp.com/logo.png",
+                url: "https://grandeapp.com/logo.png",
               },
             },
             breadcrumb: {

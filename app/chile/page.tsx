@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Marketing de Influencers Chile",
     description:
       "Plataforma de Marketing de Influencers, Podcast y UGC en Chile – Grande",
-    url: "https://www.grandeapp.com/chile",
+    url: "https://grandeapp.com/chile",
     images: [
       {
         url: "https://grandeapp.com/images/chile.jpg",

@@ -154,7 +154,7 @@ const digitalecommerceBlog = {
     description:
 "In the era of rapid online growth, standing out isn’t optional—it’s essential. That’s where Digital Ecommerce Marketing steps in. If you’re running an online store, reaching your ideal customer, converting traffic into buyers, and creating a loyal community are all dependent on smart, data-driven marketing. This is the foundation of what we do at Grande.", 
 
-url: "https://www.grandeapp.com/blog/digitalecommerce-marketing",
+url: "https://grandeapp.com/blog/digitalecommerce-marketing",
     images: [
       {
         url: "https://grandeapp.com/images/blog/ModernDigitalEcommerceMarketing.jpg",
@@ -171,7 +171,7 @@ url: "https://www.grandeapp.com/blog/digitalecommerce-marketing",
     description:
 "In the era of rapid online growth, standing out isn’t optional—it’s essential. That’s where Digital Ecommerce Marketing steps in. If you’re running an online store, reaching your ideal customer, converting traffic into buyers, and creating a loyal community are all dependent on smart, data-driven marketing. This is the foundation of what we do at Grande.",   
 
-url: "https://www.grandeapp.com/blog/digitalecommerce-marketing",
+url: "https://grandeapp.com/blog/digitalecommerce-marketing",
     images: ["https://grandeapp.com/images/blog/ModernDigitalEcommerceMarketing.jpg"],
   },
 

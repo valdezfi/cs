@@ -22,17 +22,17 @@ keywords: [
   ],
   authors: [{ name: "GrandeApp" }],
   alternates: {
-    canonical: "https://www.grandeapp.com/ig-bio-creator",
+    canonical: "https://grandeapp.com/ig-bio-creator",
   },
   openGraph: {
   title: "Free IG BIO Maker",
     description:
 " If you’re a creator, your IG bio is the very first impression people get when they land on your profile. In only 150 characters, you have the opportunity to introduce yourself, share your vibe, and convince someone to hit the follow button. ",
-    url: "https://www.grandeapp.com/ig-bio-creator",
+    url: "https://grandeapp.com/ig-bio-creator",
     siteName: "GrandeApp",
     images: [
       {
-        url: "https://www.grandeapp.com/images/logo.png",
+        url: "https://grandeapp.com/images/logo.png",
         width: 1200,
         height: 630,
         alt: "IG Bio Maker",
@@ -46,7 +46,7 @@ keywords: [
   title: "Free IG BIO Maker",
     description:
 " If you’re a creator, your IG bio is the very first impression people get when they land on your profile. In only 150 characters, you have the opportunity to introduce yourself, share your vibe, and convince someone to hit the follow button. ",
-    images: ["https://www.grandeapp.com/images/logo.png"],
+    images: ["https://grandeapp.com/images/logo.png"],
   },
   robots: {
     index: true,
@@ -70,13 +70,13 @@ export default function Page() {
                 "@type": "ListItem",
                 position: 1,
                 name: "Home",
-                item: "https://www.grandeapp.com",
+                item: "https://grandeapp.com",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "IG Bio Maker",
-                item: "https://www.grandeapp.com/ig-bio-creator",
+                item: "https://grandeapp.com/ig-bio-creator",
               },
             ],
           }),

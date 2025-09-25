@@ -14,16 +14,16 @@ export const metadata: Metadata = {
  
   ],
   authors: [{ name: "GrandeApp" }],
-  alternates: { canonical: "https://www.grandeapp.com/singapore" },
+  alternates: { canonical: "https://grandeapp.com/singapore" },
   openGraph: {
   title: "Influencer Marketing Platform in Singapore",
     description:
     "From Orchard Road startups to established brands across Singapore, Grande helps you scale with content that feels real, local, and impactful.",
-    url: "https://www.grandeapp.com/singapore",
+    url: "https://grandeapp.com/singapore",
     siteName: "GrandeApp",
     images: [
       {
-        url: "https://www.grandeapp.com/images/logo.png",
+        url: "https://grandeapp.com/images/logo.png",
         width: 1200,
         height: 630,
         alt: "Influencer Marketing in Singapore",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   title: "Influencer Marketing Platform in Singapore",
     description:
     "From Orchard Road startups to established brands across Singapore, Grande helps you scale with content that feels real, local, and impactful.",
-    images: ["https://www.grandeapp.com/images/logo.png"],
+    images: ["https://grandeapp.com/images/logo.png"],
   },
   robots: { index: true, follow: true },
 };
@@ -54,8 +54,8 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Home", item: "https://www.grandeapp.com" },
-              { "@type": "ListItem", position: 2, name: "Singapore", item: "https://www.grandeapp.com/singapore" },
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://grandeapp.com" },
+              { "@type": "ListItem", position: 2, name: "Singapore", item: "https://grandeapp.com/singapore" },
             ],
           }),
         }}

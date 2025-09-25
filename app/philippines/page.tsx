@@ -15,17 +15,17 @@ keywords: [
   ],
   authors: [{ name: "GrandeApp" }],
   alternates: {
-    canonical: "https://www.grandeapp.com/philippines",
+    canonical: "https://grandeapp.com/philippines",
   },
   openGraph: {
     title: "Influencer Marketing in the Philippines",
     description:
 "Whether you're a startup or an established brand in the Philippines, Grande helps you collaborate with creators who drive authentic engagement and deliver high-quality content.",
-    url: "https://www.grandeapp.com/philippines",
+    url: "https://grandeapp.com/philippines",
     siteName: "GrandeApp",
     images: [
       {
-        url: "https://www.grandeapp.com/images/logo.png",
+        url: "https://grandeapp.com/images/logo.png",
         width: 1200,
         height: 630,
         alt: "Grande: The Best UGC Creator & Influencer Marketing Platform in Philippines",
@@ -39,7 +39,7 @@ keywords: [
     title: "Influencer Marketing in the Philippines",
     description:
 "Whether you're a startup or an established brand in the Philippines, Grande helps you collaborate with creators who drive authentic engagement and deliver high-quality content.",
-    images: ["https://www.grandeapp.com/images/logo.png"],
+    images: ["https://grandeapp.com/images/logo.png"],
   },
   robots: {
     index: true,
@@ -63,13 +63,13 @@ export default function Page() {
                 "@type": "ListItem",
                 position: 1,
                 name: "Home",
-                item: "https://www.grandeapp.com",
+                item: "https://grandeapp.com",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Philippines",
-                item: "https://www.grandeapp.com/philippines",
+                item: "https://grandeapp.com/philippines",
               },
             ],
           }),

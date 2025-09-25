@@ -31,17 +31,17 @@ export const metadata: Metadata = {
 ],
   authors: [{ name: 'GrandeApp' }],
   alternates: {
-    canonical: 'https://www.grandeapp.com',
+    canonical: 'https://grandeapp.com',
   },
   openGraph: {
     title: 'Scale Your Marketing with Top Creators | GrandeApp',
     description:
       'GrandeApp connects brands with influencers, UGC, and podcast creators worldwide. Powered by AI, we help you launch high-performing campaigns without the overhead.',
-    url: 'https://www.grandeapp.com',
+    url: 'https://grandeapp.com',
     siteName: 'GrandeApp',
     images: [
       {
-        url: 'https://www.grandeapp.com/images/logo.png', // replace with your actual OG image
+        url: 'https://grandeapp.com/images/logo.png', // replace with your actual OG image
         width: 1200,
         height: 630,
         alt: 'GrandeApp Creator Marketing Platform',
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     title: 'Scale with Creators | GrandeApp',
     description:
       'GrandeApp helps brands and agencies grow with influencers, UGC, and podcast creators—powered by AI.',
-    images: ['https://www.grandeapp.com/images/logo.png'], // replace with your actual OG image
+    images: ['https://grandeapp.com/images/logo.png'], // replace with your actual OG image
   },
   robots: {
     index: true,

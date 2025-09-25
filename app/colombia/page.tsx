@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: " Marketing de Influencers Colombia",
     description:
       "Impulsa tu marca en Colombia con campañas auténticas de influencers, podcast y contenido generado por usuarios (UGC).",
-    url: "https://www.grandeapp.com/colombia",
+    url: "https://grandeapp.com/colombia",
     images: [
       {
         url: "https://grandeapp.com/images/colombia.jpg",

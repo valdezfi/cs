@@ -18,16 +18,16 @@ export const metadata: Metadata = {
     "GrandeApp platform Rwanda",
   ],
   authors: [{ name: "GrandeApp" }],
-  alternates: { canonical: "https://www.grandeapp.com/rwanda" },
+  alternates: { canonical: "https://grandeapp.com/rwanda" },
   openGraph: {
     title: "Influencer Marketing Platform in Rwanda",
     description:
     "Whether you're a startup or an established brand in Rwanda, Grande helps you collaborate with creators who drive authentic engagement and deliver high-quality content.",
-    url: "https://www.grandeapp.com/rwanda",
+    url: "https://grandeapp.com/rwanda",
     siteName: "GrandeApp",
     images: [
       {
-        url: "https://www.grandeapp.com/images/logo.png",
+        url: "https://grandeapp.com/images/logo.png",
         width: 1200,
         height: 630,
         alt: "Grande: UGC Creator & Influencer Marketing in Rwanda",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     title: "Influencer Marketing Platform in Rwanda",
     description:
     "Whether you're a startup or an established brand in Rwanda, Grande helps you collaborate with creators who drive authentic engagement and deliver high-quality content.",
-    images: ["https://www.grandeapp.com/images/logo.png"],
+    images: ["https://grandeapp.com/images/logo.png"],
   },
   robots: { index: true, follow: true },
 };
@@ -58,8 +58,8 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Home", item: "https://www.grandeapp.com" },
-              { "@type": "ListItem", position: 2, name: "Rwanda", item: "https://www.grandeapp.com/rwanda" },
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://grandeapp.com" },
+              { "@type": "ListItem", position: 2, name: "Rwanda", item: "https://grandeapp.com/rwanda" },
             ],
           }),
         }}

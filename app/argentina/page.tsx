@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     title: "Plataforma Líder de Marketing de Influencers en Argentina",
     description:
     "Plataforma de Marketing de Influencers, Podcast y UGC en Argentina – Grande",
-    url: "https://www.grandeapp.com/argentina",
+    url: "https://grandeapp.com/argentina",
     images: [
       {
         url: "https://grandeapp.com/images/argentina.jpg",

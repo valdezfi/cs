@@ -18,16 +18,16 @@ export const metadata: Metadata = {
     "mercado libre de venezuela"
   ],
   authors: [{ name: "GrandeApp" }],
-  alternates: { canonical: "https://www.grandeapp.com/venezuela" },
+  alternates: { canonical: "https://grandeapp.com/venezuela" },
   openGraph: {
   title: "Influencer Marketing Venezuela",
     description:
             "Plataforma de Influencers, Podcast y UGC en Venezuela – Grande",
-    url: "https://www.grandeapp.com/venezuela",
+    url: "https://grandeapp.com/venezuela",
     siteName: "GrandeApp",
     images: [
       {
-        url: "https://www.grandeapp.com/images/logo.png",
+        url: "https://grandeapp.com/images/logo.png",
         width: 1200,
         height: 630,
         alt: "Grande: UGC Creator & Influencer Marketing in Venezuela",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   title: "Influencer Marketing Venezuela",
     description:
             "Plataforma de Influencers, Podcast y UGC en Venezuela – Grande",
-    images: ["https://www.grandeapp.com/images/logo.png"],
+    images: ["https://grandeapp.com/images/logo.png"],
   },
   robots: { index: true, follow: true },
 };
@@ -58,8 +58,8 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Home", item: "https://www.grandeapp.com" },
-              { "@type": "ListItem", position: 2, name: "Venezuela", item: "https://www.grandeapp.com/venezuela" },
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://grandeapp.com" },
+              { "@type": "ListItem", position: 2, name: "Venezuela", item: "https://grandeapp.com/venezuela" },
             ],
           }),
         }}

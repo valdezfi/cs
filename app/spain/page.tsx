@@ -13,16 +13,16 @@ keywords: [
     "Marketing de Influencers en España"
   ],
   authors: [{ name: "GrandeApp" }],
-  alternates: { canonical: "https://www.grandeapp.com/spain" },
+  alternates: { canonical: "https://grandeapp.com/spain" },
   openGraph: {
   title: "Marketing de Influencers en España",
     description:
 "Plataforma de Influencers, Podcast y Contenido UGC en España – Grande",
-    url: "https://www.grandeapp.com/spain",
+    url: "https://grandeapp.com/spain",
     siteName: "GrandeApp",
     images: [
       {
-        url: "https://www.grandeapp.com/images/logo.png",
+        url: "https://grandeapp.com/images/logo.png",
         width: 1200,
         height: 630,
         alt: "Grande: Creadores UGC e Influencers en España",
@@ -36,7 +36,7 @@ keywords: [
   title: "Marketing de Influencers en España",
     description:
 "Plataforma de Influencers, Podcast y Contenido UGC en España – Grande",
-    images: ["https://www.grandeapp.com/images/logo.png"],
+    images: ["https://grandeapp.com/images/logo.png"],
   },
   robots: { index: true, follow: true },
 };
@@ -53,8 +53,8 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.grandeapp.com" },
-              { "@type": "ListItem", position: 2, name: "España", item: "https://www.grandeapp.com/spain" },
+              { "@type": "ListItem", position: 1, name: "Inicio", item: "https://grandeapp.com" },
+              { "@type": "ListItem", position: 2, name: "España", item: "https://grandeapp.com/spain" },
             ],
           }),
         }}

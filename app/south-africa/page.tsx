@@ -14,16 +14,16 @@ export const metadata: Metadata = {
     
   ],
   authors: [{ name: "GrandeApp" }],
-  alternates: { canonical: "https://www.grandeapp.com/south-africa" },
+  alternates: { canonical: "https://grandeapp.com/south-africa" },
   openGraph: {
   title: "Influencer Marketing in South Africa",
     description:
     "Whether you're a startup or an established brand in South Africa, Grande helps you collaborate with creators who drive authentic engagement and deliver high-quality content.",
-    url: "https://www.grandeapp.com/south-africa",
+    url: "https://grandeapp.com/south-africa",
     siteName: "GrandeApp",
     images: [
       {
-        url: "https://www.grandeapp.com/images/logo.png",
+        url: "https://grandeapp.com/images/logo.png",
         width: 1200,
         height: 630,
         alt: "Grande: UGC Creator & Influencer Marketing in South Africa",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   title: "Influencer Marketing in South Africa",
     description:
     "Whether you're a startup or an established brand in South Africa, Grande helps you collaborate with creators who drive authentic engagement and deliver high-quality content.",
-    images: ["https://www.grandeapp.com/images/logo.png"],
+    images: ["https://grandeapp.com/images/logo.png"],
   },
   robots: { index: true, follow: true },
 };
@@ -54,8 +54,8 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Home", item: "https://www.grandeapp.com" },
-              { "@type": "ListItem", position: 2, name: "South Africa", item: "https://www.grandeapp.com/south-africa" },
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://grandeapp.com" },
+              { "@type": "ListItem", position: 2, name: "South Africa", item: "https://grandeapp.com/south-africa" },
             ],
           }),
         }}

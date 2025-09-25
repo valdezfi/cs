@@ -90,7 +90,7 @@ const AboutUs = () => {
             <section>
               <h2 className="text-2xl font-semibold mb-2">Connect With Us</h2>
               <p>Email: <a href="mailto:info@grandeapp.com" className="text-blue-500 hover:underline">info@grandeapp.com</a></p>
-              <p>Website: <Link href="https://www.grandeapp.com" className="text-blue-500 hover:underline">www.grandeapp.com</Link></p>
+              <p>Website: <Link href="https://grandeapp.com" className="text-blue-500 hover:underline">grandeapp.com</Link></p>
             </section>
           </section>
         </div>

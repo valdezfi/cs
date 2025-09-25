@@ -352,7 +352,7 @@ keywords: [
     description:
 "Affiliate marketing functions as an income-incentivized promotion approach where companies compensate affiliates for promoting their products or services using specific tracking links.",   
 
-url: "https://www.grandeapp.com/blog/affiliatemarketing",
+url: "https://grandeapp.com/blog/affiliatemarketing",
 
 
     images: [

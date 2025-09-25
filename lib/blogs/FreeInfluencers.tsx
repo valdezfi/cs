@@ -187,7 +187,7 @@ const FreeInfluencerBlog = {
     title: "Find Influencers for free",
     description:
       "Discover the most trusted fiat-backed stablecoins for crypto trading and investing in 2025.",
-    images: ["https://www.grandeapp.com/images/blog/FreeInfluencers.jpg"],
+    images: ["https://grandeapp.com/images/blog/FreeInfluencers.jpg"],
   },
 
   robots: {

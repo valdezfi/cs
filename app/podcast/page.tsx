@@ -21,16 +21,16 @@ export const metadata: Metadata = {
   
   ],
   authors: [{ name: "GrandeApp" }],
-  alternates: { canonical: "https://www.grandeapp.com/podcast" },
+  alternates: { canonical: "https://grandeapp.com/podcast" },
   openGraph: {
     title: "Grande: Grow Your Podcast & Monetize Your Voice",
     description:
       "GrandeApp helps podcasters connect with sponsors and track performance with AI-powered tools. Grow your audience and monetize your show efficiently.",
-    url: "https://www.grandeapp.com/podcast",
+    url: "https://grandeapp.com/podcast",
     siteName: "GrandeApp",
     images: [
       {
-        url: "https://www.grandeapp.com/images/logo.png",
+        url: "https://grandeapp.com/images/logo.png",
         width: 1200,
         height: 630,
         alt: "Grande: Podcast Growth & Monetization Platform",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     title: "Grande: Grow Your Podcast & Monetize Your Voice",
     description:
       "Connect with sponsors, track performance, and grow your audience with GrandeApp for podcasters.",
-    images: ["https://www.grandeapp.com/images/logo.png"],
+    images: ["https://grandeapp.com/images/logo.png"],
   },
   robots: { index: true, follow: true },
 };
@@ -61,8 +61,8 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Home", item: "https://www.grandeapp.com" },
-              { "@type": "ListItem", position: 2, name: "Podcast", item: "https://www.grandeapp.com/podcast" },
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://grandeapp.com" },
+              { "@type": "ListItem", position: 2, name: "Podcast", item: "https://grandeapp.com/podcast" },
             ],
           }),
         }}

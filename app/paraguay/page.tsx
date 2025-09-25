@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
             "Conecta con tu audiencia en Paraguay a través de campañas auténticas con creadores locales, microinfluencers y contenido generado por usuarios.",
 
-    url: "https://www.grandeapp.com/paraguay",
+    url: "https://grandeapp.com/paraguay",
     images: [
       {
         url: "https://grandeapp.com/images/paraguay.jpg", // ⚠️ replace with actual Paraguay image

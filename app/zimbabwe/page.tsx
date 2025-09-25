@@ -12,16 +12,16 @@ export const metadata: Metadata = {
   
   ],
   authors: [{ name: "GrandeApp" }],
-  alternates: { canonical: "https://www.grandeapp.com/zimbabwe" },
+  alternates: { canonical: "https://grandeapp.com/zimbabwe" },
   openGraph: {
     title: "Influencer Marketing Platform Zimbabwe",
     description:
       "Connect with Zimbabwe's Top Influencers & UGC Creators",
-    url: "https://www.grandeapp.com/zimbabwe",
+    url: "https://grandeapp.com/zimbabwe",
     siteName: "GrandeApp",
     images: [
       {
-        url: "https://www.grandeapp.com/images/logo.png",
+        url: "https://grandeapp.com/images/logo.png",
         width: 1200,
         height: 630,
         alt: "Grande: UGC Creator & Influencer Marketing in Zimbabwe",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "Influencer Marketing Platform Zimbabwe",
     description:
       "Connect with Zimbabwe's Top Influencers & UGC Creators",
-    images: ["https://www.grandeapp.com/images/logo.png"],
+    images: ["https://grandeapp.com/images/logo.png"],
   },
   robots: { index: true, follow: true },
 };
@@ -52,8 +52,8 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Home", item: "https://www.grandeapp.com" },
-              { "@type": "ListItem", position: 2, name: "Zimbabwe", item: "https://www.grandeapp.com/zimbabwe" },
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://grandeapp.com" },
+              { "@type": "ListItem", position: 2, name: "Zimbabwe", item: "https://grandeapp.com/zimbabwe" },
             ],
           }),
         }}

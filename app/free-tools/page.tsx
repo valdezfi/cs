@@ -18,10 +18,10 @@ export const metadata: Metadata = {
   openGraph: {
   title: "Free Automated Social Media Tools",
   description: "Best social media tools for marketing that are free to use! ",
-    url: "https://www.grandeapp.com/free-tools",
+    url: "https://grandeapp.com/free-tools",
     images: [
       {
-        url: "https://www.grandeapp.com/images/free-tools.jpg",
+        url: "https://grandeapp.com/images/free-tools.jpg",
         width: 1200,
         height: 630,
         alt:  "Free Automated Social Media Tools",
@@ -32,16 +32,16 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   title: "Free Automated Social Media Tools",
   description: "Best social media tools for marketing that are free to use! ",
-    images: ["https://www.grandeapp.com/images/free-tools.jpg"],
+    images: ["https://grandeapp.com/images/free-tools.jpg"],
   },
   alternates: {
-    canonical: "https://www.grandeapp.com/free-tools",
+    canonical: "https://grandeapp.com/free-tools",
   },
   robots: {
     index: true,
     follow: true,
   },
-  metadataBase: new URL("https://www.grandeapp.com"),
+  metadataBase: new URL("https://grandeapp.com"),
 };
 
 
@@ -61,13 +61,13 @@ export default function Page() {
                 "@type": "ListItem",
                 position: 1,
                 name: "Home",
-                item: "https://www.grandeapp.com",
+                item: "https://grandeapp.com",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Ghana",
-                item: "https://www.grandeapp.com/ghana",
+                item: "https://grandeapp.com/ghana",
               },
             ],
           }),

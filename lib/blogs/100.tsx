@@ -120,17 +120,17 @@ const haffiliateBlog = {
   },
 
   alternates: {
-    canonical: "https://www.grandeapp.com/blog/affiliate-marketing-100-day",
+    canonical: "https://grandeapp.com/blog/affiliate-marketing-100-day",
   },
 
   openGraph: {
     title: "Can You Make $100 a Day With Affiliate Marketing?",
     description:
       "Affiliate marketing is booming in 2025. Can you really make $100 a day? Learn how GrandeApp.com helps influencers and entrepreneurs reach this milestone.",
-    url: "https://www.grandeapp.com/blog/affiliate-marketing-100-day",
+    url: "https://grandeapp.com/blog/affiliate-marketing-100-day",
     images: [
       {
-        url: "https://www.grandeapp.com/images/blog/affiliate100.jpg",
+        url: "https://grandeapp.com/images/blog/affiliate100.jpg",
         width: 1200,
         height: 630,
         alt: "Affiliate marketing income",
@@ -143,7 +143,7 @@ const haffiliateBlog = {
     title: "Can You Make $100 a Day With Affiliate Marketing?",
     description:
       "Affiliate marketing is booming in 2025. Can you really make $100 a day? Learn how GrandeApp.com helps influencers and entrepreneurs reach this milestone.",
-    images: ["https://www.grandeapp.com/images/blog/affiliate100.jpg"],
+    images: ["https://grandeapp.com/images/blog/affiliate100.jpg"],
   },
 
   robots: {

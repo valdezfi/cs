@@ -34,8 +34,8 @@ dangerouslySetInnerHTML={{
     name: "Grow with Top Creators | GrandeApp",
     description:
       "GrandeApp helps brands and agencies scale by connecting them with top creators—Influencers, UGC, and Podcasts—powered by AI.",
-    image: "https://www.grandeapp.com/images/logo.png", // update with your real OG image
-    mainEntityOfPage: "https://www.grandeapp.com",
+    image: "https://grandeapp.com/images/logo.png", // update with your real OG image
+    mainEntityOfPage: "https://grandeapp.com",
   }),
 }}
 />

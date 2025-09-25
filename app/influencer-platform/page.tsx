@@ -14,17 +14,17 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "GrandeApp" }],
   alternates: {
-    canonical: "https://www.grandeapp.com/influencer-platform",
+    canonical: "https://grandeapp.com/influencer-platform",
   },
   openGraph: {
   title: "Grande: Influencer Marketing Platform USA",
     description:
             "Connect with creators in USA and across the USA to build impactful, authentic campaigns powered by UGC and influencer collaborations.",
-    url: "https://www.grandeapp.com/influencer-platform",
+    url: "https://grandeapp.com/influencer-platform",
     siteName: "GrandeApp",
     images: [
       {
-        url: "https://www.grandeapp.com/images/logo.png",
+        url: "https://grandeapp.com/images/logo.png",
         width: 1200,
         height: 630,
         alt: "Grande: The Best UGC Creator & Influencer Marketing Platform",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   title: "Grande: Influencer Marketing Platform USA",
     description:
             "Connect with creators in USA and across the USA to build impactful, authentic campaigns powered by UGC and influencer collaborations.",
-    images: ["https://www.grandeapp.com/images/logo.png"],
+    images: ["https://grandeapp.com/images/logo.png"],
   },
   robots: {
     index: true,
@@ -62,13 +62,13 @@ export default function Page() {
                 "@type": "ListItem",
                 position: 1,
                 name: "Home",
-                item: "https://www.grandeapp.com",
+                item: "https://grandeapp.com",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Influencer Platform",
-                item: "https://www.grandeapp.com/influencer-platform",
+                item: "https://grandeapp.com/influencer-platform",
               },
             ],
           }),

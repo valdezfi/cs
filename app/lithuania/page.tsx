@@ -20,17 +20,17 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "GrandeApp" }],
   alternates: {
-    canonical: "https://www.grandeapp.com/lithuania",
+    canonical: "https://grandeapp.com/lithuania",
   },
   openGraph: {
     title: "Grande: Influencer Marketing Lithuania",
     description:
       "GrandeApp connects Lithuanian brands with influencers, UGC, and podcast creators. Powered by AI, we help you launch high-performing campaigns efficiently.",
-    url: "https://www.grandeapp.com/lithuania",
+    url: "https://grandeapp.com/lithuania",
     siteName: "GrandeApp",
     images: [
       {
-        url: "https://www.grandeapp.com/images/logo.png",
+        url: "https://grandeapp.com/images/logo.png",
         width: 1200,
         height: 630,
         alt: "Grande: The Best UGC Creator & Influencer Marketing Platform in Lithuania",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     title: "Grande: Influencer Marketing Lithuania",
     description:
       "GrandeApp helps Lithuanian brands grow with influencers, UGC, and podcast creators—powered by AI.",
-    images: ["https://www.grandeapp.com/images/logo.png"],
+    images: ["https://grandeapp.com/images/logo.png"],
   },
   robots: {
     index: true,
@@ -68,13 +68,13 @@ export default function Page() {
                 "@type": "ListItem",
                 position: 1,
                 name: "Home",
-                item: "https://www.grandeapp.com",
+                item: "https://grandeapp.com",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Lithuania",
-                item: "https://www.grandeapp.com/lithuania",
+                item: "https://grandeapp.com/lithuania",
               },
             ],
           }),
