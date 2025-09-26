@@ -11,7 +11,7 @@ export default function AffiliateVsInfluencerBlog() {
 
         {/* Main Image */}
         <img
-          src="/images/blogs/affiliate-vs-influencer.jpg"
+          src="/images/blog/affiliate-vs-influencer.jpg"
           alt="Affiliate marketing vs influencer marketing"
           width={800}
           height={450}

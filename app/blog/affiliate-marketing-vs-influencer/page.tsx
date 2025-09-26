@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     url: "https://grandeapp.com/blog/affiliate-marketing-vs-influencer",
     images: [
       {
-        url: "https://grandeapp.com/images/blogs/100.jpg",
+        url: "https://grandeapp.com/images/blog/100.jpg",
         width: 1200,
         height: 630,
         alt: "Affiliate marketing vs influencer marketing image",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Affiliate Marketing vs Influencer Marketing: 2025 Guide",
     description: "Discover the differences between affiliate marketing and influencer marketing, and learn how creators, entrepreneurs, and brands can maximize revenue with GrandeApp in 2025.",
-    images: ["https://grandeapp.com/images/blogs/100.jpg"],
+    images: ["https://grandeapp.com/images/blog/100.jpg"],
   },
   robots: {
     index: true,
