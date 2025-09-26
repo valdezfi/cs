@@ -11,7 +11,7 @@ export default function AffiliateMarketingBlog() {
 
         {/* Main Image */}
         <img
-          src="/images/blogs/affiliate-100.jpg" // replace with your actual image path
+          src="/images/blogs/100.jpg" // replace with your actual image path
           alt="Affiliate marketing overview"
           width={800}
           height={450}

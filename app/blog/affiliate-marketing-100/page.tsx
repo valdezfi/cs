@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: "https://grandeapp.com/blog/affiliate-marketing-100",
     images: [
       {
-        url: "https://grandeapp.com/images/blogs/affiliate-100.jpg",
+        url: "https://grandeapp.com/images/blogs/100.jpg",
         width: 1200,
         height: 630,
         alt: "Affiliate marketing image",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "What Is Affiliate Marketing? A Complete Guide for 2025",
   description: "Affiliate marketing is one of the fastest-growing opportunities for creators, influencers, and entrepreneurs in 2025.",
-    images: ["https://grandeapp.com/images/blogs/affiliate-100.jpg"],
+    images: ["https://grandeapp.com/images/blogs/100.jpg"],
   },
   robots: {
     index: true,

@@ -10,7 +10,7 @@ export const blogs = [
     slug: "affiliate-marketing-100",
     title: "What Is Affiliate Marketing? A Complete Guide for 2025",
     snippet: "  Affiliate marketing is one of the fastest-growing opportunities for creators, influencers, and entrepreneurs in 2025.",
-    imageUrl: "/images/blogs/affiliate-100.jpg",
+    imageUrl: "/images/blogs/100.jpg",
   },
   // add more blogs here
 ];
