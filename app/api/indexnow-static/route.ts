@@ -27,7 +27,7 @@ export async function GET() {
       host: HOST,
       key: INDEXNOW_KEY,
       keyLocation: KEY_LOCATION,
-      urlList: staticUrls,
+       staticUrls,
     };
 
     const response = await fetch("https://api.indexnow.org/IndexNow", {
