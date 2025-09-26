@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 
 interface BlogCardProps {
   imageUrl: string;
@@ -13,7 +12,7 @@ const BlogCard: React.FC<BlogCardProps> = ({ imageUrl, title, snippet, href }) =
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition hover:shadow-lg">
       {/* Optimized image */}
-      <Image
+      <img
         src={imageUrl}
         alt={title}
         width={800}
