@@ -6,7 +6,7 @@ const INDEXNOW_KEY = process.env.NEXT_INDEXNOW_KEY;
 const KEY_LOCATION = `https://${HOST}/${INDEXNOW_KEY}.txt`;
 
 const staticPaths = [
-  "", "blog", "allblogs", "profile", "terms", "privacy", "ghana", "usa",
+  "", "blog", "allblogs", "terms", "privacy", "ghana", "usa",
   "free-tools", "republica-dominicana", "bahrain", "argentina", "colombia",
   "chile", "affiliate", "brand", "campaign", "creator", "creatorpricing",
   "discover", "el-salvador", "france", "company", "ghana", "influencer",
