@@ -1,61 +1,19 @@
-import bitcoinLoan from "./blogs/digitalecommerce-marketing";
-import PodcastPartnershipBlog from "./blogs/how-to-get-sponsors-for-podcast";
-import FreeInfluencerBlog from "./blogs/FreeInfluencers";
-import BrandDealBlog from "./blogs/Influencerworldwide";
-import agencylatamBlog from "./blogs/AgenciaInfluencers";
-import InfluencerAgencyBlog from "./blogs/InfluencerAgency"
-import UGCplatformsBlog from "./blogs/UGCplatforms"
-import B2bBlog from "./blogs/B2b"
-import FamousBlog from "./blogs/Famous"
-import lamejorBlog from "./blogs/lamejor"
-import NanoBlog from "./blogs/nanoInfluencers"
-import MicroMacroBlog from "./blogs/MicroMacro"
-import AffiliateMarketingBlog from "./blogs/AffiliateMarketing"
-import InfluencerCollablog from "./blogs/InfluencerCollab"
-import IgBlog from "./blogs/Ig"
-import MacroBlog from "./blogs/Macro"
-import BoostBlog from "./blogs/Boost"
-import digitalcreatorBlog from "./blogs/DigitalC"
-import popularBlog from "./blogs/Content"
-import UGCCreatoreBlog from "./blogs/CompleteGuide"
-import digitalecommerceBlog from "./blogs/digitalecommerce-marketing"
-import influencerbrandsBlog from "./blogs/InfluencerGuide"
-import InfluenceHolidayCampaignBlog from "./blogs/Holiday"
-import InfluencerEventsBlog from "./blogs/Events"
-import RobloxAdvertisingBlog from "./blogs/Roblox"
-import AffiliateProgramBlog from "./blogs/SProgramBlog"
-import christmasAffiliateBlog from "./blogs/MCblog"
-import WHatInfluencerAgencyBlog from "./blogs/WhatInfluencerAgency"
-
-import haffiliateBlog from "./blogs/100"
-import BenefitsDrawbacksInfluencerMarketingBlog from "./blogs/BenefitsDrawbacks"
-
-
-
-const blogs = [bitcoinLoan, PodcastPartnershipBlog, FreeInfluencerBlog,
-   BrandDealBlog,agencylatamBlog, InfluencerAgencyBlog, 
-  UGCplatformsBlog, B2bBlog, FamousBlog, NanoBlog, lamejorBlog,
-MicroMacroBlog, AffiliateMarketingBlog, InfluencerCollablog,
-IgBlog, MacroBlog, BoostBlog, digitalcreatorBlog, popularBlog, UGCCreatoreBlog, digitalecommerceBlog, influencerbrandsBlog, 
-InfluenceHolidayCampaignBlog, RobloxAdvertisingBlog, InfluencerEventsBlog,
-
- AffiliateProgramBlog,
-
-christmasAffiliateBlog,
-WHatInfluencerAgencyBlog,
-haffiliateBlog,
-
-BenefitsDrawbacksInfluencerMarketingBlog
-
+// lib/blogs.ts
+export const blogs = [
+//   {
+//     slug: "blog/affiliate-marketing-100-day",
+//     title: "100 Day Affiliate Marketing Challenge",
+//     snippet: "Learn how to grow your affiliate marketing in 100 days.",
+//     imageUrl: "/images/blogs/affiliate-100.jpg",
+//   },
+  {
+    slug: "affiliate-marketing-100",
+    title: "What Is Affiliate Marketing? A Complete Guide for 2025",
+    snippet: "  Affiliate marketing is one of the fastest-growing opportunities for creators, influencers, and entrepreneurs in 2025.",
+    imageUrl: "/images/blogs/affiliate-100.jpg",
+  },
+  // add more blogs here
 ];
-
-export function getBlogBySlug(slug: string) {
-  return blogs.find((blog) => blog.slug === slug);
-}
-
-export function getAllBlogSlugs() {
-  return blogs.map((blog) => blog.slug);
-}
 
 export function getAllBlogs() {
   return blogs;

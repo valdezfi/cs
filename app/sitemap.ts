@@ -7,12 +7,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticPaths = [
      "",              // Home page
 
-    "blog",         // Base blog page
     "allblogs",    
     "terms",        // Terms of Use
     "privacy",      // Privacy Policy
     "ghana",
-    "usa",
    
     "free-tools",
 
@@ -23,7 +21,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
 
 "republica-dominicana",
-"bahrain",
 "argentina",
 "colombia",
 "chile",
@@ -91,24 +88,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
 
   ];
+// Replace with actual dynamic slugs from DB
 
-  // Simulated dynamic blog slugs (replace with DB/API fetch)
-  const blogSlugs = ["affiliatemarketing", "marca", "b2b", "what-is-social-proof", "what-is-a-ugc-creator","what-is-a-digital-creator","digitalecommerce-marketing","famouscreator","find-influencers-for-free","ig","podcast-partnership","agencyinfleuncer","influencer-collaboration", "influencerbrands","brand-deals-for-influencers-worldwide","lamejor",
-
-"macrogrowth", "microvsmacro", "create-affiliate-program-small-business",
-
-"nanoinfluencers",
-"ugcplatforms",
-
-"blog/influence-holiday-campaign",
-"roblox-advertising",
-"InfluencerEventsBlog", "christmas-affiliate-marketing",
-"what-is-influencer-agency",
-"affiliate-marketing-100-day","benefits-drawbacks-influencer-marketing"
-  ]; // Replace with actual dynamic slugs from DB
-  const dynamicPaths = blogSlugs.map((slug) => `blog/${slug}`);
-
-  const allPaths = [...staticPaths, ...dynamicPaths];
+  const allPaths = [...staticPaths];
 
   return allPaths.map((path) => ({
     url: path === "" ? BASE_URL : `${BASE_URL}/${path}`,
