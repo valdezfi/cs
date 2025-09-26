@@ -38,7 +38,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 "creator",
         
 "creatorpricing",
-"discover",
 
 "el-salvador",
 
