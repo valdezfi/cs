@@ -7,9 +7,9 @@ export const blogs = [
 //     imageUrl: "/images/blogs/affiliate-100.jpg",
 //   },
   {
-    slug: "affiliate-marketing-100",
-    title: "What Is Affiliate Marketing? A Complete Guide for 2025",
-    snippet: "  Affiliate marketing is one of the fastest-growing opportunities for creators, influencers, and entrepreneurs in 2025.",
+    slug: "affiliate-marketing-vs-influencer",
+    title: "Affiliate Marketing vs Influencer Marketing: What You Need to Know in 2025",
+    snippet: "Understanding the difference between affiliate marketing and influencer marketing is crucial for creators, entrepreneurs, and brands looking to maximize online revenue in 2025. Both strategies can generate income, but the approach, scale, and ROI differ significantly.",
     imageUrl: "/images/blogs/100.jpg",
   },
   // add more blogs here
