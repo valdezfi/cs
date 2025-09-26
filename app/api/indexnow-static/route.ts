@@ -2,7 +2,7 @@
 import { NextResponse } from "next/server";
 
 const HOST = "grandeapp.com"; // or "www.grandeapp.com"
-const INDEXNOW_KEY = process.env.NEXT_INDEXNOW_KEY;
+const INDEXNOW_KEY = process.env.NEXT_PUBLIC_INDEXNOW_KEY;
 const KEY_LOCATION = `https://${HOST}/${INDEXNOW_KEY}.txt`;
 
 const staticPaths = [

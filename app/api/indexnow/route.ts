@@ -4,7 +4,7 @@ import { getAllBlogs } from "../../../lib/blogs"; // adjust path if needed
 
 export async function GET() {
   try {
-    const INDEXNOW_KEY = process.env.NEXT_INDEXNOW_KEY;
+    const INDEXNOW_KEY = process.env.NEXT_PUBLIC_INDEXNOW_KEY;
     if (!INDEXNOW_KEY) {
       return NextResponse.json({ error: "IndexNow key not set in env" }, { status: 500 });
     }
