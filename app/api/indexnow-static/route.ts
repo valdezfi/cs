@@ -21,7 +21,7 @@ const staticPaths = [
 // Convert paths to full URLs
 const staticUrls = staticPaths.map(path => path === "" ? `https://${HOST}` : `https://${HOST}/${path}`);
 
-export async function POST() {
+export async function GET() {
   try {
     const payload = {
       host: HOST,
