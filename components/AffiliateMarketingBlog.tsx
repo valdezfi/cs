@@ -4,8 +4,9 @@ export default function AffiliateVsInfluencerBlog() {
   return (
     <main className="max-w-3xl mx-auto px-6 py-10 prose prose-lg dark:prose-invert">
       <header>
-        <h1>Affiliate Marketing vs Influencer Marketing: What You Need to Know in 2025</h1>
-        <p>
+<h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
+  Affiliate Marketing vs Influencer Marketing: What You Need to Know in 2025
+</h1>        <p>
           Understanding the difference between <strong>affiliate marketing</strong> and <strong>influencer marketing</strong> is crucial for creators, entrepreneurs, and brands looking to maximize online revenue in 2025. Both strategies can generate income, but the approach, scale, and ROI differ significantly.
         </p>
 
