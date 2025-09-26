@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 interface BlogCardProps {
   imageUrl: string;
@@ -11,17 +12,21 @@ interface BlogCardProps {
 const BlogCard: React.FC<BlogCardProps> = ({ imageUrl, title, snippet, href }) => {
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition hover:shadow-lg">
+      {/* Optimized image */}
+      <Image
+        src={imageUrl}
+        alt={title}
+        width={800}
+        height={450}
+        className="w-full h-48 object-cover rounded-t-lg"
+      />
 
-<img
-  src={imageUrl}
-  alt={title}
-  width={800}            // ✅ Add width
-  height={192}           // ✅ Add height (48 * 4 = 192px for h-48)
-  className="w-full h-48 object-cover rounded-xl shadow mb-8"
-/>
       <div className="p-6">
-        <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">{title}</h3>
+        <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+          {title}
+        </h3>
         <p className="text-gray-600 dark:text-gray-300 text-sm mb-4">{snippet}</p>
+
         <Link
           href={href}
           className="inline-block bg-black text-white dark:bg-white dark:text-black px-4 py-2 rounded-md text-sm font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition"
