@@ -14,8 +14,13 @@ export const blogs = [
     snippet: "Brands need innovative strategies to excel in influencer marketing during the year 2025. The traditional model of brand sponsorship no longer satisfies current consumers since they want genuine manufacturer-influencer partnerships which generate active interest.",
     imageUrl: "/images/blog/collabo.jpg",
   },
-  // add more blogs here
-];
+
+    {
+    slug: "ugc-creator",
+    title: "how to become a ugc creator",
+    snippet: "If you're wondering how to become a ugc creator, start by treating content creation like a professional service. This guide walks through the mindset, tools, and simple systems you need to move from hobby posts to paid creator work.",
+    imageUrl: "/images/blog/freeinfluencers.jpg",
+  },];
 
 export function getAllBlogs() {
   return blogs;
