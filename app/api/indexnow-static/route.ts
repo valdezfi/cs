@@ -79,7 +79,8 @@ export async function GET() {
 // ];
 
  const staticPaths = [
-"blog/affiliate-marketing-vs-influencer", 
+"blog/influencer-collaboration",
+ 
 
 ];
 

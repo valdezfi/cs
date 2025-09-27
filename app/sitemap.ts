@@ -18,7 +18,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
 
 
-
+"blog/influencer-collaboration",
 
 "republica-dominicana",
 "argentina",
