@@ -84,8 +84,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 "uruguay",
 "venezuela",
 "zimbabwe",
-"creative-influencer-marketing",
-"blog/affiliate-marketing-vs-influencer"
+
+
+"blog/creative-influencer-marketing",
+"blog/affiliate-marketing-vs-influencer",
+"blog/ugc-creator",
+"blog/timeline-for-influencer",
+"blog/influencer-collaboration",
+
 
   ];
 // Replace with actual dynamic slugs from DB
