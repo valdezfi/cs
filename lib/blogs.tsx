@@ -76,6 +76,20 @@ export const blogs = [
  imageUrl: "/images/blog/what-is-a-digital-creator.jpg",
   },
 
+
+        {
+    slug: "facebook-ads-agency",
+   title: "Discover How A Facebook Ads Agency Can Help Your Brand?",
+snippet:
+    "Discover how a Facebook Ads agency can help your brand grow with effective campaigns, influencer collaboration, and affiliate strategies through GrandeApp.",
+ imageUrl: "/images/blog/b2b.jpg",
+  },
+
+
+
+
+
+
 ];
 
 export function getAllBlogs() {
