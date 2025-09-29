@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: "https://grandeapp.com/blog/influencer-collaboration",
     images: [
       {
-        url: "https://grandeapp.com/images/blog/freeinfluencers.jpg",
+        url: "https://grandeapp.com/images/blog/ig.jpg",
         width: 1200,
         height: 630,
         alt: "Influencer Collaboration:",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   title: "Influencer Collaboration: 10 Creative Ways to Collaborate with Influencers in 2025 (With Examples)",
   description: "Understanding the is crucial for brands and marketers who want to maximize results from affiliate and nano influencer campaigns. Every stage, from goal setting to post-campaign analysis, contributes to the success of your marketing efforts. In this article, we’ll break down a detailed timeline, so you can plan, execute, and optimize campaigns effectively.",
-    images: ["https://grandeapp.com/images/blog/freeinfluencers.jpg"],
+    images: ["https://grandeapp.com/images/blog/ig.jpg"],
   },
   robots: {
     index: true,
