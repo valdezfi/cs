@@ -96,9 +96,15 @@ snippet:
 
 
 
+          {
+    slug: "how-to-ig-story-ad",
+  title: "How to Create an IG Story Ad That Converts",
+  description:
+    "Learn how to create Instagram Story ads that drive engagement and sales using influencer collaborations, nano campaigns, and affiliate strategies through GrandeApp.",
+  imageUrl: "/images/blog/ModernDigitalEcommerceMarketing.jpg",
+  },
 
-
-
+ 
 
 
 
