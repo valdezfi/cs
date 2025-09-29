@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: "https://grandeapp.com/blog/timeline-for-influencer",
     images: [
       {
-        url: "https://grandeapp.com/images/blog/ig.jpg",
+        url: "https://grandeapp.com/images/blog/content.jpg",
         width: 1200,
         height: 630,
         alt: "Influencer Collaboration:",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   title: "Timeline for Influencer Marketing Campaigns",
   description: "Understanding the timeline for influencer marketing campaigns is crucial for brands and marketers who want to maximize results from affiliate and nano influencer campaigns. Every stage, from goal setting to post-campaign analysis, contributes to the success of your marketing efforts. In this article, we’ll break down a detailed timeline, so you can plan, execute, and optimize campaigns effectively.",
-    images: ["https://grandeapp.com/images/blog/ig.jpg"],
+    images: ["https://grandeapp.com/images/blog/content.jpg"],
   },
   robots: {
     index: true,

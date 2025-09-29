@@ -17,10 +17,57 @@ export const blogs = [
 
     {
     slug: "ugc-creator",
-    title: "how to become a ugc creator",
+    title: "How To Become A UGC Creator?",
     snippet: "If you're wondering how to become a ugc creator, start by treating content creation like a professional service. This guide walks through the mindset, tools, and simple systems you need to move from hobby posts to paid creator work.",
     imageUrl: "/images/blog/freeinfluencers.jpg",
-  },];
+  },
+
+   {
+    slug: "creative-influencer-marketing",
+    title: "Creative Influencer Marketing Campaigns Concept Examples",
+  snippet: "In today’s digital landscape, creative influencer marketing campaigns concept examples are not just an interesting case study—they are the blueprint for how brands connect with audiences in an authentic way. With the rise of affiliate models and the power of nano influencers, brands now have the opportunity to scale meaningful campaigns without overspending on celebrity endorsements.",
+    imageUrl: "/images/blog/ugcgrowth.jpg",
+  },
+
+     {
+    slug: "influencer-marketing-en-méxico",
+    title: "Agencias de influencer marketing en México",
+  snippet:
+    "Descubre cómo las agencias de influencer marketing en México ayudan a marcas y startups a planear, ejecutar y medir campañas con influencers, nano y programas de afiliados.",
+  imageUrl: "/images/blog/what-is-social-proof.jpg",
+  },
+     {
+    slug: "influencer-marketing-for-start-ups",
+     title: "Influencer Marketing for Start-Ups",
+  snippet:
+    "Learn how influencer marketing for start-ups can drive growth. Discover affordable strategies with affiliate and nano influencers to scale your brand.",
+ imageUrl: "/images/blog/macro.jpg",
+  },
+
+
+
+       {
+    slug: "influencer-specialist",
+    title: "Influencer Marketing Specialist United States",
+  description:
+    "Learn the role of an influencer marketing specialist United States. Discover skills, strategies, and how platforms like GrandeApp help brands and start-ups succeed.",
+ imageUrl: "/images/blog/ig.jpg",
+  },
+
+
+
+
+
+        {
+    slug: "timeline-for-influencer",
+    title: "Timeline for Influencer Marketing Campaigns",
+  description: "Understanding the timeline for influencer marketing campaigns is crucial for brands and marketers who want to maximize results from affiliate and nano influencer campaigns. Every stage, from goal setting to post-campaign analysis, contributes to the success of your marketing efforts. In this article, we’ll break down a detailed timeline, so you can plan, execute, and optimize campaigns effectively.",
+    imageUrl: "/images/blog/content.jpg",
+  },
+
+
+
+];
 
 export function getAllBlogs() {
   return blogs;
