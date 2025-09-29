@@ -114,18 +114,72 @@
 // }
 
 
+// import { NextResponse } from "next/server";
+
+// export async function POST() {
+//   const apiKey = process.env.NEXT_PUBLIC_INDEXNOW_KEY;
+
+//   // Replace with your verified site & blog URLs
+//   const siteUrl = "https://grandeapp.com";
+//   const urlsToSubmit = [
+//     "https://grandeapp.com/blog/ugc-creator",
+//     "https://grandeapp.com/blog/influencer-collaboration",
+//     "https://grandeapp.com/blog/affiliate-marketing-vs-influencer",
+//   ];
+
+//   try {
+//     const response = await fetch(
+//       `https://ssl.bing.com/webmaster/api.svc/json/SubmitUrlbatch?apikey=${apiKey}`,
+//       {
+//         method: "POST",
+//         headers: {
+//           "Content-Type": "application/json; charset=utf-8",
+//         },
+//         body: JSON.stringify({
+//           siteUrl,
+//           urlList: urlsToSubmit,
+//         }),
+//       }
+//     );
+
+//     const data = await response.json();
+//     return NextResponse.json({ success: true, bingResponse: data });
+//   } catch (error: any) {
+//     return NextResponse.json(
+//       { success: false, error: error.message },
+//       { status: 500 }
+//     );
+//   }
+// }
+
+// app/api/submit-urls/route.ts
 import { NextResponse } from "next/server";
 
 export async function POST() {
   const apiKey = process.env.NEXT_PUBLIC_INDEXNOW_KEY;
 
-  // Replace with your verified site & blog URLs
+  // Canonical domain
   const siteUrl = "https://grandeapp.com";
-  const urlsToSubmit = [
-    "https://grandeapp.com/blog/ugc-creator",
-    "https://grandeapp.com/blog/influencer-collaboration",
-    "https://grandeapp.com/blog/affiliate-marketing-vs-influencer",
+
+  // Static paths you want to push
+  const staticPaths = [
+    "", "blog", "allblogs", "terms", "privacy", "ghana", "usa",
+    "free-tools", "republica-dominicana", "bahrain", "argentina", "colombia",
+    "chile", "affiliate", "brand", "campaign", "creator", "creatorpricing",
+    "discover", "el-salvador", "france", "company", "influencer",
+    "influencer-germany", "influencer-india", "influencer-kenya",
+    "influencer-platform", "influencers-in-brazil", "ig-bio-maker", "lithuania",
+    "malaysia", "mexico", "paraguay", "payments", "philippines", "podcast",
+    "pricing", "puerto-rico", "reporting", "rwanda", "singapore",
+    "south-africa", "spain", "ugc", "united-kingdom", "uruguay", "venezuela",
+    "zimbabwe",
+
   ];
+
+  // Convert to full URLs
+  const urlsToSubmit = staticPaths.map(
+    (path) => `${siteUrl}/${path}`.replace(/\/+$/, "") // remove trailing /
+  );
 
   try {
     const response = await fetch(
