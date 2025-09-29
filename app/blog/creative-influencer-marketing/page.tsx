@@ -9,7 +9,7 @@ import Script from 'next/script';
 export const metadata: Metadata = {
   title: "Creative Influencer Marketing Campaigns Concept Examples",
   description: "In today’s digital landscape, creative influencer marketing campaigns concept examples are not just an interesting case study—they are the blueprint for how brands connect with audiences in an authentic way. With the rise of affiliate models and the power of nano influencers, brands now have the opportunity to scale meaningful campaigns without overspending on celebrity endorsements.",
-  keywords: ["affiliate marketing vs influencer marketing", "influencer marketing", "affiliate marketing"],
+  keywords: ["Creative Influencer Marketing Campaigns Concept Examples", "influencer marketing", "affiliate marketing"],
   metadataBase: new URL("https://grandeapp.com"),
   alternates: {
     canonical: "https://grandeapp.com/blog/creative-influencer-marketing",

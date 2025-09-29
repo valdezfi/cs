@@ -9,7 +9,7 @@ import Script from 'next/script';
 export const metadata: Metadata = {
   title: "Timeline for Influencer Marketing Campaigns",
   description: "Understanding the timeline for influencer marketing campaigns is crucial for brands and marketers who want to maximize results from affiliate and nano influencer campaigns. Every stage, from goal setting to post-campaign analysis, contributes to the success of your marketing efforts. In this article, we’ll break down a detailed timeline, so you can plan, execute, and optimize campaigns effectively.",
-  keywords: [  "influencer collaboration",
+  keywords: [  "Timeline for Influencer Marketing Campaigns",
             "influencer",],
   metadataBase: new URL("https://grandeapp.com"),
   alternates: {

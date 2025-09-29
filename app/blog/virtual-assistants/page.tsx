@@ -1,5 +1,5 @@
 import Header from "components/Header";
-import InfluencerMarketingStartupsPage from "components/Statup";
+import UGCArticle from "components/UGCArticle";
 import Footer from "components/Footer";
 import { Metadata } from 'next';
 import Script from 'next/script';
@@ -7,23 +7,23 @@ import Script from 'next/script';
 
 
 export const metadata: Metadata = {
-  title: "Influencer Marketing for Start-Ups",
+   title: "How to Use Virtual Assistants for Influencer Marketing Campaigns",
   description:
-    "Learn how influencer marketing for start-ups can drive growth. Discover affordable strategies with affiliate and nano influencers to scale your brand.",
-  keywords: [  "Influencer Marketing for Start-Ups",
-            "Influencer Marketing",],
+    "Learn how to use virtual assistants to manage influencer marketing campaigns, streamline workflows, and scale affiliate and nano campaigns.",
+  keywords: [  "how to become a ugc creator",
+            "ugc creator",],
   metadataBase: new URL("https://grandeapp.com"),
   alternates: {
-    canonical: "https://grandeapp.com/blog/influencer-marketing-for-start-ups",
+    canonical: "https://grandeapp.com/blog/virtual-assistants",
   },
   openGraph: {
-  title: "Influencer Marketing for Start-Ups",
+  title: "How to Use Virtual Assistants for Influencer Marketing Campaigns",
   description:
-    "Learn how influencer marketing for start-ups can drive growth. Discover affordable strategies with affiliate and nano influencers to scale your brand.",
-  url: "https://grandeapp.com/blog/influencer-marketing-for-start-ups",
+    "Learn how to use virtual assistants to manage influencer marketing campaigns, streamline workflows, and scale affiliate and nano campaigns.",
+  url: "https://grandeapp.com/blog/virtual-assistants",
     images: [
       {
-        url: "https://grandeapp.com/images/blog/macro.jpg",
+        url: "https://grandeapp.com/images/blog/what-is-a-digital-creator.jpg",
         width: 1200,
         height: 630,
         alt: "Influencer Collaboration:",
@@ -32,10 +32,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-  title: "Influencer Marketing for Start-Ups",
+  title: "How to Use Virtual Assistants for Influencer Marketing Campaigns",
   description:
-    "Learn how influencer marketing for start-ups can drive growth. Discover affordable strategies with affiliate and nano influencers to scale your brand.",
-  images: ["https://grandeapp.com/images/blog/macro.jpg"],
+    "Learn how to use virtual assistants to manage influencer marketing campaigns, streamline workflows, and scale affiliate and nano campaigns.",
+  images: ["https://grandeapp.com/images/blog/what-is-a-digital-creator.jpg"],
   },
   robots: {
     index: true,
@@ -68,8 +68,8 @@ export default function Page() {
             {
               "@type": "ListItem",
               position: 2,
-              name: "Influencer Marketing for Start-Ups",
-              item: "https://grandeapp.com/blog/influencer-marketing-for-start-ups",
+              name: "How to Use Virtual Assistants for Influencer Marketing Campaigns",
+              item: "https://grandeapp.com/blog/virtual-assistants",
             },
           ],
         }),
@@ -78,7 +78,7 @@ export default function Page() {
       <Header />
       <main className="flex-1 py-8 px-4">
        
-        <InfluencerMarketingStartupsPage />
+        <UGCArticle />
       </main>
       <Footer />
     </div>

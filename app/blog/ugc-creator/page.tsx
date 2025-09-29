@@ -7,7 +7,7 @@ import Script from 'next/script';
 
 
 export const metadata: Metadata = {
-  title: "how to become a ugc creator",
+  title: "How To Become A UGC Creator?",
   description: "If you're wondering how to become a ugc creator, start by treating content creation like a professional service. This guide walks through the mindset, tools, and simple systems you need to move from hobby posts to paid creator work.",
   keywords: [  "how to become a ugc creator",
             "ugc creator",],
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     canonical: "https://grandeapp.com/blog/ugc-creator",
   },
   openGraph: {
-  title: "Influencer Collaboration: 10 Creative Ways to Collaborate with Influencers in 2025 (With Examples)",
+  title: "How To Become A UGC Creator?",
   description: "Brands need innovative strategies to excel in influencer marketing during the year 2025. The traditional model of brand sponsorship no longer satisfies current consumers since they want genuine  manufacturer-influencer partnerships which generate active interest.",
     url: "https://grandeapp.com/blog/ugc-creator",
     images: [
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-  title: "Influencer Collaboration: 10 Creative Ways to Collaborate with Influencers in 2025 (With Examples)",
+  title: "How To Become A UGC Creator?",
   description: "Brands need innovative strategies to excel in influencer marketing during the year 2025. The traditional model of brand sponsorship no longer satisfies current consumers since they want genuine  manufacturer-influencer partnerships which generate active interest.",
     images: ["https://grandeapp.com/images/blog/collabo.jpg"],
   },
@@ -65,7 +65,8 @@ export default function Page() {
             {
               "@type": "ListItem",
               position: 2,
-              name: "Influencer Collaboration: 10 Creative Ways to Collaborate with Influencers in 2025 (With Examples)",
+              name:  "How To Become A UGC Creator?",
+
               item: "https://grandeapp.com/blog/ugc-creator",
             },
           ],

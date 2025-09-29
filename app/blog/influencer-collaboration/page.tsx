@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Influencer Collaboration: 10 Creative Ways to Collaborate with Influencers in 2025 (With Examples)",
   description: "Brands need innovative strategies to excel in influencer marketing during the year 2025. The traditional model of brand sponsorship no longer satisfies current consumers since they want genuine  manufacturer-influencer partnerships which generate active interest.",
   keywords: [  "influencer collaboration",
-            "influencer",],
+           "influencer marketing", "affiliate marketing"],
   metadataBase: new URL("https://grandeapp.com"),
   alternates: {
     canonical: "https://grandeapp.com/blog/influencer-collaboration",

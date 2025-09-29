@@ -4,7 +4,7 @@ export default function UGCArticle() {
   return (
     <main className="max-w-3xl mx-auto p-6 prose prose-lg">
       <header className="text-center">
-        <h1>how to become a ugc creator</h1>
+        <h1>How To Become A UGC Creator?</h1>
 
    <img
           src="/images/blog/freeinfluencers.jpg"
