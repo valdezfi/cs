@@ -8,7 +8,7 @@ import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: "Timeline for Influencer Marketing Campaigns",
-  description: "Understanding the is crucial for brands and marketers who want to maximize results from affiliate and nano influencer campaigns. Every stage, from goal setting to post-campaign analysis, contributes to the success of your marketing efforts. In this article, we’ll break down a detailed timeline, so you can plan, execute, and optimize campaigns effectively.",
+  description: "Understanding the timeline for influencer marketing campaigns is crucial for brands and marketers who want to maximize results from affiliate and nano influencer campaigns. Every stage, from goal setting to post-campaign analysis, contributes to the success of your marketing efforts. In this article, we’ll break down a detailed timeline, so you can plan, execute, and optimize campaigns effectively.",
   keywords: [  "influencer collaboration",
             "influencer",],
   metadataBase: new URL("https://grandeapp.com"),
@@ -16,9 +16,9 @@ export const metadata: Metadata = {
     canonical: "https://grandeapp.com/blog/timeline-for-influencer",
   },
   openGraph: {
-  title: "Influencer Collaboration: 10 Creative Ways to Collaborate with Influencers in 2025 (With Examples)",
-  description: "Understanding the is crucial for brands and marketers who want to maximize results from affiliate and nano influencer campaigns. Every stage, from goal setting to post-campaign analysis, contributes to the success of your marketing efforts. In this article, we’ll break down a detailed timeline, so you can plan, execute, and optimize campaigns effectively.",
-    url: "https://grandeapp.com/blog/influencer-collaboration",
+  title: "Timeline for Influencer Marketing Campaigns",
+  description: "Understanding the timeline for influencer marketing campaigns is crucial for brands and marketers who want to maximize results from affiliate and nano influencer campaigns. Every stage, from goal setting to post-campaign analysis, contributes to the success of your marketing efforts. In this article, we’ll break down a detailed timeline, so you can plan, execute, and optimize campaigns effectively.",
+    url: "https://grandeapp.com/blog/timeline-for-influencer",
     images: [
       {
         url: "https://grandeapp.com/images/blog/ig.jpg",
@@ -30,8 +30,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-  title: "Influencer Collaboration: 10 Creative Ways to Collaborate with Influencers in 2025 (With Examples)",
-  description: "Understanding the is crucial for brands and marketers who want to maximize results from affiliate and nano influencer campaigns. Every stage, from goal setting to post-campaign analysis, contributes to the success of your marketing efforts. In this article, we’ll break down a detailed timeline, so you can plan, execute, and optimize campaigns effectively.",
+  title: "Timeline for Influencer Marketing Campaigns",
+  description: "Understanding the timeline for influencer marketing campaigns is crucial for brands and marketers who want to maximize results from affiliate and nano influencer campaigns. Every stage, from goal setting to post-campaign analysis, contributes to the success of your marketing efforts. In this article, we’ll break down a detailed timeline, so you can plan, execute, and optimize campaigns effectively.",
     images: ["https://grandeapp.com/images/blog/ig.jpg"],
   },
   robots: {
@@ -65,9 +65,9 @@ export default function Page() {
             {
               "@type": "ListItem",
               position: 2,
-              name: "Understanding the is crucial for brands and marketers who want to maximize results from affiliate and nano influencer campaigns. Every stage, from goal setting to post-campaign analysis, contributes to the success of your marketing efforts. In this article, we’ll break down a detailed timeline, so you can plan, execute, and optimize campaigns effectively.",
+              name: "Timeline for Influencer Marketing Campaigns",
 
-              item: "https://grandeapp.com/blog/influencer-collaboration",
+              item: "https://grandeapp.com/blog/timeline-for-influencer",
             },
           ],
         }),
