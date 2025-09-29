@@ -5,7 +5,7 @@ import { Metadata } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Influencer Marketing de Influencers Dominicanos",
+  title: "Influencers República Dominicana: Marketing de Influencers Dominicanos",
   description:
             "Potencia tu marca con estrategias de influencers dominicanos, Podcast, y contenido generado por usuarios (UGC) adaptadas al mercado dominicano.",
   keywords: [
@@ -15,12 +15,13 @@ export const metadata: Metadata = {
     "airbnb republica dominicana",
     "temu republica dominicana",
     "punta cana republica dominicana weather",
-    "Influencer dominicanos"
+    "Influencer dominicanos",
+    "influencer republica Dominicana"
   ],
   authors: [{ name: "GrandeApp" }],
   alternates: { canonical: "https://grandeapp.com/republica-dominicana" },
   openGraph: {
-    title: "Influencer Marketing de Influencers Dominicanos",
+  title: "Influencers República Dominicana: Marketing de Influencers Dominicanos",
     description:
             "Potencia tu marca con estrategias de influencers dominicanos, Podcast, y contenido generado por usuarios (UGC) adaptadas al mercado dominicano.",
     url: "https://grandeapp.com/republica-dominicana",
@@ -38,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Influencer Marketing de Influencers Dominicanos",
+  title: "Influencers República Dominicana: Marketing de Influencers Dominicanos",
     description:
             "Potencia tu marca con estrategias de influencers dominicanos, Podcast, y contenido generado por usuarios (UGC) adaptadas al mercado dominicano.",
     images: ["https://grandeapp.com/images/logo.png"],

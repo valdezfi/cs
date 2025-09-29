@@ -8,7 +8,7 @@ export default function GrandeRDMarketingPage() {
         <div className="max-w-4xl mx-auto">
           
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">
-           Marketing de Influencers Dominicanos
+          Influencers República Dominicana: Marketing de Influencers Dominicanos
           </h1>
           <h2 className="text-3xl font-bold text-center text-black dark:text-white mb-8">
             Plataforma de Marketing de Influencers, Podcast y UGC en República Dominicana – Grande 
@@ -96,7 +96,7 @@ export default function GrandeRDMarketingPage() {
         <section>
           <h2 className="text-2xl font-semibold">Únete a Grande Hoy</h2>
           <p>
-            Lleva tus campañas al siguiente nivel. Ya sea con <strong>influencers dominicanos</strong> o contenido UGC, tenemos la tecnología y experiencia que necesitas.
+            Lleva tus campañas al siguiente nivel. Ya sea con <strong>influencers republica Dominicana</strong> o contenido UGC, tenemos la tecnología y experiencia que necesitas.
           </p>
           <div className="mt-4">
             <Link
