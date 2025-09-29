@@ -66,7 +66,7 @@ export default function Page() {
               "@type": "ListItem",
               position: 2,
               name: "Influencer Collaboration: 10 Creative Ways to Collaborate with Influencers in 2025 (With Examples)",
-              item: "https://grandeapp.com/blog/influencer-collaboration",
+              item: "https://grandeapp.com/blog/ugc-creator",
             },
           ],
         }),
