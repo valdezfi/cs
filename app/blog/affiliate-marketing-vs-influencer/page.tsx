@@ -64,7 +64,7 @@ export default function Page() {
             {
               "@type": "ListItem",
               position: 2,
-              name: "100 Day Affiliate Marketing Challenge",
+              name: "Affiliate Marketing vs Influencer Marketing: What You Need to Know in 2025",
               item: "https://grandeapp.com/blog/affiliate-marketing-vs-influencer",
             },
           ],

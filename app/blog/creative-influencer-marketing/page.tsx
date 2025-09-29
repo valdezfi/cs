@@ -64,7 +64,7 @@ export default function Page() {
             {
               "@type": "ListItem",
               position: 2,
-              name: "100 Day Affiliate Marketing Challenge",
+              name: "Creative Influencer Marketing Campaigns Concept Examples",
               item: "https://grandeapp.com/blog/creative-influencer-marketing",
             },
           ],
