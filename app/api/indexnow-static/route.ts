@@ -162,19 +162,25 @@ export async function POST() {
   const siteUrl = "https://grandeapp.com";
 
   // Static paths you want to push
-  const staticPaths = [
-    "", "blog", "allblogs", "terms", "privacy", "ghana", "usa",
-    "free-tools", "republica-dominicana", "bahrain", "argentina", "colombia",
-    "chile", "affiliate", "brand", "campaign", "creator", "creatorpricing",
-    "discover", "el-salvador", "france", "company", "influencer",
-    "influencer-germany", "influencer-india", "influencer-kenya",
-    "influencer-platform", "influencers-in-brazil", "ig-bio-maker", "lithuania",
-    "malaysia", "mexico", "paraguay", "payments", "philippines", "podcast",
-    "pricing", "puerto-rico", "reporting", "rwanda", "singapore",
-    "south-africa", "spain", "ugc", "united-kingdom", "uruguay", "venezuela",
-    "zimbabwe",
+  // const staticPaths = [
+  //   "", "blog", "allblogs", "terms", "privacy", "ghana", "usa",
+  //   "free-tools", "republica-dominicana", "bahrain", "argentina", "colombia",
+  //   "chile", "affiliate", "brand", "campaign", "creator", "creatorpricing",
+  //   "discover", "el-salvador", "france", "company", "influencer",
+  //   "influencer-germany", "influencer-india", "influencer-kenya",
+  //   "influencer-platform", "influencers-in-brazil", "ig-bio-maker", "lithuania",
+  //   "malaysia", "mexico", "paraguay", "payments", "philippines", "podcast",
+  //   "pricing", "puerto-rico", "reporting", "rwanda", "singapore",
+  //   "south-africa", "spain", "ugc", "united-kingdom", "uruguay", "venezuela",
+  //   "zimbabwe",
 
-  ];
+  // ];
+
+   const staticPaths = [
+
+  "blog/creative-influencer-marketing"
+
+    ];
 
   // Convert to full URLs
   const urlsToSubmit = staticPaths.map(

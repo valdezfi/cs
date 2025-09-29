@@ -84,7 +84,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 "uruguay",
 "venezuela",
 "zimbabwe",
-
+"creative-influencer-marketing",
 "blog/affiliate-marketing-vs-influencer"
 
   ];
