@@ -92,7 +92,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 "blog/timeline-for-influencer",
 "blog/influencer-collaboration",
 "blog/influencer-marketing-for-start-ups",
-"blog/virtual-assistants"
+"blog/virtual-assistants",
+"blog/influencer-specialist"
 
 
   ];
