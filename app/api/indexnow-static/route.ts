@@ -178,7 +178,7 @@ export async function POST() {
 
    const staticPaths = [
 
-  "blog/creative-influencer-marketing"
+  "blog/timeline-for-influencer"
 
     ];
 
