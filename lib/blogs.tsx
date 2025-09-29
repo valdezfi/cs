@@ -86,6 +86,18 @@ snippet:
   },
 
 
+        {
+    slug: "ig-ads",
+    title: "Why Your IG Ads Are Not Delivering and How to Fix It",
+snippet:
+    "Learn why your Instagram ads may not be delivering and how to optimize campaigns using influencers, nano campaigns, and platforms like GrandeApp.",
+   imageUrl: "/images/blog/nano.jpg",
+  },
+
+
+
+
+
 
 
 
