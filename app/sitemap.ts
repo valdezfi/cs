@@ -93,8 +93,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 "blog/influencer-collaboration",
 "blog/influencer-marketing-for-start-ups",
 "blog/virtual-assistants",
-"blog/influencer-specialist"
-
+"blog/influencer-specialist",
+"blog/influencer-marketing-en-méxico"
 
   ];
 // Replace with actual dynamic slugs from DB

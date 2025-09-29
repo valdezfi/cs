@@ -19,13 +19,13 @@ export const metadata: Metadata = {
   ],
   metadataBase: new URL("https://grandeapp.com"),
   alternates: {
-    canonical: "https://grandeapp.com/blog/timeline-for-influencer",
+    canonical: "https://grandeapp.com/blog/influencer-specialist",
   },
   openGraph: {
     title: "Influencer Marketing Specialist United States",
   description:
     "Learn the role of an influencer marketing specialist United States. Discover skills, strategies, and how platforms like GrandeApp help brands and start-ups succeed.",
-  url: "https://grandeapp.com/blog/timeline-for-influencer",
+  url: "https://grandeapp.com/blog/influencer-specialist",
     images: [
       {
         url: "https://grandeapp.com/images/blog/ig.jpg",
@@ -74,7 +74,7 @@ export default function Page() {
               position: 2,
               name: "Influencer Marketing Specialist United States",
 
-              item: "https://grandeapp.com/blog/timeline-for-influencer",
+              item: "https://grandeapp.com/blog/influencer-specialist",
             },
           ],
         }),
