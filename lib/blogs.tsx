@@ -49,7 +49,7 @@ export const blogs = [
        {
     slug: "influencer-specialist",
     title: "Influencer Marketing Specialist United States",
-  description:
+  snippet:
     "Learn the role of an influencer marketing specialist United States. Discover skills, strategies, and how platforms like GrandeApp help brands and start-ups succeed.",
  imageUrl: "/images/blog/ig.jpg",
   },
@@ -61,11 +61,20 @@ export const blogs = [
         {
     slug: "timeline-for-influencer",
     title: "Timeline for Influencer Marketing Campaigns",
-  description: "Understanding the timeline for influencer marketing campaigns is crucial for brands and marketers who want to maximize results from affiliate and nano influencer campaigns. Every stage, from goal setting to post-campaign analysis, contributes to the success of your marketing efforts. In this article, we’ll break down a detailed timeline, so you can plan, execute, and optimize campaigns effectively.",
+  snippet: "Understanding the timeline for influencer marketing campaigns is crucial for brands and marketers who want to maximize results from affiliate and nano influencer campaigns. Every stage, from goal setting to post-campaign analysis, contributes to the success of your marketing efforts. In this article, we’ll break down a detailed timeline, so you can plan, execute, and optimize campaigns effectively.",
     imageUrl: "/images/blog/content.jpg",
   },
 
 
+
+
+        {
+    slug: "virtual-assistants",
+   title: "How to Use Virtual Assistants for Influencer Marketing Campaigns",
+  snippet:
+    "Learn how to use virtual assistants to manage influencer marketing campaigns, streamline workflows, and scale affiliate and nano campaigns.",
+ imageUrl: "/images/blog/what-is-a-digital-creator.jpg",
+  },
 
 ];
 
