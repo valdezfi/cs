@@ -1,5 +1,5 @@
 import Header from "components/Header";
-import UGCArticle from "components/UGCArticle";
+import VirtualAssistantInfluencerPage from "components/VirtualAssistants";
 import Footer from "components/Footer";
 import { Metadata } from 'next';
 import Script from 'next/script';
@@ -10,8 +10,13 @@ export const metadata: Metadata = {
    title: "How to Use Virtual Assistants for Influencer Marketing Campaigns",
   description:
     "Learn how to use virtual assistants to manage influencer marketing campaigns, streamline workflows, and scale affiliate and nano campaigns.",
-  keywords: [  "how to become a ugc creator",
-            "ugc creator",],
+  keywords: [
+    "how to use virtual assistants for influencer marketing campaigns",
+    "virtual assistants",
+    "influencer marketing",
+    "affiliate campaigns",
+    "nano influencers",
+  ],
   metadataBase: new URL("https://grandeapp.com"),
   alternates: {
     canonical: "https://grandeapp.com/blog/virtual-assistants",
@@ -78,7 +83,7 @@ export default function Page() {
       <Header />
       <main className="flex-1 py-8 px-4">
        
-        <UGCArticle />
+        <VirtualAssistantInfluencerPage />
       </main>
       <Footer />
     </div>

@@ -2,18 +2,6 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "How to Use Virtual Assistants for Influencer Marketing Campaigns",
-  description:
-    "Learn how to use virtual assistants to manage influencer marketing campaigns, streamline workflows, and scale affiliate and nano campaigns.",
-  keywords: [
-    "how to use virtual assistants for influencer marketing campaigns",
-    "virtual assistants",
-    "influencer marketing",
-    "affiliate campaigns",
-    "nano influencers",
-  ],
-};
 
 export default function VirtualAssistantInfluencerPage() {
   const keyword = "how to use virtual assistants for influencer marketing campaigns";
