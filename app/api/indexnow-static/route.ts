@@ -152,62 +152,103 @@
 //   }
 // }
 
-// app/api/submit-urls/route.ts
+// // app/api/submit-urls/route.ts
+// import { NextResponse } from "next/server";
+
+// export async function POST() {
+//   const apiKey = process.env.NEXT_PUBLIC_INDEXNOW_KEY;
+
+//   // Canonical domain
+//   const siteUrl = "https://grandeapp.com";
+
+//   // Static paths you want to push
+//   // const staticPaths = [
+//   //   "", "blog", "allblogs", "terms", "privacy", "ghana", "usa",
+//   //   "free-tools", "republica-dominicana", "bahrain", "argentina", "colombia",
+//   //   "chile", "affiliate", "brand", "campaign", "creator", "creatorpricing",
+//   //   "discover", "el-salvador", "france", "company", "influencer",
+//   //   "influencer-germany", "influencer-india", "influencer-kenya",
+//   //   "influencer-platform", "influencers-in-brazil", "ig-bio-maker", "lithuania",
+//   //   "malaysia", "mexico", "paraguay", "payments", "philippines", "podcast",
+//   //   "pricing", "puerto-rico", "reporting", "rwanda", "singapore",
+//   //   "south-africa", "spain", "ugc", "united-kingdom", "uruguay", "venezuela",
+//   //   "zimbabwe",
+
+//   // ];
+
+//    const staticPaths = [
+
+//   "blog/timeline-for-influencer"
+
+//     ];
+
+//   // Convert to full URLs
+//   const urlsToSubmit = staticPaths.map(
+//     (path) => `${siteUrl}/${path}`.replace(/\/+$/, "") // remove trailing /
+//   );
+
+//   try {
+//     const response = await fetch(
+//       `https://ssl.bing.com/webmaster/api.svc/json/SubmitUrlbatch?apikey=${apiKey}`,
+//       {
+//         method: "POST",
+//         headers: {
+//           "Content-Type": "application/json; charset=utf-8",
+//         },
+//         body: JSON.stringify({
+//           siteUrl,
+//           urlList: urlsToSubmit,
+//         }),
+//       }
+//     );
+
+//     const data = await response.json();
+//     return NextResponse.json({ success: true, bingResponse: data });
+//   } catch (error: any) {
+//     return NextResponse.json(
+//       { success: false, error: error.message },
+//       { status: 500 }
+//     );
+//   }
+// }
+
+
+// app/api/indexnow/route.ts
 import { NextResponse } from "next/server";
 
 export async function POST() {
-  const apiKey = process.env.NEXT_PUBLIC_INDEXNOW_KEY;
+  const staticPaths = [
+    "blog/influencer-collaboration",
+    "blog/affiliate-marketing-vs-influencer",
+    "blog/creative-influencer-marketing",
+    "blog/timeline-for-influencer",
+    "blog/ugc-creator"
+  ];
 
-  // Canonical domain
-  const siteUrl = "https://grandeapp.com";
-
-  // Static paths you want to push
-  // const staticPaths = [
-  //   "", "blog", "allblogs", "terms", "privacy", "ghana", "usa",
-  //   "free-tools", "republica-dominicana", "bahrain", "argentina", "colombia",
-  //   "chile", "affiliate", "brand", "campaign", "creator", "creatorpricing",
-  //   "discover", "el-salvador", "france", "company", "influencer",
-  //   "influencer-germany", "influencer-india", "influencer-kenya",
-  //   "influencer-platform", "influencers-in-brazil", "ig-bio-maker", "lithuania",
-  //   "malaysia", "mexico", "paraguay", "payments", "philippines", "podcast",
-  //   "pricing", "puerto-rico", "reporting", "rwanda", "singapore",
-  //   "south-africa", "spain", "ugc", "united-kingdom", "uruguay", "venezuela",
-  //   "zimbabwe",
-
-  // ];
-
-   const staticPaths = [
-
-  "blog/timeline-for-influencer"
-
-    ];
-
-  // Convert to full URLs
-  const urlsToSubmit = staticPaths.map(
-    (path) => `${siteUrl}/${path}`.replace(/\/+$/, "") // remove trailing /
+  const urlList = staticPaths.map(
+    path => `https://grandeapp.com/${path}`
   );
 
-  try {
-    const response = await fetch(
-      `https://ssl.bing.com/webmaster/api.svc/json/SubmitUrlbatch?apikey=${apiKey}`,
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json; charset=utf-8",
-        },
-        body: JSON.stringify({
-          siteUrl,
-          urlList: urlsToSubmit,
-        }),
-      }
-    );
+  const payload = {
+    host: "grandeapp.com",
+    key: process.env.NEXT_PUBLIC_INDEXNOW_KEY,
+    keyLocation: `https://grandeapp.com/${process.env.NEXT_PUBLIC_INDEXNOW_KEY}.txt`,
+    urlList
+  };
 
-    const data = await response.json();
-    return NextResponse.json({ success: true, bingResponse: data });
-  } catch (error: any) {
-    return NextResponse.json(
-      { success: false, error: error.message },
-      { status: 500 }
-    );
-  }
+  const response = await fetch("https://api.indexnow.org/IndexNow", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json; charset=utf-8",
+    },
+    body: JSON.stringify(payload),
+  });
+
+  const data = await response.json().catch(() => ({}));
+
+  return NextResponse.json({
+    status: response.status,
+    success: response.ok,
+    data,
+  });
 }
