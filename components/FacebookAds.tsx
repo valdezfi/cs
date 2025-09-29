@@ -1,20 +1,7 @@
 // app/blog/facebook-ads-agency/page.tsx
 import Image from "next/image";
-import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Discover How A Facebook Ads Agency Can Help Your Brand?",
-  description:
-    "Discover how a Facebook Ads agency can help your brand grow with effective campaigns, influencer collaboration, and affiliate strategies through GrandeApp.",
-  keywords: [
-    "Facebook Ads agency",
-    "Facebook advertising",
-    "influencer marketing",
-    "affiliate campaigns",
-    "GrandeApp",
-  ],
-  metadataBase: new URL("https://grandeapp.com"),
-};
+
 
 export default function FacebookAdsAgencyPage() {
   const keyword = "Facebook Ads agency";
