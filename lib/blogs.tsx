@@ -99,13 +99,32 @@ snippet:
           {
     slug: "how-to-ig-story-ad",
   title: "How to Create an IG Story Ad That Converts",
-  description:
+  snippet:
     "Learn how to create Instagram Story ads that drive engagement and sales using influencer collaborations, nano campaigns, and affiliate strategies through GrandeApp.",
   imageUrl: "/images/blog/ModernDigitalEcommerceMarketing.jpg",
   },
 
  
+  
+          {
+    slug: "how-to-ig-story-ad",
+  title: "How to Create an IG Story Ad That Converts",
+  snippet:
+    "Learn how to create Instagram Story ads that drive engagement and sales using influencer collaborations, nano campaigns, and affiliate strategies through GrandeApp.",
+  imageUrl: "/images/blog/ModernDigitalEcommerceMarketing.jpg",
+  },
 
+ 
+  
+          {
+    slug: "influencer-campaigns-affiliates",
+  title: "Influencer Marketing Campaigns: Affiliates & Partnerships",
+  snippet:
+    "Learn how to create Instagram Story ads that drive engagement and sales using influencer collaborations, nano campaigns, and affiliate strategies through GrandeApp.",
+  imageUrl: "/images/blog/what-is-a-ugc-creator.jpg",
+  },
+
+ 
 
 
 ];
@@ -113,3 +132,5 @@ snippet:
 export function getAllBlogs() {
   return blogs;
 }
+
+
