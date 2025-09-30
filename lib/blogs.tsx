@@ -55,17 +55,12 @@ export const blogs = [
   },
 
 
-
-
-
         {
     slug: "timeline-for-influencer",
     title: "Timeline for Influencer Marketing Campaigns",
   snippet: "Understanding the timeline for influencer marketing campaigns is crucial for brands and marketers who want to maximize results from affiliate and nano influencer campaigns. Every stage, from goal setting to post-campaign analysis, contributes to the success of your marketing efforts. In this article, we’ll break down a detailed timeline, so you can plan, execute, and optimize campaigns effectively.",
     imageUrl: "/images/blog/content.jpg",
   },
-
-
 
 
         {
