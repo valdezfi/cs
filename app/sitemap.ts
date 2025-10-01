@@ -99,7 +99,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 "blog/facebook-ads-agency",
 "blog/influencer-campaigns-affiliates",
 "blog/how-to-ig-story-ad",
-"blog/brand-deal"
+"blog/brand-deal",
+"blog/campanas-de-influencers"
+
 
 
 
