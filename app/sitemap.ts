@@ -14,7 +14,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
    
     "free-tools",
 
-
+"influencer-events",
 
 "blog/ugc-creator",
 
