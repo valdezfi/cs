@@ -217,11 +217,9 @@ import { NextResponse } from "next/server";
 
 export async function POST() {
   const staticPaths = [
-   "blog/ig-ads",
-"blog/facebook-ads-agency",
-"blog/influencer-campaigns-affiliates",
-"blog/how-to-ig-story-ad",
-"blog/brand-deal"
+ 
+
+    "campanas-de-influencers"
 
   ];
 
