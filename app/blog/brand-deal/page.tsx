@@ -28,7 +28,7 @@ metadataBase: new URL("https://grandeapp.com"),
   url: "https://grandeapp.com/blog/brand-deal",
     images: [
       {
-        url: "https://grandeapp.com/images/blog/what-is-a-ugc-creator.jpg",
+        url: "https://grandeapp.com/images/blog/podcast.jpg",
         width: 1200,
         height: 630,
         alt: "Affiliate marketing vs influencer marketing image",
@@ -40,7 +40,7 @@ metadataBase: new URL("https://grandeapp.com"),
  title: "Brand Deals for Influencers: How Micro Influencers Can Win Partnerships",
   description:
     "Learn how micro influencer brand deals and brand deals for influencers are changing the industry. Discover how GrandeApp helps creators land partnerships, affiliate campaigns, and long-term collaborations.",
-  images: ["https://grandeapp.com/images/blog/what-is-a-ugc-creator.jpg"],
+  images: ["https://grandeapp.com/images/blog/podcast.jpg"],
   },
   robots: {
     index: true,

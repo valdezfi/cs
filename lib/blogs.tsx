@@ -126,13 +126,38 @@ snippet:
    
   
           {
-    slug: "influencer-campaigns-affiliates",
-  title: "Brand Deals for Influencers: How Micro Influencers Can Win Partnerships",
+    slug: "campanas-de-influencers",
+  title: "Campañas de Influencers: Estrategias Locales e Internacionales",
   snippet:
-"Learn how micro influencer brand deals and brand deals for influencers are changing the industry. Discover how GrandeApp helps creators land partnerships, affiliate campaigns, and long-term collaborations.",  imageUrl: "/images/blog/what-is-a-ugc-creator.jpg",
-  },
+    "Descubre cómo las campañas de influencers pueden potenciar marcas a nivel local e internacional. Aprende a maximizar resultados con influencers y GrandeApp.",
+   imageUrl: "/images/blog/what-is-a-ugc-creator.jpg",
+ },
 
- 
+
+
+
+       {
+    slug: "campanas-de-influencers",
+  title: "Campañas de Influencers: Estrategias Locales e Internacionales",
+  snippet:
+    "Descubre cómo las campañas de influencers pueden potenciar marcas a nivel local e internacional. Aprende a maximizar resultados con influencers y GrandeApp.",
+   imageUrl: "/images/blog/la.jp",
+ },
+
+
+
+
+
+       {
+    slug: "brand-deal",
+title: "Brand Deals for Influencers: How Micro Influencers Can Win Partnerships",
+  description:
+    "Learn how micro influencer brand deals and brand deals for influencers are changing the industry. Discover how GrandeApp helps creators land partnerships, affiliate campaigns, and long-term collaborations.",
+   imageUrl: "/images/blog/podcast.jpg",
+ },
+
+
+
 
 
 ];
