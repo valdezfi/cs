@@ -217,11 +217,12 @@ import { NextResponse } from "next/server";
 
 export async function POST() {
   const staticPaths = [
-    "blog/how-to-ig-story-ad",
-    "blog/virtual-assistants",
-    "blog/influencer-marketing-for-start-ups",
-    "blog/influencer-marketing-en-méxico",
-    "blog/influencer-campaigns-affiliates",
+   "blog/ig-ads",
+"blog/facebook-ads-agency",
+"blog/influencer-campaigns-affiliates",
+"blog/how-to-ig-story-ad",
+"blog/brand-deal"
+
   ];
 
   const urlList = staticPaths.map((path) => `https://grandeapp.com/${path}`);
