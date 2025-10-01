@@ -212,43 +212,56 @@
 //   }
 // }
 
-
 // app/api/indexnow/route.ts
 import { NextResponse } from "next/server";
 
 export async function POST() {
   const staticPaths = [
-    "blog/influencer-collaboration",
-    "blog/affiliate-marketing-vs-influencer",
-    "blog/creative-influencer-marketing",
-    "blog/timeline-for-influencer",
-    "blog/ugc-creator"
+    "blog/how-to-ig-story-ad",
+    "blog/virtual-assistants",
+    "blog/influencer-marketing-for-start-ups",
+    "blog/influencer-marketing-en-méxico",
+    "blog/influencer-campaigns-affiliates",
   ];
 
-  const urlList = staticPaths.map(
-    path => `https://grandeapp.com/${path}`
-  );
+  const urlList = staticPaths.map((path) => `https://grandeapp.com/${path}`);
 
   const payload = {
     host: "grandeapp.com",
     key: process.env.NEXT_PUBLIC_INDEXNOW_KEY,
     keyLocation: `https://grandeapp.com/${process.env.NEXT_PUBLIC_INDEXNOW_KEY}.txt`,
-    urlList
+    urlList,
   };
 
-  const response = await fetch("https://api.indexnow.org/IndexNow", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json; charset=utf-8",
-    },
-    body: JSON.stringify(payload),
-  });
+  try {
+    const response = await fetch("https://api.indexnow.org/IndexNow", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json; charset=utf-8",
+      },
+      body: JSON.stringify(payload),
+    });
 
-  const data = await response.json().catch(() => ({}));
+    let message = "Unknown response";
+    if (response.status === 200) message = "URLs submitted successfully (indexed immediately)";
+    if (response.status === 202) message = "URLs accepted (queued for indexing)";
+    if (response.status === 400) message = "Bad request (check payload)";
+    if (response.status === 403) message = "Forbidden (invalid key or key file)";
+    if (response.status === 422) message = "Unprocessable (host mismatch or bad schema)";
+    if (response.status === 429) message = "Too many requests (rate limited)";
 
-  return NextResponse.json({
-    status: response.status,
-    success: response.ok,
-    data,
-  });
+    const data = await response.json().catch(() => ({}));
+
+    return NextResponse.json({
+      status: response.status,
+      ok: response.ok,
+      message,
+      data,
+    });
+  } catch (error: any) {
+    return NextResponse.json(
+      { status: 500, ok: false, message: error.message },
+      { status: 500 }
+    );
+  }
 }
