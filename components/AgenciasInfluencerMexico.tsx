@@ -1,20 +1,6 @@
 // app/blog/agencias-de-influencer-marketing-en-mexico/page.tsx
 import Image from "next/image";
-import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Agencias de influencer marketing en México",
-  description:
-    "Descubre cómo las agencias de influencer marketing en México ayudan a marcas y startups a planear, ejecutar y medir campañas con influencers, nano y programas de afiliados.",
-  keywords: [
-    "agencias de influencer marketing en México",
-    "influencer marketing México",
-    "agencias influencers México",
-    "nano influencers México",
-    "affiliate marketing",
-  ],
-  metadataBase: new URL("https://grandeapp.com"),
-};
 
 export default function AgenciasInfluencerMexicoPage() {
   const keyword = "agencias de influencer marketing en México";
