@@ -28,7 +28,7 @@ export const metadata: Metadata = {
  url: "https://grandeapp.com/blog/how-to-ig-story-ad",
     images: [
       {
-        url: "https://grandeapp.com/images/blog/ModernDigitalEcommerceMarketing.jpg",
+        url: "https://grandeapp.com/images/blog/b.jpg",
         width: 1200,
         height: 630,
         alt: "Influencer Collaboration:",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
    title: "How to Create an IG Story Ad That Converts",
   description:
     "Learn how to create Instagram Story ads that drive engagement and sales using influencer collaborations, nano campaigns, and affiliate strategies through GrandeApp.",
- images: ["https://grandeapp.com/images/blog/ModernDigitalEcommerceMarketing.jpg"],
+ images: ["https://grandeapp.com/images/blog/b.jpg"],
   },
   robots: {
     index: true,

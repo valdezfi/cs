@@ -24,7 +24,7 @@ export default function IGStoryAdPage() {
       </p>
 
       <Image
-        src="/images/blogs/ModernDigitalEcommerceMarketing.jpg"
+        src="/images/blogs/b.jpg"
         alt="Instagram Story Ad"
         width={1200}
         height={630}

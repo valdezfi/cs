@@ -36,6 +36,7 @@ export const blogs = [
     "Descubre cómo las agencias de influencer marketing en México ayudan a marcas y startups a planear, ejecutar y medir campañas con influencers, nano y programas de afiliados.",
   imageUrl: "/images/blog/what-is-social-proof.jpg",
   },
+
      {
     slug: "influencer-marketing-for-start-ups",
      title: "Influencer Marketing for Start-Ups",
@@ -49,7 +50,7 @@ export const blogs = [
        {
     slug: "influencer-specialist",
     title: "Influencer Marketing Specialist United States",
-  snippet:
+  description:
     "Learn the role of an influencer marketing specialist United States. Discover skills, strategies, and how platforms like GrandeApp help brands and start-ups succeed.",
  imageUrl: "/images/blog/ig.jpg",
   },
@@ -96,20 +97,11 @@ snippet:
   title: "How to Create an IG Story Ad That Converts",
   snippet:
     "Learn how to create Instagram Story ads that drive engagement and sales using influencer collaborations, nano campaigns, and affiliate strategies through GrandeApp.",
-  imageUrl: "/images/blog/ModernDigitalEcommerceMarketing.jpg",
+  imageUrl: "/images/blog/b.jpg",
   },
 
  
   
-          {
-    slug: "how-to-ig-story-ad",
-  title: "How to Create an IG Story Ad That Converts",
-  snippet:
-    "Learn how to create Instagram Story ads that drive engagement and sales using influencer collaborations, nano campaigns, and affiliate strategies through GrandeApp.",
-  imageUrl: "/images/blog/ModernDigitalEcommerceMarketing.jpg",
-  },
-
- 
   
           {
     slug: "influencer-campaigns-affiliates",
