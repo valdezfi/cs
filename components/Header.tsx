@@ -164,7 +164,7 @@ export default function Header() {
             <li className="mt-4 font-semibold">Products</li>
             <ul className="pl-4 space-y-1">
               <li><Link href="/discover" onClick={() => setMenuOpen(false)}>Discover Influencers</Link></li>
-              {/* <li><Link href="/event" onClick={() => setMenuOpen(false)}>Create Influencer Event</Link></li> */}
+              <li><Link href="/influencer-events" onClick={() => setMenuOpen(false)}>Create Influencer Event</Link></li>
               <li><Link href="/campaign" onClick={() => setMenuOpen(false)}>Manage Campaigns</Link></li>
               <li><Link href="/payments" onClick={() => setMenuOpen(false)}>Payments & Gifting</Link></li>
               <li><Link href="/affiliate" onClick={() => setMenuOpen(false)}>Affiliate Links</Link></li>
@@ -174,7 +174,7 @@ export default function Header() {
               <li className="mt-4 font-semibold">Free Tools</li>
             <ul className="pl-4 space-y-1">
               <li><Link href="/free-tools" onClick={() => setMenuOpen(false)}>AI</Link></li>
-              {/* <li><Link href="/event" onClick={() => setMenuOpen(false)}>Create Influencer Event</Link></li> */}
+              <li><Link href="/influencer-events" onClick={() => setMenuOpen(false)}>Create Influencer Event</Link></li>
            
             </ul>
 
