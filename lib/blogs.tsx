@@ -134,7 +134,7 @@ snippet:
 title: "Brand Deals for Influencers: How Micro Influencers Can Win Partnerships",
   snippet:
     "Learn how micro influencer brand deals and brand deals for influencers are changing the industry. Discover how GrandeApp helps creators land partnerships, affiliate campaigns, and long-term collaborations.",
-   imageUrl: "/images/blog/podcast.jpg",
+   imageUrl: "/images/blog/k.jpg",
  },
 
        {
