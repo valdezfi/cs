@@ -37,9 +37,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-  title: "Influencer Marketing for Start-Ups",
+  title: "Influencer Marketing SaaS Platform: Scale Your Brand with Affiliates & Partnerships",
   description:
-    "Learn how influencer marketing for start-ups can drive growth. Discover affordable strategies with affiliate and nano influencers to scale your brand.",
+    "Discover how an influencer marketing SaaS platform helps brands run affiliate campaigns, collaborate with influencers, and scale efficiently using tools like GrandeApp.",
   images: ["https://grandeapp.com/images/blog/branddeal.jpg"],
   },
   robots: {
