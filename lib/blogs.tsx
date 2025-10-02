@@ -107,7 +107,7 @@ snippet:
     slug: "influencer-campaigns-affiliates",
   title: "Influencer Marketing Campaigns: Affiliates & Partnerships",
   snippet:
-    "Learn how to create Instagram Story ads that drive engagement and sales using influencer collaborations, nano campaigns, and affiliate strategies through GrandeApp.",
+    "Discover how influencer marketing campaigns can combine affiliates and traditional partnerships to drive growth, boost conversions, and scale your brand with GrandeApp.",
   imageUrl: "/images/blog/what-is-a-ugc-creator.jpg",
   },
 
