@@ -18,7 +18,7 @@ export default function AgenciasInfluencerMexicoPage() {
       </p>
 
       <Image
-        src="/images/blogs/what-is-social-proof.jpg"
+        src="/images/blogs/a.jpg"
         alt="Agencias de influencer marketing en México"
         width={1200}
         height={630}

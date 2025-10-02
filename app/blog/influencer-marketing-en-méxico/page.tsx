@@ -28,7 +28,7 @@ export const metadata: Metadata = {
  url: "https://grandeapp.com/blog/influencer-marketing-en-méxico",
     images: [
       {
-        url: "https://grandeapp.com/images/blog/what-is-social-proof.jpg",
+        url: "https://grandeapp.com/images/blog/a.jpg",
         width: 1200,
         height: 630,
         alt: "Influencer Collaboration:",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
    title: "Agencias de influencer marketing en México",
   description:
     "Descubre cómo las agencias de influencer marketing en México ayudan a marcas y startups a planear, ejecutar y medir campañas con influencers, nano y programas de afiliados.",
- images: ["https://grandeapp.com/images/blog/what-is-social-proof.jpg"],
+ images: ["https://grandeapp.com/images/blog/a.jpg"],
   },
   robots: {
     index: true,
