@@ -122,18 +122,7 @@ snippet:
   title: "Campañas de Influencers: Estrategias Locales e Internacionales",
   snippet:
     "Descubre cómo las campañas de influencers pueden potenciar marcas a nivel local e internacional. Aprende a maximizar resultados con influencers y GrandeApp.",
-   imageUrl: "/images/blog/what-is-a-ugc-creator.jpg",
- },
-
-
-
-
-       {
-    slug: "campanas-de-influencers",
-  title: "Campañas de Influencers: Estrategias Locales e Internacionales",
-  snippet:
-    "Descubre cómo las campañas de influencers pueden potenciar marcas a nivel local e internacional. Aprende a maximizar resultados con influencers y GrandeApp.",
-   imageUrl: "/images/blog/la.jp",
+   imageUrl: "/images/blog/la.jpg",
  },
 
 
