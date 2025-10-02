@@ -4,7 +4,7 @@ import Image from "next/image";
 
 
 export default function BrandDealsForInfluencersPage() {
-  const keyword1 = "brand deals for influencers";
+  const keyword1 = "Brand deals for influencers";
   const keyword2 = "micro influencer brand deals";
 
   return (
