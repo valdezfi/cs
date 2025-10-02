@@ -50,7 +50,7 @@ export const blogs = [
        {
     slug: "influencer-specialist",
     title: "Influencer Marketing Specialist United States",
-  description:
+  snippet:
     "Learn the role of an influencer marketing specialist United States. Discover skills, strategies, and how platforms like GrandeApp help brands and start-ups succeed.",
  imageUrl: "/images/blog/ig.jpg",
   },
