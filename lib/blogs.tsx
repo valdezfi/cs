@@ -151,9 +151,17 @@ snippet:
        {
     slug: "brand-deal",
 title: "Brand Deals for Influencers: How Micro Influencers Can Win Partnerships",
-  description:
+  snippet:
     "Learn how micro influencer brand deals and brand deals for influencers are changing the industry. Discover how GrandeApp helps creators land partnerships, affiliate campaigns, and long-term collaborations.",
    imageUrl: "/images/blog/podcast.jpg",
+ },
+
+       {
+    slug: "influencer-marketing-saas-platform",
+  title: "Influencer Marketing SaaS Platform: Scale Your Brand with Affiliates & Partnerships",
+  snippet:
+    "Discover how an influencer marketing SaaS platform helps brands run affiliate campaigns, collaborate with influencers, and scale efficiently using tools like GrandeApp.",
+  imageUrl: "/images/blog/branddeal.jpg",
  },
 
 
@@ -165,4 +173,3 @@ title: "Brand Deals for Influencers: How Micro Influencers Can Win Partnerships"
 export function getAllBlogs() {
   return blogs;
 }
-
