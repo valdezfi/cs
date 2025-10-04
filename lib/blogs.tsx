@@ -157,6 +157,18 @@ title: "Brand Deals for Influencers: How Micro Influencers Can Win Partnerships"
  },
 
 
+      {
+    slug: "media-kit-for-influencers",
+  title: "What is a Media Kit for Influencers: Boost Your Brand Deals",
+  snippet:
+    "Learn what a media kit for influencers is and how it helps creators land brand deals, affiliate campaigns, and partnerships using GrandeApp.",
+  imageUrl: "/images/blog/aa.jpg",
+ },
+
+
+
+
+
 
 
 ];
