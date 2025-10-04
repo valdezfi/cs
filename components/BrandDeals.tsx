@@ -1,5 +1,4 @@
 // app/blog/brand-deals-for-influencers/page.tsx
-import Image from "next/image";
 
 
 
@@ -32,7 +31,7 @@ export default function BrandDealsForInfluencersPage() {
         for both affiliate and traditional partnerships.
       </p>
 
-      <Image
+      <img
         src="/images/blogs/k.jpg"
         alt="Brand deals for influencers"
         width={1200}
