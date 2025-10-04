@@ -1,5 +1,4 @@
 // app/blog/influencer-marketing-saas-platform/page.tsx
-import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -38,7 +37,7 @@ export default function InfluencerMarketingSaaSPlatformPage() {
         empower brands to streamline influencer marketing while achieving measurable results.
       </p>
 
-      <Image
+      <img
         src="/images/blog/branddeal.jpg"
         alt="Influencer Marketing SaaS Platform"
         width={1200}

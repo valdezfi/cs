@@ -1,6 +1,4 @@
 // app/blog/saas-influencer-marketing/page.tsx
-import Image from "next/image";
-import type { Metadata } from "next";
 
 
 
@@ -32,7 +30,7 @@ export default function SaaSInfluencerMarketingPage() {
         scalable and measurable way.
       </p>
 
-      <Image
+      <img
         src="/images/blog/affiliatem.jpg"
         alt="SaaS Influencer Marketing"
         width={1200}

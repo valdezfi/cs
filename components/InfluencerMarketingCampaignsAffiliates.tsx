@@ -1,6 +1,3 @@
-// app/blog/influencer-marketing-campaigns/page.tsx
-import Image from "next/image";
-
 
 
 export default function InfluencerMarketingCampaignsAffiliates() {
@@ -30,7 +27,7 @@ export default function InfluencerMarketingCampaignsAffiliates() {
         track, and scale campaigns across influencers of every size.
       </p>
 
-      <Image
+      <img
         src="/images/blogs/what-is-a-ugc-creator.jpg"
         alt="Influencer marketing campaigns"
         width={1200}

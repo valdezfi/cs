@@ -1,20 +1,4 @@
 // app/blog/campanas-de-influencers/page.tsx
-import Image from "next/image";
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Campañas de Influencers: Estrategias Locales e Internacionales",
-  description:
-    "Descubre cómo las campañas de influencers pueden potenciar marcas a nivel local e internacional. Aprende a maximizar resultados con influencers y GrandeApp.",
-  keywords: [
-    "campañas de influencers",
-    "campañas de influencers para audiencias internacionales",
-    "marketing de influencers",
-    "campañas locales",
-    "GrandeApp",
-  ],
-  metadataBase: new URL("https://grandeapp.com"),
-};
 
 export default function CampanasDeInfluencersPage() {
   const keyword1 = "campañas de influencers";
@@ -44,7 +28,7 @@ export default function CampanasDeInfluencersPage() {
         lugar.
       </p>
 
-      <Image
+      <img
         src="/images/blogs/la.jpg"
         alt="Campañas de influencers locales e internacionales"
         width={1200}
