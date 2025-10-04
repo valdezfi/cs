@@ -22,7 +22,7 @@ export default function MediaKitForInfluencersPage() {
   return (
     <main className="max-w-3xl mx-auto px-6 py-20 prose prose-lg">
       <h1 className="text-4xl font-bold mb-6">
-        {keyword}: Boost Your Brand Deals
+        Media Kit for Influencers: Boost Your Brand Deals
       </h1>
 
       <p className="mb-6 text-lg">
@@ -43,7 +43,7 @@ export default function MediaKitForInfluencersPage() {
       </p>
 
       <Image
-        src="/images/blogs/aa.jpg"
+        src="/images/blog/aa.jpg"
         alt="Media kit for influencers"
         width={1200}
         height={630}
