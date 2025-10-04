@@ -8,7 +8,7 @@ export default function CampanasDeInfluencersPage() {
   return (
     <main className="max-w-3xl mx-auto px-6 py-20 prose prose-lg">
       <h1 className="text-4xl font-bold mb-6">
-        {keyword1}: Estrategias Locales e Internacionales
+        Campañas De Influencers: Estrategias Locales e Internacionales
       </h1>
 
       <p className="mb-6 text-lg">
