@@ -1,5 +1,5 @@
 import Header from "components/Header";
-import BrandDealsForInfluencersPage from "components/BrandDeals";
+import CampanasDeInfluencersPage from "components/Campanas";
 import Footer from "components/Footer";
 import { Metadata } from 'next';
 import Script from 'next/script';
@@ -83,7 +83,7 @@ export default function Page() {
       <Header />
       <main className="flex-1 py-8 px-4">
        
-        <BrandDealsForInfluencersPage/>
+        <CampanasDeInfluencersPage/>
       </main>
       <Footer />
     </div>
