@@ -43,7 +43,7 @@ export default function MediaKitForInfluencersPage() {
       </p>
 
       <Image
-        src="/images/blog/aa.jpg"
+        src="/images/blog/john.jpg"
         alt="Media kit for influencers"
         width={1200}
         height={630}

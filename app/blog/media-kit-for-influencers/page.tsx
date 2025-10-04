@@ -28,7 +28,7 @@ export const metadata: Metadata = {
    url: "https://grandeapp.com/blog/media-kit-for-influencers",
     images: [
       {
-        url: "https://grandeapp.com/images/blog/aa.jpg",
+        url: "https://grandeapp.com/images/blog/john.jpg",
         width: 1200,
         height: 630,
         alt: "Influencer Collaboration:",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   title: "What is a Media Kit for Influencers: Boost Your Brand Deals",
   description:
     "Learn what a media kit for influencers is and how it helps creators land brand deals, affiliate campaigns, and partnerships using GrandeApp.",
-   images: ["https://grandeapp.com/images/blog/aa.jpg"],
+   images: ["https://grandeapp.com/images/blog/john.jpg"],
   },
   robots: {
     index: true,
