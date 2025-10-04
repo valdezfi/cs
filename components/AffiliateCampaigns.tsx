@@ -6,6 +6,14 @@ export default function CreativeInfluencerMarketingBlog() {
     <article className="prose prose-lg dark:prose-invert max-w-3xl mx-auto px-6 py-20">
       <h1>Creative Influencer Marketing Campaigns Concept Examples</h1>
 
+  <img
+        src="/images/blog/ugcgrowth.jpg"
+        alt="Media kit for influencers"
+        width={1200}
+        height={630}
+        className="rounded-xl shadow mb-8"
+      />
+
       <p>
         In today’s digital landscape,{" "}
         <strong>creative influencer marketing campaigns concept examples</strong>{" "}
