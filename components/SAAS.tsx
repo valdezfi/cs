@@ -33,7 +33,7 @@ export default function SaaSInfluencerMarketingPage() {
       </p>
 
       <Image
-        src="/images/blogs/affiliatem.jpg"
+        src="/images/blog/affiliatem.jpg"
         alt="SaaS Influencer Marketing"
         width={1200}
         height={630}

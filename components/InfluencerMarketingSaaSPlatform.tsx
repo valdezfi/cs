@@ -39,7 +39,7 @@ export default function InfluencerMarketingSaaSPlatformPage() {
       </p>
 
       <Image
-        src="/images/blogs/branddeal.jpg"
+        src="/images/blog/branddeal.jpg"
         alt="Influencer Marketing SaaS Platform"
         width={1200}
         height={630}
