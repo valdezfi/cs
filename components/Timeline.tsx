@@ -16,7 +16,7 @@ export default function TimelineInfluencerMarketingPage() {
         Understanding the <strong>{keyword}</strong> is crucial for brands and marketers who want to maximize results from affiliate and nano influencer campaigns. Every stage, from goal setting to post-campaign analysis, contributes to the success of your marketing efforts. In this article, we’ll break down a detailed timeline, so you can plan, execute, and optimize campaigns effectively.
       </p>
 
-      <Image
+      <img
         src="/images/blogs/content.jpg"
         alt="Influencer marketing timeline"
         width={800}

@@ -3,20 +3,27 @@ import LowestFeeExchangePage from "components/TopMX";
 import Footer from "components/Footer";
 import { Metadata } from 'next';
 import Script from 'next/script';
+
+
 export const metadata: Metadata = {
-  title: "Grande: Marketing de Influencers en México",
+  title:
+    "México ads: Cómo las Marcas Están Transformando sus Campañas Digitales",
   description:
-    "Influencers, Podcasts y Contenido UGC en Mexico – Grande",
-  authors: [{ name: "Grandeapp Editorial Team" }],
+    "Descubre cómo combinar México ads e influencer marketing para impulsar tu marca. Estrategias para agencias, creadores y marcas con GrandeApp.",
   keywords: [
-    "Marketing de Influencers en México",
-  
+    "México ads",
+    "influencer marketing",
+    "marketing de influencers México",
+    "agencias de publicidad México",
+    "campañas de afiliados",
+    "GrandeApp",
   ],
   openGraph: {
-  title: "Grande: Marketing de Influencers en México",
-    description:
-            "Impulsa tu marca en México con campañas auténticas de influencers, podcast , y contenido generado por usuarios (UGC).",
-    url: "https://grandeapp.com/mexico",
+   title:
+    "México ads: Cómo las Marcas Están Transformando sus Campañas Digitales",
+  description:
+    "Descubre cómo combinar México ads e influencer marketing para impulsar tu marca. Estrategias para agencias, creadores y marcas con GrandeApp.",
+     url: "https://grandeapp.com/mexico",
     images: [
       {
         url: "https://grandeapp.com/images/mexico.jpg",
@@ -28,11 +35,12 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-  title: "Grande: Marketing de Influencers en México",
-    description:
-            "Impulsa tu marca en México con campañas auténticas de influencers, podcast , y contenido generado por usuarios (UGC).",
-    images: [
-      "https://grandeapp.com/images/p.jpg",
+    title:
+    "México ads: Cómo las Marcas Están Transformando sus Campañas Digitales",
+  description:
+    "Descubre cómo combinar México ads e influencer marketing para impulsar tu marca. Estrategias para agencias, creadores y marcas con GrandeApp.",
+     images: [
+      "https://grandeapp.com/images/mexico.jpg",
     ],
   },
   alternates: {
@@ -67,7 +75,7 @@ export default function Page() {
               {
                 '@type': 'ListItem',
                 position: 2,
-                name: 'Influencers, Podcasts y Contenido UGC en Mexico – Grande',
+                name: "México ads: Cómo las Marcas Están Transformando sus Campañas Digitales",
                 item: 'https://grandeapp.com/mexico',
               },
             ],
