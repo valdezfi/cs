@@ -1,20 +1,7 @@
 // app/blog/ig-ads-not-delivering/page.tsx
 import Image from "next/image";
-import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Why Your IG Ads Are Not Delivering and How to Fix It",
-  description:
-    "Learn why your Instagram ads may not be delivering and how to optimize campaigns using influencers, nano campaigns, and platforms like GrandeApp.",
-  keywords: [
-    "IG ads not delivering",
-    "Instagram ads optimization",
-    "influencer marketing",
-    "nano campaigns",
-    "GrandeApp",
-  ],
-  metadataBase: new URL("https://grandeapp.com"),
-};
+
 
 export default function IGAdsNotDeliveringPage() {
   const keyword = "IG ads not delivering";
@@ -37,7 +24,7 @@ export default function IGAdsNotDeliveringPage() {
       </p>
 
       <Image
-        src="/images/blogs/nano.jpg"
+        src="/images/blog/nano.jpg"
         alt="Instagram Ads Not Delivering"
         width={1200}
         height={630}
