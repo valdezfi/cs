@@ -30,7 +30,7 @@ export const blogs = [
   },
 
      {
-    slug: "influencer-marketing-en-méxico",
+    slug: "influencer-méxico",
     title: "Agencias de influencer marketing en México",
   snippet:
     "Descubre cómo las agencias de influencer marketing en México ayudan a marcas y startups a planear, ejecutar y medir campañas con influencers, nano y programas de afiliados.",

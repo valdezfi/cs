@@ -19,13 +19,13 @@ export const metadata: Metadata = {
   ],
   metadataBase: new URL("https://grandeapp.com"),
   alternates: {
-    canonical: "https://grandeapp.com/blog/influencer-marketing-en-méxico",
+    canonical: "https://grandeapp.com/blog/influencer-méxico",
   },
   openGraph: {
    title: "Agencias de influencer marketing en México",
   description:
     "Descubre cómo las agencias de influencer marketing en México ayudan a marcas y startups a planear, ejecutar y medir campañas con influencers, nano y programas de afiliados.",
- url: "https://grandeapp.com/blog/influencer-marketing-en-méxico",
+ url: "https://grandeapp.com/blog/influencer-méxico",
     images: [
       {
         url: "https://grandeapp.com/images/blog/a.jpg",
