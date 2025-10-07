@@ -17,7 +17,7 @@ export default function VirtualAssistantInfluencerPage() {
       </p>
 
       <Image
-        src="/images/blogs/what-is-a-digital-creator.jpg"
+        src="/images/blog/what-is-a-digital-creator.jpg"
         alt="Virtual assistants managing influencer campaigns"
         width={800}
         height={450}
