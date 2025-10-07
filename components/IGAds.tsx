@@ -1,5 +1,4 @@
 // app/blog/ig-ads-not-delivering/page.tsx
-import Image from "next/image";
 
 
 
@@ -23,7 +22,7 @@ export default function IGAdsNotDeliveringPage() {
         help brands combine influencer campaigns, nano campaigns, and affiliate strategies to maximize reach and engagement.
       </p>
 
-      <Image
+      <img
         src="/images/blog/nano.jpg"
         alt="Instagram Ads Not Delivering"
         width={1200}

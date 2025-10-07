@@ -1,20 +1,4 @@
-// app/blog/media-kit-for-influencers/page.tsx
-import Image from "next/image";
-import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "What is a Media Kit for Influencers: Boost Your Brand Deals",
-  description:
-    "Learn what a media kit for influencers is and how it helps creators land brand deals, affiliate campaigns, and partnerships using GrandeApp.",
-  keywords: [
-    "media kit for influencers",
-    "influencer marketing",
-    "affiliate campaigns",
-    "brand partnerships",
-    "GrandeApp",
-  ],
-  metadataBase: new URL("https://grandeapp.com"),
-};
 
 export default function MediaKitForInfluencersPage() {
   const keyword = "media kit for influencers";
@@ -42,7 +26,7 @@ export default function MediaKitForInfluencersPage() {
         while connecting with brands and campaigns.
       </p>
 
-      <Image
+      <img
         src="/images/blog/john.jpg"
         alt="Media kit for influencers"
         width={1200}

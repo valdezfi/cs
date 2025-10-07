@@ -18,7 +18,7 @@ export default function AgenciasInfluencerMexicoPage() {
       </p>
 
       <Image
-        src="/images/blogs/a.jpg"
+        src="/images/blog/a.jpg"
         alt="Agencias de influencer marketing en México"
         width={1200}
         height={630}

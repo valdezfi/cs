@@ -1,6 +1,3 @@
-// app/blog/influencer-marketing-for-start-ups/page.tsx
-import type { Metadata } from "next";
-
 
 
 export default function InfluencerMarketingStartupsPage() {

@@ -1,7 +1,3 @@
-// app/blog/how-to-use-virtual-assistants-for-influencer-marketing-campaigns/page.tsx
-import Image from "next/image";
-import type { Metadata } from "next";
-
 
 export default function VirtualAssistantInfluencerPage() {
   const keyword = "how to use virtual assistants for influencer marketing campaigns";
@@ -16,7 +12,7 @@ export default function VirtualAssistantInfluencerPage() {
         Managing influencer campaigns can be time-consuming, especially when running multiple affiliate or nano campaigns simultaneously. Learning <strong>{keyword}</strong> can help brands save time, stay organized, and maximize results. Virtual assistants (VAs) are a powerful resource that can handle repetitive tasks, track performance, and communicate with influencers efficiently.
       </p>
 
-      <Image
+      <img
         src="/images/blog/what-is-a-digital-creator.jpg"
         alt="Virtual assistants managing influencer campaigns"
         width={800}

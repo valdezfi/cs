@@ -1,5 +1,4 @@
 // app/blog/facebook-ads-agency/page.tsx
-import Image from "next/image";
 
 
 
@@ -25,8 +24,8 @@ export default function FacebookAdsAgencyPage() {
         simplify this process by connecting brands with influencers and automating affiliate campaigns.
       </p>
 
-      <Image
-        src="/images/blogs/b2b.jpg"
+      <img
+        src="/images/blog/b2b.jpg"
         alt="Facebook Ads agency"
         width={1200}
         height={630}

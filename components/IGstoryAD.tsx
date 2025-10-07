@@ -1,7 +1,4 @@
 // app/blog/how-to-ig-story-ad/page.tsx
-import Image from "next/image";
-import type { Metadata } from "next";
-
 
 export default function IGStoryAdPage() {
   const keyword = "IG Story ad";
@@ -23,7 +20,7 @@ export default function IGStoryAdPage() {
         allow brands to leverage influencer marketing, nano campaigns, and affiliate strategies to create effective Story ads that convert.
       </p>
 
-      <Image
+      <img
         src="/images/blog/b.jpg"
         alt="Instagram Story Ad"
         width={1200}

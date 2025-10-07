@@ -1,6 +1,3 @@
-// app/blog/influencer-marketing-specialist-united-states/page.tsx
-import Image from "next/image";
-import type { Metadata } from "next";
 
 
 
@@ -23,8 +20,8 @@ export default function InfluencerMarketingSpecialistBlog() {
         help you unlock growth opportunities.
       </p>
 
-      <Image
-        src="/images/blogs/influencer-specialist-us.jpg"
+      <img
+        src="/images/blog/influencer-specialist-us.jpg"
         alt="Influencer marketing specialist in the United States"
         width={800}
         height={450}

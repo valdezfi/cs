@@ -29,7 +29,7 @@ export default function CampanasDeInfluencersPage() {
       </p>
 
       <img
-        src="/images/blogs/la.jpg"
+        src="/images/blog/la.jpg"
         alt="Campañas de influencers locales e internacionales"
         width={1200}
         height={630}

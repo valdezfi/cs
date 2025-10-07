@@ -17,7 +17,7 @@ export default function TimelineInfluencerMarketingPage() {
       </p>
 
       <img
-        src="/images/blogs/content.jpg"
+        src="/images/blog/content.jpg"
         alt="Influencer marketing timeline"
         width={800}
         height={450}
