@@ -32,7 +32,7 @@ export default function BrandDealsForInfluencersPage() {
       </p>
 
       <img
-        src="/images/blogs/k.jpg"
+        src="/images/blog/k.jpg"
         alt="Brand deals for influencers"
         width={1200}
         height={630}
