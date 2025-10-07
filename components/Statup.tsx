@@ -1,19 +1,7 @@
 // app/blog/influencer-marketing-for-start-ups/page.tsx
-import Image from "next/image";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Influencer Marketing for Start-Ups",
-  description:
-    "Learn how influencer marketing for start-ups can drive growth. Discover affordable strategies with affiliate and nano influencers to scale your brand.",
-  keywords: [
-    "influencer marketing for start-ups",
-    "nano influencers",
-    "affiliate campaigns",
-    "start-up growth",
-    "brand awareness",
-  ],
-};
+
 
 export default function InfluencerMarketingStartupsPage() {
   const keyword = "influencer marketing for start-ups";
@@ -30,8 +18,8 @@ export default function InfluencerMarketingStartupsPage() {
         nano and affiliate campaigns, even small brands can achieve outsized visibility.
       </p>
 
-      <Image
-        src="/images/blogs/startup-influencer-marketing.jpg"
+      <img
+        src="/images/blog/startup-influencer-marketing.jpg"
         alt="Influencer marketing strategies for start-ups"
         width={800}
         height={450}
