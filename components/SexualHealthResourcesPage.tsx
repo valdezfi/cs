@@ -45,7 +45,7 @@ export default function SexualHealthResourcesPage() {
         launch affiliate programs, and promote inclusive sexual wellness campaigns.
       </p>
 
-      <Image
+      <img
         src="/images/blog/a.jpg"
         alt="Sexual Health Resources Influencer Partnerships"
         width={1200}
