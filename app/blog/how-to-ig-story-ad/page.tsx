@@ -1,5 +1,5 @@
 import Header from "components/Header";
-import InfluencerCollaborationPage from "components/InfluencerCollaboration";
+import IGStoryAdPage from "components/IGstoryAD";
 import Footer from "components/Footer";
 import { Metadata } from 'next';
 import Script from 'next/script';
@@ -84,7 +84,7 @@ export default function Page() {
       <Header />
       <main className="flex-1 py-8 px-4">
        
-        <InfluencerCollaborationPage />
+        <IGStoryAdPage />
       </main>
       <Footer />
     </div>
