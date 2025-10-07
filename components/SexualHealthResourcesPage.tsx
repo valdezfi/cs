@@ -46,7 +46,7 @@ export default function SexualHealthResourcesPage() {
       </p>
 
       <Image
-        src="/images/blog/sexual-health-resources.jpg"
+        src="/images/blog/a.jpg"
         alt="Sexual Health Resources Influencer Partnerships"
         width={1200}
         height={630}
