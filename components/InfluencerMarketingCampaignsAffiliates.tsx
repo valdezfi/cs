@@ -28,7 +28,7 @@ export default function InfluencerMarketingCampaignsAffiliates() {
       </p>
 
       <img
-        src="/images/blogs/what-is-a-ugc-creator.jpg"
+        src="/images/blog/what-is-a-ugc-creator.jpg"
         alt="Influencer marketing campaigns"
         width={1200}
         height={630}
