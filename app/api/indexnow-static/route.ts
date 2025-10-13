@@ -68,12 +68,13 @@ const staticUrls = staticPaths.map(
 
 export async function GET() {
   try {
-    const payload = {
-      host: HOST, // host without protocol
-      key: "fac3555a503f46ee93ed92b2104ccc5f", // string key
-      keyLocation: KEY_LOCATION,
-      urls: staticUrls, // IndexNow expects "urls" field
-    };
+const payload = {
+  host: HOST,
+  key: "fac3555a503f46ee93ed92b2104ccc5f",
+  keyLocation: KEY_LOCATION,
+  urlList: staticUrls, // ✅ changed from `urls` to `urlList`
+};
+
     const response = await fetch("https://api.indexnow.org/indexnow", {
       method: "POST",
       headers: { "Content-Type": "application/json; charset=utf-8" },
