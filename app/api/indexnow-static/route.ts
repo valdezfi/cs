@@ -74,7 +74,6 @@ export async function GET() {
       keyLocation: KEY_LOCATION,
       urls: staticUrls, // IndexNow expects "urls" field
     };
-
     const response = await fetch("https://api.indexnow.org/indexnow", {
       method: "POST",
       headers: { "Content-Type": "application/json; charset=utf-8" },
