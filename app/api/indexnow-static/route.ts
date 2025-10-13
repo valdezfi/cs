@@ -66,7 +66,7 @@ const staticUrls = staticPaths.map(
   (path) => `https://${HOST}/${path}`
 );
 
-export async function GET() {
+export async function Post() {
   try {
 const payload = {
   host: HOST,
