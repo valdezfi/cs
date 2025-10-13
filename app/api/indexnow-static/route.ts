@@ -57,8 +57,8 @@ const KEY_LOCATION = `https://${HOST}/fac3555a503f46ee93ed92b2104ccc5f.txt`;
 
 // Paths to submit
 const staticPaths = [
-  "chile",
-  "affiliate",
+  "blog/saas",
+  "blog/virtual-assistants",
 ];
 
 // Convert paths to full URLs
