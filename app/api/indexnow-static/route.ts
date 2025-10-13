@@ -66,14 +66,14 @@ const staticUrls = staticPaths.map(
   (path) => `https://${HOST}/${path}`
 );
 
-export async function Post() {
+export async function POST() { // ✅ must be uppercase
   try {
-const payload = {
-  host: HOST,
-  key: "fac3555a503f46ee93ed92b2104ccc5f",
-  keyLocation: KEY_LOCATION,
-  urlList: staticUrls, // ✅ changed from `urls` to `urlList`
-};
+    const payload = {
+      host: HOST,
+      key: "fac3555a503f46ee93ed92b2104ccc5f",
+      keyLocation: KEY_LOCATION,
+      urlList: staticUrls, // IndexNow field name
+    };
 
     const response = await fetch("https://api.indexnow.org/indexnow", {
       method: "POST",
