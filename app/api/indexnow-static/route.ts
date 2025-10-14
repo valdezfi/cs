@@ -52,7 +52,7 @@
 // app/api/indexnow-static/route.ts
 import { NextResponse } from "next/server";
 
-const HOST = "grandeapp.com"; // define your host
+const HOST = "https://grandeapp.com"; // define your host
 const KEY_LOCATION = `https://${HOST}/fac3555a503f46ee93ed92b2104ccc5f.txt`;
 
 // Paths to submit
