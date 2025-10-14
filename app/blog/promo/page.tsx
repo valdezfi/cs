@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: "GrandeApp",
     images: [
       {
-        url: "https://grandeapp.com/images/blog/agency.jpg",
+        url: "https://grandeapp.com/images/agency.jpg",
         width: 1200,
         height: 630,
         alt: "Influencers, Podcasts y Contenido UGC en Puerto Rico – Grande",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
       "Launch Affiliate + Influencer Campaigns on GrandeApp: Boost TikTok Shop Promo Code",
     description:
       "How brands use GrandeApp to run affiliate and influencer campaigns that drive TikTok Shop promo codes. Create campaigns, track performance, and scale fast.",
-    images: ["https://grandeapp.com/images/blog/agency.jpg"],
+    images: ["https://grandeapp.com/images/agency.jpg"],
   },
   alternates: {
     canonical: "https://grandeapp.com/blog/promo",

@@ -19,7 +19,7 @@ export default function GrandeAppBrandAffiliateCampaignPage() {
       </p>
 
       <img
-        src="/images/blog/agency.jpg"
+        src="/images/agency.jpg"
         alt="GrandeApp brand influencer affiliate campaigns on TikTok Shop"
         width={1200}
         height={630}
