@@ -1,20 +1,5 @@
 // app/blog/grandeapp-influencer-ads-instagram/page.tsx
-import Image from "next/image";
-import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "GrandeApp: Influencer Ads on Instagram for Brands and Agencies",
-  description:
-    "Discover how GrandeApp enables influencer ads on Instagram, helping brands and agencies run effective campaigns, track performance, and boost engagement with the right creators.",
-  keywords: [
-    "influencer ads on Instagram",
-    "GrandeApp",
-    "Instagram influencer marketing",
-    "brand campaigns Instagram",
-    "affiliate influencer campaigns",
-  ],
-  metadataBase: new URL("https://grandeapp.com"),
-};
 
 export default function GrandeAppInstagramAdsPage() {
   const keyword = "influencer ads on Instagram";
@@ -38,7 +23,7 @@ export default function GrandeAppInstagramAdsPage() {
         simplify influencer discovery, campaign management, and affiliate tracking, making it easier than ever to launch successful campaigns on Instagram.
       </p>
 
-      <Image
+      <img
         src="/images/blog/ads.jpg"
         alt="GrandeApp Influencer Ads on Instagram"
         width={1200}
