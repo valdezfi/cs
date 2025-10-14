@@ -103,8 +103,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 "blog/campanas-de-influencers",
 "blog/influencer-marketing-saas-platform",
 "blog/saas",
-"blog/media-kit-for-influencers"
-
+"blog/media-kit-for-influencers",
+"blog/promo"
   ];
 
   const allPaths = [...staticPaths];
