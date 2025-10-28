@@ -100,7 +100,7 @@ export default function AICampaignAssistantPage() {
         .map((l) => l.trim())
         .filter((l) => l.length > 0);
 
-      const res = await fetch("/g/ai/aicampaign", {
+      const res = await fetch("https://app.grandeapp.com/g/ai/aicampaign", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -149,7 +149,7 @@ export default function AICampaignAssistantPage() {
       };
 
     //   const res = await fetch(`/g/campaign/postcampaign/${email}`, {
-          const res = await fetch(`/g/api/campaign/postcampaign/${email}`, {
+          const res = await fetch(`https://app.grandeapp.com/g/api/campaign/postcampaign/${email}`, {
 
         method: "POST",
         headers: { "Content-Type": "application/json" },
