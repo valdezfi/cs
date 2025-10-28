@@ -4,7 +4,8 @@ import React, { useState } from "react";
 
 type Plan = {
   title: string;
-  priceId?: string | null;
+  monthlyPriceId?: string | null;
+  yearlyPriceId?: string | null;
   monthly: string;
   yearly: string;
   description: string;
@@ -20,7 +21,6 @@ export default function PricingPlans() {
   const plans: Plan[] = [
     {
       title: "Free",
-      priceId: null,
       monthly: "$0/mo",
       yearly: "$0/yr",
       description: "Start exploring with basic access.",
@@ -32,9 +32,8 @@ export default function PricingPlans() {
     },
     {
       title: "Pro Plan",
-      // must exist in your .env.local file:
-      // NEXT_PUBLIC_STRIPE_PRICE_ID_1000=price_12345ABCDE
-      priceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_ID_1000!,
+      monthlyPriceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_ID_1000!,
+      yearlyPriceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_ID_8000!,
       monthly: "$1,000/mo",
       yearly: "$8,000/yr",
       description:
@@ -55,7 +54,6 @@ export default function PricingPlans() {
     },
     {
       title: "Enterprise",
-      priceId: null,
       monthly: "Custom",
       yearly: "Custom",
       description:
@@ -86,13 +84,23 @@ export default function PricingPlans() {
 
       setLoading(true);
 
-      // ✅ Direct call to API without needing email
+      // ✅ Select correct price ID based on billing toggle
+      const priceId =
+        billing === "monthly" ? plan.monthlyPriceId : plan.yearlyPriceId;
+
+      if (!priceId) {
+        alert("Price ID not configured for this plan.");
+        setLoading(false);
+        return;
+      }
+
+      // ✅ Call API (no email required)
       const res = await fetch(
         "https://app.grandeapp.com/g/api/create-checkout-session",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ priceId: plan.priceId }),
+          body: JSON.stringify({ priceId }),
         }
       );
 

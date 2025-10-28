@@ -4,7 +4,8 @@ import React, { useState } from "react";
 
 type Plan = {
   title: string;
-  priceId?: string | null;
+  monthlyPriceId?: string | null;
+  yearlyPriceId?: string | null;
   monthly: string;
   yearly: string;
   description: string;
@@ -19,7 +20,6 @@ export default function TopFunnelPricing() {
   const plans: Plan[] = [
     {
       title: "Free",
-      priceId: null,
       monthly: "$0/mo",
       yearly: "$0/yr",
       description: "Start exploring with basic access.",
@@ -28,11 +28,11 @@ export default function TopFunnelPricing() {
         "1 Basic campaign creation",
         "Basic support",
       ],
-      highlighted: false,
     },
     {
       title: "Pro Plan",
-      priceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_ID_1000!,
+      monthlyPriceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_ID_1000!,
+      yearlyPriceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_ID_8000!,
       monthly: "$1,000/mo",
       yearly: "$8,000/yr",
       description:
@@ -54,32 +54,40 @@ export default function TopFunnelPricing() {
   ];
 
   const handleSubscribe = async (plan: Plan) => {
-    if (!plan.priceId) {
-      window.location.href = "https://app.grandeapp.com/billing";
-      return;
-    }
-
-    setLoading(true);
     try {
-      const email =
-        localStorage.getItem("userEmail") || prompt("Enter your email:");
-      if (!email) {
-        alert("Please sign in first.");
+      // Free plan → skip Stripe
+      if (plan.title === "Free") {
+        window.location.href = "https://app.grandeapp.com/billing";
+        return;
+      }
+
+      setLoading(true);
+
+      // ✅ pick correct price ID depending on billing toggle
+      const priceId =
+        billing === "monthly" ? plan.monthlyPriceId : plan.yearlyPriceId;
+
+      if (!priceId) {
+        alert("Stripe price ID not configured.");
         setLoading(false);
         return;
       }
 
-      const res = await fetch("https://app.grandeapp.com/g/api/create-checkout-session", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, priceId: plan.priceId }),
-      });
+      // ✅ call your backend API
+      const res = await fetch(
+        "https://app.grandeapp.com/g/api/create-checkout-session",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ priceId }),
+        }
+      );
 
       const data = await res.json();
       if (data.url) {
         window.location.href = data.url;
       } else {
-        alert(data.error || "Something went wrong.");
+        alert(data.error || "Something went wrong creating checkout session.");
       }
     } catch (err) {
       console.error(err);
@@ -137,8 +145,7 @@ export default function TopFunnelPricing() {
           {plans.map((plan, index) => {
             const isCustom = plan.monthly === "Custom";
             const isFree = plan.monthly === "$0/mo";
-            const showSave =
-              billing === "yearly" && !isCustom && !isFree;
+            const showSave = billing === "yearly" && !isCustom && !isFree;
 
             return (
               <div
@@ -163,9 +170,7 @@ export default function TopFunnelPricing() {
                   </p>
                 )}
                 <p className="text-3xl font-bold mb-2">
-                  {billing === "monthly"
-                    ? plan.monthly
-                    : plan.yearly}
+                  {billing === "monthly" ? plan.monthly : plan.yearly}
                 </p>
                 <p className="text-sm mb-6 text-gray-600 dark:text-gray-400">
                   {plan.description}
