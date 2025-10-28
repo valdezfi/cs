@@ -1,13 +1,14 @@
 import Header from "components/Header";
-import Hero from "components/Hero";
+// import Hero from "components/Hero";
 import Footer from "components/Footer";
 
 import SupademoEmbed from "components/Demo";
 import SupademoEmbed2 from "components/Demo2";
 
 import SupademoEmbed3 from "components/Demo3";
+import AICampaignAssistantPage from "components/aiAgent";
 
-// import USAb from "components/USAbuy";
+import USAb from "components/USAbuy";
 import { Metadata } from 'next';
 import BrandShowcase from "components/Brandshowcase";
 // import Creator from "components/ContentCreator"; // adjust the path based on your folder structure
@@ -77,14 +78,25 @@ export default function Page() {
       <Header />
   
       <main>
-        <Hero />
-        <SupademoEmbed/>
+        {/* <Hero /> */}
+        <AICampaignAssistantPage/>
+        {/* <SupademoEmbed/> */}
         <CreatorSpotlight/>
-<SupademoEmbed2/>
+
+
+    {/* <h1
+  className="mt-24 font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-12
+  bg-gradient-to-r from-blue-900 via-blue-600 to-blue-300 bg-clip-text text-transparent tracking-tight
+  drop-shadow-xl text-center"
+>
+  Published Campaign
+</h1> */}
+
+<SupademoEmbed2 />
         <BrandShowcase />
         {/* <Features /> */}
-         {/* <USAb />  */}
-        < SupademoEmbed3 />
+         <USAb /> 
+        {/* < SupademoEmbed3 /> */}
 <AiHero/>
 
            {/* <Section
@@ -98,7 +110,7 @@ export default function Page() {
             </div>
           }
         /> */}
-        <PredictableHero/>
+        {/* <PredictableHero/> */}
 
 
 

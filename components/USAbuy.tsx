@@ -32,7 +32,7 @@ const USAb = () => {
     icon: Camera,
     title: "Creators",
     description: "Boost engagement with AI-recommended hooks and captions.",
-    loanlink: "https://app.grandeapp.com/",
+    loanlink: "https://c.grandeapp.com/",
   },
   // {
   //   icon: DollarSign,

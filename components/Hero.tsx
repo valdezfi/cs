@@ -4,10 +4,11 @@ import Link from "next/link";
 
 export default function Hero() {
   const phrases = [
-    "WITH INFLUENCERS",
-    "WITH PODCASTERS",
-    "WITH ROBLOX DEVELOPERS",
-    "WITH AI",
+    " Influencers",
+    "Podcasters",
+    "UGC",
+    "Music Artists",
+    "Athletes"
   ];
 
   const [index, setIndex] = useState(0);
@@ -33,8 +34,8 @@ export default function Hero() {
         bg-gradient-to-r from-blue-900 via-blue-600 to-blue-300 bg-clip-text text-transparent tracking-tight
         drop-shadow-xl"
       >
-        THE ONE PLACE FOR <br />
-        AFFILIATE MARKETING{" "}
+        The One Place for Creator<br />
+         Economy Campaigns:{" "}
         <span
           className={`block transition-opacity duration-700 ${
             fade ? "opacity-100" : "opacity-0"
@@ -45,7 +46,7 @@ export default function Hero() {
       </h1>
 
       <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 font-light max-w-4xl mx-auto">
-        Easily launch affiliate campaigns and collaborate with AI guidance.
+        Easily launch campaigns and collaborate.
       </p>
 
       <div className="flex justify-center space-x-6">
@@ -59,7 +60,7 @@ export default function Hero() {
           href="/creatorpricing"
           className="border border-black dark:border-white text-black dark:text-white px-6 py-3 rounded-md text-base font-semibold hover:bg-gray-100 dark:hover:bg-gray-900 transition duration-300"
         >
-          Join as an Influencer or UGC Creator
+          Join as a Creator
         </Link>
       </div>
     </section>
