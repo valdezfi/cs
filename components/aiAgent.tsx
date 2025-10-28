@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useSession } from "next-auth/react";
+// import { useSession } from "next-auth/react";
 import {
   Sparkles,
   Link as LinkIcon,
@@ -17,8 +17,8 @@ import CreatorMiniGallery from "components/CreatorMiniGallery";
 import TopFunnelPricing from "components/TopFunnelPricing";
 
 export default function AICampaignAssistantPage() {
-  const { data: session } = useSession();
-  const userEmail = session?.user?.email;
+  // const { data: session } = useSession();
+  // const userEmail = session?.user?.email;
 
   // 🧩 3-Step Campaign Flow
   const steps = [
@@ -104,7 +104,7 @@ export default function AICampaignAssistantPage() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          email: answers.email || userEmail,
+          email: answers.email ,
           brandName: answers.brandName,
           productType: answers.productType,
           productDetails: answers.productDetails,
@@ -131,7 +131,7 @@ export default function AICampaignAssistantPage() {
 
   // 🚀 Publish campaign → show pricing
   const handlePublish = async () => {
-    const email = answers.email || userEmail;
+    const email = answers.email ;
     if (!email) return alert("Please provide your email before publishing");
 
     setLoading(true);
@@ -179,7 +179,7 @@ export default function AICampaignAssistantPage() {
             <Sparkles className="w-10 h-10 text-blue-500 mx-auto mb-3" />
             <h2 className="text-2xl font-bold mb-2">🎉 Campaign Published!</h2>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              We’ll reach out at <strong>{answers.email || userEmail}</strong> with updates and influencer matches.
+              We’ll reach out at <strong>{answers.email}</strong> with updates and influencer matches.
             </p>
             <p className="text-base text-gray-700 dark:text-gray-300">
               Your campaign is live — now scale your growth by joining our partner plans below.
