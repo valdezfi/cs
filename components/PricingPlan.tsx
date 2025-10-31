@@ -32,12 +32,12 @@ export default function PricingPlans() {
     },
     {
       title: "Pro Plan",
-      monthlyPriceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_ID_1000!,
-      yearlyPriceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_ID_8000!,
+      // ✅ Corrected Stripe mapping — make sure these IDs match your real plans in Stripe
+      monthlyPriceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_ID_8000!, // monthly plan
+      yearlyPriceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_ID_1000!, // yearly plan
       monthly: "$1,000/mo",
       yearly: "$8,000/yr",
-      description:
-        "For teams managing campaigns and creator relationships.",
+      description: "For teams managing campaigns and creator relationships.",
       features: [
         "All Free benefits",
         "Unlimited campaign creation",
@@ -84,7 +84,7 @@ export default function PricingPlans() {
 
       setLoading(true);
 
-      // ✅ Select correct price ID based on billing toggle
+      // ✅ Correctly pick price ID
       const priceId =
         billing === "monthly" ? plan.monthlyPriceId : plan.yearlyPriceId;
 
@@ -94,7 +94,6 @@ export default function PricingPlans() {
         return;
       }
 
-      // ✅ Call API (no email required)
       const res = await fetch(
         "https://app.grandeapp.com/g/api/create-checkout-session",
         {
@@ -106,7 +105,7 @@ export default function PricingPlans() {
 
       const data = await res.json();
       if (data?.url) {
-        window.location.href = data.url; // Redirect to Stripe Checkout
+        window.location.href = data.url;
       } else {
         alert(data.error || "Something went wrong creating checkout session.");
       }
