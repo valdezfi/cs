@@ -25,7 +25,7 @@ export default function TangbuyCaseStudy() {
           <img
             src="/images/tangbuy1.png"
             alt="Tangbuy Holiday Campaign Overview"
-           width={800}
+            width={800}
             height={500}
             className="rounded-2xl shadow-lg mx-auto"
           />
@@ -81,27 +81,26 @@ export default function TangbuyCaseStudy() {
         </ul>
 
         {/* Target Audience Image */}
-       <div className="mt-8 flex flex-col items-center space-y-8">
-  <img
-    src="/images/tangbuy22.png"
-    alt="Tangbuy Target Audience"
-    width={700}
-    height={500}
-    className="rounded-2xl shadow-lg"
-  />
-  <img
-    src="/images/tangbuy11.png"
-    alt="Tangbuy Target Audience"
-    width={700}
-    height={500}
-    className="rounded-2xl shadow-lg"
-  />
+        <div className="mt-8 flex flex-col items-center space-y-8">
+          <img
+            src="/images/tangbuy22.png"
+            alt="Tangbuy Target Audience"
+            width={700}
+            height={500}
+            className="rounded-2xl shadow-lg"
+          />
+          <img
+            src="/images/tangbuy11.png"
+            alt="Tangbuy Target Audience"
+            width={700}
+            height={500}
+            className="rounded-2xl shadow-lg"
+          />
 
-  <p className="text-sm text-gray-500 mt-3 text-center">
-    Target audience visual — diverse shoppers and SMB clients
-  </p>
-</div>
-
+          <p className="text-sm text-gray-500 mt-3 text-center">
+            Target audience visual — diverse shoppers and SMB clients
+          </p>
+        </div>
       </section>
 
       {/* Holiday Campaign */}
@@ -124,6 +123,10 @@ export default function TangbuyCaseStudy() {
           creators. The campaign emphasized authentic product storytelling and
           localized reach through creators who aligned with Tangbuy’s
           value-driven audience.
+        </p>
+        <p className="italic text-gray-700 dark:text-gray-300">
+          Our target markets are <strong>LATAM, Europe, and USA</strong>. We just
+          need to get the best creators that match the campaign.
         </p>
       </section>
 
@@ -194,21 +197,10 @@ export default function TangbuyCaseStudy() {
         <p className="mt-2 font-medium">— Tangbuy Marketing Team</p>
       </section>
 
-      {/* Next Steps */}
-      {/* <section className="mb-16 space-y-4">
-        <h2 className="text-2xl font-semibold">Next Steps</h2>
-        <p>
-          Tangbuy continues to expand its creator collaborations for 2025,
-          focusing on performance-based partnerships, product-specific UGC
-          campaigns, and cross-border promotions through GrandeApp’s integrated
-          platform.
-        </p>
-      </section> */}
-
       {/* CTA */}
       <section className="text-center mt-20">
         <Link
-          href="https://grandeapp.com/contact"
+          href="https://grandeapp.com"
           className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-8 rounded-xl text-lg transition-all focus:ring-4 focus:ring-blue-500/30"
         >
           Launch Your Campaign with GrandeApp
