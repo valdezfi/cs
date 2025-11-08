@@ -209,7 +209,7 @@ export default function TangbuyCaseStudy() {
       <section className="text-center mt-20">
         <Link
           href="https://grandeapp.com/contact"
-          className="bg-orange-500 text-white font-semibold px-8 py-3 rounded-full hover:bg-orange-600 transition"
+          className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-8 rounded-xl text-lg transition-all focus:ring-4 focus:ring-blue-500/30"
         >
           Launch Your Campaign with GrandeApp
         </Link>
