@@ -110,7 +110,7 @@ export default function ApproachPage() {
       <section className="text-center mt-20">
         <Link
           href="https://grandeapp.com/"
-          className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-medium py-3 px-8 rounded-xl text-lg transition-all focus:ring-4 focus:ring-orange-500/30"
+          className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-8 rounded-xl text-lg transition-all focus:ring-4 focus:ring-blue-500/30"
         >
           Start Your Campaign with GrandeApp
         </Link>
