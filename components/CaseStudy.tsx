@@ -1,5 +1,4 @@
 // app/case-studies/tangbuy/page.tsx
-import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
@@ -50,6 +49,18 @@ export default function TangbuyCaseStudy() {
           influencers to drive sales through authentic content. Its affiliate
           program is broader, deeper, and more flexible than traditional models,
           offering creators more ways to earn and brands more ways to grow.
+        </p>
+        <p>
+          Learn more at{" "}
+          <Link
+            href="https://tangbuy.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 dark:text-blue-400 underline"
+          >
+            www.tangbuy.com
+          </Link>
+          .
         </p>
       </section>
 

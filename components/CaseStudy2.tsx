@@ -1,5 +1,4 @@
 // app/case-studies/koshine/page.tsx
-import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
@@ -21,7 +20,7 @@ export default function KoshineCaseStudy() {
           Global Creator Sourcing — USA, Brazil, Western Europe & Canada
         </p>
         <div className="mt-10">
-          <Image
+          <img
             src="/images/s.png"
             alt="KOSHINÉ Creator Sourcing Campaign"
             width={1000}
@@ -47,6 +46,18 @@ export default function KoshineCaseStudy() {
           Their clinically tested actives — <strong>KX-826™</strong> and{" "}
           <strong>KT-939™</strong> — are designed to treat concerns such as hair
           thinning, acne, and pigmentation using research-backed, gentle formulas.
+        </p>
+        <p>
+          Learn more at{" "}
+          <Link
+            href="https://en.koshine.hk/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 dark:text-blue-400 underline"
+          >
+            www.koshine.hk
+          </Link>
+          .
         </p>
       </section>
 
