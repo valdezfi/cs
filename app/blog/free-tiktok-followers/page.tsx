@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     url: "https://grandeapp.com/blog/free-tiktok-followers",
     images: [
       {
-        url: "https://grandeapp.com/images/blogs/free-tiktok-followers.jpg",
+        url: "https://grandeapp.com/image/blog/free-tiktok-followers.jpg",
         width: 1200,
         height: 630,
         alt: "Free TikTok Followers UGC Creators GrandeApp",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
       "How to Get Free TikTok Followers with UGC Creators and Influencer Collaborations",
     description:
       "Get free TikTok followers using UGC content and influencer campaigns powered by GrandeApp.",
-    images: ["https://grandeapp.com/images/blogs/free-tiktok-followers.jpg"],
+    images: ["https://grandeapp.com/image/blog/free-tiktok-followers.jpg"],
   },
   robots: {
     index: true,
