@@ -1,5 +1,4 @@
 // app/blog/free-tiktok-followers/page.tsx
-import Image from "next/image";
 
 
 export default function FreeTiktokFollowersPage() {
@@ -30,7 +29,7 @@ export default function FreeTiktokFollowersPage() {
         fake engagement.
       </p>
 
-      <Image
+      <img
         src="/image/blog/free-tiktok-followers.jpg"
         alt="Free TikTok Followers"
         width={1200}
