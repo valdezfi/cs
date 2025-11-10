@@ -23,6 +23,6 @@
       }
     ]
   },
-  "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx", "app/podcast", "app/company", "app/blog/creative-influencer-marketing"],
+  "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx", "app/podcast", "app/company", "app/blog/creative-influencer-marketing", "app/blog/tiktok-emoji-captions"],
   "exclude": ["node_modules"]
 }
