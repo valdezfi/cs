@@ -20,6 +20,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
 "blog/influencer-collaboration",
 
+"blog/free-tiktok-followers",
+
 "republica-dominicana",
 "argentina",
 "colombia",
