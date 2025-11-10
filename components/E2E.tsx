@@ -4,7 +4,7 @@ export const metadata = {
   title: "Our End-to-End Influencer Marketing Process | GrandeApp",
   description:
     "Explore how GrandeApp delivers full-funnel influencer marketing — from creator sourcing to content execution and performance tracking across LATAM, Europe, and the USA.",
-  alternates: { canonical: "https://grandeapp.com/about/approach" },
+  alternates: { canonical: "https://grandeapp.com/e2e" },
 };
 
 export default function ApproachPage() {

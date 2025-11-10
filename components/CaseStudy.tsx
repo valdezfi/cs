@@ -189,8 +189,8 @@ export default function TangbuyCaseStudy() {
       <section className="mb-16 space-y-4">
         <h2 className="text-2xl font-semibold">Results</h2>
         <ul className="list-disc pl-6 space-y-2">
-          <li>50+ influencers activated across Nano, Micro, and Macro tiers.</li>
-          <li>300+ UGC posts created across TikTok, Instagram, and YouTube.</li>
+          <li>200+ influencers activated across Nano, Micro, and Macro tiers.</li>
+          <li>200+ UGC posts created across TikTok, Instagram, and YouTube.</li>
           <li>3.2M total impressions and 180K engagements.</li>
           <li>25% increase in affiliate sign-ups during the campaign period.</li>
           <li>18% higher conversion rate from influencer-driven traffic.</li>
