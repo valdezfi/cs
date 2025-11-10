@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     url: "https://grandeapp.com/blog/tiktok-emoji-captions",
     images: [
       {
-        url: "https://grandeapp.com/image/blog/tiktok-emoji.jpg",
+        url: "https://grandeapp.com/images/blog/tiktok-emoji.jpg",
         width: 1200,
         height: 630,
         alt: "TikTok emoji captions for brands and influencers",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     title: "How to Use TikTok Emoji in Your Captions | GrandeApp",
     description:
       "TikTok emoji tips for better captions, engagement, and influencer brand building. Learn how to make your posts stand out with the right emoji strategy.",
-    images: ["https://grandeapp.com/image/blog/tiktok-emoji.jpg"],
+    images: ["https://grandeapp.com/images/blog/tiktok-emoji.jpg"],
   },
   robots: {
     index: true,

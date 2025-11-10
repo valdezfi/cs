@@ -30,10 +30,10 @@ export default function FreeTiktokFollowersPage() {
       </p>
 
       <img
-        src="/image/blog/free-tiktok-followers.jpg"
+        src="/images/blog/free-tiktok-followers.jpg"
         alt="Free TikTok Followers"
-        width={500}
-        height={500}
+       width={1200}
+        height={630}
         className="rounded-xl shadow mb-8"
       />
 

@@ -73,7 +73,7 @@ export default function TiktokEmojiCaptionsPage() {
       </p>
 
       <img
-        src="/image/blog/tiktok-emoji.jpg"
+        src="/images/blog/tiktok-emoji.jpg"
         alt="TikTok emoji captions guide"
         width={1200}
         height={630}

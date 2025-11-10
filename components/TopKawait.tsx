@@ -19,7 +19,7 @@ export default function GrandeKuwaitMarketingPage() {
       </header>
 
       <div className="w-full max-w-5xl mx-auto mt-8 mb-12 px-6">
-        <Image
+        <img
           src="/images/kuwait-influencers.jpg"
           alt="Influencer and UGC marketing in Kuwait"
           width={1200}
