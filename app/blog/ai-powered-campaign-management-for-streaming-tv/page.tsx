@@ -1,5 +1,5 @@
 import Header from "components/Header";
-import AiAdvertisersProfitabilityPage from "components/AI-advertisers-profitability";
+import AiPoweredCampaignManagementStreamingTvPage from "components/Ai-powered-campaign-management-for-streaming-tv";
 import Footer from "components/Footer";
 import { Metadata } from 'next';
 import Script from 'next/script';
@@ -87,7 +87,7 @@ export default function Page() {
       <Header />
       <main className="flex-1 py-8 px-4">
        
-        <AiAdvertisersProfitabilityPage />
+        <AiPoweredCampaignManagementStreamingTvPage />
       </main>
       <Footer />
     </div>
