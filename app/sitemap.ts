@@ -24,6 +24,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 "blog/tiktok-emoji-captions",
 "blog/ai-advertisers-profitability",
 
+"blog/ai-powered-campaign-management-for-streaming-tv",
 
 
 
