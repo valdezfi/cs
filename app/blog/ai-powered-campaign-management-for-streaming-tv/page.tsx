@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     url: "https://grandeapp.com/blog/ai-powered-campaign-management-for-streaming-tv",
     images: [
       {
-        url: "https://grandeapp.com/images/blogs/ai-streaming-tv.jpg",
+        url: "https://grandeapp.com/images/blog/ai-streaming-tv.jpg",
         width: 1200,
         height: 630,
         alt: "AI campaign management for streaming TV advertising",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: "AI-Powered Campaign Management for Streaming TV | GrandeApp",
     description:
       "Maximize performance on streaming TV with AI-powered automation for brands, influencers, and UGC creators.",
-    images: ["https://grandeapp.com/images/blogs/ai-streaming-tv.jpg"],
+    images: ["https://grandeapp.com/images/blog/ai-streaming-tv.jpg"],
   },
   robots: {
     index: true,
