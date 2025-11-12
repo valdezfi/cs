@@ -84,6 +84,9 @@ export default function Header() {
                     <li><Link href="/payments" className="block px-2 py-1 text-black text-sm">Payments & Gifting</Link></li>
                     <li><Link href="/affiliate" className="block px-2 py-1 text-black text-sm">Affiliate Links</Link></li>
                     <li><Link href="/reporting" className="block px-2 py-1 text-black text-sm">Reporting Data</Link></li>
+                                        <li><Link href="/e2e" className="block px-2 py-1 text-black text-sm">E2E</Link></li>
+
+                    
                   </ul>
                 </div>
               )}
@@ -169,6 +172,10 @@ export default function Header() {
               <li><Link href="/payments" onClick={() => setMenuOpen(false)}>Payments & Gifting</Link></li>
               <li><Link href="/affiliate" onClick={() => setMenuOpen(false)}>Affiliate Links</Link></li>
               <li><Link href="/reporting" onClick={() => setMenuOpen(false)}>Reporting Data</Link></li>
+              <li><Link href="/e2e" onClick={() => setMenuOpen(false)}>E2E</Link></li>
+
+
+
             </ul>
 
               <li className="mt-4 font-semibold">Free Tools</li>
