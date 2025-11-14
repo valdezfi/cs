@@ -1,5 +1,4 @@
 import Header from "components/Header";
-import ApproachPage from "components/E2E";
 import Footer from "components/Footer";
 import HowToUseGrandeApp from "components/How-To-Use-Guide";
 
