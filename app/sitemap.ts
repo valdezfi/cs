@@ -19,7 +19,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 "blog/ugc-creator",
 
 "blog/influencer-collaboration",
-"blog/ugc-platforms",
+"blog/ugc-platforms-list",
 
 
 "blog/free-tiktok-followers",

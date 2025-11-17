@@ -22,14 +22,14 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://grandeapp.com"),
   alternates: {
     canonical:
-      "https://grandeapp.com/blog/ugc-platforms-list",
+      "https://grandeapp.com/ugc-platforms-list",
   },
   openGraph: {
     title:
       "Best UGC Video Platforms for Digital Marketers | GrandeApp Official Guide",
     description:
       "Explore the best UGC video platforms for digital marketers to collaborate with creators, automate campaigns, and improve ROI through AI-powered tools.",
-    url: "https://grandeapp.com/blog/ugc-platforms-list",
+    url: "https://grandeapp.com/ugc-platforms-list",
     images: [
       {
         url: "https://grandeapp.com/images/blogs/ugc-platforms.jpg",
@@ -80,7 +80,7 @@ export default function Page() {
               "@type": "ListItem",
               position: 2,
               name:       "Best UGC Video Platforms for Digital Marketers | Creator & Brand Collaboration Tools",
-              item: "https://grandeapp.com/blog/ugc-platforms-list",
+              item: "https://grandeapp.com/ugc-platforms-list",
             },
           ],
         }),
