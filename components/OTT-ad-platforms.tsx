@@ -1,6 +1,4 @@
 // app/blog/ott-ad-platforms/page.tsx
-import Image from "next/image";
-import type { Metadata } from "next";
 
 
 
@@ -27,7 +25,7 @@ export default function OttAdPlatformsPage() {
         broadcast media.
       </p>
 
-      <Image
+      <img
         src="/images/blog/ott-ads.jpg"
         alt="OTT ad platforms and influencers"
         width={1200}
