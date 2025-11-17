@@ -29,6 +29,7 @@ export const metadata: Metadata = {
   'affiliate marketing in mexico',
   'mercado libre venezuela',
   'shein shipping argentina',
+
 ],
   authors: [{ name: 'GrandeApp' }],
   alternates: {

@@ -18,6 +18,9 @@ export const metadata: Metadata = {
     "AI marketing tools",
     "GrandeApp",
     "content creators",
+        "OTT ads",
+
+
   ],
   metadataBase: new URL("https://grandeapp.com"),
   alternates: {
