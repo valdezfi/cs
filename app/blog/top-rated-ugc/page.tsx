@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     url: "https://grandeapp.com/blog/top-rated-ugc",
     images: [
       {
-        url: "https://grandeapp.com/images/blogs/ugc-toolkit.jpg",
+        url: "https://grandeapp.com/images/blog/top-rated-ugc.jpg",
         width: 1200,
         height: 630,
         alt: "Top-rated UGC video platforms for social media managers",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
       "Top-Rated UGC Video Platforms for Social Media Managers | GrandeApp",
     description:
       "The official guide for social media managers to choose top-rated UGC platforms and scale content creation with influencers and creators.",
-    images: ["https://grandeapp.com/images/blogs/ugc-toolkit.jpg"],
+    images: ["https://grandeapp.com/images/blogs/top-rated-ugc.jpg"],
   },
   robots: { index: true, follow: true },
 };

@@ -19,7 +19,7 @@ export default function TopRatedUGCVideoPlatformsPage() {
       </p>
 
       <img
-        src="/images/blog/ugc-toolkit.jpg"
+        src="/images/blog/top-rated-ugc.jpg"
         alt="UGC video platforms for social media managers"
         width={1200}
         height={630}
