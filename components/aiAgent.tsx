@@ -2,30 +2,30 @@
 
 import { useState, useEffect } from "react";
 import {
-  Stethoscope,
+  Home,
   Sparkles,
   Mail,
   Bot,
   DollarSign,
   ClipboardList,
-  UserSearch,
+  MapPin,
+  BedDouble,
+  Bath,
   X,
 } from "lucide-react";
-import Button from "../components/ui/button/Button";
 
-// Import your components adapted for recruiting
-import AIRecruitingPreview from "components/AIRecruitingPreview";
-// import CandidateMiniGallery from "components/CandidateMiniGallery";
+import Button from "../components/ui/button/Button";
+import AIRecruitingPreview from "components/AIRecruitingPreview"; // will render AI description
 import TopFunnelPricing from "components/TopFunnelPricing";
 
-export default function AIRecruitingAssistantPage() {
-  // Rotating medical specialties
+export default function AIRealEstateListingAssistant() {
+  // Rotating phrases for hero
   const phrases = [
-    "Doctors",
-    "Nurses",
-    "Specialists",
-    "Surgeons",
-    "Clinicians",
+    "Homes",
+    "Apartments",
+    "Investment Properties",
+    "Condos",
+    "Luxury Estates",
   ];
 
   const [index, setIndex] = useState(0);
@@ -44,61 +44,80 @@ export default function AIRecruitingAssistantPage() {
     return () => clearInterval(interval);
   }, []);
 
-  // 3-step AI Recruiting Intake Flow
+  // 3-step intake for seller/agent listing
   const steps = [
     {
-      title: "Step 1: Role Information",
+      title: "Step 1: Property Information",
       fields: [
         {
-          key: "role",
-          text: "What medical role are you hiring for?",
-          icon: Stethoscope,
+          key: "propertyType",
+          text: "What type of property are you listing? (House, apartment, condo, land, etc.)",
+          icon: Home,
         },
         {
-          key: "requirements",
-          text: "Add the key requirements (experience, certifications, specialty):",
+          key: "description",
+          text: "Describe the property (condition, upgrades, special features):",
           icon: ClipboardList,
         },
       ],
     },
     {
-      title: "Step 2: Job Details",
+      title: "Step 2: Property Details",
       fields: [
         {
-          key: "salaryRange",
-          text: "Salary range or compensation details:",
+          key: "price",
+          text: "What is the listing price?",
           icon: DollarSign,
         },
         {
           key: "location",
-          text: "Location of the hospital/clinic or remote:",
-          icon: UserSearch,
+          text: "Where is the property located? (City, area, country)",
+          icon: MapPin,
+        },
+        {
+          key: "bedrooms",
+          text: "Bedrooms:",
+          icon: BedDouble,
+        },
+        {
+          key: "bathrooms",
+          text: "Bathrooms:",
+          icon: Bath,
+        },
+        {
+          key: "sqft",
+          text: "Square footage (approx):",
+          icon: Bath,
         },
       ],
     },
     {
-      title: "Step 3: Organization Info",
+      title: "Step 3: Seller / Agent Info",
       fields: [
         {
-          key: "facility",
-          text: "Your hospital, clinic, or medical group name:",
-          icon: Sparkles,
+          key: "sellerName",
+          text: "Your name or agency name:",
+          icon: Home,
         },
         {
           key: "email",
-          text: "Business email to receive candidate matches:",
+          text: "Email to receive AI listing & leads:",
           icon: Mail,
         },
       ],
     },
   ];
 
+  // State
   const [answers, setAnswers] = useState({
-    role: "",
-    requirements: "",
-    salaryRange: "",
+    propertyType: "",
+    description: "",
+    price: "",
     location: "",
-    facility: "",
+    bedrooms: "",
+    bathrooms: "",
+    sqft: "",
+    sellerName: "",
     email: "",
   });
 
@@ -113,15 +132,9 @@ export default function AIRecruitingAssistantPage() {
   const [current, setCurrent] = useState(0);
   const [showPricing, setShowPricing] = useState(false);
 
-  // ➤ AI Job Generation
+  // ➤ Generate Listing with AI
   const handleGenerateAI = async () => {
-    if (
-      !answers.role ||
-      !answers.salaryRange ||
-      !answers.location ||
-      !answers.facility ||
-      !answers.email
-    ) {
+    if (!answers.propertyType || !answers.price || !answers.location || !answers.email) {
       alert("Please complete all required fields.");
       return;
     }
@@ -129,7 +142,7 @@ export default function AIRecruitingAssistantPage() {
     setAiLoading(true);
 
     try {
-      const res = await fetch("https://cohlth.ai/api/ai/generateJob", {
+      const res = await fetch("https://coagentes.com/api/ai/generateListing", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(answers),
@@ -140,13 +153,13 @@ export default function AIRecruitingAssistantPage() {
       setShowAIModal(true);
     } catch (err) {
       console.error(err);
-      alert("AI generation failed.");
+      alert("AI listing generation failed.");
     } finally {
       setAiLoading(false);
     }
   };
 
-  // ➤ Publish Job Posting
+  // ➤ Publish Listing (send to backend)
   const handlePublish = async () => {
     if (!answers.email) return alert("Email required.");
 
@@ -154,7 +167,7 @@ export default function AIRecruitingAssistantPage() {
 
     try {
       const res = await fetch(
-        `https://cohlth.ai/api/recruiting/postjob/${answers.email}`,
+        `https://coagentes.com/api/listings/post/${answers.email}`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -162,26 +175,27 @@ export default function AIRecruitingAssistantPage() {
         }
       );
 
-      if (!res.ok) throw new Error("Failed posting job.");
+      if (!res.ok) throw new Error("Failed publishing listing.");
 
       setShowPricing(true);
       setShowAIModal(false);
     } catch (err) {
       console.log(err);
-      alert("Error posting job.");
+      alert("Error publishing listing.");
     } finally {
       setLoading(false);
     }
   };
 
-  // Pricing screen
+  // Pricing success screen
   if (showPricing)
     return (
       <div className="min-h-screen bg-white dark:bg-black flex flex-col items-center justify-center px-6 py-20 text-center">
         <Sparkles className="w-10 h-10 text-blue-500 mx-auto mb-4" />
-        <h2 className="text-3xl font-bold mb-2">Job Posted Successfully 🎉</h2>
+        <h2 className="text-3xl font-bold mb-2">Listing Published Successfully 🎉</h2>
         <p className="text-gray-700 dark:text-gray-300 mb-6 max-w-xl">
-          We’ll send AI-matched candidates to: <strong>{answers.email}</strong>
+          Your AI-generated listing & buyer leads will be sent to:{" "}
+          <strong>{answers.email}</strong>
         </p>
         <TopFunnelPricing />
       </div>
@@ -194,10 +208,10 @@ export default function AIRecruitingAssistantPage() {
       {/* 🔵 HERO */}
       <section className="py-16 text-center px-6">
         <h1
-          className="font-extrabold text-5xl md:text-6xl lg:text-7xl mb-10 
+          className="font-extrabold text-5xl md:text-6xl lg:text-7xl mb-10
         bg-gradient-to-r from-blue-900 via-blue-600 to-blue-300 bg-clip-text text-transparent tracking-tight"
         >
-          AI Recruiting Engine for <br />
+          AI Listing Engine for <br />
           <span
             className={`transition-opacity duration-700 ${
               fade ? "opacity-100" : "opacity-0"
@@ -208,12 +222,13 @@ export default function AIRecruitingAssistantPage() {
         </h1>
 
         <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-          Cohlth uses advanced AI to source, pre-screen, and match qualified
-          medical professionals — reducing hiring time by up to 80%.
+          COagentes helps sellers and agents create professional property listings
+          in seconds using advanced AI — optimized for global buyers across LATAM,
+          GCC, Africa, USA, and more.
         </p>
       </section>
 
-      {/* 📝 FORM */}
+      {/* 📝 FORM SECTION */}
       <main className="pb-20 px-6 max-w-3xl mx-auto">
         <div className="p-10 rounded-2xl border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-900">
           <h2 className="text-2xl font-bold mb-6">{currentStep.title}</h2>
@@ -257,14 +272,14 @@ export default function AIRecruitingAssistantPage() {
                 className="w-full"
               >
                 <Bot className="w-4 h-4 mr-2" />
-                {aiLoading ? "Generating Job..." : "Generate AI Job Description ✨"}
+                {aiLoading ? "Generating Listing..." : "Generate AI Listing ✨"}
               </Button>
             )}
           </div>
         </div>
       </main>
 
-      {/* ✨ AI Preview Modal */}
+      {/* ✨ AI PREVIEW MODAL */}
       {showAIModal && (
         <div className="fixed inset-0 bg-black/60 flex items-center justify-center px-4 z-50">
           <div className="bg-white dark:bg-gray-900 rounded-2xl p-6 max-w-2xl w-full relative">
@@ -277,21 +292,19 @@ export default function AIRecruitingAssistantPage() {
 
             <div className="text-center mb-6">
               <Sparkles className="w-10 h-10 text-blue-500 mx-auto mb-2" />
-              <h2 className="text-2xl font-bold">AI-Generated Job Posting</h2>
+              <h2 className="text-2xl font-bold">AI-Generated Property Listing</h2>
             </div>
 
             <div className="max-h-[60vh] overflow-y-auto p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
               {aiGenerated && <AIRecruitingPreview data={aiGenerated} />}
             </div>
 
-            <CandidateMiniGallery />
-
             <div className="mt-6 flex gap-3">
               <Button onClick={() => setShowAIModal(false)} variant="outline">
                 Close
               </Button>
               <Button onClick={handlePublish} variant="primary" disabled={loading}>
-                {loading ? "Posting..." : "Post Job 🚀"}
+                {loading ? "Publishing..." : "Publish Listing 🚀"}
               </Button>
             </div>
           </div>

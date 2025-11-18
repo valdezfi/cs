@@ -3,21 +3,22 @@
 import React, { useState } from "react";
 import {
   Sparkles,
-  Calendar,
   Globe,
   DollarSign,
   FileText,
   Building2,
-  Stethoscope,
-  UserRoundCheck,
+  Home,
   MapPin,
   ClipboardList,
   Pencil,
   Check,
   X,
+  BedDouble,
+  Bath,
+  RulerSquare,
 } from "lucide-react";
 
-export default function AIRecruitingPreview({
+export default function AIListingPreview({
   data,
   onEdit,
 }: {
@@ -44,7 +45,7 @@ export default function AIRecruitingPreview({
 
   const cancelEdit = () => setEditingKey(null);
 
-  // 🚀 Shared Field Component
+  // 🔧 Shared Editable Field Component
   const Field = ({
     label,
     keyName,
@@ -69,10 +70,7 @@ export default function AIRecruitingPreview({
             >
               <Check className="w-4 h-4" />
             </button>
-            <button
-              onClick={cancelEdit}
-              className="text-red-500 hover:text-red-600"
-            >
+            <button onClick={cancelEdit} className="text-red-500 hover:text-red-600">
               <X className="w-4 h-4" />
             </button>
           </div>
@@ -106,12 +104,12 @@ export default function AIRecruitingPreview({
   return (
     <div className="mt-8 p-8 rounded-2xl border border-gray-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 shadow-lg text-left">
 
-      {/* 🏥 Job Header */}
+      {/* 🏠 Listing Header */}
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center gap-3">
-          <Stethoscope className="w-7 h-7 text-blue-500" />
+          <Home className="w-7 h-7 text-blue-500" />
 
-          {editingKey === "jobTitle" ? (
+          {editingKey === "title" ? (
             <div className="flex items-center gap-2 w-full">
               <input
                 type="text"
@@ -119,7 +117,7 @@ export default function AIRecruitingPreview({
                 onChange={(e) => setTempValue(e.target.value)}
                 className="flex-1 p-2 text-xl font-semibold border border-gray-300 dark:border-gray-700 rounded-lg bg-white dark:bg-zinc-800"
               />
-              <button onClick={() => saveEdit("jobTitle")}>
+              <button onClick={() => saveEdit("title")}>
                 <Check className="w-5 h-5 text-green-500" />
               </button>
               <button onClick={cancelEdit}>
@@ -128,9 +126,9 @@ export default function AIRecruitingPreview({
             </div>
           ) : (
             <span className="text-2xl font-bold text-gray-900 dark:text-white flex items-center">
-              {editableData.jobTitle || "Untitled Medical Role"}
+              {editableData.title || "Untitled Property Listing"}
               <button
-                onClick={() => startEdit("jobTitle")}
+                onClick={() => startEdit("title")}
                 className="ml-3 text-blue-500"
               >
                 <Pencil className="w-5 h-5" />
@@ -140,11 +138,11 @@ export default function AIRecruitingPreview({
         </div>
       </div>
 
-      {/* 🏢 Facility Name */}
+      {/* 🏢 Seller / Agent / Agency */}
       <div className="flex items-center mb-6">
         <Building2 className="w-5 h-5 text-gray-500 mr-2" />
 
-        {editingKey === "facility" ? (
+        {editingKey === "agentName" ? (
           <div className="flex items-center gap-2 w-full">
             <input
               type="text"
@@ -152,7 +150,7 @@ export default function AIRecruitingPreview({
               onChange={(e) => setTempValue(e.target.value)}
               className="flex-1 p-2 border border-gray-300 dark:border-gray-700 rounded-lg bg-white dark:bg-zinc-800"
             />
-            <button onClick={() => saveEdit("facility")}>
+            <button onClick={() => saveEdit("agentName")}>
               <Check className="w-4 h-4 text-green-500" />
             </button>
             <button onClick={cancelEdit}>
@@ -161,12 +159,12 @@ export default function AIRecruitingPreview({
           </div>
         ) : (
           <p className="text-gray-700 dark:text-gray-300 text-base flex items-center">
-            <strong>Facility:</strong>{" "}
+            <strong>Agent / Seller:</strong>{" "}
             <span className="ml-1 font-semibold text-blue-600 dark:text-blue-400">
-              {editableData.facility || "Not provided"}
+              {editableData.agentName || "Not provided"}
             </span>
             <button
-              onClick={() => startEdit("facility")}
+              onClick={() => startEdit("agentName")}
               className="ml-2 text-blue-500"
             >
               <Pencil className="w-4 h-4" />
@@ -175,32 +173,32 @@ export default function AIRecruitingPreview({
         )}
       </div>
 
-      {/* 📊 Job Info Grid */}
+      {/* 🏘 Property Info Grid */}
       <div className="grid md:grid-cols-2 gap-6 mb-6 text-gray-700 dark:text-gray-300">
         <div>
           <Field label="Location" keyName="location" icon={MapPin} />
-          <Field label="Employment Type" keyName="employmentType" icon={ClipboardList} />
-          <Field label="Department" keyName="department" icon={Building2} />
+          <Field label="Property Type" keyName="propertyType" icon={Home} />
+          <Field label="Bedrooms" keyName="bedrooms" icon={BedDouble} />
+          <Field label="Bathrooms" keyName="bathrooms" icon={Bath} />
         </div>
         <div>
-          <Field label="Salary Range" keyName="salaryRange" icon={DollarSign} />
-          <Field label="Start Date" keyName="startDate" icon={Calendar} />
-          <Field label="Experience Level" keyName="experience" icon={UserRoundCheck} />
+          <Field label="Square Footage" keyName="sqft" icon={RulerSquare} />
+          <Field label="Asking Price" keyName="price" icon={DollarSign} />
+          <Field label="Region / Market" keyName="region" icon={Globe} />
         </div>
       </div>
 
       <hr className="my-6 border-gray-300 dark:border-gray-700" />
 
-      {/* 📝 Description Fields */}
-      <Field label="Role Summary" keyName="roleSummary" icon={FileText} />
-      <Field label="Key Responsibilities" keyName="responsibilities" icon={ClipboardList} />
-      <Field label="Required Qualifications" keyName="qualifications" icon={Stethoscope} />
-      <Field label="Preferred Skills" keyName="skills" icon={Sparkles} />
-      <Field label="About the Facility" keyName="facilityInfo" icon={Building2} />
+      {/* 📝 Listing Description Fields */}
+      <Field label="Property Summary" keyName="summary" icon={FileText} />
+      <Field label="Key Features" keyName="features" icon={ClipboardList} />
+      <Field label="Neighborhood Highlights" keyName="neighborhood" icon={MapPin} />
+      <Field label="Investment Benefits" keyName="investment" icon={Sparkles} />
+      <Field label="Additional Information" keyName="extraInfo" icon={Building2} />
 
-      {/* 🌐 Website Links / Application Links */}
-      <Field label="Application Link" keyName="applicationLink" icon={Globe} />
-
+      {/* 🌐 External Link */}
+      <Field label="Listing Link (optional)" keyName="listingLink" icon={Globe} />
     </div>
   );
 }
