@@ -22,6 +22,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 "ugc-platforms-list",
 "blog/ott-ad-platforms",
 "blog/ott-ads-marketing-agency",
+"blog/top-rated-ugc",
+
 
 
 "blog/free-tiktok-followers",
