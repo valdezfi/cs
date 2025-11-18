@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   description:
     "Discover how OTT ad platforms help brands, influencers, and UGC creators scale campaigns with AI-powered optimization, targeting, and creative automation.",
   keywords: [
+    "influencers in spanish​",
+
+
     "OTT ad platforms",
     "OTT ads",
     "OTT video ads",

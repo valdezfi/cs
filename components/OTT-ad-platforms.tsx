@@ -119,10 +119,10 @@ export default function OttAdPlatformsPage() {
           The power of user-generated content extends beyond social media. Brands
           now integrate UGC videos into <strong>{keywordSecondary}</strong>{" "}
           campaigns, merging trust with data. Audiences engage more with relatable
-          people than scripted spokesmodels — and that human connection drives
+          people than scripted spokesmodels. Influencers in spanish​, english, or other languages — can lock human connection which will drive
           better recall and conversion. The best{" "}
           <strong>{keywordMain}</strong> automatically A/B test multiple creator
-          clips to identify which influencer tone resonates with each audience.
+          clips to identify which influencer tone resonates with each audience.  
         </p>
 
         <h2>The Role of GrandeApp in OTT Ad Campaigns</h2>
