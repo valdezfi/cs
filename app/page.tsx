@@ -4,6 +4,7 @@ import Footer from "components/Footer";
 
 import SupademoEmbed from "components/Demo";
 import SupademoEmbed2 from "components/Demo2";
+import ProductExplanation from "components/Help";
 
 import SupademoEmbed3 from "components/Demo3";
 import AICampaignAssistantPage from "components/aiAgent";
@@ -82,7 +83,7 @@ export default function Page() {
         {/* <Hero /> */}
         <AICampaignAssistantPage/>
         {/* <SupademoEmbed/> */}
-        <CreatorSpotlight/>
+        <ProductExplanation/>
 
 
     {/* <h1
@@ -92,11 +93,11 @@ export default function Page() {
 >
   Published Campaign
 </h1> */}
-
-<SupademoEmbed2 />
-        <BrandShowcase />
-        {/* <Features /> */}
          <USAb /> 
+
+{/* <SupademoEmbed2 /> */}
+        {/* <BrandShowcase /> */}
+        {/* <Features /> */}
         {/* < SupademoEmbed3 /> */}
 <AiHero/>
 
