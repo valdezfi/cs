@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Script from 'next/script';
 import Header from "components/Header";
-import OttAdPlatformsPage from "components/OTT-ad-platforms";
+import OttAdsMarketingAgencyPage from "components/OTT-ads-marketing-agency";
 import Footer from "components/Footer";
 
 
@@ -84,7 +84,7 @@ export default function Page() {
       <Header />
       <main className="flex-1 py-8 px-4">
        
-        <OttAdPlatformsPage />
+        <OttAdsMarketingAgencyPage />
       </main>
       <Footer />
     </div>
