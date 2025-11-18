@@ -24,7 +24,7 @@ export default function OttAdsMarketingAgencyPage() {
       </p>
 
       <img
-        src="/images/blogs/ott-agency.jpg"
+        src="/images/blog/ott-agency.jpg"
         alt="OTT Ads Marketing Agency AI Influencers UGC"
         width={1200}
         height={630}

@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     url: "https://grandeapp.com/blog/ott-ad-platforms",
     images: [
       {
-        url: "https://grandeapp.com/images/blogs/ott-ads.jpg",
+        url: "https://grandeapp.com/images/blog/ott-ads.jpg",
         width: 1200,
         height: 630,
         alt: "OTT ad platforms AI influencer UGC GrandeApp",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     title: "OTT Ad Platforms | How Brands and Creators Maximize ROI with AI",
     description:
       "Explore how OTT ad platforms enable smarter, data-driven campaigns using AI, influencers, and UGC creators to maximize reach and performance.",
-    images: ["https://grandeapp.com/images/blogs/ott-ads.jpg"],
+    images: ["https://grandeapp.com/images/blog/ott-ads.jpg"],
   },
   robots: {
     index: true,

@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     url: "https://grandeapp.com/blog/ott-ads-marketing-agency",
     images: [
       {
-        url: "https://grandeapp.com/images/blogs/ott-agency.jpg",
+        url: "https://grandeapp.com/images/blog/ott-agency.jpg",
         width: 1200,
         height: 630,
         alt: "OTT ads marketing agency AI influencers UGC",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
       "OTT Ads Marketing Agency | AI, UGC & Influencers for Streaming Success",
     description:
       "How an OTT ads marketing agency uses AI tools, influencer campaigns, and OTT ad networks to optimize streaming ad performance.",
-    images: ["https://grandeapp.com/images/blogs/ott-agency.jpg"],
+    images: ["https://grandeapp.com/images/blog/ott-agency.jpg"],
   },
   robots: {
     index: true,
@@ -79,7 +79,7 @@ export default function Page() {
               name:       "OTT Ads Marketing Agency | AI, UGC & Influencers for Streaming Success",
 
 
-              item: "https://grandeapp.com/blog/ott-ad-platforms",
+              item: "https://grandeapp.com/blog/ott-ads-marketing-agency",
             },
           ],
         }),
