@@ -81,7 +81,7 @@ export default function Page() {
   
       <main>
         <Hero />
-        <AICampaignAssistantPage/>
+        {/* <AICampaignAssistantPage/> */}
         {/* <SupademoEmbed/> */}
         <ProductExplanation/>
 
