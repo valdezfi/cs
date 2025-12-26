@@ -7,46 +7,28 @@ import {
   DollarSign,
   FileText,
   Building2,
+  Home,
+  MapPin,
   ClipboardList,
   Pencil,
   Check,
   X,
+  BedDouble,
+  Bath,
 } from "lucide-react";
 
-export default function COfuncionPreview({
+export default function AIListingPreview({
   data,
   onEdit,
 }: {
-  data?: any;
+  data: any;
   onEdit?: (key: string, value: string) => void;
 }) {
-  const defaultData = {
-    campaignName: "COfuncion OTT Campaign",
-    clientName: "Example Brand",
-    region: "LATAM / USA / Europe / Africa",
-    minBudget: "$20,000",
-    ugcRequired: "Mandatory",
-    duration: "1 month",
-    channel: "OTT Campaign",
-    streamingPlatforms: "Amazon Fire / Prime Video",
-    adFormat: "Pre-roll / Mid-roll / Banner",
-    activationFee: "$3,000 per campaign",
-    summary:
-      "OTT-only ad campaign via COfuncion.com targeting streaming audiences to maximize reach and conversions.",
-    objectives:
-      "1. Boost OTT viewership\n2. Drive conversions and engagement\n3. Integrate UGC content into OTT placements",
-    kpis:
-      "1. Impressions / Views\n2. Completion rate\n3. CTR / Conversions",
-    extraInfo:
-      "30% commission on campaign spend; tiered for high-value campaigns. Optional premium OTT creative available.",
-    campaignLink: "https://cofuncion.com/ott-dashboard",
-  };
-
-  const [editableData, setEditableData] = useState(data || defaultData);
+  const [editableData, setEditableData] = useState(data || {});
   const [editingKey, setEditingKey] = useState<string | null>(null);
   const [tempValue, setTempValue] = useState("");
 
-  if (!editableData) return null;
+  if (!data) return null;
 
   const startEdit = (key: string) => {
     setEditingKey(key);
@@ -62,6 +44,7 @@ export default function COfuncionPreview({
 
   const cancelEdit = () => setEditingKey(null);
 
+  // 🔧 Shared Editable Field Component
   const Field = ({
     label,
     keyName,
@@ -120,57 +103,101 @@ export default function COfuncionPreview({
   return (
     <div className="mt-8 p-8 rounded-2xl border border-gray-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 shadow-lg text-left">
 
-      {/* Campaign Header */}
+      {/* 🏠 Listing Header */}
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center gap-3">
-          <Building2 className="w-7 h-7 text-blue-500" />
-          <span className="text-2xl font-bold text-gray-900 dark:text-white flex items-center">
-            {editableData.campaignName}
-            <button
-              onClick={() => startEdit("campaignName")}
-              className="ml-3 text-blue-500"
-            >
-              <Pencil className="w-5 h-5" />
-            </button>
-          </span>
+          <Home className="w-7 h-7 text-blue-500" />
+
+          {editingKey === "title" ? (
+            <div className="flex items-center gap-2 w-full">
+              <input
+                type="text"
+                value={tempValue}
+                onChange={(e) => setTempValue(e.target.value)}
+                className="flex-1 p-2 text-xl font-semibold border border-gray-300 dark:border-gray-700 rounded-lg bg-white dark:bg-zinc-800"
+              />
+              <button onClick={() => saveEdit("title")}>
+                <Check className="w-5 h-5 text-green-500" />
+              </button>
+              <button onClick={cancelEdit}>
+                <X className="w-5 h-5 text-red-500" />
+              </button>
+            </div>
+          ) : (
+            <span className="text-2xl font-bold text-gray-900 dark:text-white flex items-center">
+              {editableData.title || "Untitled Property Listing"}
+              <button
+                onClick={() => startEdit("title")}
+                className="ml-3 text-blue-500"
+              >
+                <Pencil className="w-5 h-5" />
+              </button>
+            </span>
+          )}
         </div>
       </div>
 
-      {/* Client Info */}
+      {/* 🏢 Seller / Agent / Agency */}
       <div className="flex items-center mb-6">
         <Building2 className="w-5 h-5 text-gray-500 mr-2" />
-        <p className="text-gray-700 dark:text-gray-300 text-base flex items-center">
-          <strong>Client / Brand:</strong>{" "}
-          <span className="ml-1 font-semibold text-blue-600 dark:text-blue-400">
-            {editableData.clientName}
-          </span>
-        </p>
+
+        {editingKey === "agentName" ? (
+          <div className="flex items-center gap-2 w-full">
+            <input
+              type="text"
+              value={tempValue}
+              onChange={(e) => setTempValue(e.target.value)}
+              className="flex-1 p-2 border border-gray-300 dark:border-gray-700 rounded-lg bg-white dark:bg-zinc-800"
+            />
+            <button onClick={() => saveEdit("agentName")}>
+              <Check className="w-4 h-4 text-green-500" />
+            </button>
+            <button onClick={cancelEdit}>
+              <X className="w-4 h-4 text-red-500" />
+            </button>
+          </div>
+        ) : (
+          <p className="text-gray-700 dark:text-gray-300 text-base flex items-center">
+            <strong>Agent / Seller:</strong>{" "}
+            <span className="ml-1 font-semibold text-blue-600 dark:text-blue-400">
+              {editableData.agentName || "Not provided"}
+            </span>
+            <button
+              onClick={() => startEdit("agentName")}
+              className="ml-2 text-blue-500"
+            >
+              <Pencil className="w-4 h-4" />
+            </button>
+          </p>
+        )}
       </div>
 
-      {/* Campaign Details */}
+      {/* 🏘 Property Info Grid */}
       <div className="grid md:grid-cols-2 gap-6 mb-6 text-gray-700 dark:text-gray-300">
         <div>
-          <Field label="Region / Market" keyName="region" icon={Globe} />
-          <Field label="Minimum Budget" keyName="minBudget" icon={DollarSign} />
-          <Field label="UGC Requirement" keyName="ugcRequired" icon={Sparkles} />
+          <Field label="Location" keyName="location" icon={MapPin} />
+          <Field label="Property Type" keyName="propertyType" icon={Home} />
+          <Field label="Bedrooms" keyName="bedrooms" icon={BedDouble} />
+          <Field label="Bathrooms" keyName="bathrooms" icon={Bath} />
         </div>
         <div>
-          <Field label="Campaign Duration" keyName="duration" icon={ClipboardList} />
-          <Field label="Platform / Channel" keyName="channel" icon={Globe} />
-          <Field label="Streaming Platforms (video apps may vary)" keyName="streamingPlatforms" icon={Globe} />
-          <Field label="Ad Format" keyName="adFormat" icon={Sparkles} />
-          <Field label="Activation Fee" keyName="activationFee" icon={DollarSign} />
+          <Field label="Square Footage" keyName="sqft" icon={RulerSquare} />
+          <Field label="Asking Price" keyName="price" icon={DollarSign} />
+          <Field label="Region / Market" keyName="region" icon={Globe} />
         </div>
       </div>
 
       <hr className="my-6 border-gray-300 dark:border-gray-700" />
 
-      {/* Campaign Description */}
-      <Field label="Campaign Summary" keyName="summary" icon={FileText} />
-      <Field label="Key Objectives" keyName="objectives" icon={ClipboardList} />
-      <Field label="Performance KPIs" keyName="kpis" icon={Sparkles} />
-      <Field label="Extra Notes" keyName="extraInfo" icon={Building2} />
-      <Field label="Campaign Link / Dashboard" keyName="campaignLink" icon={Globe} />
+      {/* 📝 Listing Description Fields */}
+      <Field label="Property Summary" keyName="summary" icon={FileText} />
+      <Field label="Key Features" keyName="features" icon={ClipboardList} />
+      <Field label="Neighborhood Highlights" keyName="neighborhood" icon={MapPin} />
+      <Field label="Investment Benefits" keyName="investment" icon={Sparkles} />
+      <Field label="Additional Information" keyName="extraInfo" icon={Building2} />
+
+      {/* 🌐 External Link */}
+      <Field label="Listing Link (optional)" keyName="listingLink" icon={Globe} />
     </div>
   );
 }

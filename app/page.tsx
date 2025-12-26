@@ -1,5 +1,5 @@
 import Header from "components/Header";
-// import Hero from "components/Hero";
+import Hero from "components/Hero";
 import Footer from "components/Footer";
 
 import SupademoEmbed from "components/Demo";
@@ -16,7 +16,7 @@ import BrandShowcase from "components/Brandshowcase";
 import PredictableHero from "components/Predictable"; // adjust the path based on your folder structure
 
 import CreatorSpotlight from "components/ShowCreator"; // adjust the path based on your folder structure
-import AiHero from "components/Ai"; // adjust the path based on your folder structure
+// import AiHero from "components/Ai"; // adjust the path based on your folder structure
 
 
 
@@ -80,7 +80,7 @@ export default function Page() {
       <Header />
   
       <main>
-        {/* <Hero /> */}
+        <Hero />
         <AICampaignAssistantPage/>
         {/* <SupademoEmbed/> */}
         <ProductExplanation/>
@@ -99,7 +99,7 @@ export default function Page() {
         {/* <BrandShowcase /> */}
         {/* <Features /> */}
         {/* < SupademoEmbed3 /> */}
-<AiHero/>
+{/* <AiHero/> */}
 
            {/* <Section
           leftHalf={<Creator />}
