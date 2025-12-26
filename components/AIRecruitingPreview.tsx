@@ -21,23 +21,25 @@ export default function COfuncionPreview({
   onEdit?: (key: string, value: string) => void;
 }) {
   const defaultData = {
-    campaignName: "GrandeApp SEO & UGC Campaign",
+    campaignName: "COfuncion OTT Campaign",
     clientName: "Example Brand",
-    region: "LATAM / USA / Europe",
+    region: "LATAM / USA / Europe / Africa",
     minBudget: "$20,000",
     ugcRequired: "Mandatory",
     duration: "1 month",
-    channel: "TikTok / Instagram / YouTube",
+    channel: "OTT Campaign",
+    streamingPlatforms: "Amazon Fire / Prime Video",
+    adFormat: "Pre-roll / Mid-roll / Banner",
     activationFee: "$3,000 per campaign",
     summary:
-      "Targeted influencer and UGC ad campaign to increase brand awareness and foot traffic.",
+      "OTT-only ad campaign via COfuncion.com targeting streaming audiences to maximize reach and conversions.",
     objectives:
-      "1. Boost local engagement\n2. Increase walk-ins\n3. Maximize UGC content for social proof",
+      "1. Boost OTT viewership\n2. Drive conversions and engagement\n3. Integrate UGC content into OTT placements",
     kpis:
-      "1. Reach & impressions\n2. Engagement rate\n3. Conversion / affiliate clicks",
+      "1. Impressions / Views\n2. Completion rate\n3. CTR / Conversions",
     extraInfo:
-      "30% commission on campaign spend; tiered for high-value campaigns. Optional premium UGC upgrade available.",
-    campaignLink: "https://grandeapp.com/campaign-dashboard",
+      "30% commission on campaign spend; tiered for high-value campaigns. Optional premium OTT creative available.",
+    campaignLink: "https://cofuncion.com/ott-dashboard",
   };
 
   const [editableData, setEditableData] = useState(data || defaultData);
@@ -155,6 +157,8 @@ export default function COfuncionPreview({
         <div>
           <Field label="Campaign Duration" keyName="duration" icon={ClipboardList} />
           <Field label="Platform / Channel" keyName="channel" icon={Globe} />
+          <Field label="Streaming Platforms (video apps may vary)" keyName="streamingPlatforms" icon={Globe} />
+          <Field label="Ad Format" keyName="adFormat" icon={Sparkles} />
           <Field label="Activation Fee" keyName="activationFee" icon={DollarSign} />
         </div>
       </div>
