@@ -41,7 +41,7 @@ export default function Header() {
 
         {/* Logo */}
         <Link href="/" aria-label="Home">
-          <span className="text-xl font-semibold dark:text-gray-100">COagentes</span>
+          <span className="text-xl font-semibold dark:text-gray-100">COfuncion</span>
         </Link>
 
         {/* Desktop Nav */}
@@ -134,7 +134,7 @@ export default function Header() {
                   <li><Link href="/blog" className="block px-4 py-2 text-black">Blog</Link></li>
                   <li><Link href="/guides" className="block px-4 py-2 text-black">Real Estate Guides</Link></li>
                   <li><Link href="/faq" className="block px-4 py-2 text-black">FAQ</Link></li>
-                  <li><Link href="/about" className="block px-4 py-2 text-black">About COagentes</Link></li>
+                  <li><Link href="/about" className="block px-4 py-2 text-black">About COfuntion</Link></li>
                 </ul>
               )}
             </li>

@@ -206,7 +206,7 @@ const Footer = () => {
     >
       <div className="container mx-auto px-4 flex flex-col sm:flex-row sm:justify-between items-center text-sm space-y-4 sm:space-y-0">
         <div className="flex flex-col sm:flex-row sm:space-x-6 items-center">
-          <p> All rights reserved COagentes &copy; {currentYear}.</p>
+          <p> All rights reserved COfuncion &copy; {currentYear}.</p>
           <span className="hidden sm:inline-block border-l h-4 mx-2 border-gray-400" />
           <div className="flex space-x-4">
             {/* <a href="/allblogs" className="hover:text-gray-300">Blog</a> */}

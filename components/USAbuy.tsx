@@ -5,7 +5,6 @@ import USCardbuy from "./USABuyCard";
 import {
   Users,
   Briefcase,
-  Home,
   Building2,
 } from "lucide-react";
 
@@ -13,24 +12,24 @@ const USAb = () => {
   const features = [
     {
       icon: Building2,
-      title: "Sellers & Property Owners",
+      title: "Brands & Businesses",
       description:
-        "Use AI to instantly generate stunning property listings with neighborhood insights, key features, and investment summaries.",
-      loanlink: "/create-listing",
+        "Plan and launch OTT ad campaigns with AI-powered strategy, audience targeting, and campaign optimization.",
+      loanlink: "/create-campaign",
     },
     {
       icon: Briefcase,
-      title: "Real Estate Agents",
+      title: "Marketing Agencies",
       description:
-        "Automate listing creation, optimize descriptions, attract qualified buyers, and streamline your sales workflow.",
-      loanlink: "/agent-tools",
+        "Automate campaign setup, optimize creatives and placements, integrate UGC, and track performance metrics easily.",
+      loanlink: "/agency-tools",
     },
     {
       icon: Users,
-      title: "Buyers & Investors",
+      title: "Marketers & Advertisers",
       description:
-        "Discover AI-matched properties based on your budget, region, and criteria—LATAM, GCC, Africa, and beyond.",
-      loanlink: "/buyer-matching",
+        "Reach global audiences efficiently, analyze campaign ROI, and scale your OTT ad spend strategically.",
+      loanlink: "/marketer-dashboard",
     },
   ];
 
@@ -41,12 +40,12 @@ const USAb = () => {
         {/* Header */}
         <div className="text-center">
           <h2 className="flex flex-col items-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-            Experience AI-Powered Real Estate Listings
+            Experience AI-Powered OTT Ad Campaigns
           </h2>
 
           <p className="mt-6 text-xl text-gray-600 dark:text-gray-300 font-light max-w-3xl mx-auto">
-            COagentes uses advanced AI to help sellers, agents, and buyers connect.
-            Generate listings, find opportunities, and access global real estate markets—instantly.
+            COfuncion uses advanced AI to help brands, agencies, and marketers connect with audiences.
+            Plan, launch, and optimize OTT campaigns efficiently, with AI-driven insights and UGC integration.
           </p>
         </div>
 
