@@ -74,15 +74,15 @@ export default function Header() {
               </button>
               {platformOpen && (
                 <ul className="absolute left-0 mt-2 w-60 bg-white shadow-xl rounded-md z-50 p-4">
-                  <li><Link href="/campaign-insights" className="block px-2 py-1">AI Campaign Insights</Link></li>
-                  <li><Link href="/ugc-integration" className="block px-2 py-1">UGC Integration</Link></li>
-                  <li><Link href="/ad-optimization" className="block px-2 py-1">Ad Optimization Tools</Link></li>
+                  <li><Link href="/campaign-insights" className="block px-2 py-1  text-black">AI Campaign Insights</Link></li>
+                  <li><Link href="/ugc-integration" className="block px-2 py-1  text-black">UGC Integration</Link></li>
+                  <li><Link href="/ad-optimization" className="block px-2 py-1 text-black">Ad Optimization Tools</Link></li>
                 </ul>
               )}
             </li>
 
             {/* Tools */}
-            <li className="relative" {...handleDropdown(setToolsOpen, toolsTimeout)}>
+            {/* <li className="relative" {...handleDropdown(setToolsOpen, toolsTimeout)}>
               <button className="nav-link flex items-center gap-1">
                 AI Tools
                 <svg className={`w-4 h-4 transition-transform ${toolsOpen ? "rotate-180" : ""}`}>
@@ -95,7 +95,7 @@ export default function Header() {
                   <li><Link href="/tools/roi" className="block px-4 py-2 text-black">AI ROI Calculator</Link></li>
                 </ul>
               )}
-            </li>
+            </li> */}
 
             {/* Resources */}
             <li className="relative" {...handleDropdown(setResourcesOpen, resourcesTimeout)}>
@@ -108,7 +108,7 @@ export default function Header() {
               {resourcesOpen && (
                 <ul className="absolute left-0 mt-2 w-60 bg-white shadow-xl rounded-md z-50 p-4">
                   <li><Link href="/blog" className="block px-4 py-2 text-black">Blog</Link></li>
-                  <li><Link href="/guides" className="block px-4 py-2 text-black">Guides</Link></li>
+                  {/* <li><Link href="/guides" className="block px-4 py-2 text-black">Guides</Link></li> */}
                   <li><Link href="/faq" className="block px-4 py-2 text-black">FAQ</Link></li>
                 </ul>
               )}
@@ -153,17 +153,17 @@ export default function Header() {
             </ul>
 
             {/* AI Tools */}
-            <li className="mt-4 font-semibold">AI Tools</li>
+            {/* <li className="mt-4 font-semibold">AI Tools</li>
             <ul className="pl-4 space-y-1">
               <li><Link href="/tools/creative" onClick={() => setMenuOpen(false)}>AI Creative Generator</Link></li>
               <li><Link href="/tools/roi" onClick={() => setMenuOpen(false)}>AI ROI Calculator</Link></li>
-            </ul>
+            </ul> */}
 
             {/* Resources */}
             <li className="mt-4 font-semibold">Resources</li>
             <ul className="pl-4 space-y-1">
               <li><Link href="/blog" onClick={() => setMenuOpen(false)}>Blog</Link></li>
-              <li><Link href="/guides" onClick={() => setMenuOpen(false)}>Guides</Link></li>
+              {/* <li><Link href="/guides" onClick={() => setMenuOpen(false)}>Guides</Link></li> */}
               <li><Link href="/faq" onClick={() => setMenuOpen(false)}>FAQ</Link></li>
             </ul>
 
