@@ -2,8 +2,8 @@ import Header from "components/Header";
 import Hero from "components/Hero";
 import Footer from "components/Footer";
 
-import SupademoEmbed from "components/Demo";
-import SupademoEmbed2 from "components/Demo2";
+// import SupademoEmbed from "components/Demo";
+// import SupademoEmbed2 from "components/Demo2";
 import ProductExplanation from "components/Help";
 
 import SupademoEmbed3 from "components/Demo3";
@@ -13,9 +13,9 @@ import USAb from "components/USAbuy";
 import { Metadata } from 'next';
 import BrandShowcase from "components/Brandshowcase";
 // import Creator from "components/ContentCreator"; // adjust the path based on your folder structure
-import PredictableHero from "components/Predictable"; // adjust the path based on your folder structure
+// import PredictableHero from "components/Predictable"; // adjust the path based on your folder structure
 
-import CreatorSpotlight from "components/ShowCreator"; // adjust the path based on your folder structure
+// import CreatorSpotlight from "components/ShowCreator"; // adjust the path based on your folder structure
 // import AiHero from "components/Ai"; // adjust the path based on your folder structure
 
 

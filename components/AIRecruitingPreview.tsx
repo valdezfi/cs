@@ -181,7 +181,6 @@ export default function AIListingPreview({
           <Field label="Bathrooms" keyName="bathrooms" icon={Bath} />
         </div>
         <div>
-          <Field label="Square Footage" keyName="sqft" icon={RulerSquare} />
           <Field label="Asking Price" keyName="price" icon={DollarSign} />
           <Field label="Region / Market" keyName="region" icon={Globe} />
         </div>
