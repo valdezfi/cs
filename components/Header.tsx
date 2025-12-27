@@ -116,7 +116,7 @@ export default function Header() {
                 <ul className="absolute left-0 mt-2 w-60 bg-white shadow-xl rounded-md z-50 p-4">
                   <li><Link href="/blog" className="block px-4 py-2 text-black">Blog / Guides</Link></li>
                   <li><Link href="/faq" className="block px-4 py-2 text-black">FAQ</Link></li>
-                  <li><Link href="/case-studies" className="block px-4 py-2 text-black">Case Studies</Link></li>
+                  {/* <li><Link href="/case-studies" className="block px-4 py-2 text-black">Case Studies</Link></li> */}
                 </ul>
               )}
             </li>
@@ -179,7 +179,7 @@ export default function Header() {
             <ul className="pl-4 space-y-1">
               <li><Link href="/blog" onClick={() => setMenuOpen(false)}>Blog / Guides</Link></li>
               <li><Link href="/faq" onClick={() => setMenuOpen(false)}>FAQ</Link></li>
-              <li><Link href="/case-studies" onClick={() => setMenuOpen(false)}>Case Studies</Link></li>
+              {/* <li><Link href="/case-studies" onClick={() => setMenuOpen(false)}>Case Studies</Link></li> */}
             </ul>
 
             <li className="pt-4"><ThemeSwitch /></li>
