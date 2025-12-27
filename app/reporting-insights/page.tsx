@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'COfuncion' }],
   alternates: {
-    canonical: 'https://cofuncion.com',
+    canonical: 'https://cofuncion.com/reporting-insights',
   },
   openGraph: {
     title: 'COfuncion — Scale Your OTT Ad Campaigns with AI',
     description:
       'COfuncion provides powerful AI tools for planning, optimizing, and reporting OTT ad campaigns across streaming platforms for brands and agencies.',
-    url: 'https://cofuncion.com',
+    url: 'https://cofuncion.com/reporting-insights',
     siteName: 'COfuncion',
     images: [
       {
