@@ -4,7 +4,7 @@ import Footer from "components/Footer";
 
 
 import { Metadata } from 'next';
-import AICampaignAutomation from "components/AICampaignAutomation";
+import AgenciesUseCOfuncion from "components/Agencies";
 
 
 export const metadata: Metadata = {
@@ -69,7 +69,7 @@ export default function Page() {
       <Header />
   
       <main>
-        <AICampaignAutomation />
+        <AgenciesUseCOfuncion />
    
 
 
