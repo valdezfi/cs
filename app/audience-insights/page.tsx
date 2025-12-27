@@ -1,53 +1,41 @@
 import Header from "components/Header";
-// import Hero from "components/Hero";
 import Footer from "components/Footer";
 
-// import SupademoEmbed from "components/Demo";
-// import SupademoEmbed2 from "components/Demo2";
-// import ProductExplanation from "components/Help";
 
-import SupademoEmbed3 from "components/Demo3";
-import AICampaignAssistantPage from "components/aiAgent";
 
-import USAb from "components/USAbuy";
 import { Metadata } from 'next';
 import AudienceInsightsTool from "components/AudienceInsights";
-// import Creator from "components/ContentCreator"; // adjust the path based on your folder structure
-// import PredictableHero from "components/Predictable"; // adjust the path based on your folder structure
-
-// import CreatorSpotlight from "components/ShowCreator"; // adjust the path based on your folder structure
-// import AiHero from "components/Ai"; // adjust the path based on your folder structure
 
 
 
 export const metadata: Metadata = {
-  title: 'Grow with Top Creators | GrandeApp USA, LATAM, Europe & Beyond',
+  title: 'COfuncion | AI‑Powered OTT Campaign Engine',
   description:
-    'GrandeApp helps brands and agencies scale with AI by connecting them to top creators—Influencers, UGC, and Podcast talent.',
+    'COfuncion helps brands, agencies, and marketers launch, optimize, and measure OTT ad campaigns with AI‑driven insights and reporting.',
   keywords: [
-  'influencer marketing',
-  'ugc creators',
-  'affiliate marketing in mexico',
-  'mercado libre venezuela',
-  'shein shipping argentina',
-
-],
-  authors: [{ name: 'GrandeApp' }],
+    'OTT advertising',
+    'AI campaign engine',
+    'streaming ad optimization',
+    'audience insights',
+    'OTT campaign reporting',
+    'AI ad tools',
+  ],
+  authors: [{ name: 'COfuncion' }],
   alternates: {
-    canonical: 'https://grandeapp.com',
+    canonical: 'https://cofuncion.com',
   },
   openGraph: {
-    title: 'Scale Your Marketing with Top Creators | GrandeApp',
+    title: 'COfuncion — Scale Your OTT Ad Campaigns with AI',
     description:
-      'GrandeApp connects brands with influencers, UGC, and podcast creators worldwide. Powered by AI, we help you launch high-performing campaigns without the overhead.',
-    url: 'https://grandeapp.com',
-    siteName: 'GrandeApp',
+      'COfuncion provides powerful AI tools for planning, optimizing, and reporting OTT ad campaigns across streaming platforms for brands and agencies.',
+    url: 'https://cofuncion.com',
+    siteName: 'COfuncion',
     images: [
       {
-        url: 'https://grandeapp.com/images/logo.png', // replace with your actual OG image
+        url: 'https://cofuncion.com/images/logo.png', // replace with your actual OG image
         width: 1200,
         height: 630,
-        alt: 'GrandeApp Creator Marketing Platform',
+        alt: 'COfuncion OTT AI Campaign Engine',
       },
     ],
     type: 'website',
@@ -55,16 +43,17 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Scale with Creators | GrandeApp',
+    title: 'Launch & Optimize OTT Campaigns with AI | COfuncion',
     description:
-      'GrandeApp helps brands and agencies grow with influencers, UGC, and podcast creators—powered by AI.',
-    images: ['https://grandeapp.com/images/logo.png'], // replace with your actual OG image
+      'Leverage AI‑powered audience insights, campaign automation, and reporting to drive results with your OTT advertising strategy.',
+    images: ['https://cofuncion.com/images/logo.png'], // replace with relevant OG image
   },
   robots: {
     index: true,
     follow: true,
   },
 };
+
 
 export default function Page() {
   return (

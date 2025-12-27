@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: 'COfuncion',
     images: [
       {
-        url: 'https://cofuncion.com/images/og-image.png', // replace with your actual OG image
+        url: 'https://cofuncion.com/images/logo.png', // replace with your actual OG image
         width: 1200,
         height: 630,
         alt: 'COfuncion OTT AI Campaign Engine',
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: 'Launch & Optimize OTT Campaigns with AI | COfuncion',
     description:
       'Leverage AI‑powered audience insights, campaign automation, and reporting to drive results with your OTT advertising strategy.',
-    images: ['https://cofuncion.com/images/og-image.png'], // replace with relevant OG image
+    images: ['https://cofuncion.com/images/logo.png'], // replace with relevant OG image
   },
   robots: {
     index: true,
