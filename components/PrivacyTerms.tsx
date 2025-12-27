@@ -234,7 +234,7 @@ export default function PrivacyPolicy() {
                   href="mailto:privacy@cofuncion.com"
                   className="text-blue-600 dark:text-blue-400 underline"
                 >
-                  info@cofuncion.com
+                  info@grandeapp.com
                 </a>
               </p>
             </div>

@@ -214,10 +214,10 @@ export default function TermsOfUse() {
               <p>
                 For legal inquiries, contact{" "}
                 <a
-                  href="mailto:info@cofuncion.com"
+                  href="mailto:info@grandeapp.com"
                   className="text-blue-600 dark:text-blue-400 underline"
                 >
-                  info@cofuncion.com
+                  info@grandeapp.com
                 </a>
                 .
               </p>
