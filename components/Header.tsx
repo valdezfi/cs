@@ -168,11 +168,11 @@ export default function Header() {
             </ul>
 
             {/* Free Tools */}
-            <li className="mt-4 font-semibold">Free Tools</li>
+            {/* <li className="mt-4 font-semibold">Free Tools</li>
             <ul className="pl-4 space-y-1">
               <li><Link href="/campaign-demo" onClick={() => setMenuOpen(false)}>Campaign Builder (Demo)</Link></li>
               <li><Link href="/audience-insights" onClick={() => setMenuOpen(false)}>Audience Insights Tool</Link></li>
-            </ul>
+            </ul> */}
 
             {/* Resources */}
             <li className="mt-4 font-semibold">Resources</li>
