@@ -20,17 +20,17 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'COfuncion' }],
   alternates: {
-    canonical: 'https://cofuncion.com/manage-campaigns',
+    canonical: 'https://cofuncion.com/agency',
   },
   openGraph: {
     title: 'Manage Your OTT Campaigns with AI | COfuncion',
     description:
       'Use COfuncion’s AI-powered platform to schedule, optimize, and monitor OTT campaigns across streaming platforms with actionable insights.',
-    url: 'https://cofuncion.com/manage-campaigns',
+    url: 'https://cofuncion.com/agency',
     siteName: 'COfuncion',
     images: [
       {
-        url: 'https://cofuncion.com/images/manage-campaigns-og.png', // replace with actual OG image
+        url: 'https://cofuncion.com/images/logo.png', // replace with actual OG image
         width: 1200,
         height: 630,
         alt: 'COfuncion OTT Campaign Management',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     title: 'Manage OTT Campaigns with AI | COfuncion',
     description:
       'Plan, launch, and optimize OTT ad campaigns using AI-driven insights and tools from COfuncion.',
-    images: ['https://cofuncion.com/images/manage-campaigns-og.png'], // replace with OG image
+    images: ['https://cofuncion.com/images/logo.png'], // replace with OG image
   },
   robots: {
     index: true,
