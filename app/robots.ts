@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/private/", // optional if you have private areas
     },
-    sitemap: "https://grandeapp.com/sitemap.xml",
+    sitemap: "https://cofuncion.com/sitemap.xml",
   };
 }
