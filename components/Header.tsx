@@ -38,9 +38,15 @@ export default function Header() {
     <header className="bg-white dark:bg-black shadow-sm dark:border-b dark:border-gray-800">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
-        <Link href="/" aria-label="Home">
-          <span className="text-xl font-semibold dark:text-gray-100">OTT AI Engine</span>
-        </Link>
+   <Link href="/" aria-label="Home">
+  <span className="text-xl font-semibold tracking-tight text-gray-900 dark:text-gray-100">
+    COfuncion
+    <span className="ml-2 text-sm font-medium text-gray-500 dark:text-gray-400">
+      by grandeapp.com
+    </span>
+  </span>
+</Link>
+
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center">
