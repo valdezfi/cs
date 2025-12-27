@@ -4,7 +4,7 @@ import Footer from "components/Footer";
 
 
 import { Metadata } from 'next';
-import BrandsUseCOfuncion from "components/Brand";
+import ManageCampaigns from "components/FAQ";
 
 
 export const metadata: Metadata = {
@@ -20,13 +20,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'COfuncion' }],
   alternates: {
-    canonical: 'https://cofuncion.com/brand',
+    canonical: 'https://cofuncion.com/faq',
   },
   openGraph: {
     title: 'Manage Your OTT Campaigns with AI | COfuncion',
     description:
       'Use COfuncion’s AI-powered platform to schedule, optimize, and monitor OTT campaigns across streaming platforms with actionable insights.',
-    url: 'https://cofuncion.com/brand',
+    url: 'https://cofuncion.com/faq',
     siteName: 'COfuncion',
     images: [
       {
@@ -69,7 +69,7 @@ export default function Page() {
       <Header />
   
       <main>
-        <BrandsUseCOfuncion />
+        <ManageCampaigns />
    
 
 
