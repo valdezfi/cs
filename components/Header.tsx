@@ -83,7 +83,7 @@ export default function Header() {
             </li>
 
             {/* Free Tools */}
-            <li className="relative" {...handleDropdown(setToolsOpen, toolsTimeout)}>
+            {/* <li className="relative" {...handleDropdown(setToolsOpen, toolsTimeout)}>
               <button className="nav-link flex items-center gap-1">
                 Free Tools
                 <svg className={`w-4 h-4 transition-transform ${toolsOpen ? "rotate-180" : ""}`} fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
@@ -96,7 +96,7 @@ export default function Header() {
                   <li><Link href="/audience-insights" className="block px-4 py-2 text-black">Audience Insights Tool</Link></li>
                 </ul>
               )}
-            </li>
+            </li> */}
 
             {/* Resources */}
             <li className="relative" {...handleDropdown(setResourcesOpen, resourcesTimeout)}>
