@@ -1,11 +1,7 @@
 import Header from "components/Header";
 import Footer from "components/Footer";
-
-import SupademoEmbed3 from "components/Demo3";
-import AICampaignAssistantPage from "components/aiAgent";
-
 import { Metadata } from 'next';
-import AudienceInsightsTool from "components/AudienceInsights";
+import ReportingInsights from "components/ReportingInsights";
 
 
 export const metadata: Metadata = {
@@ -69,7 +65,7 @@ export default function Page() {
       <Header />
   
       <main>
-        <AudienceInsightsTool />
+        <ReportingInsights />
         {/* <AICampaignAssistantPage/> */}
         {/* <SupademoEmbed/> */}
         {/* <ProductExplanation/> */}
