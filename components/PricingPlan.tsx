@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import toast from "react-hot-toast";
 
 type Plan = {
   title: string;
@@ -12,215 +13,241 @@ type Plan = {
   features: string[];
   highlighted?: boolean;
   enterprise?: boolean;
+  minAdSpend?: string;
 };
 
 export default function PricingPlans() {
   const [billing, setBilling] = useState<"monthly" | "yearly">("monthly");
   const [loading, setLoading] = useState(false);
 
+  const [showAuthModal, setShowAuthModal] = useState(false);
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [selectedPriceId, setSelectedPriceId] = useState<string | null>(null);
+
   const plans: Plan[] = [
     {
-      title: "Free",
-      monthly: "$0/mo",
-      yearly: "$0/yr",
-      description: "Start exploring with basic access.",
+      title: "Starter",
+      monthlyPriceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_ID_STARTER!,
+      yearlyPriceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_ID_STARTER_YEARLY!,
+      monthly: "$3,000/mo",
+      yearly: "$32,000/yr",
+      description:
+        "AI-managed OTT campaigns. No UGC included. Minimum OTT ad spend $2,000.",
       features: [
-        "Access to 80 creators per month",
-        "1 Basic campaign creation",
-        "Basic support",
-      ],
-    },
-    {
-      title: "Pro Plan",
-      // ✅ Corrected Stripe mapping — make sure these IDs match your real plans in Stripe
-      monthlyPriceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_ID_8000!, // monthly plan
-      yearlyPriceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_ID_1000!, // yearly plan
-      monthly: "$1,000/mo",
-      yearly: "$8,000/yr",
-      description: "For teams managing campaigns and creator relationships.",
-      features: [
-        "All Free benefits",
-        "Unlimited campaign creation",
-        "AI-driven campaign management",
-        "Unlimited Influencers",
-        "Affiliate and promo code setup",
-        "Real-time campaign ROI and conversion tracking",
-        "Email campaign support",
-        "Priority access to top-tier creators during launches",
-        "Performance Predictor: AI estimates engagement and conversions before campaign launch",
-        "Exclusive early access to features",
+        "AI campaign setup & optimization",
+        "Media placement suggestions",
+        "Basic reporting & analytics",
       ],
       highlighted: true,
+      minAdSpend: "$2,000",
+    },
+    {
+      title: "Pro",
+      monthlyPriceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_ID_PRO!,
+      yearlyPriceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_ID_PRO_YEARLY!,
+      monthly: "$5,000/mo",
+      yearly: "$52,000/yr",
+      description:
+        "Premium UGC + AI-managed OTT campaigns. Minimum OTT ad spend $5,000.",
+      features: [
+        "Everything in Starter",
+        "Premium UGC creators",
+        "Audience targeting & frequency optimization",
+        "Creative rotation & budget allocation",
+      ],
+      highlighted: true,
+      minAdSpend: "$5,000",
     },
     {
       title: "Enterprise",
       monthly: "Custom",
       yearly: "Custom",
       description:
-        "For brands needing tailored campaigns and advanced integrations.",
+        "Fully managed OTT campaigns with AI and dedicated account manager. Minimum ad spend $5,000+.",
       features: [
-        "All Pro benefits",
         "Dedicated account manager",
-        "Custom campaign design and analytics",
-        "API and CRM integrations",
-        "Priority onboarding and support",
+        "Custom integrations",
+        "Full AI optimization & reporting",
       ],
       enterprise: true,
+      minAdSpend: "$5,000+",
     },
   ];
 
-  const handleSubscribe = async (plan: Plan) => {
+  const handleSubscribe = (plan: Plan) => {
+    if (plan.enterprise) {
+      window.location.href =
+        "mailto:info@grandeapp.com?subject=Enterprise%20Plan%20Inquiry";
+      return;
+    }
+
+    const priceId =
+      billing === "monthly" ? plan.monthlyPriceId : plan.yearlyPriceId;
+
+    if (!priceId) {
+      toast.error("Price not configured.");
+      return;
+    }
+
+    setSelectedPriceId(priceId);
+    setShowAuthModal(true);
+  };
+
+  const startCheckout = async () => {
+    if (!email || !password) {
+      toast.error("Email and password required");
+      return;
+    }
+
+    setLoading(true);
     try {
-      if (plan.enterprise) {
-        window.location.href =
-          "mailto:enterprise@grandeapp.com?subject=Enterprise%20Plan%20Inquiry";
-        return;
+      const signupRes = await fetch(
+        "https://app.grandeapp.com/g/brand/signup",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ email, password }),
+        }
+      );
+
+      const signupData = await signupRes.json();
+      if (!signupRes.ok && signupData.message !== "User already exists") {
+        throw new Error(signupData.message || "Signup failed");
       }
 
-      if (plan.title === "Free") {
-        window.location.href = "https://app.grandeapp.com/billing";
-        return;
-      }
-
-      setLoading(true);
-
-      // ✅ Correctly pick price ID
-      const priceId =
-        billing === "monthly" ? plan.monthlyPriceId : plan.yearlyPriceId;
-
-      if (!priceId) {
-        alert("Price ID not configured for this plan.");
-        setLoading(false);
-        return;
-      }
-
-      const res = await fetch(
+      const checkoutRes = await fetch(
         "https://app.grandeapp.com/g/api/create-checkout-session",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ priceId }),
+          body: JSON.stringify({ email, priceId: selectedPriceId }),
         }
       );
 
-      const data = await res.json();
-      if (data?.url) {
-        window.location.href = data.url;
+      const checkoutData = await checkoutRes.json();
+      if (checkoutData?.url) {
+        window.location.href = checkoutData.url;
       } else {
-        alert(data.error || "Something went wrong creating checkout session.");
+        throw new Error(checkoutData.error || "Checkout failed");
       }
-    } catch (err) {
-      console.error("Checkout error:", err);
-      alert("Failed to start checkout session.");
+    } catch (err: any) {
+      toast.error(err.message || "Something went wrong");
     } finally {
       setLoading(false);
     }
   };
 
   return (
-    <div className="bg-white dark:bg-black text-gray-900 dark:text-white py-16 px-4">
-      <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-4">Choose Your Plan</h2>
-        <p className="text-sm text-gray-600 dark:text-gray-400 mb-10">
-          {billing === "monthly"
-            ? "Pay monthly with flexibility — cancel anytime."
-            : "Pay once and save up to 40% — get the full value for less."}
-        </p>
+    <>
+      <div className="bg-gradient-to-b from-white to-gray-50 dark:from-black dark:to-gray-950 py-20 px-4">
+        <div className="max-w-7xl mx-auto text-center">
+          <h2 className="text-4xl font-bold text-gray-900 dark:text-white">
+            Choose Your OTT Plan
+          </h2>
+          <p className="mt-3 text-gray-600 dark:text-gray-400">
+            All plans include AI-powered OTT campaign management.
+          </p>
 
-        {/* Billing Toggle */}
-        <div className="flex justify-center items-center mb-12">
-          <span
-            className={`mr-2 ${
-              billing === "monthly" ? "font-bold" : "opacity-60"
-            }`}
-          >
-            Monthly
-          </span>
-          <label className="relative inline-flex items-center cursor-pointer">
-            <input
-              type="checkbox"
-              className="sr-only peer"
-              onChange={() =>
-                setBilling((prev) =>
-                  prev === "monthly" ? "yearly" : "monthly"
-                )
-              }
-              checked={billing === "yearly"}
-            />
-            <div className="w-11 h-6 bg-gray-300 dark:bg-gray-600 rounded-full peer-checked:bg-blue-600 transition-colors duration-300" />
-            <div className="absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-transform duration-300 transform peer-checked:translate-x-5" />
-          </label>
-          <span
-            className={`ml-2 ${
-              billing === "yearly" ? "font-bold" : "opacity-60"
-            }`}
-          >
-            Yearly
-          </span>
-        </div>
-
-        {/* Plan Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center">
-          {plans.map((plan, index) => {
-            const isCustom = plan.monthly === "Custom";
-            const isFree = plan.monthly === "$0/mo";
-            const showSave =
-              billing === "yearly" && !isCustom && !isFree;
-
-            return (
+          <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-10">
+            {plans.map((plan, index) => (
               <div
                 key={index}
-                className={`relative rounded-2xl p-6 shadow-md border transition-all ${
+                className={`relative rounded-2xl p-8 transition-all duration-300 ${
                   plan.highlighted
-                    ? "bg-gray-100 dark:bg-gray-900 border-blue-600 shadow-xl"
-                    : "bg-white dark:bg-gray-800"
+                    ? "bg-white dark:bg-gray-900 shadow-2xl scale-[1.03] border border-brand-500"
+                    : "bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 shadow-md hover:shadow-xl"
                 }`}
               >
-                {plan.highlighted && (
-                  <div className="absolute top-0 right-0 bg-blue-600 text-white text-xs font-semibold px-3 py-1 rounded-bl-xl">
-                    Best Value
-                  </div>
-                )}
-                <h3 className="text-2xl font-semibold mb-1">{plan.title}</h3>
-                {showSave && (
-                  <p className="text-sm text-green-600 font-semibold mb-1">
-                    Save 40% annually
-                  </p>
-                )}
-                <p className="text-3xl font-bold mb-2">
+                <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">
+                  {plan.title}
+                </h3>
+
+                <p className="mt-4 text-4xl font-bold text-gray-900 dark:text-white">
                   {billing === "monthly" ? plan.monthly : plan.yearly}
                 </p>
-                <p className="text-sm mb-6 text-gray-600 dark:text-gray-400">
+
+                {plan.minAdSpend && (
+                  <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
+                    Minimum OTT ad spend: {plan.minAdSpend}
+                  </p>
+                )}
+
+                <p className="mt-3 text-sm text-gray-600 dark:text-gray-400">
                   {plan.description}
                 </p>
 
-                <ul className="text-sm space-y-2 mb-6 text-left">
-                  {plan.features.map((feature, i) => (
-                    <li key={i} className="flex items-start">
-                      <span className="text-blue-600 mr-2">✓</span>
-                      <span>{feature}</span>
+                <ul className="mt-6 space-y-3 text-sm text-left">
+                  {plan.features.map((f, i) => (
+                    <li key={i} className="flex gap-3">
+                      <span className="text-brand-500 font-bold">✓</span>
+                      <span>{f}</span>
                     </li>
                   ))}
                 </ul>
 
                 <button
                   onClick={() => handleSubscribe(plan)}
-                  disabled={loading}
-                  className="inline-block w-full bg-blue-600 hover:bg-blue-700 text-white text-center py-2 rounded-lg transition font-medium disabled:bg-gray-400"
+                  className={`mt-8 w-full py-3 rounded-lg font-medium transition ${
+                    plan.highlighted
+                      ? "bg-brand-500 text-white hover:bg-brand-600"
+                      : "bg-gray-900 text-white hover:bg-gray-800 dark:bg-white dark:text-black"
+                  }`}
                 >
-                  {loading
-                    ? "Redirecting..."
-                    : plan.enterprise
-                    ? "Contact Sales"
-                    : isFree
-                    ? "Start Free"
-                    : "Get Started"}
+                  {plan.enterprise ? "Contact Sales" : "Get Started"}
                 </button>
               </div>
-            );
-          })}
+            ))}
+          </div>
         </div>
       </div>
-    </div>
+
+      {/* AUTH MODAL */}
+      {showAuthModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60">
+          <div className="w-full max-w-sm bg-white dark:bg-gray-900 rounded-xl p-6 shadow-xl relative space-y-6">
+            <div className="text-center">
+              <h2 className="text-2xl font-semibold text-gray-900 dark:text-white">
+                Create your account
+              </h2>
+              <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
+                Continue to checkout and set up your OTT campaign.
+              </p>
+            </div>
+
+            <input
+              type="email"
+              placeholder="Business email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              className="w-full px-4 py-2 text-sm border rounded-md dark:bg-gray-800 dark:border-gray-700 dark:text-white"
+            />
+
+            <input
+              type="password"
+              placeholder="Create password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              className="w-full px-4 py-2 text-sm border rounded-md dark:bg-gray-800 dark:border-gray-700 dark:text-white"
+            />
+
+            <button
+              onClick={startCheckout}
+              disabled={loading}
+              className="w-full bg-brand-500 text-white py-2 rounded-md hover:bg-brand-600 transition disabled:opacity-50"
+            >
+              {loading ? "Processing…" : "Continue to Checkout"}
+            </button>
+
+            <button
+              onClick={() => setShowAuthModal(false)}
+              className="absolute top-3 right-3 text-gray-400 hover:text-gray-600"
+            >
+              ✕
+            </button>
+          </div>
+        </div>
+      )}
+    </>
   );
 }

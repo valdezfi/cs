@@ -1,4 +1,3 @@
-// components/PricingAccordion.tsx
 "use client";
 
 import { useState } from "react";
@@ -41,29 +40,34 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
 
 const pricingFAQs = [
   {
-    title: "How much does Grande cost for brands?",
+    title: "What is the minimum OTT campaign spend?",
     content:
-      "We offer flexible pricing based on campaign size and targeting needs. Brands can launch influencer or podcast campaigns starting from $500. For custom campaigns or ongoing partnerships, contact sales.",
+      "Starter campaigns require a minimum OTT ad spend of $2,000. Pro campaigns require a minimum of $5,000. Enterprise campaigns start at $5,000+ and include dedicated AI optimization and support.",
   },
   {
-    title: "Is there a plan for freelancers or solo marketers?",
+    title: "How is AI involved in the campaigns?",
     content:
-      "Yes! Freelancers can use Grande to manage multiple creators or brand deals under a single dashboard. Pricing starts at $49/month with access to collaboration tools and reporting.",
+      "AI manages creator selection, campaign optimization, performance tracking, and ad distribution. This ensures maximum ROI and efficient scaling at every stage.",
   },
   {
-    title: "What’s included in the agency plan?",
+    title: "What’s included in the Starter plan?",
     content:
-      "Agencies get multi-brand management, white-label dashboards, reporting, and priority support. Custom onboarding and team training are also included. Contact us for enterprise pricing.",
+      "Starter campaigns ($3k/month) include AI-assisted campaign setup, access to top creators, OTT ad distribution, and basic reporting. Minimum ad spend $2,000.",
   },
   {
-    title: "Are there any free tools available?",
+    title: "What’s included in the Pro plan?",
     content:
-      "Yes — anyone can start with our free creator search and campaign planning tools. Upgrade only when you're ready to launch and manage campaigns at scale.",
+      "Pro campaigns ($5k/month) provide premium UGC content, influencer campaigns, full AI optimization, and performance analytics. Minimum ad spend $5,000.",
   },
   {
-    title: "Can I cancel anytime?",
+    title: "Can I cancel or change my plan?",
     content:
-      "Absolutely. There are no long-term contracts. You can cancel or downgrade your plan at any time directly from your dashboard.",
+      "Yes — there are no long-term contracts. You can cancel, upgrade, or downgrade your plan anytime from your dashboard.",
+  },
+  {
+    title: "Are there custom enterprise options?",
+    content:
+      "Enterprise plans include advanced AI workflows, dedicated account managers, and custom OTT integrations. Minimum ad spend $5,000. Contact sales for details.",
   },
 ];
 
@@ -83,7 +87,7 @@ const PricingAccordion: React.FC<PricingAccordionProps> = ({
   return (
     <div className="w-full max-w-4xl mx-auto px-4 py-10">
       <h2 className="text-3xl sm:text-4xl font-bold text-center mb-10 text-gray-900 dark:text-white">
-        Pricing FAQs for Brands, Freelancers & Agencies
+        OTT Campaign Pricing FAQs
       </h2>
       {items.map((item, index) => (
         <AccordionItem
