@@ -11,7 +11,7 @@ const BlogMultiCard = () => {
         <div className="text-center">
           <h1 className="text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">Blog</h1>
           <p className="mt-6 text-lg text-gray-600 dark:text-gray-300 font-light">
-            Creator Economy Intelligent Engine
+            AD Intelligent Engine
           </p>
         </div>
         <div className="mt-12">
