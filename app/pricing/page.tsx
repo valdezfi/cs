@@ -1,6 +1,8 @@
 import Header from "components/Header";
 import Footer from "components/Footer";
 import PricingPlans from "components/PricingPlan";
+import PricingPlansc from "components/PricePlanCreator";
+
 import PricingAccordion  from "components/QApricing";
 
 
@@ -47,31 +49,30 @@ dangerouslySetInnerHTML={{
 
       <Header />
   <PricingPlans/>
-
+<PricingPlansc/>
       <main>
    
 
-        {/* <Features /> */}
-<Section
+     <Section
   leftHalf={<PricingAccordion />}
   rightHalf={
     <div className="flex flex-col justify-end">
       <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-        Flexible, Transparent Pricing for Brands & Agencies
+        COfuncion OTT Campaign Pricing
       </h2>
       <p className="text-xl font-light mb-4">
-        From brands to solo entrepreneurs to full-scale agencies, Grande gives you the tools to launch campaigns, collaborate with talent, and drive ROI — all in one smart platform.
+        Launch and scale OTT campaigns with COfuncion by Grande. Choose your tier, set your budget, and let AI handle creator selection, content optimization, and ad performance — all in one platform.
       </p>
       <ul className="text-gray-700 dark:text-gray-300 space-y-2 text-base sm:text-lg">
-        <li>✅ Free tier to explore features and connect with creators</li>
-        <li>✅ Paid plans starting at just $59/month — scale as you grow</li>
-        <li>✅ No hidden fees, no commitments — cancel anytime</li>
-        <li>✅ Enterprise support and custom integrations available</li>
+        <li>✅ Starter: $3k/month (AI-powered, minimum ad spend $2k)</li>
+        <li>✅ Pro: $5k/month (premium UGC + influencer content, minimum ad spend $5k)</li>
+        <li>✅ Enterprise: Custom pricing with dedicated AI workflows and account manager, minimum ad spend $5k+</li>
+        <li>✅ AI optimizes campaigns at every stage: targeting, creative, and budget allocation</li>
+        <li>✅ Fully transparent — no hidden fees, cancel or upgrade anytime</li>
       </ul>
     </div>
   }
 />
-
 
 
 
