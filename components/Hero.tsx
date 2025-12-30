@@ -5,6 +5,8 @@ import Link from "next/link";
 export default function Hero() {
   const phrases = [
     "OTT Advertisers",
+        "Social Media Advertisers",
+
     "Brands",
     "Agencies",
     "Marketers",

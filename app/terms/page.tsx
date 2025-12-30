@@ -4,10 +4,7 @@ import TermsOfUse from "components/Terms";
 import Footer from "components/Footer";
 import { Metadata } from 'next';
 
-export const metadata: Metadata = {
-  title: "Grande",
-  description: "Boost Your ADs With Influencers, UGC Creators, & Podcast Creators",
-};
+
 
 export default function Page() {
   return (

@@ -7,7 +7,7 @@ import PrivacyPolicy from "components/PrivacyTerms";
 export const metadata: Metadata = {
   title: 'COfuncion | AI‑Powered OTT Campaign Engine',
   description:
-    'COfuncion helps brands, agencies, and marketers launch, optimize, and measure OTT ad campaigns with AI‑driven insights and reporting.',
+    'COfuncion helps brands, agencies, and marketers launch, optimize, and measure OTT and social media ad campaigns with AI‑driven insights and reporting.',
   keywords: [
     'OTT advertising',
     'AI campaign engine',
