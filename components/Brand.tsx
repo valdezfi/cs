@@ -65,10 +65,10 @@ export default function BrandsUseCOfuncion() {
         {/* CTA */}
         <div className="mt-16">
           <Link
-            href="/contact"
+            href="/pricing"
             className="inline-block bg-black text-white dark:bg-white dark:text-black px-8 py-4 rounded-lg text-base font-semibold hover:opacity-90 transition"
           >
-            Talk to an OTT Strategist
+            Signup
           </Link>
         </div>
       </div>
