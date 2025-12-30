@@ -46,7 +46,7 @@ export default function Hero() {
       </h1>
 
       <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 font-light max-w-4xl mx-auto">
-        COfuncion.com leverages AI to plan, optimize, and manage OTT ad campaigns —
+        COfuncion leverages AI to plan, optimize, and manage OTT and social media ad campaigns —
         increasing reach, engagement, and conversions on OTT.
       </p>
 
