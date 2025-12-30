@@ -15,7 +15,7 @@ export default function RootLayout({
       <body className="bg-white dark:bg-black min-h-screen">
         {/* <SessionProvider> */}
           <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
-            <GoogleAnalytics gaId="G-D0NTC472L0" />
+            <GoogleAnalytics gaId="G-2S5591QYNN" />
             {children}
           </ThemeProvider>
         {/* </SessionProvider> */}
