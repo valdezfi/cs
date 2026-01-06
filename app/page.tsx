@@ -67,7 +67,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <div className="flex flex-col min-h-screen bg-green-50 dark:bg-green-900">
+    <div className="flex flex-col ">
       <Header />
   
       <main>

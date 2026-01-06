@@ -32,7 +32,7 @@ export default function Header() {
   });
 
   return (
-    <header className="bg-green-50 dark:bg-green-900 shadow-sm dark:border-b dark:border-gray-800">
+    <header className="bg-white dark:bg-black shadow-sm dark:border-b dark:border-gray-800">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <Link href="/" aria-label="Home">
@@ -48,33 +48,10 @@ export default function Header() {
               <Link href="/" className="nav-link">Home</Link>
             </li>
 
-            {/* Customers */}
-            <li className="relative" {...handleDropdown(setCustomersOpen, customersTimeout)}>
-              <button className="nav-link flex items-center gap-1">
-                Customers
-                <svg
-                  className={`w-4 h-4 transition-transform ${customersOpen ? "rotate-180" : ""}`}
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
-              {customersOpen && (
-                <ul className="absolute left-0 mt-2 w-56 bg-white shadow-md rounded-md z-50">
-                  <li><Link href="/brand" className="block px-4 py-2 text-black">Brands</Link></li>
-                  <li><Link href="/agency" className="block px-4 py-2 text-black">Agencies</Link></li>
-                </ul>
-              )}
-            </li>
-
-            {/* Products / Cannabis Operations */}
+            {/* Cannabis Operations */}
             <li className="relative" {...handleDropdown(setProductsOpen, productsTimeout)}>
               <button className="nav-link flex items-center gap-1">
-                Cannabis Operations
-                <svg
+Customers                <svg
                   className={`w-4 h-4 transition-transform ${productsOpen ? "rotate-180" : ""}`}
                   fill="none"
                   stroke="currentColor"
@@ -85,15 +62,13 @@ export default function Header() {
                 </svg>
               </button>
               {productsOpen && (
-                <div className="absolute left-0 mt-2 w-80 bg-white shadow-xl rounded-md z-50 p-4">
-                  <ul className="space-y-1">
-                    <li><Link href="/dispensaries" className="block px-2 py-1 text-black text-sm">Dispensaries</Link></li>
-                    <li><Link href="/cultivators" className="block px-2 py-1 text-black text-sm">Cultivators</Link></li>
-                    <li><Link href="/processors" className="block px-2 py-1 text-black text-sm">Processors / Manufacturers</Link></li>
-                    <li><Link href="/compliance" className="block px-2 py-1 text-black text-sm">Compliance Consultants</Link></li>
-                    <li><Link href="/waste-management" className="block px-2 py-1 text-black text-sm">Cannabis Waste Management</Link></li>
-                  </ul>
-                </div>
+                <ul className="absolute left-0 mt-2 w-80 bg-white shadow-xl rounded-md z-50 p-4 space-y-1">
+                  <li><Link href="/dispensaries" className="block px-2 py-1 text-black text-sm">Dispensaries</Link></li>
+                  <li><Link href="/cultivators" className="block px-2 py-1 text-black text-sm">Cultivators</Link></li>
+                  <li><Link href="/processors" className="block px-2 py-1 text-black text-sm">Processors / Manufacturers</Link></li>
+                  <li><Link href="/compliance" className="block px-2 py-1 text-black text-sm">Compliance Consultants</Link></li>
+                  <li><Link href="/waste-management" className="block px-2 py-1 text-black text-sm">Cannabis Waste Management</Link></li>
+                </ul>
               )}
             </li>
 
@@ -150,29 +125,26 @@ export default function Header() {
             <li><Link href="/pricing" onClick={() => setMenuOpen(false)}>Pricing</Link></li>
             <li><Link href="/signup" onClick={() => setMenuOpen(false)}>Signup / Login</Link></li>
 
-            {/* Customers */}
-            <li className="mt-4 font-semibold">Customers</li>
-            <ul className="pl-4 space-y-1">
-              <li><Link href="/brand" onClick={() => setMenuOpen(false)}>Brands</Link></li>
-              <li><Link href="/agency" onClick={() => setMenuOpen(false)}>Agencies</Link></li>
-            </ul>
-
             {/* Cannabis Operations */}
-            <li className="mt-4 font-semibold">Cannabis Operations</li>
-            <ul className="pl-4 space-y-1">
-              <li><Link href="/dispensaries" onClick={() => setMenuOpen(false)}>Dispensaries</Link></li>
-              <li><Link href="/cultivators" onClick={() => setMenuOpen(false)}>Cultivators</Link></li>
-              <li><Link href="/processors" onClick={() => setMenuOpen(false)}>Processors / Manufacturers</Link></li>
-              <li><Link href="/compliance" onClick={() => setMenuOpen(false)}>Compliance Consultants</Link></li>
-              <li><Link href="/waste-management" onClick={() => setMenuOpen(false)}>Cannabis Waste Management</Link></li>
-            </ul>
+            <li>
+              <span className="mt-4 font-semibold block">Customers</span>
+              <ul className="pl-4 space-y-1">
+                <li><Link href="/dispensaries" onClick={() => setMenuOpen(false)}>Dispensaries</Link></li>
+                <li><Link href="/cultivators" onClick={() => setMenuOpen(false)}>Cultivators</Link></li>
+                <li><Link href="/processors" onClick={() => setMenuOpen(false)}>Processors / Manufacturers</Link></li>
+                <li><Link href="/compliance" onClick={() => setMenuOpen(false)}>Compliance Consultants</Link></li>
+                <li><Link href="/waste-management" onClick={() => setMenuOpen(false)}>Cannabis Waste Management</Link></li>
+              </ul>
+            </li>
 
             {/* Resources */}
-            <li className="mt-4 font-semibold">Resources</li>
-            <ul className="pl-4 space-y-1">
-              <li><Link href="/allblogs" onClick={() => setMenuOpen(false)}>Blog / Guides</Link></li>
-              <li><Link href="/faq" onClick={() => setMenuOpen(false)}>FAQ</Link></li>
-            </ul>
+            <li>
+              <span className="mt-4 font-semibold block">Resources</span>
+              <ul className="pl-4 space-y-1">
+                <li><Link href="/allblogs" onClick={() => setMenuOpen(false)}>Blog / Guides</Link></li>
+                <li><Link href="/faq" onClick={() => setMenuOpen(false)}>FAQ</Link></li>
+              </ul>
+            </li>
 
             <li className="pt-4"><ThemeSwitch /></li>
           </ul>
