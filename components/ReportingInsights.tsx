@@ -3,50 +3,53 @@
 export default function ReportingInsights() {
   const insights = [
     {
-      title: "Campaign Performance Overview",
+      title: "Waste Pickup Performance",
       description:
-        "See which campaigns are driving the highest engagement and conversions across all OTT platforms. Quickly identify winners and underperformers."
+        "Track which cannabis waste pickups are executed most efficiently. Identify bottlenecks and ensure timely, compliant disposals across all facilities."
     },
     {
-      title: "Audience Breakdown",
+      title: "Team & Operator Insights",
       description:
-        "Understand your audience by age, gender, location, and content preferences. Tailor campaigns to reach the right viewers at the right time."
+        "Analyze individual operator performance—completions, timeliness, and compliance adherence—to optimize workflows and reduce risk."
     },
+    // {
+    //   title: "Facility & Route Analytics",
+    //   description:
+    //     "Monitor facility operations and waste transport routes. Optimize schedules to improve efficiency, reduce costs, and maintain regulatory compliance."
+    // },
     {
-      title: "OTT Platform Insights",
+      title: "Compliance Dashboard",
       description:
-        "Track which streaming platforms deliver the best reach and engagement. Optimize campaigns for maximum impact on each platform."
+        "See real-time manifests, destruction logs, and audit-ready documentation. Ensure every step of the cannabis waste process meets regulatory standards."
     },
-    {
-      title: "Influencer Effectiveness",
-      description:
-        "Measure individual influencer contributions—views, clicks, conversions—to ensure you invest in the most effective creators."
-    },
-    {
-      title: "Actionable Recommendations",
-      description:
-        "Receive AI-driven suggestions on content type, posting schedule, and platform targeting to maximize ROI for every campaign."
-    },
+    // {
+    //   title: "AI-Driven Recommendations",
+    //   description:
+    //     "Receive actionable suggestions powered by AI to streamline waste operations, improve efficiency, and maintain full compliance across your cannabis facilities."
+    // },
   ];
 
   return (
-    <section className="container mx-auto px-4 py-12 bg-gray-50 dark:bg-gray-900 rounded-lg">
-      <div className="max-w-3xl mx-auto text-center mb-8">
-        <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 dark:text-white mb-4">
-          Reporting & Insights
+    <section className="py-20 px-6 bg-green-50 dark:bg-green-900">
+      <div className="max-w-6xl mx-auto text-center mb-12">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-green-900 dark:text-green-100 mb-4">
+          Cannabis Waste Reporting & Insights
         </h2>
-        <p className="text-lg text-gray-600 dark:text-gray-300 font-light">
-          Make data-driven decisions for your OTT campaigns. Our Reporting & Insights tool provides clear, actionable intelligence across audiences, platforms, and influencers.
+        <p className="text-lg sm:text-xl text-green-800 dark:text-green-300 font-light max-w-3xl mx-auto">
+          Make data-driven decisions for your cannabis waste operations. Our platform provides clear, actionable intelligence on operators, facilities, routes, and compliance—ensuring smooth, audit-ready operations.
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
         {insights.map((item, index) => (
-          <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-md shadow-md">
-            <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">
+          <div
+            key={index}
+            className="group w-full max-w-sm p-8 rounded-3xl bg-gradient-to-tr from-green-100 to-green-200 dark:from-green-800 dark:to-green-700 shadow-xl hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-500"
+          >
+            <h3 className="text-xl font-bold mb-3 text-green-900 dark:text-green-100 group-hover:text-green-600 transition-colors duration-300">
               {item.title}
             </h3>
-            <p className="text-gray-700 dark:text-gray-300">
+            <p className="text-green-800 dark:text-green-300 leading-relaxed">
               {item.description}
             </p>
           </div>

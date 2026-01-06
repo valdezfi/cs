@@ -7,52 +7,52 @@ const faqs = [
   {
     question: "What is COfuncion?",
     answer:
-      "COfuncion is an AI-powered OTT campaign management platform designed to help brands and agencies plan, manage, optimize, and scale streaming ad campaigns using data-driven insights."
+      "COfuncion is an intelligent cannabis waste and compliance platform that helps dispensaries, cultivators, and operators manage waste pickups, documentation, and audit-ready workflows."
   },
   {
-    question: "What platforms does COfuncion support?",
+    question: "Who is COfuncion built for?",
     answer:
-      "COfuncion is built for modern OTT and streaming ecosystems. Platform availability may vary by region and campaign type, but the system is designed to be flexible and platform-agnostic."
+      "COfuncion is designed for licensed cannabis dispensaries, cultivators, processors, operators, and compliance teams operating in regulated markets."
   },
   {
-    question: "Do you provide creators or influencers?",
+    question: "Does COfuncion handle cannabis waste pickups?",
     answer:
-      "Creator sourcing is not included by default. Influencer and creator access is handled through GrandeApp. COfuncion focuses strictly on campaign execution, optimization, and reporting."
+      "COfuncion coordinates and manages licensed cannabis waste pickups through verified haulers. The platform focuses on scheduling, tracking, and compliance—not physical hauling."
   },
   {
-    question: "Can UGC be added to campaigns?",
+    question: "Is COfuncion compliant with state cannabis regulations?",
     answer:
-      "Yes. UGC can be added as an optional service. Brands may use their own content, licensed UGC, or request UGC support as part of a custom campaign package."
+      "COfuncion is built to support state-level cannabis waste and compliance requirements. Specific regulations may vary by state, and operators remain responsible for adhering to local laws."
   },
   {
-    question: "What does AI manage inside a campaign?",
+    question: "What compliance documentation does COfuncion manage?",
     answer:
-      "AI assists with audience insights, campaign scheduling, performance monitoring, optimization suggestions, and reporting—helping teams make faster, smarter decisions."
+      "The platform manages manifests, destruction logs, pickup records, and audit-ready reports—keeping all documentation centralized and accessible."
+  },
+  {
+    question: "Can I manage multiple facilities or locations?",
+    answer:
+      "Yes. COfuncion supports multi-location operations, allowing operators to manage waste workflows, reporting, and compliance across multiple licensed facilities."
   },
   {
     question: "Is this a self-serve or managed platform?",
     answer:
-      "COfuncion supports both. You can self-manage campaigns or work with a dedicated account manager for strategic execution and optimization."
+      "Both. Operators can self-manage waste operations or work with a dedicated account manager for compliance guidance, reporting, and operational optimization."
   },
   {
     question: "How does pricing work?",
     answer:
-      "Pricing is based on campaign scale, regions, and features used. Entry plans focus on campaign management and reporting. Advanced plans include AI optimization, audience insights, and optional UGC add-ons."
+      "Pricing is based on the number of facilities, pickup volume, and features used. Plans are designed to scale with your operation as regulatory needs grow."
   },
   {
     question: "Are there long-term contracts?",
     answer:
-      "No long-term commitment is required. Campaigns can be run on a per-campaign or monthly basis depending on your needs."
+      "No long-term contracts are required. Operators can choose flexible monthly plans based on their operational needs."
   },
   {
-    question: "Do you support international campaigns?",
+    question: "Does COfuncion operate outside of NYC?",
     answer:
-      "Yes. COfuncion supports global OTT campaigns across the U.S., LATAM, Europe, MENA, and other regions depending on availability."
-  },
-  {
-    question: "What kind of reporting do I get?",
-    answer:
-      "You receive AI-generated performance insights, audience behavior summaries, engagement trends, and optimization recommendations—no complex charts required."
+      "Yes. While availability depends on state regulations and licensed hauler networks, COfuncion is designed to scale across multiple U.S. cannabis markets."
   }
 ];
 
@@ -70,7 +70,7 @@ export default function CampaignFAQ() {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="border border-gray-200 dark:border-gray-800 rounded-xl overflow-hidden"
+              className="border border-gray-200 dark:border-gray-800 rounded-2xl overflow-hidden"
             >
               <button
                 onClick={() =>
@@ -80,7 +80,7 @@ export default function CampaignFAQ() {
               >
                 {faq.question}
                 <ChevronDown
-                  className={`w-5 h-5 transition-transform ${
+                  className={`w-5 h-5 transition-transform duration-300 ${
                     openIndex === index ? "rotate-180" : ""
                   }`}
                 />

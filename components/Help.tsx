@@ -1,76 +1,71 @@
 "use client";
 
-import {
-  Bot,
-  FileCheck,
-  Headset,
-  Globe,
-} from "lucide-react";
+import { Bot, FileCheck, Headset, Globe } from "lucide-react";
+
+const steps = [
+  {
+    icon: Bot,
+    title: "Plan Waste Operations",
+    description:
+      "Schedule and coordinate licensed cannabis waste pickups tailored to your operation’s size and frequency.",
+  },
+  {
+    icon: FileCheck,
+    title: "Ensure Compliance",
+    description:
+      "Generate and manage audit-ready manifests, destruction logs, and regulatory reports automatically.",
+  },
+  {
+    icon: Globe,
+    title: "Connect to Licensed Haulers",
+    description:
+      "Access a network of verified cannabis waste haulers, ensuring secure, legal disposal across your region.",
+  },
+  {
+    icon: Headset,
+    title: "Support & Guidance",
+    description:
+      "Dedicated account managers assist operators with compliance questions, audit prep, and workflow optimization.",
+  },
+];
 
 export default function ProductExplanation() {
   return (
-    <section className="py-20 bg-white dark:bg-black px-6">
-      <div className="max-w-5xl mx-auto text-center">
+    <section className="py-20 bg-green-50 dark:bg-green-900 px-6">
+      <div className="max-w-6xl mx-auto text-center">
 
         {/* Title */}
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white mb-6">
-          How COfuncion Works
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-green-900 dark:text-green-100 mb-6">
+          How Cofuncion Works
         </h2>
 
         {/* Subtitle */}
-        <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-16 font-light leading-relaxed">
-          COfuncion.com uses AI to help brands, agencies, and marketers plan, optimize, and run OTT ad campaigns —
-          reaching audiences across LATAM, USA, Europe, Africa, and beyond in minutes.
+        <p className="text-lg sm:text-xl text-green-800 dark:text-green-300 max-w-3xl mx-auto mb-16 font-light leading-relaxed">
+          Cofuncion helps dispensaries, cultivators, and cannabis operators stay compliant, coordinate licensed waste removal, 
+          and maintain audit-ready documentation — all in a single intelligent platform.
         </p>
 
-        {/* 4 Steps */}
+        {/* Steps Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
-
-          {/* Step 1 */}
-          <div className="flex flex-col items-center text-center p-8 rounded-xl border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-zinc-900">
-            <Bot className="w-14 h-14 text-blue-500 mb-4" />
-            <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
-              1. Plan with AI
-            </h3>
-            <p className="text-gray-600 dark:text-gray-300">
-              Instantly generate an OTT ad strategy including target audiences, budgets, and ad formats.
-            </p>
-          </div>
-
-          {/* Step 2 */}
-          <div className="flex flex-col items-center text-center p-8 rounded-xl border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-zinc-900">
-            <FileCheck className="w-14 h-14 text-blue-500 mb-4" />
-            <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
-              2. Optimize Campaigns
-            </h3>
-            <p className="text-gray-600 dark:text-gray-300">
-              AI automatically optimizes creatives, placements, and UGC integration to maximize engagement and ROI.
-            </p>
-          </div>
-
-          {/* Step 3 */}
-          <div className="flex flex-col items-center text-center p-8 rounded-xl border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-zinc-900">
-            <Globe className="w-14 h-14 text-blue-500 mb-4" />
-            <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
-              3. Reach Audiences Globally
-            </h3>
-            <p className="text-gray-600 dark:text-gray-300">
-              Deploy campaigns across OTT platforms to reach viewers worldwide across multiple regions.
-            </p>
-          </div>
-
-          {/* Step 4 */}
-          <div className="flex flex-col items-center text-center p-8 rounded-xl border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-zinc-900">
-            <Headset className="w-14 h-14 text-blue-500 mb-4" />
-            <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
-              4. Dedicated Support
-            </h3>
-            <p className="text-gray-600 dark:text-gray-300">
-              A COfuncion account manager guides brands, agencies, and marketers through campaign setup,
-              placements, performance tracking, and optimization every step of the way.
-            </p>
-          </div>
-
+          {steps.map((step, idx) => {
+            const Icon = step.icon;
+            return (
+              <div
+                key={idx}
+                className="group relative p-8 rounded-3xl bg-gradient-to-tr from-green-100 to-green-200 dark:from-green-800 dark:to-green-700 shadow-xl hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-500"
+              >
+                <div className="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-green-600 text-white mb-6 text-2xl">
+                  <Icon className="w-8 h-8" />
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-green-900 dark:text-green-100 group-hover:text-green-600 transition-colors duration-300">
+                  {step.title}
+                </h3>
+                <p className="text-green-800 dark:text-green-300">
+                  {step.description}
+                </p>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

@@ -41,9 +41,9 @@ export default function Header() {
    <Link href="/" aria-label="Home">
   <span className="text-xl font-semibold tracking-tight text-gray-900 dark:text-gray-100">
     COfuncion
-    <span className="ml-2 text-sm font-medium text-gray-500 dark:text-gray-400">
+    {/* <span className="ml-2 text-sm font-medium text-gray-500 dark:text-gray-400">
       by grandeapp.com
-    </span>
+    </span> */}
   </span>
 </Link>
 
@@ -80,9 +80,8 @@ export default function Header() {
               {productsOpen && (
                 <div className="absolute left-0 mt-2 w-80 bg-white shadow-xl rounded-md z-50 p-4">
                   <ul className="space-y-1">
-                    <li><Link href="/manage-campaigns" className="block px-2 py-1 text-black text-sm">Manage Campaigns</Link></li>
+                    <li><Link href="/manage" className="block px-2 py-1 text-black text-sm">Manage Campaigns</Link></li>
                     <li><Link href="/reporting-insights" className="block px-2 py-1 text-black text-sm">Reporting & Insights</Link></li>
-                    <li><Link href="/ai-campaign-automation" className="block px-2 py-1 text-black text-sm">AI Campaign Automation</Link></li>
                   </ul>
                 </div>
               )}

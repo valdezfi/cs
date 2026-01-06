@@ -11,43 +11,42 @@ import SocialCampaignExplanation from "components/SM";
 // import AICampaignAssistantPage from "components/aiAgent";
 
 import USAb from "components/USAbuy";
-import { Metadata } from 'next';
+import { Metadata } from "next";
 // import BrandShowcase from "components/Brandshowcase";
-// import Creator from "components/ContentCreator"; // adjust the path based on your folder structure
-// import PredictableHero from "components/Predictable"; // adjust the path based on your folder structure
+// import Creator from "components/ContentCreator"; 
+// import PredictableHero from "components/Predictable"; 
 
-// import CreatorSpotlight from "components/ShowCreator"; // adjust the path based on your folder structure
-// import AiHero from "components/Ai"; // adjust the path based on your folder structure
-
+// import CreatorSpotlight from "components/ShowCreator"; 
+// import AiHero from "components/Ai"; 
 
 
 export const metadata: Metadata = {
-  title: 'Manage OTT and Social Media AD Campaigns | COfuncion AI Campaign Engine',
+  title: 'Manage Cannabis Waste Operations & Compliance | COfuncion',
   description:
-    'COfuncion allows brands and agencies to plan, launch, and manage OTT and social media ad campaigns with AI-powered optimization, scheduling, and targeting tools.',
+    'COfuncion helps dispensaries, cultivators, processors, and other cannabis operators plan, track, and manage waste operations, compliance, and reporting with AI-powered insights and automation.',
   keywords: [
-    'OTT campaign management',
-    'AI ad optimization',
-    'streaming platform ads',
-    'audience targeting OTT',
-    'campaign automation',
+    'cannabis waste management',
+    'cannabis compliance',
+    'AI cannabis operations',
+    'cannabis pickups',
+    'operator insights',
   ],
   authors: [{ name: 'COfuncion' }],
   alternates: {
     canonical: 'https://cofuncion.com/',
   },
   openGraph: {
-    title: 'Manage Your OTT Campaigns with AI | COfuncion',
+    title: 'Manage Cannabis Waste Operations & Compliance | COfuncion',
     description:
-      'Use COfuncion’s AI-powered platform to schedule, optimize, and monitor OTT campaigns across streaming platforms with actionable insights.',
+      'Use COfuncion to schedule, optimize, and monitor cannabis waste operations, compliance, and reporting across dispensaries, cultivators, and processors with AI-powered insights.',
     url: 'https://cofuncion.com/',
     siteName: 'COfuncion',
     images: [
       {
-        url: 'https://cofuncion.com/images/logo.png', // replace with actual OG image
+        url: 'https://cofuncion.com/images/logo.png',
         width: 1200,
         height: 630,
-        alt: 'COfuncion OTT Campaign Management',
+        alt: 'COfuncion Cannabis Waste Management',
       },
     ],
     type: 'website',
@@ -55,10 +54,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Manage OTT Campaigns with AI | COfuncion',
+    title: 'Manage Cannabis Waste Operations & Compliance | COfuncion',
     description:
-      'Plan, launch, and optimize OTT ad campaigns using AI-driven insights and tools from COfuncion.',
-    images: ['https://cofuncion.com/images/logo.png'], // replace with OG image
+      'Plan, track, and optimize cannabis waste operations and compliance workflows using COfuncion’s AI platform for cannabis operators.',
+    images: ['https://cofuncion.com/images/logo.png'],
   },
   robots: {
     index: true,
@@ -68,15 +67,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-
-    
-    <div className="flex flex-col min-h-screen bg-white dark:bg-black">
-
-
-
-
-
-
+    <div className="flex flex-col min-h-screen bg-green-50 dark:bg-green-900">
       <Header />
   
       <main>
@@ -84,39 +75,29 @@ export default function Page() {
         {/* <AICampaignAssistantPage/> */}
         {/* <SupademoEmbed/> */}
         <ProductExplanation/>
+        {/* <SocialCampaignExplanation/> */}
 
-<SocialCampaignExplanation/>
-    {/* <h1
-  className="mt-24 font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-12
-  bg-gradient-to-r from-blue-900 via-blue-600 to-blue-300 bg-clip-text text-transparent tracking-tight
-  drop-shadow-xl text-center"
->
-  Published Campaign
-</h1> */}
-         <USAb /> 
+        <USAb /> 
 
-{/* <SupademoEmbed2 /> */}
+        {/* <SupademoEmbed2 /> */}
         {/* <BrandShowcase /> */}
         {/* <Features /> */}
-        {/* < SupademoEmbed3 /> */}
-{/* <AiHero/> */}
+        {/* <SupademoEmbed3 /> */}
+        {/* <AiHero/> */}
 
-           {/* <Section
+        {/* <Section
           leftHalf={<Creator />}
           rightHalf={
             <div className="flex flex-col justify-end">
              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-  Our Ai will help you scale your brand.
-</h2>
-
+               Our AI will help you scale your cannabis operations.
+             </h2>
             </div>
           }
         /> */}
         {/* <PredictableHero/> */}
-
-
-
       </main>
+
       <Footer />
     </div>
   );

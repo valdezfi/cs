@@ -5,92 +5,149 @@ const AboutUs = () => {
   return (
     <div className="min-h-screen bg-white dark:bg-black text-gray-900 dark:text-white">
       <Head>
-        <title>About Us | Grande</title>
+        <title>About Us | Cofuncion</title>
         <meta
           name="description"
-          content="Learn more about Grande, the creator ad platform empowering brands and creators to launch powerful campaigns together."
+          content="Cofuncion is an intelligent cannabis waste compliance platform helping dispensaries, cultivators, and operators stay audit-ready and fully compliant."
         />
         <meta
           name="keywords"
-          content="Grande, creator ad platform, influencer marketing, brand partnerships, creator campaigns"
+          content="cannabis waste management, cannabis compliance software, cannabis waste pickup, dispensary compliance, cannabis operators"
         />
       </Head>
 
-      <main className="py-16 px-6">
+      <main className="py-20 px-6">
         <div className="max-w-5xl mx-auto">
-          <h1 className="text-4xl font-bold mb-8 text-center">About Us</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-10 text-center">
+            About Cofuncion
+          </h1>
 
-          <section className="space-y-8 text-lg">
-            <p className="text-center font-semibold text-xl">
-              Creating Opportunities, One Campaign at a Time
+          <section className="space-y-10 text-lg leading-relaxed">
+            <p className="text-center font-semibold text-xl text-green-700 dark:text-green-400">
+              Intelligent Infrastructure for Cannabis Waste & Compliance
             </p>
 
+            {/* Introduction */}
             <section>
-              <h2 className="text-2xl font-semibold mb-2">Introduction</h2>
+              <h2 className="text-2xl font-semibold mb-3">Who We Are</h2>
               <p>
-                Grande is a dynamic creator ad platform that bridges the gap between brands and creators, making it easier than ever to produce impactful campaigns. Our vision is to revolutionize digital advertising by empowering creators to showcase their talent while helping brands achieve exceptional results through authentic, engaging content.
+                Cofuncion is an intelligent cannabis waste compliance platform built
+                for dispensaries, cultivators, processors, and operators navigating
+                complex regulatory environments.
               </p>
-              <p>
-                We solve the challenge of connecting the right creators with brands, streamlining campaign management, and ensuring mutually beneficial partnerships.
+              <p className="mt-3">
+                We simplify cannabis waste operations by combining scheduling,
+                documentation, compliance tracking, and licensed hauler coordination
+                into a single, audit-ready system.
               </p>
             </section>
 
+            {/* The Problem */}
             <section>
-              <h2 className="text-2xl font-semibold mb-2">Our Journey</h2>
+              <h2 className="text-2xl font-semibold mb-3">The Problem We Solve</h2>
               <p>
-                Grande was founded on the belief that every creator deserves a platform to shine—and every brand deserves access to innovative content. What started as a simple idea has evolved into a robust platform trusted by brands and creators across the globe.
+                Cannabis waste management is highly regulated, operationally complex,
+                and often fragmented across spreadsheets, emails, and manual logs.
+                This creates unnecessary risk, inefficiency, and audit exposure.
               </p>
-              <p>
-                From simplifying collaborations to building tools that enhance campaign performance, our journey has been guided by passion, innovation, and a drive to lead the creator economy forward.
+              <p className="mt-3">
+                Cofuncion replaces fragmented workflows with a centralized platform
+                that ensures every pickup, manifest, and destruction event is tracked,
+                documented, and compliant.
               </p>
             </section>
 
+            {/* Mission */}
             <section>
-              <h2 className="text-2xl font-semibold mb-2">Mission and Values</h2>
-              <p className="font-semibold">Our Mission:</p>
+              <h2 className="text-2xl font-semibold mb-3">Our Mission</h2>
               <p>
-                To empower creators and brands to build meaningful connections through innovative advertising solutions that drive real results.
+                Our mission is to make cannabis waste compliance simple, transparent,
+                and scalable—so operators can focus on running their business while
+                staying fully audit-ready.
               </p>
-              <p className="font-semibold mt-4">Our Values:</p>
-              <ul className="list-disc list-inside">
-                <li><strong>Collaboration:</strong> Fostering partnerships rooted in mutual growth.</li>
-                <li><strong>Creativity:</strong> Celebrating innovation and original content.</li>
-                <li><strong>Efficiency:</strong> Streamlining processes for high-impact execution.</li>
-                <li><strong>Integrity:</strong> Operating with transparency and fairness.</li>
+            </section>
+
+            {/* Values */}
+            <section>
+              <h2 className="text-2xl font-semibold mb-3">Our Values</h2>
+              <ul className="list-disc list-inside space-y-2">
+                <li>
+                  <strong>Compliance First:</strong> Built for regulated industries from day one.
+                </li>
+                <li>
+                  <strong>Operational Clarity:</strong> Replace chaos with structured workflows.
+                </li>
+                <li>
+                  <strong>Automation:</strong> Reduce human error through intelligent systems.
+                </li>
+                <li>
+                  <strong>Trust:</strong> Transparent data, audit-ready reporting, and accountability.
+                </li>
               </ul>
             </section>
 
+            {/* Why Cofuncion */}
             <section>
-              <h2 className="text-2xl font-semibold mb-2">Why Choose Us?</h2>
-              <ul className="list-disc list-inside">
-                <li><strong>Tailored Campaign Solutions:</strong> Personalized tools for brands and creators.</li>
-                <li><strong>Seamless Management:</strong> We handle everything from concept to execution.</li>
-                <li><strong>Diverse Talent Pool:</strong> Access to creators across platforms and niches.</li>
-                <li><strong>Performance-Driven Results:</strong> Maximize reach, engagement, and ROI.</li>
+              <h2 className="text-2xl font-semibold mb-3">Why Cofuncion</h2>
+              <ul className="list-disc list-inside space-y-2">
+                <li>
+                  <strong>Audit-Ready by Default:</strong> Manifests, logs, and reports always accessible.
+                </li>
+                <li>
+                  <strong>Licensed Hauler Network:</strong> Connect with verified waste partners.
+                </li>
+                <li>
+                  <strong>Multi-Facility Support:</strong> Built for operators managing multiple sites.
+                </li>
+                <li>
+                  <strong>AI-Driven Insights:</strong> Optimize scheduling, routes, and compliance.
+                </li>
               </ul>
-              <p className="mt-2">
-                When you choose Grande, you're choosing innovation, reliability, and a partner committed to your success.
-              </p>
             </section>
 
+            {/* Team */}
             <section>
-              <h2 className="text-2xl font-semibold mb-2">Meet Our Team</h2>
+              <h2 className="text-2xl font-semibold mb-3">Our Team</h2>
               <p>
-                Our team includes industry experts, creative strategists, and client success professionals—all united by a shared passion for redefining digital advertising through creators.
+                Cofuncion is built by operators, technologists, and compliance-focused
+                professionals who understand the realities of running cannabis
+                businesses in regulated markets.
               </p>
             </section>
 
+            {/* CTA */}
             <section>
-              <h2 className="text-2xl font-semibold mb-2">Let’s Create Something Extraordinary Together</h2>
+              <h2 className="text-2xl font-semibold mb-3">
+                Building the Future of Cannabis Operations
+              </h2>
               <p>
-                Are you ready to transform your campaigns and elevate your brand? Join Grande today and experience the power of creator-driven advertising.
+                Whether you’re operating a single dispensary or managing a multi-state
+                operation, Cofuncion provides the infrastructure you need to stay
+                compliant, efficient, and scalable.
               </p>
             </section>
 
+            {/* Contact */}
             <section>
-              <h2 className="text-2xl font-semibold mb-2">Connect With Us</h2>
-              <p>Email: <a href="mailto:info@grandeapp.com" className="text-blue-500 hover:underline">info@grandeapp.com</a></p>
-              <p>Website: <Link href="https://grandeapp.com" className="text-blue-500 hover:underline">grandeapp.com</Link></p>
+              <h2 className="text-2xl font-semibold mb-3">Contact Us</h2>
+              <p>
+                Email:{" "}
+                <a
+                  href="mailto:info@cofuncion.com"
+                  className="text-green-600 hover:underline"
+                >
+                  info@cofuncion.com
+                </a>
+              </p>
+              <p>
+                Website:{" "}
+                <Link
+                  href="https://cofuncion.com"
+                  className="text-green-600 hover:underline"
+                >
+                  cofuncion.com
+                </Link>
+              </p>
             </section>
           </section>
         </div>
@@ -100,3 +157,4 @@ const AboutUs = () => {
 };
 
 export default AboutUs;
+

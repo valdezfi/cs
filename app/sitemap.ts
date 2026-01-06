@@ -11,10 +11,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "terms",        // Terms of Use
     "privacy",      // Privacy Policy
       "pricing",      // Privacy Policy
-      "manage-campaigns",      // Privacy Policy
+      "manage",      // Privacy Policy
       "faq",      // Privacy Policy
-      "brand",      // Privacy Policy
+      "manufacturers",      // Privacy Policy
+      "landlord",      // Privacy Policy
+      "dispensaries",      // Privacy Policy
+      "compliance",      // Privacy Policy
+      "cultivators",      // Privacy Policy
       "reporting-insights",      // Privacy Policy
+      "company",      // Privacy Policy
+
 
 
   ];

@@ -1,58 +1,67 @@
 "use client";
 
-import { Calendar, Activity, Zap, Users } from "lucide-react";
+import { Calendar, Activity, Users } from "lucide-react";
+
+const features = [
+  {
+    icon: Calendar,
+    title: "Schedule Waste Pickups",
+    description:
+      "Plan and coordinate cannabis waste pickups across multiple facilities with AI-assisted scheduling for efficiency.",
+  },
+  {
+    icon: Activity,
+    title: "Track Compliance",
+    description:
+      "Monitor manifests, destruction logs, and audit-ready documentation in real-time with intelligent tracking.",
+  },
+  {
+    icon: Users,
+    title: "Operator Insights",
+    description:
+      "Understand site operations and team workflows to optimize compliance, pickups, and reporting.",
+  },
+];
 
 export default function ManageCampaigns() {
-  const features = [
-    {
-      icon: Calendar,
-      title: "Schedule Campaigns",
-      description:
-        "Plan and launch OTT campaigns across multiple platforms with AI-assisted scheduling to hit your audience at peak times.",
-    },
-    {
-      icon: Activity,
-      title: "Track Performance",
-      description:
-        "Monitor campaign progress in real-time. AI highlights key metrics like reach, impressions, and viewer engagement.",
-    },
-    {
-      icon: Users,
-      title: "Audience Insights",
-      description:
-        "Understand your audience's preferences and behavior patterns to fine-tune targeting and improve campaign results.",
-    },
-    {
-      icon: Zap,
-      title: "AI Optimization",
-      description:
-        "Receive actionable AI recommendations to adjust targeting, content, and timing for maximum performance.",
-    },
-  ];
-
   return (
-    <section className="py-20 bg-white dark:bg-black px-6">
-      <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white mb-6">
-          Manage Your OTT Campaigns with AI
+    <section className="py-20 bg-green-50 dark:bg-green-900 px-6">
+      <div className="max-w-6xl mx-auto text-center">
+
+        {/* Title */}
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-green-900 dark:text-green-100 mb-6">
+          Manage Cannabis Waste Operations
         </h2>
-        <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-16 font-light leading-relaxed">
-          Take full control of your OTT campaigns. Plan, track, and optimize campaigns with AI-powered insights—streamline your workflow and maximize impact.
+        <p className="text-lg sm:text-xl text-green-800 dark:text-green-300 max-w-3xl mx-auto mb-16 font-light leading-relaxed">
+          Take full control of your cannabis waste operations. Plan, track, and optimize pickups with AI-powered insights—streamline workflows and ensure full compliance.
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
-          {features.map((feature, index) => (
-            <div
-              key={index}
-              className="flex flex-col items-center text-center p-8 rounded-xl border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-zinc-900"
-            >
-              <feature.icon className="w-14 h-14 text-blue-500 mb-4" />
-              <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
-                {feature.title}
-              </h3>
-              <p className="text-gray-600 dark:text-gray-300">{feature.description}</p>
-            </div>
-          ))}
+        {/* Feature Cards */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center">
+          {features.map((feature, idx) => {
+            const Icon = feature.icon;
+            return (
+              <div
+                key={idx}
+                className="group relative w-full max-w-sm p-8 rounded-3xl bg-gradient-to-tr from-green-100 to-green-200 dark:from-green-800 dark:to-green-700 shadow-xl hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-500"
+              >
+                {/* Icon */}
+                <div className="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-green-600 text-white mb-6 text-2xl shadow-lg group-hover:scale-110 transform transition duration-300">
+                  <Icon className="w-8 h-8" />
+                </div>
+
+                {/* Title */}
+                <h3 className="text-xl font-bold mb-3 text-green-900 dark:text-green-100 group-hover:text-green-600 transition-colors duration-300">
+                  {feature.title}
+                </h3>
+
+                {/* Description */}
+                <p className="text-green-800 dark:text-green-300 leading-relaxed">
+                  {feature.description}
+                </p>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>
