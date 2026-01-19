@@ -4,11 +4,12 @@ import Link from "next/link";
 
 export default function Hero() {
   const phrases = [
-    "AI Platforms",
-    "Intelligent Workflows",
-    "Next-Gen Apps",
-    "Scalable Solutions",
-    "Future Products",
+      "Workflows",
+  "Collaboration",
+  "Productivity",
+  "Processes",
+  "Automation",
+  
   ];
 
   const [index, setIndex] = useState(0);
@@ -50,9 +51,7 @@ export default function Hero() {
       </h1>
 
       <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 font-light max-w-4xl mx-auto">
-        Co‑Intelligence empowers teams and organizations to design, launch, and scale
-        innovative AI-driven products, transforming ideas into impactful solutions
-        for the future.
+     Build AI platforms and intelligent applications that shape the future of work.
       </p>
 
       {/* <div className="flex justify-center space-x-6">

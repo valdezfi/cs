@@ -5,7 +5,6 @@ import Footer from "components/Footer";
 // import SupademoEmbed from "components/Demo";
 // import SupademoEmbed2 from "components/Demo2";
 import ProductExplanation from "components/Help";
-// import SocialCampaignExplanation from "components/SM";
 
 // import SupademoEmbed3 from "components/Demo3";
 // import AICampaignAssistantPage from "components/aiAgent";
@@ -18,6 +17,7 @@ import { Metadata } from "next";
 
 // import CreatorSpotlight from "components/ShowCreator"; 
 // import AiHero from "components/Ai"; 
+
 
 export const metadata: Metadata = {
   title: 'Co‑Intelligence: Building AI-Enabled Products & Workflows',
@@ -61,14 +61,35 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col ">
       <Header />
-
+  
       <main>
         <Hero />
+        {/* <AICampaignAssistantPage/> */}
+        {/* <SupademoEmbed/> */}
+        <ProductExplanation/>
+        {/* <SocialCampaignExplanation/> */}
 
-        {/* Company Principles / AI Product Portfolio */}
-        <ProductExplanation />
+        <USAb /> 
+
+        {/* <SupademoEmbed2 /> */}
+        {/* <BrandShowcase /> */}
+        {/* <Features /> */}
+        {/* <SupademoEmbed3 /> */}
+        {/* <AiHero/> */}
+
+        {/* <Section
+          leftHalf={<Creator />}
+          rightHalf={
+            <div className="flex flex-col justify-end">
+             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
+               Our AI will help you scale your cannabis operations.
+             </h2>
+            </div>
+          }
+        /> */}
+        {/* <PredictableHero/> */}
       </main>
 
       <Footer />
