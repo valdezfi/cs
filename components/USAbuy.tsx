@@ -6,36 +6,35 @@ import { Users, Briefcase, Building2 } from "lucide-react";
 const features = [
   {
     icon: Building2,
-    title: "Acquire Existing Products",
+    title: "Build AI-Enabled Platforms",
     description:
-      "Identify promising products and solutions, and acquire them to unlock their AI potential.",
+      "Design and develop intelligent crypto, trading, and blockchain applications from the ground up, tailored to real-world needs.",
   },
   {
     icon: Briefcase,
-    title: "Transform with AI",
+    title: "Integrate Security & Automation",
     description:
-      "Enhance and scale these products by integrating AI-driven features, automations, and intelligent workflows.",
+      "Incorporate advanced security measures and automate trading and blockchain workflows to maximize efficiency and protect assets.",
   },
   {
     icon: Users,
-    title: "Scale & Optimize",
+    title: "Scale & Monitor",
     description:
-      "Deploy AI-enhanced products to teams and organizations, monitor performance, and continuously optimize for impact.",
+      "Deploy AI-powered solutions to teams and organizations, track performance, and continuously optimize for security, usability, and impact.",
   },
 ];
 
 export default function FeaturesSection() {
   return (
-    <section className="py-20 bg-blue-50 dark:bg-blue-900">
+    <section className="py-20 bg-orange-50 dark:bg-orange-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 
         {/* Header */}
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-blue-900 dark:text-blue-200">
-          Acquiring and Scaling AI-Enabled Products
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-orange-900 dark:text-orange-200">
+          Building AI-Enabled Crypto & Blockchain Products
         </h2>
-        <p className="mt-6 text-lg sm:text-xl text-blue-800 dark:text-blue-300 max-w-3xl mx-auto font-light">
-          Co‑Intelligence specializes in acquiring existing products and transforming them into
-          AI-powered solutions that scale, optimize, and deliver measurable impact.
+        <p className="mt-6 text-lg sm:text-xl text-orange-800 dark:text-orange-300 max-w-3xl mx-auto font-light">
+          Co‑Intelligence specializes in creating AI-driven platforms for crypto, trading automation, and blockchain security — designed to scale, secure assets, and deliver measurable impact.
         </p>
 
         {/* Cards */}
@@ -45,15 +44,15 @@ export default function FeaturesSection() {
             return (
               <div
                 key={index}
-                className="group relative p-8 rounded-3xl bg-gradient-to-tr from-blue-100 to-blue-200 dark:from-blue-800 dark:to-blue-700 shadow-xl hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-500"
+                className="group relative p-8 rounded-3xl bg-gradient-to-tr from-orange-100 to-orange-200 dark:from-orange-800 dark:to-orange-700 shadow-xl hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-500"
               >
-                <div className="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-blue-600 text-white mb-6 text-2xl">
+                <div className="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-orange-600 text-white mb-6 text-2xl">
                   <Icon className="w-8 h-8" />
                 </div>
-                <h3 className="text-xl font-bold mb-3 text-blue-900 dark:text-blue-100 group-hover:text-blue-600 transition-colors duration-300">
+                <h3 className="text-xl font-bold mb-3 text-orange-900 dark:text-orange-100 group-hover:text-orange-600 transition-colors duration-300">
                   {feature.title}
                 </h3>
-                <p className="text-blue-800 dark:text-blue-300 mb-6">
+                <p className="text-orange-800 dark:text-orange-300 mb-6">
                   {feature.description}
                 </p>
               </div>
