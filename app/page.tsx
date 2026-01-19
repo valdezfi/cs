@@ -5,7 +5,7 @@ import Footer from "components/Footer";
 // import SupademoEmbed from "components/Demo";
 // import SupademoEmbed2 from "components/Demo2";
 import ProductExplanation from "components/Help";
-import SocialCampaignExplanation from "components/SM";
+// import SocialCampaignExplanation from "components/SM";
 
 // import SupademoEmbed3 from "components/Demo3";
 // import AICampaignAssistantPage from "components/aiAgent";

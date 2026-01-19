@@ -4,11 +4,11 @@ import Link from "next/link";
 
 export default function Hero() {
   const phrases = [
-    "Dispensaries",
-    "Cultivators",
-    "Processors",
-    "Cannabis Brands",
-    "Operators",
+    "AI Platforms",
+    "Intelligent Workflows",
+    "Next-Gen Apps",
+    "Scalable Solutions",
+    "Future Products",
   ];
 
   const [index, setIndex] = useState(0);
@@ -36,10 +36,10 @@ export default function Hero() {
     <section className="text-center my-32 mx-4 sm:mx-8 md:mx-16 lg:mx-24 bg-white dark:bg-black">
       <h1
         className="font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-12
-        bg-gradient-to-r from-green-800 via-green-500 to-green-300 bg-clip-text text-transparent tracking-tight
+        bg-gradient-to-r from-blue-800 via-blue-500 to-blue-300 bg-clip-text text-transparent tracking-tight
         drop-shadow-xl"
       >
-        Intelligent Cannabis Compliance for <br />
+        Building and Scaling AI-Enabled <br />
         <span
           className={`block transition-opacity duration-700 ${
             fade ? "opacity-100" : "opacity-0"
@@ -50,18 +50,19 @@ export default function Hero() {
       </h1>
 
       <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 font-light max-w-4xl mx-auto">
-        We coordinate licensed cannabis waste removal, provide audit-ready documentation, 
-        and ensure full compliance — keeping your operations safe and efficient.
+        Co‑Intelligence empowers teams and organizations to design, launch, and scale
+        innovative AI-driven products, transforming ideas into impactful solutions
+        for the future.
       </p>
 
-      <div className="flex justify-center space-x-6">
+      {/* <div className="flex justify-center space-x-6">
         <Link
           href="/pricing"
-          className="bg-green-900 text-white dark:bg-green-200 dark:text-black px-6 py-3 rounded-md text-base font-semibold hover:bg-green-800 dark:hover:bg-green-300 transition duration-300"
+          className="bg-blue-800 text-white dark:bg-blue-200 dark:text-black px-6 py-3 rounded-md text-base font-semibold hover:bg-blue-700 dark:hover:bg-blue-300 transition duration-300"
         >
-          Get Compliant Today
+          Get Started Today
         </Link>
-      </div>
+      </div> */}
     </section>
   );
 }

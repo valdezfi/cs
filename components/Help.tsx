@@ -2,66 +2,65 @@
 
 import { Bot, FileCheck, Headset, Globe } from "lucide-react";
 
-const steps = [
+const principles = [
   {
     icon: Bot,
-    title: "Plan Waste Operations",
+    title: "Productivity First",
     description:
-      "Schedule and coordinate licensed cannabis waste pickups tailored to your operation’s size and frequency.",
+      "We design every product and workflow to maximize efficiency and empower teams to achieve more with less friction.",
   },
   {
     icon: FileCheck,
-    title: "Ensure Compliance",
+    title: "Intelligent Workflows",
     description:
-      "Generate and manage audit-ready manifests, destruction logs, and regulatory reports automatically.",
+      "Our solutions prioritize clarity, automation, and consistency, ensuring operations run smoothly and reliably.",
   },
   {
     icon: Globe,
-    title: "Connect to Licensed Haulers",
+    title: "Actionable Insights",
     description:
-      "Access a network of verified cannabis waste haulers, ensuring secure, legal disposal across your region.",
+      "We believe data should guide decisions. Our products provide meaningful insights that drive measurable impact.",
   },
   {
     icon: Headset,
-    title: "Support & Guidance",
+    title: "Continuous Improvement",
     description:
-      "Dedicated account managers assist operators with compliance questions, audit prep, and workflow optimization.",
+      "Learning and adaptation are core to our approach — we evolve our tools and practices to stay ahead of user needs and industry trends.",
   },
 ];
 
-export default function ProductExplanation() {
+export default function CompanyPrinciples() {
   return (
-    <section className="py-20 bg-green-50 dark:bg-green-900 px-6">
+    <section className="py-20 bg-blue-50 dark:bg-blue-900 px-6">
       <div className="max-w-6xl mx-auto text-center">
 
         {/* Title */}
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-green-900 dark:text-green-100 mb-6">
-          How Cofuncion Works
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-blue-900 dark:text-blue-200 mb-6">
+          Our Principles
         </h2>
 
         {/* Subtitle */}
-        <p className="text-lg sm:text-xl text-green-800 dark:text-green-300 max-w-3xl mx-auto mb-16 font-light leading-relaxed">
-          Cofuncion helps dispensaries, cultivators, and cannabis operators stay compliant, coordinate licensed waste removal, 
-          and maintain audit-ready documentation — all in a single intelligent platform.
+        <p className="text-lg sm:text-xl text-blue-800 dark:text-blue-300 max-w-3xl mx-auto mb-16 font-light leading-relaxed">
+          At Co‑Intelligence, our mission is to **build principled AI-enabled products** that improve productivity, streamline workflows, and deliver meaningful impact — guided by values that ensure every product aligns with our commitment to excellence.
         </p>
 
-        {/* Steps Grid */}
+        {/* Principles Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
-          {steps.map((step, idx) => {
-            const Icon = step.icon;
+          {principles.map((principle, idx) => {
+            const Icon = principle.icon;
             return (
               <div
                 key={idx}
-                className="group relative p-8 rounded-3xl bg-gradient-to-tr from-green-100 to-green-200 dark:from-green-800 dark:to-green-700 shadow-xl hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-500"
+                className="group relative p-8 rounded-3xl bg-gradient-to-tr from-blue-100 to-blue-200 dark:from-blue-800 dark:to-blue-700 shadow-xl hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-500"
               >
-                <div className="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-green-600 text-white mb-6 text-2xl">
+                <div className="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-blue-600 text-white mb-6 text-2xl">
                   <Icon className="w-8 h-8" />
                 </div>
-                <h3 className="text-xl font-bold mb-3 text-green-900 dark:text-green-100 group-hover:text-green-600 transition-colors duration-300">
-                  {step.title}
+                <h3 className="text-xl font-bold mb-3 text-blue-900 dark:text-blue-100 group-hover:text-blue-600 transition-colors duration-300">
+                  {principle.title}
                 </h3>
-                <p className="text-green-800 dark:text-green-300">
-                  {step.description}
+                <p className="text-blue-800 dark:text-blue-300">
+                  {principle.description}
                 </p>
               </div>
             );

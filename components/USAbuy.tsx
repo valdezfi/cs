@@ -6,39 +6,36 @@ import { Users, Briefcase, Building2 } from "lucide-react";
 const features = [
   {
     icon: Building2,
-    title: "Dispensaries & Cannabis Brands",
+    title: "Acquire Existing Products",
     description:
-      "Coordinate licensed waste pickups, track compliance documentation, and stay audit-ready effortlessly.",
-    link: "/create-account",
+      "Identify promising products and solutions, and acquire them to unlock their AI potential.",
   },
   {
     icon: Briefcase,
-    title: "Processors & Cultivators",
+    title: "Transform with AI",
     description:
-      "Automate manifests, manage destruction schedules, and ensure regulatory compliance across multiple sites.",
-    link: "/processor-tools",
+      "Enhance and scale these products by integrating AI-driven features, automations, and intelligent workflows.",
   },
   {
     icon: Users,
-    title: "Operators & Compliance Teams",
+    title: "Scale & Optimize",
     description:
-      "Monitor cannabis waste operations, generate reports, and reduce risk with an intelligent compliance dashboard.",
-    link: "/operator-dashboard",
+      "Deploy AI-enhanced products to teams and organizations, monitor performance, and continuously optimize for impact.",
   },
 ];
 
-export default function USAb() {
+export default function FeaturesSection() {
   return (
-    <section className="py-20 bg-green-50 dark:bg-green-900">
+    <section className="py-20 bg-blue-50 dark:bg-blue-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 
         {/* Header */}
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-green-900 dark:text-green-200">
-          Intelligent Cannabis Waste Compliance
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-blue-900 dark:text-blue-200">
+          Acquiring and Scaling AI-Enabled Products
         </h2>
-        <p className="mt-6 text-lg sm:text-xl text-green-800 dark:text-green-300 max-w-3xl mx-auto font-light">
-          Our platform helps dispensaries, cultivators, and compliance teams stay fully audit-ready. 
-          Automate waste tracking, manage licensed hauler coordination, and maintain compliance with ease.
+        <p className="mt-6 text-lg sm:text-xl text-blue-800 dark:text-blue-300 max-w-3xl mx-auto font-light">
+          Co‑Intelligence specializes in acquiring existing products and transforming them into
+          AI-powered solutions that scale, optimize, and deliver measurable impact.
         </p>
 
         {/* Cards */}
@@ -48,23 +45,17 @@ export default function USAb() {
             return (
               <div
                 key={index}
-                className="group relative p-8 rounded-3xl bg-gradient-to-tr from-green-100 to-green-200 dark:from-green-800 dark:to-green-700 shadow-xl hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-500"
+                className="group relative p-8 rounded-3xl bg-gradient-to-tr from-blue-100 to-blue-200 dark:from-blue-800 dark:to-blue-700 shadow-xl hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-500"
               >
-                <div className="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-green-600 text-white mb-6 text-2xl">
+                <div className="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-blue-600 text-white mb-6 text-2xl">
                   <Icon className="w-8 h-8" />
                 </div>
-                <h3 className="text-xl font-bold mb-3 text-green-900 dark:text-green-100 group-hover:text-green-600 transition-colors duration-300">
+                <h3 className="text-xl font-bold mb-3 text-blue-900 dark:text-blue-100 group-hover:text-blue-600 transition-colors duration-300">
                   {feature.title}
                 </h3>
-                <p className="text-green-800 dark:text-green-300 mb-6">
+                <p className="text-blue-800 dark:text-blue-300 mb-6">
                   {feature.description}
                 </p>
-                <a
-                  href={feature.link}
-                  className="inline-block px-6 py-3 rounded-full border-2 border-green-600 text-green-600 font-semibold hover:bg-green-600 hover:text-white transition duration-300"
-                >
-                  Learn More
-                </a>
               </div>
             );
           })}
