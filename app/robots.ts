@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/private/", // optional if you have private areas
     },
-    sitemap: "https://cofuncion.com/sitemap.xml",
+    sitemap: "https://www.co-i.xyz/sitemap.xml",
   };
 }
