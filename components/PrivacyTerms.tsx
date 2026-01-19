@@ -1,3 +1,5 @@
+"use client";
+
 export default function PrivacyPolicy() {
   return (
     <div className="min-h-screen bg-white dark:bg-black text-gray-900 dark:text-white">
@@ -17,7 +19,7 @@ export default function PrivacyPolicy() {
               <p>
                 This Privacy Policy explains how Co‑Intelligence ("Co‑Intelligence", "we",
                 "us", or "our") collects, uses, stores, and protects information
-                when you access or use co-i.org and related services
+                when you access or use co-i.xyz, co-i.org, and related services
                 (the “Platform”).
               </p>
               <p className="mt-2">
@@ -35,10 +37,10 @@ export default function PrivacyPolicy() {
                 A. Account & Organization Information
               </h3>
               <ul className="list-disc ml-6 space-y-1 mt-2">
-                <li>Organization name and contact details</li>
+                <li>Organization or individual name and contact details</li>
                 <li>Email address and login credentials</li>
-                <li>User role (administrator, analyst, or other)</li>
-                <li>Subscription and billing information</li>
+                <li>User role (administrator, trader, analyst, or other)</li>
+                <li>Subscription, billing, and plan details</li>
               </ul>
 
               <h3 className="text-xl font-medium mt-4">
@@ -46,8 +48,8 @@ export default function PrivacyPolicy() {
               </h3>
               <ul className="list-disc ml-6 space-y-1 mt-2">
                 <li>Data inputs and configuration within the Platform</li>
-                <li>Analytics queries and reports generated</li>
-                <li>Performance metrics of AI and platform features</li>
+                <li>Analytics queries, trading signals, and reports generated</li>
+                <li>Performance metrics of AI and blockchain features</li>
                 <li>Logs of feature usage and system interactions</li>
               </ul>
 
@@ -56,7 +58,7 @@ export default function PrivacyPolicy() {
               </h3>
               <ul className="list-disc ml-6 space-y-1 mt-2">
                 <li>IP address and device information</li>
-                <li>Browser type and operating system</li>
+                <li>Browser type, operating system, and app version</li>
                 <li>Page views, logs, and usage patterns</li>
                 <li>Error diagnostics and telemetry data</li>
               </ul>
@@ -77,10 +79,10 @@ export default function PrivacyPolicy() {
               </h2>
               <ul className="list-disc ml-6 space-y-1 mt-2">
                 <li>Operate and maintain the Platform</li>
-                <li>Enable AI-powered analytics and intelligence features</li>
+                <li>Enable AI-powered trading, analytics, and blockchain features</li>
                 <li>Provide insights, reports, and decision-support tools</li>
-                <li>Improve platform performance, stability, and reliability</li>
-                <li>Monitor security, fraud, and misuse</li>
+                <li>Improve platform performance, security, and reliability</li>
+                <li>Monitor trading, asset management, and system integrity</li>
                 <li>Communicate updates, service notices, and support</li>
                 <li>Comply with legal and regulatory obligations</li>
               </ul>
@@ -93,7 +95,7 @@ export default function PrivacyPolicy() {
               </h2>
               <p>
                 Co‑Intelligence uses AI and automated systems to process data,
-                generate analytics, and produce actionable insights. AI outputs
+                generate trading insights, and produce actionable analytics. AI outputs
                 are informational and probabilistic.
               </p>
               <p className="mt-2">
@@ -110,8 +112,8 @@ export default function PrivacyPolicy() {
               <p>We may share information with:</p>
               <ul className="list-disc ml-6 space-y-1 mt-2">
                 <li>Authorized users within your organization</li>
-                <li>Service providers (hosting, analytics, billing)</li>
-                <li>Integrated AI or analytics partners</li>
+                <li>Service providers (hosting, analytics, billing, security)</li>
+                <li>Integrated AI, blockchain, or trading partners</li>
                 <li>Legal authorities when required by law</li>
               </ul>
               <p className="mt-2">
@@ -126,7 +128,7 @@ export default function PrivacyPolicy() {
               </h2>
               <p>
                 We use cookies and similar technologies to operate the Platform,
-                analyze usage, and remember preferences. Disabling cookies may
+                analyze usage, remember preferences, and improve trading and workflow features. Disabling cookies may
                 affect functionality.
               </p>
             </div>
@@ -139,7 +141,7 @@ export default function PrivacyPolicy() {
               <p>
                 We retain data only as long as necessary for business,
                 contractual, and legal purposes. Security measures include
-                encryption, access controls, and monitoring systems.
+                encryption, multi-factor authentication, and monitoring systems.
               </p>
               <p className="mt-2">
                 No system is completely secure, and use of the Platform is at
@@ -161,10 +163,10 @@ export default function PrivacyPolicy() {
               <p className="mt-2">
                 Requests may be submitted to{" "}
                 <a
-                  href="mailto:privacy@co-i.org"
+                  href="mailto:privacy@co-i.xyz"
                   className="text-blue-600 dark:text-blue-400 underline"
                 >
-                  privacy@co-i.org
+                  privacy@co-i.xyz
                 </a>
                 .
               </p>
@@ -202,10 +204,10 @@ export default function PrivacyPolicy() {
               <p className="mt-2">
                 📧{" "}
                 <a
-                  href="mailto:privacy@co-i.org"
+                  href="mailto:privacy@co-i.xyz"
                   className="text-blue-600 dark:text-blue-400 underline"
                 >
-                  privacy@co-i.org
+                  privacy@co-i.xyz
                 </a>
               </p>
             </div>
@@ -223,4 +225,3 @@ export default function PrivacyPolicy() {
     </div>
   );
 }
-
