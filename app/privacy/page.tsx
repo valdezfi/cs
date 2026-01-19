@@ -3,35 +3,34 @@ import Footer from "components/Footer";
 import { Metadata } from 'next';
 import PrivacyPolicy from "components/PrivacyTerms";
 
-
 export const metadata: Metadata = {
-  title: 'COfuncion | AI‑Powered OTT Campaign Engine',
+  title: 'Co‑Intelligence | AI-Powered Intelligence Platform',
   description:
-    'COfuncion helps brands, agencies, and marketers launch, optimize, and measure OTT and social media ad campaigns with AI‑driven insights and reporting.',
+    'Co‑Intelligence is an AI-powered platform helping organizations gather insights, analyze data, and make smarter decisions with advanced analytics and intelligence tools.',
   keywords: [
-    'OTT advertising',
-    'AI campaign engine',
-    'streaming ad optimization',
-    'audience insights',
-    'OTT campaign reporting',
-    'AI ad tools',
+    'AI platform',
+    'intelligence platform',
+    'data analytics',
+    'AI insights',
+    'business intelligence',
+    'decision support',
   ],
-  authors: [{ name: 'COfuncion' }],
+  authors: [{ name: 'Co‑Intelligence' }],
   alternates: {
-    canonical: 'https://cofuncion.com/privacy',
+    canonical: 'https://co-i.org/privacy',
   },
   openGraph: {
-    title: 'COfuncion — Scale Your OTT Ad Campaigns with AI',
+    title: 'Co‑Intelligence — AI-Powered Intelligence Platform',
     description:
-      'COfuncion provides powerful AI tools for planning, optimizing, and reporting OTT ad campaigns across streaming platforms for brands and agencies.',
-    url: 'https://cofuncion.com/privacy',
-    siteName: 'COfuncion',
+      'Co‑Intelligence provides advanced AI tools to help organizations analyze data, generate insights, and drive smarter decisions.',
+    url: 'https://co-i.org/privacy',
+    siteName: 'Co‑Intelligence',
     images: [
       {
-        url: 'https://cofuncion.com/images/logo.png', // replace with your actual OG image
+        url: 'https://co-i.org/images/logo.png', // replace with your actual OG image
         width: 1200,
         height: 630,
-        alt: 'COfuncion OTT AI Campaign Engine',
+        alt: 'Co‑Intelligence AI Platform',
       },
     ],
     type: 'website',
@@ -39,10 +38,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Launch & Optimize OTT Campaigns with AI | COfuncion',
+    title: 'Unlock Insights with AI | Co‑Intelligence',
     description:
-      'Leverage AI‑powered audience insights, campaign automation, and reporting to drive results with your OTT advertising strategy.',
-    images: ['https://cofuncion.com/images/logo.png'], // replace with relevant OG image
+      'Leverage Co‑Intelligence to gather insights, analyze data, and make smarter, AI-driven decisions.',
+    images: ['https://co-i.org/images/logo.png'], // replace with relevant OG image
   },
   robots: {
     index: true,
@@ -50,26 +49,12 @@ export const metadata: Metadata = {
   },
 };
 
-
 export default function Page() {
   return (
-
-    
     <div className="flex flex-col min-h-screen bg-white dark:bg-black">
-
-
-
-
-
-
       <Header />
-  
       <main>
         <PrivacyPolicy />
- 
-
-
-
       </main>
       <Footer />
     </div>

@@ -10,17 +10,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "allblogs",    
     "terms",        // Terms of Use
     "privacy",      // Privacy Policy
-      "pricing",      // Privacy Policy
-      "manage",      // Privacy Policy
-      "faq",      // Privacy Policy
-      "manufacturers",      // Privacy Policy
-      "landlord",      // Privacy Policy
-      "dispensaries",      // Privacy Policy
-      "compliance",      // Privacy Policy
-      "cultivators",      // Privacy Policy
-      "reporting-insights",      // Privacy Policy
-      "company",      // Privacy Policy
-
+     
 
 
   ];
