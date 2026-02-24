@@ -28,7 +28,7 @@ const investmentFocus = [
 
 const fundStrategy = [
   { label: "Markets", value: "Crypto & Global Equities" },
-  { label: "Capital Allocation", value: "$10M – $200M" },
+  { label: "Capital Allocation", value: "$5M – $200M" },
   { label: "Strategy Focus", value: "Quantitative & Systematic Trading" },
 ];
 
