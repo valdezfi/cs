@@ -86,7 +86,7 @@ const BlackcomLanding: React.FC = () => {
           className="mb-28"
         >
           <h1 className="font-extrabold text-6xl sm:text-7xl md:text-8xl tracking-tight text-gray-900 dark:text-white mb-6">
-            Blackcom
+            Investing In The Future
           </h1>
 
           <p className="max-w-3xl mx-auto text-xl text-gray-600 dark:text-gray-300 mb-10 leading-relaxed">
