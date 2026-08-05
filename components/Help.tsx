@@ -94,7 +94,7 @@ const BlackcomLanding: React.FC = () => {
           </p>
 
           <a
-            href="mailto:partners@blackcom.com"
+            href="mailto:info@co-i.org"
             className="inline-flex items-center gap-3 px-16 py-6 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 text-white text-lg font-semibold shadow-2xl hover:scale-105 transition-all duration-300"
           >
             Partner With Us
