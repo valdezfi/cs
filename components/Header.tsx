@@ -43,7 +43,7 @@ export default function Header() {
         </Link>
         */}
         <span className="text-xl font-semibold tracking-tight text-green-900 dark:text-green-100">
-          Co‑Intelligence
+          blackcom
         </span>
 
         {/* Desktop Nav */}
