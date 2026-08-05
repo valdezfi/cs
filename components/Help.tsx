@@ -28,7 +28,7 @@ const investmentFocus = [
 
 const fundStrategy = [
   { label: "Investment Focus", value: "Consumer Technology" },
-  { label: "Capital Allocation", value: "$5M – $200M" },
+  { label: "Capital Allocation", value: "$50k – $2M" },
   { label: "Investment Stage", value: "Seed, Growth & Emerging Leaders" },
 ];
 
