@@ -15,6 +15,11 @@
 
 const nextConfig = {
   output: "export",
+  basePath: "/cs",
+  assetPrefix: "/cs/",
+  images: {
+    unoptimized: true,
+  },
 };
 
 module.exports = nextConfig;
