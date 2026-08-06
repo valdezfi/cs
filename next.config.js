@@ -13,10 +13,11 @@
 
 // module.exports = nextConfig;
 
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/cs",
-  assetPrefix: "/cs/",
+  basePath: "/blackcom",
+  assetPrefix: "/blackcom/",
   images: {
     unoptimized: true,
   },
