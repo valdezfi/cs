@@ -14,12 +14,24 @@
 // module.exports = nextConfig;
 
 /** @type {import('next').NextConfig} */
+/** @type {import('next').NextConfig} */
+const path = require('path');
+
 const nextConfig = {
-  output: "export",
-  basePath: "/blackcom",
-  assetPrefix: "/blackcom/",
+  reactStrictMode: true,
+
   images: {
-    unoptimized: true,
+    domains: [],
+  },
+
+  webpack(config) {
+    config.module.rules.push({
+      test: /\.md$/,
+      type: 'asset/source',
+      include: path.resolve(__dirname, 'content'),
+    });
+
+    return config;
   },
 };
 
